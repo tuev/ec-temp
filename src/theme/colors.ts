@@ -5,7 +5,7 @@ export interface IPalette {
   contrastText: string
 }
 
-export declare enum COLOR {
+export enum COLOR {
   'primary' = '#F62F5E',
   'black' = '#2E2E2E',
   'white' = '#fff',
