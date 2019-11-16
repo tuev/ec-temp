@@ -1,3 +1,3 @@
 import { ButtonProps } from '@material-ui/core/Button'
-
-export declare type BaseButtonProps = ButtonProps
+import { SpaceProps } from 'styled-system'
+export declare type BaseButtonProps = ButtonProps & SpaceProps

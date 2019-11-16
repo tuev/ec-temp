@@ -4,10 +4,12 @@ import { PrimaryPalette } from 'theme/colors'
 import { BaseButtonProps } from './Button.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { Button } from '@material-ui/core'
+import { space } from 'styled-system'
 
 export const AppButton: React.FC<BaseButtonProps> = styled(Button)<
   BaseButtonProps
 >`
+  ${space}
   ${switchProp(
     'size',
     {
