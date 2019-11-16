@@ -1,0 +1,15 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3c856c",
+    "statusBar.noFolderBackground": "#9fb150",
+    "statusBar.debuggingBackground": "#aa2d2d",
+    "activityBar.background": "#0e3316",
+    "sideBarSectionHeader.background": "#144127"
+  }
+}

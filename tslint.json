@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "defaultSeverity": "warning",
+  "rules": {
+    "no-implicit-dependencies": [
+      true,
+      ["components", "containers", "theme", "@storybook", "utils"]
+    ],
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "no-unexpected-multiline": 0
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)"],
+      "rules": {
+        "no-unexpected-multiline": 0
+      }
+    }
+  ]
+}
