@@ -18,6 +18,7 @@ export const AppNumberComp: React.FC = styled.button<{
   background-color: transparent;
   outline-color: transparent;
   outline-style: none;
+  cursor: pointer;
 
   ${switchProp(
     'color',

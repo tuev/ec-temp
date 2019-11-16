@@ -1,9 +1,7 @@
-import { ifProp } from 'styled-tools'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { space } from 'styled-system'
 import { PrimaryPalette } from 'theme/colors'
 import styled from 'styled-components'
-import { BaseViewModeProps } from './ViewMode.types'
 
 import { Fab } from '@material-ui/core'
 
