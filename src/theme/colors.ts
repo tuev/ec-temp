@@ -15,6 +15,8 @@ export const COLOR = {
   black2: '#B4B4B4',
   blue: '#6EB2FB',
   gray: '#F7F7F7',
+  gray1: '#F5F5F5',
+  gray2: '#F2F2F2',
   green: '#00D3CA',
   orange: '#F1AD3D',
   primary: '#F62F5E',
