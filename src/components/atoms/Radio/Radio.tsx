@@ -15,6 +15,7 @@ const Radio: FC<BaseRadioProps> = (props: BaseRadioProps) => {
   const { customColor = 'primary', ...rest } = props
   const theme = useMemo(() => getTheme(customColor), [customColor])
 
+  // TODO:  SHOULD HAVE TYPE FOR CURRYING
   const getThemeCallback = useCallback(
     (currentTheme: Theme): Theme =>
       createMuiTheme({
