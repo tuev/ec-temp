@@ -5,6 +5,10 @@ export interface IPalette {
   contrastText: string
 }
 
+export type IColorPalette = {
+  [key in colorType]: IPalette
+}
+
 export enum COLOR {
   'primary' = '#F62F5E',
   'black' = '#2E2E2E',
@@ -18,21 +22,38 @@ export enum COLOR {
   'black2' = '#B4B4B4',
 }
 
-export const PrimaryPalette = {
+export type colorType =
+  | 'primary'
+  | 'blue'
+  | 'black'
+  | 'orange'
+  | 'gray'
+  | 'green'
+  | 'yellow'
+  | 'red'
+
+export const redPalette = {
+  contrastText: '#FFF',
+  dark: '#cf2557',
   light: '#fc688e',
   main: '#F62F5E',
-  dark: '#cf2557',
-  contrastText: '#FFF',
 }
 
-export const BluePalette = {
+export const primaryPalette = {
+  contrastText: '#FFF',
+  dark: '#cf2557',
+  light: '#fc688e',
+  main: '#F62F5E',
+}
+
+export const bluePalette = {
   contrastText: '#FFF',
   dark: '#4592f7',
   light: '#beddfe',
   main: '#6EB2FB',
 }
 
-export const BlackPalette = {
+export const blackPalette = {
   contrastText: '#FFF',
   dark: '#2e2e2e',
   light: '#b0b0b0',
@@ -62,4 +83,15 @@ export const yellowPalette = {
   dark: '#e4f45e',
   light: '#f7fccd',
   main: '#EFFC90',
+}
+
+export const colorPalettes: IColorPalette = {
+  black: blackPalette,
+  blue: bluePalette,
+  gray: grayPalette,
+  green: greenPalette,
+  orange: orangePalette,
+  primary: redPalette,
+  red: redPalette,
+  yellow: yellowPalette,
 }

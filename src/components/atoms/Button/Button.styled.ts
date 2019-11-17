@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { switchProp } from 'styled-tools'
-import { PrimaryPalette } from 'theme/colors'
+import { primaryPalette } from 'theme/colors'
 import { BaseButtonProps } from './Button.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { Button } from '@material-ui/core'
@@ -45,12 +45,7 @@ export const AppButton: React.FC<BaseButtonProps> = styled(Button)<
 
 export const theme = createMuiTheme({
   palette: {
-    primary: {
-      contrastText: PrimaryPalette.contrastText,
-      dark: PrimaryPalette.dark,
-      light: PrimaryPalette.light,
-      main: PrimaryPalette.main,
-    },
+    primary: primaryPalette,
   },
   shape: {
     borderRadius: 32,
