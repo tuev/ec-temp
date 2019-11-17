@@ -8,6 +8,7 @@
     "@material-ui/lab": "^4.0.0-alpha.32",
     "graphql": "^14.5.8",
     "graphql.macro": "^1.4.2",
+    "lodash": "^4.17.15",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",

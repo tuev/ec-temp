@@ -6,7 +6,7 @@ export interface IPalette {
 }
 
 export type IColorPalette = {
-  [key in colorType]: IPalette
+  [key in ColorType]: IPalette
 }
 
 export const COLOR = {
@@ -25,7 +25,7 @@ export const COLOR = {
   yellow: '##EFFC90',
 }
 
-export type colorType =
+export type ColorType =
   | 'primary'
   | 'blue'
   | 'black'
