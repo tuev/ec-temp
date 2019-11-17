@@ -1,10 +1,10 @@
-import React, { FC, useMemo, useCallback } from 'react'
+import React, { FC, useCallback, useMemo } from 'react'
 import { AppRadio } from './Radio.styled'
-import { BaseRadioProps } from './Radio.types'
+import { BaseRadioProps, GetTheme } from './Radio.types'
 import { ThemeProvider, createMuiTheme, Theme } from '@material-ui/core/styles'
-import { colorType, colorPalettes } from 'theme/colors'
+import { colorPalettes } from 'theme/colors'
 
-const getTheme: (color?: colorType) => Theme = (color = 'primary') =>
+const getTheme: GetTheme = (color = 'primary') =>
   createMuiTheme({
     palette: {
       primary: colorPalettes[color],
@@ -13,24 +13,28 @@ const getTheme: (color?: colorType) => Theme = (color = 'primary') =>
 
 const Radio: FC<BaseRadioProps> = (props: BaseRadioProps) => {
   const { customColor = 'primary', ...rest } = props
-  const theme = getTheme(customColor)
+  const theme = useMemo(() => getTheme(customColor), [customColor])
 
   const getThemeCallback = useCallback(
-    (theme: Theme) =>
+    (currentTheme: Theme): Theme =>
       createMuiTheme({
-        ...theme,
+        ...currentTheme,
         palette: {
-          ...theme.palette,
+          ...currentTheme.palette,
           primary: colorPalettes[customColor],
         },
       }),
     [customColor]
   )
-
   return (
     <ThemeProvider theme={theme}>
       <ThemeProvider theme={getThemeCallback}>
-        <AppRadio {...rest} color="primary" />
+        <AppRadio
+          variant="inner"
+          color="primary"
+          customColor={customColor}
+          {...rest}
+        />
       </ThemeProvider>
     </ThemeProvider>
   )

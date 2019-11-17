@@ -38,3 +38,39 @@ export const basic = () => (
     />
   </>
 )
+
+export const outer = () => (
+  <>
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      variant="outer"
+      checked={true}
+    />
+    <Radio onChange={action('Radio Clicked!!!')} variant="outer" />
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      customColor="blue"
+      variant="outer"
+    />
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      customColor="green"
+      variant="outer"
+    />
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      customColor="gray"
+      variant="outer"
+    />
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      customColor="orange"
+      variant="outer"
+    />
+    <Radio
+      onChange={action('Radio Clicked!!!')}
+      customColor="yellow"
+      variant="outer"
+    />
+  </>
+)
