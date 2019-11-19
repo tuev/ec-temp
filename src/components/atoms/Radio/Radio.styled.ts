@@ -11,7 +11,7 @@ export const AppRadio: React.FC<BaseRadioProps> = styled(Radio)<BaseRadioProps>`
     { variant: 'outer' },
     css`
       color: ${(props: BaseRadioProps) =>
-        COLOR[props.customColor || 'primary']} !important;
+        COLOR[props.customcolor || 'primary']} !important;
       svg {
         &:first-child {
           transform: ${ifProp('checked', 'scale(1)', 'scale(0)')};

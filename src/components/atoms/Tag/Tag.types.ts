@@ -12,5 +12,4 @@ export type GetTagColor = (tag: TagType, color?: ColorType) => string
 
 export type GetTagText = (tag: TagType, text?: string) => string
 
-
 export declare type BaseTagProps = ITagBaseProps & SpaceProps

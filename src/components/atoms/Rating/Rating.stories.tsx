@@ -9,8 +9,6 @@ export default {
 
 export const basic = () => (
   <>
-    <Rating onChange={action('Rating Clicked!!!')} value={4.3} />
+    <Rating onChange={action('Rating Clicked!!!')} value={4.3} name="test" />
   </>
 )
-
-

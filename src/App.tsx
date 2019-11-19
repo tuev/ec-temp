@@ -5,6 +5,9 @@ import logo from './logo.svg'
 // import Button from 'components/atoms/Button'
 import { Button } from '@material-ui/core'
 
+
+import Typography from 'components/atoms/Typography'
+
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -13,6 +16,9 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Typography customvariant="header1">
+          this is asdasd adasdasdtypeo
+        </Typography>
         <a
           className="App-link"
           href="https://reactjs.org"

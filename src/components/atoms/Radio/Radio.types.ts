@@ -2,9 +2,9 @@ import { ColorType } from 'theme/colors'
 import { SpaceProps } from 'styled-system'
 import { RadioProps } from '@material-ui/core/Radio'
 
-import { Theme } from '@material-ui/core/styles''
+import { Theme } from '@material-ui/core/styles'
 export interface IRadioProps extends RadioProps {
-  customColor?: ColorType
+  customcolor?: ColorType
   variant?: 'inner' | 'outer'
 }
 

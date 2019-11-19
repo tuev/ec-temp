@@ -6,7 +6,7 @@ import { Apps, List } from '@material-ui/icons'
 import { ThemeProvider } from '@material-ui/core/styles'
 
 const getColor: (checked?: boolean) => string = checked =>
-  checked ? 'primary' : ''
+  checked ? 'primary' : 'inherit'
 
 const ViewMode: FC<BaseViewModeProps> = (props: BaseViewModeProps) => {
   const { type = 'list', checked, ...rest } = props

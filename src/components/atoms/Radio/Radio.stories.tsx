@@ -13,27 +13,27 @@ export const basic = () => (
     <Radio onChange={action('Radio Clicked!!!')} checked={true} />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="blue"
+      customcolor="blue"
       checked={true}
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="green"
+      customcolor="green"
       checked={true}
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="gray"
+      customcolor="gray"
       checked={true}
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="orange"
+      customcolor="orange"
       checked={true}
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="yellow"
+      customcolor="yellow"
       checked={true}
     />
   </>
@@ -49,27 +49,27 @@ export const outer = () => (
     <Radio onChange={action('Radio Clicked!!!')} variant="outer" />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="blue"
+      customcolor="blue"
       variant="outer"
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="green"
+      customcolor="green"
       variant="outer"
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="gray"
+      customcolor="gray"
       variant="outer"
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="orange"
+      customcolor="orange"
       variant="outer"
     />
     <Radio
       onChange={action('Radio Clicked!!!')}
-      customColor="yellow"
+      customcolor="yellow"
       variant="outer"
     />
   </>

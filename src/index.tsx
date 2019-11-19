@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
-
+import 'typeface-playfair-display'
+import 'typeface-montserrat-alternates'
+import 'typeface-open-sans'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(<App />, document.getElementById('root'))

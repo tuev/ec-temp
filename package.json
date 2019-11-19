@@ -17,6 +17,10 @@
     "styled-components": "^4.4.1",
     "styled-system": "^5.1.2",
     "styled-tools": "^1.7.1",
+    "typeface-montserrat-alternates": "^0.0.72",
+    "typeface-open-sans": "^0.0.75",
+    "typeface-open-sans-condensed": "^0.0.72",
+    "typeface-playfair-display": "^0.0.72",
     "typescript": "^3.7.2"
   },
   "scripts": {

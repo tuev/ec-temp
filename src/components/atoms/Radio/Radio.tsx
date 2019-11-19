@@ -12,8 +12,8 @@ const getTheme: GetTheme = (color = 'primary') =>
   })
 
 const Radio: FC<BaseRadioProps> = (props: BaseRadioProps) => {
-  const { customColor = 'primary', ...rest } = props
-  const theme = useMemo(() => getTheme(customColor), [customColor])
+  const { customcolor = 'primary', ...rest } = props
+  const theme = useMemo(() => getTheme(customcolor), [customcolor])
 
   // TODO:  SHOULD HAVE TYPE FOR CURRYING
   const getThemeCallback = useCallback(
@@ -22,10 +22,10 @@ const Radio: FC<BaseRadioProps> = (props: BaseRadioProps) => {
         ...currentTheme,
         palette: {
           ...currentTheme.palette,
-          primary: colorPalettes[customColor],
+          primary: colorPalettes[customcolor],
         },
       }),
-    [customColor]
+    [customcolor]
   )
   return (
     <ThemeProvider theme={theme}>
@@ -33,7 +33,7 @@ const Radio: FC<BaseRadioProps> = (props: BaseRadioProps) => {
         <AppRadio
           variant="inner"
           color="primary"
-          customColor={customColor}
+          customcolor={customcolor}
           {...rest}
         />
       </ThemeProvider>
