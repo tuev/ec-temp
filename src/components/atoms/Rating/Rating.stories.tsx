@@ -5,6 +5,7 @@ import Rating from './Rating'
 export default {
   component: Rating,
   title: 'AppRating',
+  includeStories: ['basic'],
 }
 
 export const basic = () => (

@@ -4,6 +4,7 @@ import NumberInput from './NumberInput'
 
 export default {
   component: NumberInput,
+  includeStories: ['basic'],
   title: 'AppNumberInput',
 }
 

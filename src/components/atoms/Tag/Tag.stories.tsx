@@ -4,6 +4,7 @@ import Tag from './Tag'
 
 export default {
   component: Tag,
+  includeStories: ['basic'],
   title: 'AppTag',
 }
 

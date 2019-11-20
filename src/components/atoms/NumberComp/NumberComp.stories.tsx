@@ -5,6 +5,7 @@ import NumberComp from './NumberComp'
 export default {
   component: NumberComp,
   title: 'AppNumberComp',
+  includeStories: ['basic'],
 }
 
 export const basic = () => (

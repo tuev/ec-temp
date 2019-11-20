@@ -5,6 +5,7 @@ import Checkbox from './Checkbox'
 export default {
   component: Checkbox,
   title: 'AppCheckbox',
+  includeStories: ['basic'],
 }
 
 export const basic = () => (

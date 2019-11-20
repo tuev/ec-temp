@@ -3,8 +3,9 @@ import { action } from '@storybook/addon-actions'
 import BlogIcon from './BlogIcon'
 
 export default {
+  title: 'BlogIcon',
   component: BlogIcon,
-  title: 'AppBlogIcon',
+  includeStories: ['basic'],
 }
 
 export const basic = () => (

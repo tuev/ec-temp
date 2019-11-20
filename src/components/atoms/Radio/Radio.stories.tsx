@@ -4,6 +4,7 @@ import Radio from './Radio'
 
 export default {
   component: Radio,
+  includeStories: ['basic', 'outer'],
   title: 'AppRadio',
 }
 

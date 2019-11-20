@@ -5,6 +5,7 @@ import Slider from './Slider'
 export default {
   component: Slider,
   title: 'AppSlider',
+  includeStories: ['basic', 'range', 'hasLabel'],
 }
 
 export const basic = () => (

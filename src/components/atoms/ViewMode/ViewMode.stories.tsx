@@ -5,6 +5,7 @@ import ViewMode from './ViewMode'
 export default {
   component: ViewMode,
   title: 'AppViewMode',
+  includeStories: ['basic', 'checked'],
 }
 
 export const basic = () => (
