@@ -3,7 +3,7 @@ import { mount } from 'enzyme'
 import Typography from '..'
 import { COLOR } from 'theme/colors'
 
-describe.only('Typography', () => {
+describe('Typography', () => {
   it('header1', () => {
     const appTypo = mount(<Typography customvariant="header1" />)
     expect(appTypo).toMatchSnapshot()

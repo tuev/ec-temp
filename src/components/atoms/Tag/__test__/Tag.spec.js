@@ -3,7 +3,7 @@ import Tag from '..'
 import { mount } from 'enzyme'
 import { COLOR } from 'theme/colors'
 
-describe.only('Tag', () => {
+describe('Tag', () => {
   it('tag 5min', () => {
     const TagApp = mount(<Tag tag="5min" />)
     expect(TagApp).toMatchSnapshot()

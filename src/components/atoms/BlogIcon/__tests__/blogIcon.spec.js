@@ -2,7 +2,7 @@ import React from 'react'
 import { mount } from 'enzyme'
 import BlogIcon from '..'
 
-describe.only('BlogIcon', () => {
+describe('BlogIcon', () => {
   it('like icon', () => {
     const likeIcon = mount(<BlogIcon icon="like" count={20} />)
 
