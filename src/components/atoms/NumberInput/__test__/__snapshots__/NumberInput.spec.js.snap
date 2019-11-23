@@ -980,6 +980,9 @@ exports[`Number Input Number input 1`] = `
             <WithStyles(ForwardRef(FormControl))
               className="MuiTextField-root "
               color="primary"
+              disabled={false}
+              error={false}
+              fullWidth={false}
               required={false}
               variant="outlined"
             >
@@ -994,6 +997,9 @@ exports[`Number Input Number input 1`] = `
                   }
                 }
                 color="primary"
+                disabled={false}
+                error={false}
+                fullWidth={false}
                 required={false}
                 variant="outlined"
               >
@@ -1001,11 +1007,15 @@ exports[`Number Input Number input 1`] = `
                   className="MuiFormControl-root MuiTextField-root "
                 >
                   <WithStyles(ForwardRef(OutlinedInput))
+                    autoFocus={false}
+                    fullWidth={false}
                     labelWidth={0}
+                    multiline={false}
                     notched={true}
                     type="number"
                   >
                     <ForwardRef(OutlinedInput)
+                      autoFocus={false}
                       classes={
                         Object {
                           "adornedEnd": "MuiOutlinedInput-adornedEnd",
@@ -1026,11 +1036,14 @@ exports[`Number Input Number input 1`] = `
                           "root": "MuiOutlinedInput-root",
                         }
                       }
+                      fullWidth={false}
                       labelWidth={0}
+                      multiline={false}
                       notched={true}
                       type="number"
                     >
                       <WithStyles(ForwardRef(InputBase))
+                        autoFocus={false}
                         classes={
                           Object {
                             "adornedEnd": "MuiOutlinedInput-adornedEnd",
@@ -1058,6 +1071,7 @@ exports[`Number Input Number input 1`] = `
                         type="number"
                       >
                         <ForwardRef(InputBase)
+                          autoFocus={false}
                           classes={
                             Object {
                               "adornedEnd": "MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd",
@@ -1093,6 +1107,7 @@ exports[`Number Input Number input 1`] = `
                           >
                             <input
                               aria-invalid={false}
+                              autoFocus={false}
                               className="MuiInputBase-input MuiOutlinedInput-input"
                               disabled={false}
                               onAnimationStart={[Function]}
