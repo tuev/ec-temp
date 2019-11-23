@@ -25,13 +25,13 @@ export const hasLabel = () => (
     <Slider
       onChange={action('Slider Clicked!!!')}
       value={10}
-      showLabel={true}
+      showlabel={true}
     />
 
     <Slider
       onChange={action('Slider Clicked!!!')}
       value={[10, 50]}
-      showLabel={true}
+      showlabel={true}
     />
   </div>
 )

@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag tag 5min 1`] = `
+.c0 {
+  background-color: #6EB2FB;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  tag="5min"
+>
+  <styled.div
+    color="#6EB2FB"
+  >
+    <StyledComponent
+      color="#6EB2FB"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#6EB2FB"
+      >
+        <span>
+          5 MIN
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom 1`] = `
+.c0 {
+  background-color: #00D3CA;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="green"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#00D3CA"
+  >
+    <StyledComponent
+      color="#00D3CA"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#00D3CA"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag hot 1`] = `
+.c0 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  tag="hot"
+>
+  <styled.div
+    color="#F62F5E"
+  >
+    <StyledComponent
+      color="#F62F5E"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F62F5E"
+      >
+        <span>
+          HOT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag pop 1`] = `
+.c0 {
+  background-color: #F1AD3D;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  tag="pop"
+>
+  <styled.div
+    color="#F1AD3D"
+  >
+    <StyledComponent
+      color="#F1AD3D"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F1AD3D"
+      >
+        <span>
+          POP
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag sale 1`] = `
+.c0 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  tag="sale"
+>
+  <styled.div
+    color="#F62F5E"
+  >
+    <StyledComponent
+      color="#F62F5E"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F62F5E"
+      >
+        <span>
+          SALE
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;

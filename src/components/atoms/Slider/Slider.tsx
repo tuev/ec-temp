@@ -6,8 +6,8 @@ import { get, isNumber, isArray } from 'lodash'
 const valueText: (value: number) => string = (value = 0) => `${value}`
 
 const ValueLabel: FC<ValueLabelProps> = (props: ValueLabelProps) => {
-  const { showLabel, value } = props
-  if (!showLabel) {
+  const { showlabel, value } = props
+  if (!showlabel) {
     return <div />
   }
   if (isNumber(value)) {
@@ -38,7 +38,7 @@ const Slider: FC<BaseSliderProps> = (props: BaseSliderProps) => {
         valueLabelDisplay="auto"
         {...props}
       />
-      <ValueLabel showLabel={props.showLabel} value={props.value} />
+      <ValueLabel showlabel={props.showlabel} value={props.value} />
     </ThemeProvider>
   )
 }

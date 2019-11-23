@@ -4,8 +4,8 @@ import Button from './Button'
 
 export default {
   component: Button,
-  title: 'AppButton',
   includeStories: ['basic', 'large', 'mediumPrimary', 'smallPrimary'],
+  title: 'AppButton',
 }
 
 export const basic = () => (

@@ -5,7 +5,6 @@ import logo from './logo.svg'
 // import Button from 'components/atoms/Button'
 import { Button } from '@material-ui/core'
 
-
 import Typography from 'components/atoms/Typography'
 
 const App: React.FC = () => {
