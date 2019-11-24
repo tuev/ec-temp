@@ -30,4 +30,22 @@ describe('App number component input', () => {
       }
     }
   })
+
+  it('nmber input component with data < 0', () => {
+    const AppComp = mount(<NumberComp data={-1} />)
+
+    expect(AppComp).toMatchSnapshot()
+  })
+
+  it('nmber input component with data >0 and < 100', () => {
+    const AppComp = mount(<NumberComp data={10} />)
+
+    expect(AppComp).toMatchSnapshot()
+  })
+
+  it('nmber input component with data >100', () => {
+    const AppComp = mount(<NumberComp data={110} />)
+
+    expect(AppComp).toMatchSnapshot()
+  })
 })

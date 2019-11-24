@@ -9,7 +9,7 @@ const getColor: (checked?: boolean) => string = checked =>
   checked ? 'primary' : 'inherit'
 
 const ViewMode: FC<BaseViewModeProps> = (props: BaseViewModeProps) => {
-  const { type = 'list', checked, ...rest } = props
+  const { type, checked, ...rest } = props
   const color = useMemo(() => getColor(checked), [checked])
   return (
     <ThemeProvider theme={theme}>

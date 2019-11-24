@@ -25,6 +25,9 @@ export const COLOR = {
   yellow: '##EFFC90',
 }
 
+export type ColorKey = keyof typeof COLOR
+export type ColorValues = typeof COLOR[ColorKey]
+
 export type ColorType =
   | 'primary'
   | 'blue'

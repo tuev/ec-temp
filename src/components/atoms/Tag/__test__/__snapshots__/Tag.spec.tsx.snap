@@ -156,6 +156,638 @@ exports[`Tag tag custom 1`] = `
 </Tag>
 `;
 
+exports[`Tag tag custom color 1`] = `
+.c0 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="primary"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#F62F5E"
+  >
+    <StyledComponent
+      color="#F62F5E"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F62F5E"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 2`] = `
+.c0 {
+  background-color: #6EB2FB;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="blue"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#6EB2FB"
+  >
+    <StyledComponent
+      color="#6EB2FB"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#6EB2FB"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 3`] = `
+.c0 {
+  background-color: #2E2E2E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="black"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#2E2E2E"
+  >
+    <StyledComponent
+      color="#2E2E2E"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#2E2E2E"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 4`] = `
+.c0 {
+  background-color: #F1AD3D;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="orange"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#F1AD3D"
+  >
+    <StyledComponent
+      color="#F1AD3D"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F1AD3D"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 5`] = `
+.c0 {
+  background-color: #F7F7F7;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="gray"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#F7F7F7"
+  >
+    <StyledComponent
+      color="#F7F7F7"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F7F7F7"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 6`] = `
+.c0 {
+  background-color: #00D3CA;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="green"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#00D3CA"
+  >
+    <StyledComponent
+      color="#00D3CA"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#00D3CA"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 7`] = `
+.c0 {
+  background-color: ##EFFC90;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="yellow"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="##EFFC90"
+  >
+    <StyledComponent
+      color="##EFFC90"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="##EFFC90"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
+exports[`Tag tag custom color 8`] = `
+.c0 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+<Tag
+  color="red"
+  tag="custom"
+  text="discount"
+>
+  <styled.div
+    color="#F62F5E"
+  >
+    <StyledComponent
+      color="#F62F5E"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+  background-color: ",
+              [Function],
+              ";
+  color: ",
+              "#fff",
+              ";
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+        color="#F62F5E"
+      >
+        <span>
+          DISCOUNT
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Tag>
+`;
+
 exports[`Tag tag hot 1`] = `
 .c0 {
   background-color: #F62F5E;

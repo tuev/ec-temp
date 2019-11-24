@@ -4,7 +4,7 @@ import { BaseRadioProps, GetTheme } from './Radio.types'
 import { ThemeProvider, createMuiTheme, Theme } from '@material-ui/core/styles'
 import { colorPalettes } from 'theme/colors'
 
-const getTheme: GetTheme = (color = 'primary') =>
+export const getTheme: GetTheme = (color = 'primary') =>
   createMuiTheme({
     palette: {
       primary: colorPalettes[color],

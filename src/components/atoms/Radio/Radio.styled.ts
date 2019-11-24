@@ -1,17 +1,20 @@
-import { switchProp, prop, ifProp } from 'styled-tools'
+import { ifProp } from 'styled-tools'
 import { space } from 'styled-system'
-import { COLOR, colorPalettes } from 'theme/colors'
-import { BaseRadioProps } from './Radio.types'
+import { COLOR } from 'theme/colors'
+import { BaseRadioProps, getColor } from './Radio.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { Radio } from '@material-ui/core'
 import styled, { css } from 'styled-components'
+
+export const getRadioColor: getColor = props =>
+  COLOR[props.customcolor || 'primary']
+
 export const AppRadio: React.FC<BaseRadioProps> = styled(Radio)<BaseRadioProps>`
   ${space}
   ${ifProp(
     { variant: 'outer' },
     css`
-      color: ${(props: BaseRadioProps) =>
-        COLOR[props.customcolor || 'primary']} !important;
+      color: ${getRadioColor} !important;
       svg {
         &:first-child {
           transform: ${ifProp('checked', 'scale(1)', 'scale(0)')};
