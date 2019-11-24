@@ -33,7 +33,8 @@
     "lint": "./node_modules/.bin/prettier --fix --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "storybook": "rimraf ./node_modules/.cache/storybook && start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "test-no-watch": "react-scripts test --watchAll=false"
   },
   "eslintConfig": {
     "extends": [
@@ -62,7 +63,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "lint-staged && npm run lint",
+      "pre-push": "lint-staged && npm run lint && npm run test-no-watch",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },

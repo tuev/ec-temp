@@ -9,7 +9,7 @@ describe('Button', () => {
     const primaryLargeBtn = mount(<Button size="large">Primary</Button>)
     expect(primaryLargeBtn).toMatchSnapshot()
 
-    const expectStyle: {[key :string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '225px !important',
       'min-height': '60px !important',
       padding: '20px',
@@ -33,7 +33,7 @@ describe('Button', () => {
     )
     expect(outlineLargeBtn).toMatchSnapshot()
 
-    const expectStyle: {[key :string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '225px !important',
       'min-height': '60px !important',
       padding: '20px',
@@ -52,7 +52,7 @@ describe('Button', () => {
   it('primary medium btn', () => {
     const primaryMediumBtn = mount(<Button>Primary</Button>)
     expect(primaryMediumBtn).toMatchSnapshot()
-    const expectStyle: { [key: string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '163px !important',
       'min-height': '48px !important',
       'font-size': '14px',
@@ -70,7 +70,7 @@ describe('Button', () => {
     const outlineMediumBtn = mount(<Button variant="outlined">Outlined</Button>)
 
     expect(outlineMediumBtn).toMatchSnapshot()
-    const expectStyle: {[key: string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '163px !important',
       'min-height': '48px !important',
       'font-size': '14px',
@@ -89,7 +89,7 @@ describe('Button', () => {
 
     expect(primarySmallBtn).toMatchSnapshot()
 
-    const expectStyle: {[key: string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '90px !important',
       'min-height': '36px !important',
       'font-size': '12px',
@@ -111,7 +111,7 @@ describe('Button', () => {
     )
     expect(outlineSmallBtn).toMatchSnapshot()
 
-    const expectStyle: {[key: string]: string} = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '90px !important',
       'min-height': '36px !important',
       'font-size': '12px',
