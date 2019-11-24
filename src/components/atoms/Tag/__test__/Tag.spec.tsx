@@ -8,7 +8,7 @@ describe('Tag', () => {
     const TagApp = mount(<Tag tag="5min" />)
     expect(TagApp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'background-color': '#6EB2FB',
       color: '#fff',
       'font-size': '18px',
@@ -21,7 +21,9 @@ describe('Tag', () => {
       margin: '0 8px',
     }
     for (const style in expectStyle) {
-      expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -29,7 +31,7 @@ describe('Tag', () => {
     const TagApp = mount(<Tag tag="hot" />)
     expect(TagApp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'background-color': '#F62F5E',
       color: '#fff',
       'font-size': '18px',
@@ -42,7 +44,9 @@ describe('Tag', () => {
       margin: '0 8px',
     }
     for (const style in expectStyle) {
-      expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -50,7 +54,7 @@ describe('Tag', () => {
     const TagApp = mount(<Tag tag="pop" />)
     expect(TagApp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'background-color': '#F1AD3D',
       color: '#fff',
       'font-size': '18px',
@@ -63,7 +67,9 @@ describe('Tag', () => {
       margin: '0 8px',
     }
     for (const style in expectStyle) {
-      expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -71,7 +77,7 @@ describe('Tag', () => {
     const TagApp = mount(<Tag tag="sale" />)
     expect(TagApp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'background-color': '#F62F5E',
       color: '#fff',
       'font-size': '18px',
@@ -84,7 +90,9 @@ describe('Tag', () => {
       margin: '0 8px',
     }
     for (const style in expectStyle) {
-      expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -95,7 +103,7 @@ describe('Tag', () => {
     )
     expect(TagApp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'background-color': COLOR[customColor],
       color: '#fff',
       'font-size': '18px',
@@ -108,7 +116,9 @@ describe('Tag', () => {
       margin: '0 8px',
     }
     for (const style in expectStyle) {
-      expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(TagApp).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 })

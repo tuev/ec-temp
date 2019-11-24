@@ -919,7 +919,7 @@ exports[`Checkbox checkbox 1`] = `
             color="primary"
           >
             <WithStyles(ForwardRef(SwitchBase))
-              checkedIcon={<UNDEFINED />}
+              checkedIcon={<Memo(CheckBoxIcon) />}
               className=""
               classes={
                 Object {
@@ -929,8 +929,7 @@ exports[`Checkbox checkbox 1`] = `
                 }
               }
               color="primary"
-              disabled={false}
-              icon={<UNDEFINED />}
+              icon={<Memo(CheckBoxOutlineBlankIcon) />}
               inputProps={
                 Object {
                   "data-indeterminate": false,
@@ -939,7 +938,7 @@ exports[`Checkbox checkbox 1`] = `
               type="checkbox"
             >
               <ForwardRef(SwitchBase)
-                checkedIcon={<UNDEFINED />}
+                checkedIcon={<Memo(CheckBoxIcon) />}
                 className=""
                 classes={
                   Object {
@@ -950,8 +949,7 @@ exports[`Checkbox checkbox 1`] = `
                   }
                 }
                 color="primary"
-                disabled={false}
-                icon={<UNDEFINED />}
+                icon={<Memo(CheckBoxOutlineBlankIcon) />}
                 inputProps={
                   Object {
                     "data-indeterminate": false,
@@ -963,7 +961,6 @@ exports[`Checkbox checkbox 1`] = `
                   className="PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorPrimary "
                   color="primary"
                   component="span"
-                  disabled={false}
                   onBlur={[Function]}
                   onFocus={[Function]}
                   tabIndex={null}
@@ -985,7 +982,6 @@ exports[`Checkbox checkbox 1`] = `
                     }
                     color="primary"
                     component="span"
-                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -1039,7 +1035,6 @@ exports[`Checkbox checkbox 1`] = `
                             <input
                               className="PrivateSwitchBase-input-10"
                               data-indeterminate={false}
-                              disabled={false}
                               onChange={[Function]}
                               type="checkbox"
                             />
@@ -2039,7 +2034,7 @@ exports[`Checkbox checkbox 2`] = `
             color="primary"
           >
             <WithStyles(ForwardRef(SwitchBase))
-              checkedIcon={<UNDEFINED />}
+              checkedIcon={<Memo(CheckBoxIcon) />}
               className=""
               classes={
                 Object {
@@ -2049,8 +2044,7 @@ exports[`Checkbox checkbox 2`] = `
                 }
               }
               color="primary"
-              disabled={false}
-              icon={<UNDEFINED />}
+              icon={<Memo(CheckBoxOutlineBlankIcon) />}
               inputProps={
                 Object {
                   "data-indeterminate": false,
@@ -2059,7 +2053,7 @@ exports[`Checkbox checkbox 2`] = `
               type="checkbox"
             >
               <ForwardRef(SwitchBase)
-                checkedIcon={<UNDEFINED />}
+                checkedIcon={<Memo(CheckBoxIcon) />}
                 className=""
                 classes={
                   Object {
@@ -2070,8 +2064,7 @@ exports[`Checkbox checkbox 2`] = `
                   }
                 }
                 color="primary"
-                disabled={false}
-                icon={<UNDEFINED />}
+                icon={<Memo(CheckBoxOutlineBlankIcon) />}
                 inputProps={
                   Object {
                     "data-indeterminate": false,
@@ -2083,7 +2076,6 @@ exports[`Checkbox checkbox 2`] = `
                   className="PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorPrimary "
                   color="primary"
                   component="span"
-                  disabled={false}
                   onBlur={[Function]}
                   onFocus={[Function]}
                   tabIndex={null}
@@ -2105,7 +2097,6 @@ exports[`Checkbox checkbox 2`] = `
                     }
                     color="primary"
                     component="span"
-                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -2159,7 +2150,6 @@ exports[`Checkbox checkbox 2`] = `
                             <input
                               className="PrivateSwitchBase-input-10"
                               data-indeterminate={false}
-                              disabled={false}
                               onChange={[Function]}
                               type="checkbox"
                             />

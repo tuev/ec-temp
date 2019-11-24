@@ -7,16 +7,18 @@ describe('BlogIcon', () => {
     const likeIcon = mount(<BlogIcon icon="like" count={20} />)
 
     expect(likeIcon).toMatchSnapshot()
-    const expectStyle = {
-      display: 'flex',
+    const expectStyle: { [key: string]: string } = {
       'align-items': 'center',
+      cursor: 'pointer',
+      display: 'flex',
       'justify-content': 'space-around',
       'max-width': '80px',
-      cursor: 'pointer',
     }
 
     for (const key in expectStyle) {
-      expect(likeIcon).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(likeIcon).toHaveStyleRule(key, expectStyle[key])
+      }
     }
   })
 
@@ -24,7 +26,7 @@ describe('BlogIcon', () => {
     const commentIcon = mount(<BlogIcon icon="comment" count={20} />)
     expect(commentIcon).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       display: 'flex',
       'align-items': 'center',
       'justify-content': 'space-around',
@@ -33,7 +35,9 @@ describe('BlogIcon', () => {
     }
 
     for (const key in expectStyle) {
-      expect(commentIcon).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(commentIcon).toHaveStyleRule(key, expectStyle[key])
+      }
     }
   })
 
@@ -41,7 +45,7 @@ describe('BlogIcon', () => {
     const bookmarkIcon = mount(<BlogIcon icon="bookmark" />)
     expect(bookmarkIcon).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       display: 'flex',
       'align-items': 'center',
       'justify-content': 'space-around',
@@ -50,14 +54,16 @@ describe('BlogIcon', () => {
     }
 
     for (const key in expectStyle) {
-      expect(bookmarkIcon).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(bookmarkIcon).toHaveStyleRule(key, expectStyle[key])
+      }
     }
   })
 
   it('options icon', () => {
     const optionsIcon = mount(<BlogIcon icon="options" />)
     expect(optionsIcon).toMatchSnapshot()
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       display: 'flex',
       'align-items': 'center',
       'justify-content': 'space-around',
@@ -66,7 +72,9 @@ describe('BlogIcon', () => {
     }
 
     for (const key in expectStyle) {
-      expect(optionsIcon).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(optionsIcon).toHaveStyleRule(key, expectStyle[key])
+      }
     }
   })
 })

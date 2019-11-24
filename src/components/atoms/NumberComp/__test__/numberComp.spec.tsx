@@ -8,7 +8,7 @@ describe('App number component input', () => {
 
     expect(AppComp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       width: '27px',
       height: '27px',
       border: '1px solid #F62F5E',
@@ -25,7 +25,9 @@ describe('App number component input', () => {
       color: '#fff',
     }
     for (const key in expectStyle) {
-      expect(AppComp).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(AppComp).toHaveStyleRule(key, expectStyle[key])
+      }
     }
   })
 })

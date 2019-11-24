@@ -9,12 +9,12 @@ describe('Radio', () => {
   })
 
   it('radio checked', () => {
-    const CheckedAppRadio = mount(<Radio checked />)
+    const CheckedAppRadio = mount(<Radio checked={true} />)
     expect(CheckedAppRadio).toMatchSnapshot()
   })
 
   it('radio green checked', () => {
-    const CheckedAppRadio = mount(<Radio checked customcolor="green" />)
+    const CheckedAppRadio = mount(<Radio checked={true} customcolor="green" />)
     expect(CheckedAppRadio).toMatchSnapshot()
   })
 })

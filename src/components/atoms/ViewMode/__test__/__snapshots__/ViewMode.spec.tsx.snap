@@ -1046,7 +1046,7 @@ exports[`Viewmode view mode grid checked 1`] = `
 }
 
 <ViewMode
-  checked={1}
+  checked={true}
   type="grid"
 >
   <ThemeProvider
@@ -3125,7 +3125,7 @@ exports[`Viewmode view mode list checked 1`] = `
 }
 
 <ViewMode
-  checked={1}
+  checked={true}
   type="list"
 >
   <ThemeProvider
