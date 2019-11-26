@@ -5,7 +5,7 @@ type BaseValueLabel = Omit<React.HTMLProps<HTMLDivElement>, 'value'> &
   Pick<SliderProps, 'value'>
 
 interface IValueLabel {
-  showlabel?: boolean
+  showlabel?: boolean | 1 | 0
 }
 
 export declare type BaseSliderProps = SliderProps & SpaceProps & IValueLabel

@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Slider range slider 1`] = `
-<Slider
-  value={
-    Array [
-      10,
-      20,
-    ]
-  }
+exports[`Viewmode view mode grid 1`] = `
+.c0 {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+<ViewMode
+  type="grid"
 >
   <ThemeProvider
     theme={
@@ -279,51 +279,30 @@ exports[`Slider range slider 1`] = `
       }
     }
   >
-    <Styled(WithStyles(ForwardRef(Slider)))
-      color="primary"
-      getAriaValueText={[Function]}
-      value={
-        Array [
-          10,
-          20,
-        ]
-      }
-      valueLabelDisplay="auto"
+    <Styled(WithStyles(ForwardRef(Fab)))
+      color="inherit"
     >
       <StyledComponent
-        color="primary"
+        color="inherit"
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "Naked": Object {
               "$$typeof": Symbol(react.forward_ref),
               "propTypes": Object {
-                "ThumbComponent": [Function],
-                "ValueLabelComponent": [Function],
-                "aria-label": [Function],
-                "aria-labelledby": [Function],
-                "aria-valuetext": [Function],
+                "children": [Function],
                 "className": [Function],
                 "classes": [Function],
                 "color": [Function],
                 "component": [Function],
-                "defaultValue": [Function],
+                "disableFocusRipple": [Function],
+                "disableRipple": [Function],
                 "disabled": [Function],
-                "getAriaLabel": [Function],
-                "getAriaValueText": [Function],
-                "marks": [Function],
-                "max": [Function],
-                "min": [Function],
-                "name": [Function],
-                "onChange": [Function],
-                "onChangeCommitted": [Function],
-                "onMouseDown": [Function],
-                "orientation": [Function],
-                "step": [Function],
-                "track": [Function],
-                "value": [Function],
-                "valueLabelDisplay": [Function],
-                "valueLabelFormat": [Function],
+                "focusVisibleClassName": [Function],
+                "href": [Function],
+                "size": [Function],
+                "type": [Function],
+                "variant": [Function],
               },
               "render": [Function],
             },
@@ -331,16 +310,18 @@ exports[`Slider range slider 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-bdVaJa",
               "isStatic": false,
-              "lastClassName": "ibTDPh",
+              "lastClassName": "c0",
               "rules": Array [
                 "
   ",
                 [Function],
                 "
+  width: 40px !important;
+  height: 40px !important;
 ",
               ],
             },
-            "displayName": "Styled(WithStyles(ForwardRef(Slider)))",
+            "displayName": "Styled(WithStyles(ForwardRef(Fab)))",
             "foldedComponentIds": Array [],
             "options": Object {
               "defaultTheme": Object {
@@ -608,7 +589,7 @@ exports[`Slider range slider 1`] = `
                   "tooltip": 1500,
                 },
               },
-              "name": "MuiSlider",
+              "name": "MuiFab",
             },
             "propTypes": Object {
               "classes": [Function],
@@ -621,37 +602,24 @@ exports[`Slider range slider 1`] = `
               "Naked": Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "propTypes": Object {
-                  "ThumbComponent": [Function],
-                  "ValueLabelComponent": [Function],
-                  "aria-label": [Function],
-                  "aria-labelledby": [Function],
-                  "aria-valuetext": [Function],
+                  "children": [Function],
                   "className": [Function],
                   "classes": [Function],
                   "color": [Function],
                   "component": [Function],
-                  "defaultValue": [Function],
+                  "disableFocusRipple": [Function],
+                  "disableRipple": [Function],
                   "disabled": [Function],
-                  "getAriaLabel": [Function],
-                  "getAriaValueText": [Function],
-                  "marks": [Function],
-                  "max": [Function],
-                  "min": [Function],
-                  "name": [Function],
-                  "onChange": [Function],
-                  "onChangeCommitted": [Function],
-                  "onMouseDown": [Function],
-                  "orientation": [Function],
-                  "step": [Function],
-                  "track": [Function],
-                  "value": [Function],
-                  "valueLabelDisplay": [Function],
-                  "valueLabelFormat": [Function],
+                  "focusVisibleClassName": [Function],
+                  "href": [Function],
+                  "size": [Function],
+                  "type": [Function],
+                  "variant": [Function],
                 },
                 "render": [Function],
               },
               "defaultProps": undefined,
-              "displayName": "WithStyles(ForwardRef(Slider))",
+              "displayName": "WithStyles(ForwardRef(Fab))",
               "options": Object {
                 "defaultTheme": Object {
                   "breakpoints": Object {
@@ -918,7 +886,7 @@ exports[`Slider range slider 1`] = `
                     "tooltip": 1500,
                   },
                 },
-                "name": "MuiSlider",
+                "name": "MuiFab",
               },
               "propTypes": Object {
                 "classes": [Function],
@@ -934,235 +902,152 @@ exports[`Slider range slider 1`] = `
           }
         }
         forwardedRef={null}
-        getAriaValueText={[Function]}
-        value={
-          Array [
-            10,
-            20,
-          ]
-        }
-        valueLabelDisplay="auto"
       >
-        <WithStyles(ForwardRef(Slider))
-          className=""
-          color="primary"
-          getAriaValueText={[Function]}
-          value={
-            Array [
-              10,
-              20,
-            ]
-          }
-          valueLabelDisplay="auto"
+        <WithStyles(ForwardRef(Fab))
+          className="c0"
+          color="inherit"
         >
-          <ForwardRef(Slider)
-            className=""
+          <ForwardRef(Fab)
+            className="c0"
             classes={
               Object {
-                "active": "MuiSlider-active",
-                "colorPrimary": "MuiSlider-colorPrimary",
-                "colorSecondary": "MuiSlider-colorSecondary",
+                "colorInherit": "MuiFab-colorInherit",
                 "disabled": "Mui-disabled",
+                "extended": "MuiFab-extended",
                 "focusVisible": "Mui-focusVisible",
-                "mark": "MuiSlider-mark",
-                "markActive": "MuiSlider-markActive",
-                "markLabel": "MuiSlider-markLabel",
-                "markLabelActive": "MuiSlider-markLabelActive",
-                "marked": "MuiSlider-marked",
-                "rail": "MuiSlider-rail",
-                "root": "MuiSlider-root",
-                "thumb": "MuiSlider-thumb",
-                "thumbColorPrimary": "MuiSlider-thumbColorPrimary",
-                "thumbColorSecondary": "MuiSlider-thumbColorSecondary",
-                "track": "MuiSlider-track",
-                "trackFalse": "MuiSlider-trackFalse",
-                "trackInverted": "MuiSlider-trackInverted",
-                "valueLabel": "MuiSlider-valueLabel",
-                "vertical": "MuiSlider-vertical",
+                "label": "MuiFab-label",
+                "primary": "MuiFab-primary",
+                "root": "MuiFab-root",
+                "secondary": "MuiFab-secondary",
+                "sizeMedium": "MuiFab-sizeMedium",
+                "sizeSmall": "MuiFab-sizeSmall",
               }
             }
-            color="primary"
-            getAriaValueText={[Function]}
-            value={
-              Array [
-                10,
-                20,
-              ]
-            }
-            valueLabelDisplay="auto"
+            color="inherit"
           >
-            <span
-              className="MuiSlider-root MuiSlider-colorPrimary "
-              onMouseDown={[Function]}
+            <WithStyles(ForwardRef(ButtonBase))
+              className="MuiFab-root c0 MuiFab-colorInherit"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="Mui-focusVisible"
             >
-              <span
-                className="MuiSlider-rail"
-              />
-              <span
-                className="MuiSlider-track"
-                style={
+              <ForwardRef(ButtonBase)
+                className="MuiFab-root c0 MuiFab-colorInherit"
+                classes={
                   Object {
-                    "left": "10%",
-                    "width": "10%",
+                    "disabled": "Mui-disabled",
+                    "focusVisible": "Mui-focusVisible",
+                    "root": "MuiButtonBase-root",
                   }
                 }
-              />
-              <input
-                type="hidden"
-                value="10,20"
-              />
-              <WithStyles(ValueLabel)
-                className="MuiSlider-valueLabel"
+                component="button"
                 disabled={false}
-                index={0}
-                key="0"
-                open={false}
-                value={10}
-                valueLabelDisplay="auto"
-                valueLabelFormat={[Function]}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
               >
-                <ValueLabel
-                  className="MuiSlider-valueLabel"
-                  classes={
-                    Object {
-                      "circle": "PrivateValueLabel-circle-24",
-                      "label": "PrivateValueLabel-label-25",
-                      "offset": "PrivateValueLabel-offset-23",
-                      "open": "PrivateValueLabel-open-22",
-                      "thumb": "PrivateValueLabel-thumb-21",
-                    }
-                  }
+                <button
+                  className="MuiButtonBase-root MuiFab-root c0 MuiFab-colorInherit"
                   disabled={false}
-                  index={0}
-                  open={false}
-                  value={10}
-                  valueLabelDisplay="auto"
-                  valueLabelFormat={[Function]}
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="button"
                 >
                   <span
-                    aria-orientation="horizontal"
-                    aria-valuemax={100}
-                    aria-valuemin={0}
-                    aria-valuenow={10}
-                    aria-valuetext="10"
-                    className="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
-                    data-index={0}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    role="slider"
-                    style={
-                      Object {
-                        "left": "10%",
-                      }
-                    }
-                    tabIndex={0}
+                    className="MuiFab-label"
                   >
-                    <span
-                      className="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </span>
+                  <NoSsr>
+                    <WithStyles(undefined)
+                      center={false}
                     >
-                      <span
-                        className="PrivateValueLabel-circle-24"
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
                       >
                         <span
-                          className="PrivateValueLabel-label-25"
+                          className="MuiTouchRipple-root"
                         >
-                          10
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
                         </span>
-                      </span>
-                    </span>
-                  </span>
-                </ValueLabel>
-              </WithStyles(ValueLabel)>
-              <WithStyles(ValueLabel)
-                className="MuiSlider-valueLabel"
-                disabled={false}
-                index={1}
-                key="1"
-                open={false}
-                value={20}
-                valueLabelDisplay="auto"
-                valueLabelFormat={[Function]}
-              >
-                <ValueLabel
-                  className="MuiSlider-valueLabel"
-                  classes={
-                    Object {
-                      "circle": "PrivateValueLabel-circle-24",
-                      "label": "PrivateValueLabel-label-25",
-                      "offset": "PrivateValueLabel-offset-23",
-                      "open": "PrivateValueLabel-open-22",
-                      "thumb": "PrivateValueLabel-thumb-21",
-                    }
-                  }
-                  disabled={false}
-                  index={1}
-                  open={false}
-                  value={20}
-                  valueLabelDisplay="auto"
-                  valueLabelFormat={[Function]}
-                >
-                  <span
-                    aria-orientation="horizontal"
-                    aria-valuemax={100}
-                    aria-valuemin={0}
-                    aria-valuenow={20}
-                    aria-valuetext="20"
-                    className="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
-                    data-index={1}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    role="slider"
-                    style={
-                      Object {
-                        "left": "20%",
-                      }
-                    }
-                    tabIndex={0}
-                  >
-                    <span
-                      className="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
-                    >
-                      <span
-                        className="PrivateValueLabel-circle-24"
-                      >
-                        <span
-                          className="PrivateValueLabel-label-25"
-                        >
-                          20
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </ValueLabel>
-              </WithStyles(ValueLabel)>
-            </span>
-          </ForwardRef(Slider)>
-        </WithStyles(ForwardRef(Slider))>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(undefined)>
+                  </NoSsr>
+                </button>
+              </ForwardRef(ButtonBase)>
+            </WithStyles(ForwardRef(ButtonBase))>
+          </ForwardRef(Fab)>
+        </WithStyles(ForwardRef(Fab))>
       </StyledComponent>
-    </Styled(WithStyles(ForwardRef(Slider)))>
-    <ValueLabel
-      value={
-        Array [
-          10,
-          20,
-        ]
-      }
-    >
-      <div />
-    </ValueLabel>
+    </Styled(WithStyles(ForwardRef(Fab)))>
   </ThemeProvider>
-</Slider>
+</ViewMode>
 `;
 
-exports[`Slider slider 1`] = `
-<Slider
-  value={20}
+exports[`Viewmode view mode grid checked 1`] = `
+.c0 {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+<ViewMode
+  checked={true}
+  type="grid"
 >
   <ThemeProvider
     theme={
@@ -1434,11 +1319,8 @@ exports[`Slider slider 1`] = `
       }
     }
   >
-    <Styled(WithStyles(ForwardRef(Slider)))
+    <Styled(WithStyles(ForwardRef(Fab)))
       color="primary"
-      getAriaValueText={[Function]}
-      value={20}
-      valueLabelDisplay="auto"
     >
       <StyledComponent
         color="primary"
@@ -1448,32 +1330,19 @@ exports[`Slider slider 1`] = `
             "Naked": Object {
               "$$typeof": Symbol(react.forward_ref),
               "propTypes": Object {
-                "ThumbComponent": [Function],
-                "ValueLabelComponent": [Function],
-                "aria-label": [Function],
-                "aria-labelledby": [Function],
-                "aria-valuetext": [Function],
+                "children": [Function],
                 "className": [Function],
                 "classes": [Function],
                 "color": [Function],
                 "component": [Function],
-                "defaultValue": [Function],
+                "disableFocusRipple": [Function],
+                "disableRipple": [Function],
                 "disabled": [Function],
-                "getAriaLabel": [Function],
-                "getAriaValueText": [Function],
-                "marks": [Function],
-                "max": [Function],
-                "min": [Function],
-                "name": [Function],
-                "onChange": [Function],
-                "onChangeCommitted": [Function],
-                "onMouseDown": [Function],
-                "orientation": [Function],
-                "step": [Function],
-                "track": [Function],
-                "value": [Function],
-                "valueLabelDisplay": [Function],
-                "valueLabelFormat": [Function],
+                "focusVisibleClassName": [Function],
+                "href": [Function],
+                "size": [Function],
+                "type": [Function],
+                "variant": [Function],
               },
               "render": [Function],
             },
@@ -1481,16 +1350,18 @@ exports[`Slider slider 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-bdVaJa",
               "isStatic": false,
-              "lastClassName": "ibTDPh",
+              "lastClassName": "c0",
               "rules": Array [
                 "
   ",
                 [Function],
                 "
+  width: 40px !important;
+  height: 40px !important;
 ",
               ],
             },
-            "displayName": "Styled(WithStyles(ForwardRef(Slider)))",
+            "displayName": "Styled(WithStyles(ForwardRef(Fab)))",
             "foldedComponentIds": Array [],
             "options": Object {
               "defaultTheme": Object {
@@ -1758,7 +1629,7 @@ exports[`Slider slider 1`] = `
                   "tooltip": 1500,
                 },
               },
-              "name": "MuiSlider",
+              "name": "MuiFab",
             },
             "propTypes": Object {
               "classes": [Function],
@@ -1771,37 +1642,24 @@ exports[`Slider slider 1`] = `
               "Naked": Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "propTypes": Object {
-                  "ThumbComponent": [Function],
-                  "ValueLabelComponent": [Function],
-                  "aria-label": [Function],
-                  "aria-labelledby": [Function],
-                  "aria-valuetext": [Function],
+                  "children": [Function],
                   "className": [Function],
                   "classes": [Function],
                   "color": [Function],
                   "component": [Function],
-                  "defaultValue": [Function],
+                  "disableFocusRipple": [Function],
+                  "disableRipple": [Function],
                   "disabled": [Function],
-                  "getAriaLabel": [Function],
-                  "getAriaValueText": [Function],
-                  "marks": [Function],
-                  "max": [Function],
-                  "min": [Function],
-                  "name": [Function],
-                  "onChange": [Function],
-                  "onChangeCommitted": [Function],
-                  "onMouseDown": [Function],
-                  "orientation": [Function],
-                  "step": [Function],
-                  "track": [Function],
-                  "value": [Function],
-                  "valueLabelDisplay": [Function],
-                  "valueLabelFormat": [Function],
+                  "focusVisibleClassName": [Function],
+                  "href": [Function],
+                  "size": [Function],
+                  "type": [Function],
+                  "variant": [Function],
                 },
                 "render": [Function],
               },
               "defaultProps": undefined,
-              "displayName": "WithStyles(ForwardRef(Slider))",
+              "displayName": "WithStyles(ForwardRef(Fab))",
               "options": Object {
                 "defaultTheme": Object {
                   "breakpoints": Object {
@@ -2068,7 +1926,7 @@ exports[`Slider slider 1`] = `
                     "tooltip": 1500,
                   },
                 },
-                "name": "MuiSlider",
+                "name": "MuiFab",
               },
               "propTypes": Object {
                 "classes": [Function],
@@ -2084,156 +1942,151 @@ exports[`Slider slider 1`] = `
           }
         }
         forwardedRef={null}
-        getAriaValueText={[Function]}
-        value={20}
-        valueLabelDisplay="auto"
       >
-        <WithStyles(ForwardRef(Slider))
-          className=""
+        <WithStyles(ForwardRef(Fab))
+          className="c0"
           color="primary"
-          getAriaValueText={[Function]}
-          value={20}
-          valueLabelDisplay="auto"
         >
-          <ForwardRef(Slider)
-            className=""
+          <ForwardRef(Fab)
+            className="c0"
             classes={
               Object {
-                "active": "MuiSlider-active",
-                "colorPrimary": "MuiSlider-colorPrimary",
-                "colorSecondary": "MuiSlider-colorSecondary",
+                "colorInherit": "MuiFab-colorInherit",
                 "disabled": "Mui-disabled",
+                "extended": "MuiFab-extended",
                 "focusVisible": "Mui-focusVisible",
-                "mark": "MuiSlider-mark",
-                "markActive": "MuiSlider-markActive",
-                "markLabel": "MuiSlider-markLabel",
-                "markLabelActive": "MuiSlider-markLabelActive",
-                "marked": "MuiSlider-marked",
-                "rail": "MuiSlider-rail",
-                "root": "MuiSlider-root",
-                "thumb": "MuiSlider-thumb",
-                "thumbColorPrimary": "MuiSlider-thumbColorPrimary",
-                "thumbColorSecondary": "MuiSlider-thumbColorSecondary",
-                "track": "MuiSlider-track",
-                "trackFalse": "MuiSlider-trackFalse",
-                "trackInverted": "MuiSlider-trackInverted",
-                "valueLabel": "MuiSlider-valueLabel",
-                "vertical": "MuiSlider-vertical",
+                "label": "MuiFab-label",
+                "primary": "MuiFab-primary",
+                "root": "MuiFab-root",
+                "secondary": "MuiFab-secondary",
+                "sizeMedium": "MuiFab-sizeMedium",
+                "sizeSmall": "MuiFab-sizeSmall",
               }
             }
             color="primary"
-            getAriaValueText={[Function]}
-            value={20}
-            valueLabelDisplay="auto"
           >
-            <span
-              className="MuiSlider-root MuiSlider-colorPrimary "
-              onMouseDown={[Function]}
+            <WithStyles(ForwardRef(ButtonBase))
+              className="MuiFab-root c0 MuiFab-primary"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="Mui-focusVisible"
             >
-              <span
-                className="MuiSlider-rail"
-              />
-              <span
-                className="MuiSlider-track"
-                style={
+              <ForwardRef(ButtonBase)
+                className="MuiFab-root c0 MuiFab-primary"
+                classes={
                   Object {
-                    "left": "0%",
-                    "width": "20%",
+                    "disabled": "Mui-disabled",
+                    "focusVisible": "Mui-focusVisible",
+                    "root": "MuiButtonBase-root",
                   }
                 }
-              />
-              <input
-                type="hidden"
-                value="20"
-              />
-              <WithStyles(ValueLabel)
-                className="MuiSlider-valueLabel"
+                component="button"
                 disabled={false}
-                index={0}
-                key="0"
-                open={false}
-                value={20}
-                valueLabelDisplay="auto"
-                valueLabelFormat={[Function]}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
               >
-                <ValueLabel
-                  className="MuiSlider-valueLabel"
-                  classes={
-                    Object {
-                      "circle": "PrivateValueLabel-circle-24",
-                      "label": "PrivateValueLabel-label-25",
-                      "offset": "PrivateValueLabel-offset-23",
-                      "open": "PrivateValueLabel-open-22",
-                      "thumb": "PrivateValueLabel-thumb-21",
-                    }
-                  }
+                <button
+                  className="MuiButtonBase-root MuiFab-root c0 MuiFab-primary"
                   disabled={false}
-                  index={0}
-                  open={false}
-                  value={20}
-                  valueLabelDisplay="auto"
-                  valueLabelFormat={[Function]}
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="button"
                 >
                   <span
-                    aria-orientation="horizontal"
-                    aria-valuemax={100}
-                    aria-valuemin={0}
-                    aria-valuenow={20}
-                    aria-valuetext="20"
-                    className="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
-                    data-index={0}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    role="slider"
-                    style={
-                      Object {
-                        "left": "20%",
-                      }
-                    }
-                    tabIndex={0}
+                    className="MuiFab-label"
                   >
-                    <span
-                      className="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </span>
+                  <NoSsr>
+                    <WithStyles(undefined)
+                      center={false}
                     >
-                      <span
-                        className="PrivateValueLabel-circle-24"
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
                       >
                         <span
-                          className="PrivateValueLabel-label-25"
+                          className="MuiTouchRipple-root"
                         >
-                          20
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
                         </span>
-                      </span>
-                    </span>
-                  </span>
-                </ValueLabel>
-              </WithStyles(ValueLabel)>
-            </span>
-          </ForwardRef(Slider)>
-        </WithStyles(ForwardRef(Slider))>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(undefined)>
+                  </NoSsr>
+                </button>
+              </ForwardRef(ButtonBase)>
+            </WithStyles(ForwardRef(ButtonBase))>
+          </ForwardRef(Fab)>
+        </WithStyles(ForwardRef(Fab))>
       </StyledComponent>
-    </Styled(WithStyles(ForwardRef(Slider)))>
-    <ValueLabel
-      value={20}
-    >
-      <div />
-    </ValueLabel>
+    </Styled(WithStyles(ForwardRef(Fab)))>
   </ThemeProvider>
-</Slider>
+</ViewMode>
 `;
 
-exports[`Slider slider has label 1`] = `
-<Slider
-  showlabel={1}
-  value={
-    Array [
-      10,
-      20,
-    ]
-  }
+exports[`Viewmode view mode list 1`] = `
+.c0 {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+<ViewMode
+  type="list"
 >
   <ThemeProvider
     theme={
@@ -2505,52 +2358,30 @@ exports[`Slider slider has label 1`] = `
       }
     }
   >
-    <Styled(WithStyles(ForwardRef(Slider)))
-      color="primary"
-      getAriaValueText={[Function]}
-      showlabel={1}
-      value={
-        Array [
-          10,
-          20,
-        ]
-      }
-      valueLabelDisplay="auto"
+    <Styled(WithStyles(ForwardRef(Fab)))
+      color="inherit"
     >
       <StyledComponent
-        color="primary"
+        color="inherit"
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "Naked": Object {
               "$$typeof": Symbol(react.forward_ref),
               "propTypes": Object {
-                "ThumbComponent": [Function],
-                "ValueLabelComponent": [Function],
-                "aria-label": [Function],
-                "aria-labelledby": [Function],
-                "aria-valuetext": [Function],
+                "children": [Function],
                 "className": [Function],
                 "classes": [Function],
                 "color": [Function],
                 "component": [Function],
-                "defaultValue": [Function],
+                "disableFocusRipple": [Function],
+                "disableRipple": [Function],
                 "disabled": [Function],
-                "getAriaLabel": [Function],
-                "getAriaValueText": [Function],
-                "marks": [Function],
-                "max": [Function],
-                "min": [Function],
-                "name": [Function],
-                "onChange": [Function],
-                "onChangeCommitted": [Function],
-                "onMouseDown": [Function],
-                "orientation": [Function],
-                "step": [Function],
-                "track": [Function],
-                "value": [Function],
-                "valueLabelDisplay": [Function],
-                "valueLabelFormat": [Function],
+                "focusVisibleClassName": [Function],
+                "href": [Function],
+                "size": [Function],
+                "type": [Function],
+                "variant": [Function],
               },
               "render": [Function],
             },
@@ -2558,16 +2389,18 @@ exports[`Slider slider has label 1`] = `
             "componentStyle": ComponentStyle {
               "componentId": "sc-bdVaJa",
               "isStatic": false,
-              "lastClassName": "ibTDPh",
+              "lastClassName": "c0",
               "rules": Array [
                 "
   ",
                 [Function],
                 "
+  width: 40px !important;
+  height: 40px !important;
 ",
               ],
             },
-            "displayName": "Styled(WithStyles(ForwardRef(Slider)))",
+            "displayName": "Styled(WithStyles(ForwardRef(Fab)))",
             "foldedComponentIds": Array [],
             "options": Object {
               "defaultTheme": Object {
@@ -2835,7 +2668,7 @@ exports[`Slider slider has label 1`] = `
                   "tooltip": 1500,
                 },
               },
-              "name": "MuiSlider",
+              "name": "MuiFab",
             },
             "propTypes": Object {
               "classes": [Function],
@@ -2848,37 +2681,24 @@ exports[`Slider slider has label 1`] = `
               "Naked": Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "propTypes": Object {
-                  "ThumbComponent": [Function],
-                  "ValueLabelComponent": [Function],
-                  "aria-label": [Function],
-                  "aria-labelledby": [Function],
-                  "aria-valuetext": [Function],
+                  "children": [Function],
                   "className": [Function],
                   "classes": [Function],
                   "color": [Function],
                   "component": [Function],
-                  "defaultValue": [Function],
+                  "disableFocusRipple": [Function],
+                  "disableRipple": [Function],
                   "disabled": [Function],
-                  "getAriaLabel": [Function],
-                  "getAriaValueText": [Function],
-                  "marks": [Function],
-                  "max": [Function],
-                  "min": [Function],
-                  "name": [Function],
-                  "onChange": [Function],
-                  "onChangeCommitted": [Function],
-                  "onMouseDown": [Function],
-                  "orientation": [Function],
-                  "step": [Function],
-                  "track": [Function],
-                  "value": [Function],
-                  "valueLabelDisplay": [Function],
-                  "valueLabelFormat": [Function],
+                  "focusVisibleClassName": [Function],
+                  "href": [Function],
+                  "size": [Function],
+                  "type": [Function],
+                  "variant": [Function],
                 },
                 "render": [Function],
               },
               "defaultProps": undefined,
-              "displayName": "WithStyles(ForwardRef(Slider))",
+              "displayName": "WithStyles(ForwardRef(Fab))",
               "options": Object {
                 "defaultTheme": Object {
                   "breakpoints": Object {
@@ -3145,7 +2965,7 @@ exports[`Slider slider has label 1`] = `
                     "tooltip": 1500,
                   },
                 },
-                "name": "MuiSlider",
+                "name": "MuiFab",
               },
               "propTypes": Object {
                 "classes": [Function],
@@ -3161,251 +2981,1179 @@ exports[`Slider slider has label 1`] = `
           }
         }
         forwardedRef={null}
-        getAriaValueText={[Function]}
-        showlabel={1}
-        value={
-          Array [
-            10,
-            20,
-          ]
-        }
-        valueLabelDisplay="auto"
       >
-        <WithStyles(ForwardRef(Slider))
-          className=""
-          color="primary"
-          getAriaValueText={[Function]}
-          showlabel={1}
-          value={
-            Array [
-              10,
-              20,
-            ]
-          }
-          valueLabelDisplay="auto"
+        <WithStyles(ForwardRef(Fab))
+          className="c0"
+          color="inherit"
         >
-          <ForwardRef(Slider)
-            className=""
+          <ForwardRef(Fab)
+            className="c0"
             classes={
               Object {
-                "active": "MuiSlider-active",
-                "colorPrimary": "MuiSlider-colorPrimary",
-                "colorSecondary": "MuiSlider-colorSecondary",
+                "colorInherit": "MuiFab-colorInherit",
                 "disabled": "Mui-disabled",
+                "extended": "MuiFab-extended",
                 "focusVisible": "Mui-focusVisible",
-                "mark": "MuiSlider-mark",
-                "markActive": "MuiSlider-markActive",
-                "markLabel": "MuiSlider-markLabel",
-                "markLabelActive": "MuiSlider-markLabelActive",
-                "marked": "MuiSlider-marked",
-                "rail": "MuiSlider-rail",
-                "root": "MuiSlider-root",
-                "thumb": "MuiSlider-thumb",
-                "thumbColorPrimary": "MuiSlider-thumbColorPrimary",
-                "thumbColorSecondary": "MuiSlider-thumbColorSecondary",
-                "track": "MuiSlider-track",
-                "trackFalse": "MuiSlider-trackFalse",
-                "trackInverted": "MuiSlider-trackInverted",
-                "valueLabel": "MuiSlider-valueLabel",
-                "vertical": "MuiSlider-vertical",
+                "label": "MuiFab-label",
+                "primary": "MuiFab-primary",
+                "root": "MuiFab-root",
+                "secondary": "MuiFab-secondary",
+                "sizeMedium": "MuiFab-sizeMedium",
+                "sizeSmall": "MuiFab-sizeSmall",
+              }
+            }
+            color="inherit"
+          >
+            <WithStyles(ForwardRef(ButtonBase))
+              className="MuiFab-root c0 MuiFab-colorInherit"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="Mui-focusVisible"
+            >
+              <ForwardRef(ButtonBase)
+                className="MuiFab-root c0 MuiFab-colorInherit"
+                classes={
+                  Object {
+                    "disabled": "Mui-disabled",
+                    "focusVisible": "Mui-focusVisible",
+                    "root": "MuiButtonBase-root",
+                  }
+                }
+                component="button"
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
+              >
+                <button
+                  className="MuiButtonBase-root MuiFab-root c0 MuiFab-colorInherit"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <span
+                    className="MuiFab-label"
+                  >
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </span>
+                  <NoSsr>
+                    <WithStyles(undefined)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
+                        >
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(undefined)>
+                  </NoSsr>
+                </button>
+              </ForwardRef(ButtonBase)>
+            </WithStyles(ForwardRef(ButtonBase))>
+          </ForwardRef(Fab)>
+        </WithStyles(ForwardRef(Fab))>
+      </StyledComponent>
+    </Styled(WithStyles(ForwardRef(Fab)))>
+  </ThemeProvider>
+</ViewMode>
+`;
+
+exports[`Viewmode view mode list checked 1`] = `
+.c0 {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+<ViewMode
+  checked={true}
+  type="list"
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Object {
+          "between": [Function],
+          "down": [Function],
+          "keys": Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ],
+          "only": [Function],
+          "up": [Function],
+          "values": Object {
+            "lg": 1280,
+            "md": 960,
+            "sm": 600,
+            "xl": 1920,
+            "xs": 0,
+          },
+          "width": [Function],
+        },
+        "direction": "ltr",
+        "mixins": Object {
+          "gutters": [Function],
+          "toolbar": Object {
+            "@media (min-width:0px) and (orientation: landscape)": Object {
+              "minHeight": 48,
+            },
+            "@media (min-width:600px)": Object {
+              "minHeight": 64,
+            },
+            "minHeight": 56,
+          },
+        },
+        "overrides": Object {},
+        "palette": Object {
+          "action": Object {
+            "active": "rgba(0, 0, 0, 0.54)",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "hover": "rgba(0, 0, 0, 0.08)",
+            "hoverOpacity": 0.08,
+            "selected": "rgba(0, 0, 0, 0.14)",
+          },
+          "augmentColor": [Function],
+          "background": Object {
+            "default": "#fafafa",
+            "paper": "#fff",
+          },
+          "common": Object {
+            "black": "#000",
+            "white": "#fff",
+          },
+          "contrastThreshold": 3,
+          "divider": "rgba(0, 0, 0, 0.12)",
+          "error": Object {
+            "contrastText": "#fff",
+            "dark": "#d32f2f",
+            "light": "#e57373",
+            "main": "#f44336",
+          },
+          "getContrastText": [Function],
+          "grey": Object {
+            "100": "#f5f5f5",
+            "200": "#eeeeee",
+            "300": "#e0e0e0",
+            "400": "#bdbdbd",
+            "50": "#fafafa",
+            "500": "#9e9e9e",
+            "600": "#757575",
+            "700": "#616161",
+            "800": "#424242",
+            "900": "#212121",
+            "A100": "#d5d5d5",
+            "A200": "#aaaaaa",
+            "A400": "#303030",
+            "A700": "#616161",
+          },
+          "primary": Object {
+            "contrastText": "#FFF",
+            "dark": "#cf2557",
+            "light": "#fc688e",
+            "main": "#F62F5E",
+          },
+          "secondary": Object {
+            "contrastText": "#fff",
+            "dark": "#c51162",
+            "light": "#ff4081",
+            "main": "#f50057",
+          },
+          "text": Object {
+            "disabled": "rgba(0, 0, 0, 0.38)",
+            "hint": "rgba(0, 0, 0, 0.38)",
+            "primary": "rgba(0, 0, 0, 0.87)",
+            "secondary": "rgba(0, 0, 0, 0.54)",
+          },
+          "tonalOffset": 0.2,
+          "type": "light",
+        },
+        "props": Object {},
+        "shadows": Array [
+          "none",
+          "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+          "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+          "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+          "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+          "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+          "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+          "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+          "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+          "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+          "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+          "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+          "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+          "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+          "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+          "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+          "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+          "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+          "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+          "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+          "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+          "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+          "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+          "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+          "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+        ],
+        "shape": Object {
+          "borderRadius": 4,
+        },
+        "spacing": [Function],
+        "transitions": Object {
+          "create": [Function],
+          "duration": Object {
+            "complex": 375,
+            "enteringScreen": 225,
+            "leavingScreen": 195,
+            "short": 250,
+            "shorter": 200,
+            "shortest": 150,
+            "standard": 300,
+          },
+          "easing": Object {
+            "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+            "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+            "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+          },
+          "getAutoHeightDuration": [Function],
+        },
+        "typography": Object {
+          "body1": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.00938em",
+            "lineHeight": 1.5,
+          },
+          "body2": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "0.875rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.01071em",
+            "lineHeight": 1.43,
+          },
+          "button": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "0.875rem",
+            "fontWeight": 500,
+            "letterSpacing": "0.02857em",
+            "lineHeight": 1.75,
+            "textTransform": "uppercase",
+          },
+          "caption": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.03333em",
+            "lineHeight": 1.66,
+          },
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": 14,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+          "h1": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "6rem",
+            "fontWeight": 300,
+            "letterSpacing": "-0.01562em",
+            "lineHeight": 1,
+          },
+          "h2": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "3.75rem",
+            "fontWeight": 300,
+            "letterSpacing": "-0.00833em",
+            "lineHeight": 1,
+          },
+          "h3": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "3rem",
+            "fontWeight": 400,
+            "letterSpacing": "0em",
+            "lineHeight": 1.04,
+          },
+          "h4": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "2.125rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.00735em",
+            "lineHeight": 1.17,
+          },
+          "h5": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "1.5rem",
+            "fontWeight": 400,
+            "letterSpacing": "0em",
+            "lineHeight": 1.33,
+          },
+          "h6": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "1.25rem",
+            "fontWeight": 500,
+            "letterSpacing": "0.0075em",
+            "lineHeight": 1.6,
+          },
+          "htmlFontSize": 16,
+          "overline": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.08333em",
+            "lineHeight": 2.66,
+            "textTransform": "uppercase",
+          },
+          "pxToRem": [Function],
+          "round": [Function],
+          "subtitle1": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+            "letterSpacing": "0.00938em",
+            "lineHeight": 1.75,
+          },
+          "subtitle2": Object {
+            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+            "fontSize": "0.875rem",
+            "fontWeight": 500,
+            "letterSpacing": "0.00714em",
+            "lineHeight": 1.57,
+          },
+        },
+        "zIndex": Object {
+          "appBar": 1100,
+          "drawer": 1200,
+          "mobileStepper": 1000,
+          "modal": 1300,
+          "snackbar": 1400,
+          "speedDial": 1050,
+          "tooltip": 1500,
+        },
+        Symbol(mui.nested): false,
+      }
+    }
+  >
+    <Styled(WithStyles(ForwardRef(Fab)))
+      color="primary"
+    >
+      <StyledComponent
+        color="primary"
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "Naked": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "children": [Function],
+                "className": [Function],
+                "classes": [Function],
+                "color": [Function],
+                "component": [Function],
+                "disableFocusRipple": [Function],
+                "disableRipple": [Function],
+                "disabled": [Function],
+                "focusVisibleClassName": [Function],
+                "href": [Function],
+                "size": [Function],
+                "type": [Function],
+                "variant": [Function],
+              },
+              "render": [Function],
+            },
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  ",
+                [Function],
+                "
+  width: 40px !important;
+  height: 40px !important;
+",
+              ],
+            },
+            "displayName": "Styled(WithStyles(ForwardRef(Fab)))",
+            "foldedComponentIds": Array [],
+            "options": Object {
+              "defaultTheme": Object {
+                "breakpoints": Object {
+                  "between": [Function],
+                  "down": [Function],
+                  "keys": Array [
+                    "xs",
+                    "sm",
+                    "md",
+                    "lg",
+                    "xl",
+                  ],
+                  "only": [Function],
+                  "up": [Function],
+                  "values": Object {
+                    "lg": 1280,
+                    "md": 960,
+                    "sm": 600,
+                    "xl": 1920,
+                    "xs": 0,
+                  },
+                  "width": [Function],
+                },
+                "direction": "ltr",
+                "mixins": Object {
+                  "gutters": [Function],
+                  "toolbar": Object {
+                    "@media (min-width:0px) and (orientation: landscape)": Object {
+                      "minHeight": 48,
+                    },
+                    "@media (min-width:600px)": Object {
+                      "minHeight": 64,
+                    },
+                    "minHeight": 56,
+                  },
+                },
+                "overrides": Object {},
+                "palette": Object {
+                  "action": Object {
+                    "active": "rgba(0, 0, 0, 0.54)",
+                    "disabled": "rgba(0, 0, 0, 0.26)",
+                    "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                    "hover": "rgba(0, 0, 0, 0.08)",
+                    "hoverOpacity": 0.08,
+                    "selected": "rgba(0, 0, 0, 0.14)",
+                  },
+                  "augmentColor": [Function],
+                  "background": Object {
+                    "default": "#fafafa",
+                    "paper": "#fff",
+                  },
+                  "common": Object {
+                    "black": "#000",
+                    "white": "#fff",
+                  },
+                  "contrastThreshold": 3,
+                  "divider": "rgba(0, 0, 0, 0.12)",
+                  "error": Object {
+                    "contrastText": "#fff",
+                    "dark": "#d32f2f",
+                    "light": "#e57373",
+                    "main": "#f44336",
+                  },
+                  "getContrastText": [Function],
+                  "grey": Object {
+                    "100": "#f5f5f5",
+                    "200": "#eeeeee",
+                    "300": "#e0e0e0",
+                    "400": "#bdbdbd",
+                    "50": "#fafafa",
+                    "500": "#9e9e9e",
+                    "600": "#757575",
+                    "700": "#616161",
+                    "800": "#424242",
+                    "900": "#212121",
+                    "A100": "#d5d5d5",
+                    "A200": "#aaaaaa",
+                    "A400": "#303030",
+                    "A700": "#616161",
+                  },
+                  "primary": Object {
+                    "contrastText": "#fff",
+                    "dark": "#303f9f",
+                    "light": "#7986cb",
+                    "main": "#3f51b5",
+                  },
+                  "secondary": Object {
+                    "contrastText": "#fff",
+                    "dark": "#c51162",
+                    "light": "#ff4081",
+                    "main": "#f50057",
+                  },
+                  "text": Object {
+                    "disabled": "rgba(0, 0, 0, 0.38)",
+                    "hint": "rgba(0, 0, 0, 0.38)",
+                    "primary": "rgba(0, 0, 0, 0.87)",
+                    "secondary": "rgba(0, 0, 0, 0.54)",
+                  },
+                  "tonalOffset": 0.2,
+                  "type": "light",
+                },
+                "props": Object {},
+                "shadows": Array [
+                  "none",
+                  "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                  "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                  "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                  "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                  "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                  "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                  "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                  "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                  "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                  "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                  "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                  "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                  "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                  "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                  "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                  "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                  "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                  "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                  "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                  "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                  "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                  "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                  "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                  "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                ],
+                "shape": Object {
+                  "borderRadius": 4,
+                },
+                "spacing": [Function],
+                "transitions": Object {
+                  "create": [Function],
+                  "duration": Object {
+                    "complex": 375,
+                    "enteringScreen": 225,
+                    "leavingScreen": 195,
+                    "short": 250,
+                    "shorter": 200,
+                    "shortest": 150,
+                    "standard": 300,
+                  },
+                  "easing": Object {
+                    "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                    "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                    "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                    "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                  },
+                  "getAutoHeightDuration": [Function],
+                },
+                "typography": Object {
+                  "body1": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "1rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.00938em",
+                    "lineHeight": 1.5,
+                  },
+                  "body2": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "0.875rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.01071em",
+                    "lineHeight": 1.43,
+                  },
+                  "button": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "0.875rem",
+                    "fontWeight": 500,
+                    "letterSpacing": "0.02857em",
+                    "lineHeight": 1.75,
+                    "textTransform": "uppercase",
+                  },
+                  "caption": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "0.75rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.03333em",
+                    "lineHeight": 1.66,
+                  },
+                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                  "fontSize": 14,
+                  "fontWeightBold": 700,
+                  "fontWeightLight": 300,
+                  "fontWeightMedium": 500,
+                  "fontWeightRegular": 400,
+                  "h1": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "6rem",
+                    "fontWeight": 300,
+                    "letterSpacing": "-0.01562em",
+                    "lineHeight": 1,
+                  },
+                  "h2": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "3.75rem",
+                    "fontWeight": 300,
+                    "letterSpacing": "-0.00833em",
+                    "lineHeight": 1,
+                  },
+                  "h3": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "3rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0em",
+                    "lineHeight": 1.04,
+                  },
+                  "h4": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "2.125rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.00735em",
+                    "lineHeight": 1.17,
+                  },
+                  "h5": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "1.5rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0em",
+                    "lineHeight": 1.33,
+                  },
+                  "h6": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "1.25rem",
+                    "fontWeight": 500,
+                    "letterSpacing": "0.0075em",
+                    "lineHeight": 1.6,
+                  },
+                  "htmlFontSize": 16,
+                  "overline": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "0.75rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.08333em",
+                    "lineHeight": 2.66,
+                    "textTransform": "uppercase",
+                  },
+                  "pxToRem": [Function],
+                  "round": [Function],
+                  "subtitle1": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "1rem",
+                    "fontWeight": 400,
+                    "letterSpacing": "0.00938em",
+                    "lineHeight": 1.75,
+                  },
+                  "subtitle2": Object {
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": "0.875rem",
+                    "fontWeight": 500,
+                    "letterSpacing": "0.00714em",
+                    "lineHeight": 1.57,
+                  },
+                },
+                "zIndex": Object {
+                  "appBar": 1100,
+                  "drawer": 1200,
+                  "mobileStepper": 1000,
+                  "modal": 1300,
+                  "snackbar": 1400,
+                  "speedDial": 1050,
+                  "tooltip": 1500,
+                },
+              },
+              "name": "MuiFab",
+            },
+            "propTypes": Object {
+              "classes": [Function],
+              "innerRef": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "Naked": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "propTypes": Object {
+                  "children": [Function],
+                  "className": [Function],
+                  "classes": [Function],
+                  "color": [Function],
+                  "component": [Function],
+                  "disableFocusRipple": [Function],
+                  "disableRipple": [Function],
+                  "disabled": [Function],
+                  "focusVisibleClassName": [Function],
+                  "href": [Function],
+                  "size": [Function],
+                  "type": [Function],
+                  "variant": [Function],
+                },
+                "render": [Function],
+              },
+              "defaultProps": undefined,
+              "displayName": "WithStyles(ForwardRef(Fab))",
+              "options": Object {
+                "defaultTheme": Object {
+                  "breakpoints": Object {
+                    "between": [Function],
+                    "down": [Function],
+                    "keys": Array [
+                      "xs",
+                      "sm",
+                      "md",
+                      "lg",
+                      "xl",
+                    ],
+                    "only": [Function],
+                    "up": [Function],
+                    "values": Object {
+                      "lg": 1280,
+                      "md": 960,
+                      "sm": 600,
+                      "xl": 1920,
+                      "xs": 0,
+                    },
+                    "width": [Function],
+                  },
+                  "direction": "ltr",
+                  "mixins": Object {
+                    "gutters": [Function],
+                    "toolbar": Object {
+                      "@media (min-width:0px) and (orientation: landscape)": Object {
+                        "minHeight": 48,
+                      },
+                      "@media (min-width:600px)": Object {
+                        "minHeight": 64,
+                      },
+                      "minHeight": 56,
+                    },
+                  },
+                  "overrides": Object {},
+                  "palette": Object {
+                    "action": Object {
+                      "active": "rgba(0, 0, 0, 0.54)",
+                      "disabled": "rgba(0, 0, 0, 0.26)",
+                      "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                      "hover": "rgba(0, 0, 0, 0.08)",
+                      "hoverOpacity": 0.08,
+                      "selected": "rgba(0, 0, 0, 0.14)",
+                    },
+                    "augmentColor": [Function],
+                    "background": Object {
+                      "default": "#fafafa",
+                      "paper": "#fff",
+                    },
+                    "common": Object {
+                      "black": "#000",
+                      "white": "#fff",
+                    },
+                    "contrastThreshold": 3,
+                    "divider": "rgba(0, 0, 0, 0.12)",
+                    "error": Object {
+                      "contrastText": "#fff",
+                      "dark": "#d32f2f",
+                      "light": "#e57373",
+                      "main": "#f44336",
+                    },
+                    "getContrastText": [Function],
+                    "grey": Object {
+                      "100": "#f5f5f5",
+                      "200": "#eeeeee",
+                      "300": "#e0e0e0",
+                      "400": "#bdbdbd",
+                      "50": "#fafafa",
+                      "500": "#9e9e9e",
+                      "600": "#757575",
+                      "700": "#616161",
+                      "800": "#424242",
+                      "900": "#212121",
+                      "A100": "#d5d5d5",
+                      "A200": "#aaaaaa",
+                      "A400": "#303030",
+                      "A700": "#616161",
+                    },
+                    "primary": Object {
+                      "contrastText": "#fff",
+                      "dark": "#303f9f",
+                      "light": "#7986cb",
+                      "main": "#3f51b5",
+                    },
+                    "secondary": Object {
+                      "contrastText": "#fff",
+                      "dark": "#c51162",
+                      "light": "#ff4081",
+                      "main": "#f50057",
+                    },
+                    "text": Object {
+                      "disabled": "rgba(0, 0, 0, 0.38)",
+                      "hint": "rgba(0, 0, 0, 0.38)",
+                      "primary": "rgba(0, 0, 0, 0.87)",
+                      "secondary": "rgba(0, 0, 0, 0.54)",
+                    },
+                    "tonalOffset": 0.2,
+                    "type": "light",
+                  },
+                  "props": Object {},
+                  "shadows": Array [
+                    "none",
+                    "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                    "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                    "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                    "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                    "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                    "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                    "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                    "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                    "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                    "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                    "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                    "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                    "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                    "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                    "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                    "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                    "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                    "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                    "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                    "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                    "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                    "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                    "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                    "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                  ],
+                  "shape": Object {
+                    "borderRadius": 4,
+                  },
+                  "spacing": [Function],
+                  "transitions": Object {
+                    "create": [Function],
+                    "duration": Object {
+                      "complex": 375,
+                      "enteringScreen": 225,
+                      "leavingScreen": 195,
+                      "short": 250,
+                      "shorter": 200,
+                      "shortest": 150,
+                      "standard": 300,
+                    },
+                    "easing": Object {
+                      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                      "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                      "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                    },
+                    "getAutoHeightDuration": [Function],
+                  },
+                  "typography": Object {
+                    "body1": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "1rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.00938em",
+                      "lineHeight": 1.5,
+                    },
+                    "body2": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "0.875rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.01071em",
+                      "lineHeight": 1.43,
+                    },
+                    "button": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "0.875rem",
+                      "fontWeight": 500,
+                      "letterSpacing": "0.02857em",
+                      "lineHeight": 1.75,
+                      "textTransform": "uppercase",
+                    },
+                    "caption": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "0.75rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.03333em",
+                      "lineHeight": 1.66,
+                    },
+                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                    "fontSize": 14,
+                    "fontWeightBold": 700,
+                    "fontWeightLight": 300,
+                    "fontWeightMedium": 500,
+                    "fontWeightRegular": 400,
+                    "h1": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "6rem",
+                      "fontWeight": 300,
+                      "letterSpacing": "-0.01562em",
+                      "lineHeight": 1,
+                    },
+                    "h2": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "3.75rem",
+                      "fontWeight": 300,
+                      "letterSpacing": "-0.00833em",
+                      "lineHeight": 1,
+                    },
+                    "h3": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "3rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0em",
+                      "lineHeight": 1.04,
+                    },
+                    "h4": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "2.125rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.00735em",
+                      "lineHeight": 1.17,
+                    },
+                    "h5": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "1.5rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0em",
+                      "lineHeight": 1.33,
+                    },
+                    "h6": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "1.25rem",
+                      "fontWeight": 500,
+                      "letterSpacing": "0.0075em",
+                      "lineHeight": 1.6,
+                    },
+                    "htmlFontSize": 16,
+                    "overline": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "0.75rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.08333em",
+                      "lineHeight": 2.66,
+                      "textTransform": "uppercase",
+                    },
+                    "pxToRem": [Function],
+                    "round": [Function],
+                    "subtitle1": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "1rem",
+                      "fontWeight": 400,
+                      "letterSpacing": "0.00938em",
+                      "lineHeight": 1.75,
+                    },
+                    "subtitle2": Object {
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": "0.875rem",
+                      "fontWeight": 500,
+                      "letterSpacing": "0.00714em",
+                      "lineHeight": 1.57,
+                    },
+                  },
+                  "zIndex": Object {
+                    "appBar": 1100,
+                    "drawer": 1200,
+                    "mobileStepper": 1000,
+                    "modal": 1300,
+                    "snackbar": 1400,
+                    "speedDial": 1050,
+                    "tooltip": 1500,
+                  },
+                },
+                "name": "MuiFab",
+              },
+              "propTypes": Object {
+                "classes": [Function],
+                "innerRef": [Function],
+              },
+              "render": [Function],
+              "useStyles": [Function],
+            },
+            "toString": [Function],
+            "useStyles": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <WithStyles(ForwardRef(Fab))
+          className="c0"
+          color="primary"
+        >
+          <ForwardRef(Fab)
+            className="c0"
+            classes={
+              Object {
+                "colorInherit": "MuiFab-colorInherit",
+                "disabled": "Mui-disabled",
+                "extended": "MuiFab-extended",
+                "focusVisible": "Mui-focusVisible",
+                "label": "MuiFab-label",
+                "primary": "MuiFab-primary",
+                "root": "MuiFab-root",
+                "secondary": "MuiFab-secondary",
+                "sizeMedium": "MuiFab-sizeMedium",
+                "sizeSmall": "MuiFab-sizeSmall",
               }
             }
             color="primary"
-            getAriaValueText={[Function]}
-            showlabel={1}
-            value={
-              Array [
-                10,
-                20,
-              ]
-            }
-            valueLabelDisplay="auto"
           >
-            <span
-              className="MuiSlider-root MuiSlider-colorPrimary "
-              onMouseDown={[Function]}
-              showlabel={1}
+            <WithStyles(ForwardRef(ButtonBase))
+              className="MuiFab-root c0 MuiFab-primary"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="Mui-focusVisible"
             >
-              <span
-                className="MuiSlider-rail"
-              />
-              <span
-                className="MuiSlider-track"
-                style={
+              <ForwardRef(ButtonBase)
+                className="MuiFab-root c0 MuiFab-primary"
+                classes={
                   Object {
-                    "left": "10%",
-                    "width": "10%",
+                    "disabled": "Mui-disabled",
+                    "focusVisible": "Mui-focusVisible",
+                    "root": "MuiButtonBase-root",
                   }
                 }
-              />
-              <input
-                type="hidden"
-                value="10,20"
-              />
-              <WithStyles(ValueLabel)
-                className="MuiSlider-valueLabel"
+                component="button"
                 disabled={false}
-                index={0}
-                key="0"
-                open={false}
-                value={10}
-                valueLabelDisplay="auto"
-                valueLabelFormat={[Function]}
+                focusRipple={true}
+                focusVisibleClassName="Mui-focusVisible"
               >
-                <ValueLabel
-                  className="MuiSlider-valueLabel"
-                  classes={
-                    Object {
-                      "circle": "PrivateValueLabel-circle-24",
-                      "label": "PrivateValueLabel-label-25",
-                      "offset": "PrivateValueLabel-offset-23",
-                      "open": "PrivateValueLabel-open-22",
-                      "thumb": "PrivateValueLabel-thumb-21",
-                    }
-                  }
+                <button
+                  className="MuiButtonBase-root MuiFab-root c0 MuiFab-primary"
                   disabled={false}
-                  index={0}
-                  open={false}
-                  value={10}
-                  valueLabelDisplay="auto"
-                  valueLabelFormat={[Function]}
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex={0}
+                  type="button"
                 >
                   <span
-                    aria-orientation="horizontal"
-                    aria-valuemax={100}
-                    aria-valuemin={0}
-                    aria-valuenow={10}
-                    aria-valuetext="10"
-                    className="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
-                    data-index={0}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    role="slider"
-                    style={
-                      Object {
-                        "left": "10%",
-                      }
-                    }
-                    tabIndex={0}
+                    className="MuiFab-label"
                   >
-                    <span
-                      className="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+                    <ForwardRef>
+                      <WithStyles(ForwardRef(SvgIcon))>
+                        <ForwardRef(SvgIcon)
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                  </span>
+                  <NoSsr>
+                    <WithStyles(undefined)
+                      center={false}
                     >
-                      <span
-                        className="PrivateValueLabel-circle-24"
+                      <ForwardRef(TouchRipple)
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
+                          }
+                        }
                       >
                         <span
-                          className="PrivateValueLabel-label-25"
+                          className="MuiTouchRipple-root"
                         >
-                          10
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
                         </span>
-                      </span>
-                    </span>
-                  </span>
-                </ValueLabel>
-              </WithStyles(ValueLabel)>
-              <WithStyles(ValueLabel)
-                className="MuiSlider-valueLabel"
-                disabled={false}
-                index={1}
-                key="1"
-                open={false}
-                value={20}
-                valueLabelDisplay="auto"
-                valueLabelFormat={[Function]}
-              >
-                <ValueLabel
-                  className="MuiSlider-valueLabel"
-                  classes={
-                    Object {
-                      "circle": "PrivateValueLabel-circle-24",
-                      "label": "PrivateValueLabel-label-25",
-                      "offset": "PrivateValueLabel-offset-23",
-                      "open": "PrivateValueLabel-open-22",
-                      "thumb": "PrivateValueLabel-thumb-21",
-                    }
-                  }
-                  disabled={false}
-                  index={1}
-                  open={false}
-                  value={20}
-                  valueLabelDisplay="auto"
-                  valueLabelFormat={[Function]}
-                >
-                  <span
-                    aria-orientation="horizontal"
-                    aria-valuemax={100}
-                    aria-valuemin={0}
-                    aria-valuenow={20}
-                    aria-valuetext="20"
-                    className="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
-                    data-index={1}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    role="slider"
-                    style={
-                      Object {
-                        "left": "20%",
-                      }
-                    }
-                    tabIndex={0}
-                  >
-                    <span
-                      className="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
-                    >
-                      <span
-                        className="PrivateValueLabel-circle-24"
-                      >
-                        <span
-                          className="PrivateValueLabel-label-25"
-                        >
-                          20
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </ValueLabel>
-              </WithStyles(ValueLabel)>
-            </span>
-          </ForwardRef(Slider)>
-        </WithStyles(ForwardRef(Slider))>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(undefined)>
+                  </NoSsr>
+                </button>
+              </ForwardRef(ButtonBase)>
+            </WithStyles(ForwardRef(ButtonBase))>
+          </ForwardRef(Fab)>
+        </WithStyles(ForwardRef(Fab))>
       </StyledComponent>
-    </Styled(WithStyles(ForwardRef(Slider)))>
-    <ValueLabel
-      showlabel={1}
-      value={
-        Array [
-          10,
-          20,
-        ]
-      }
-    >
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "justifyContent": "space-between",
-          }
-        }
-      >
-        <span
-          key="0"
-        >
-          10
-        </span>
-        <span
-          key="1"
-        >
-          20
-        </span>
-      </div>
-    </ValueLabel>
+    </Styled(WithStyles(ForwardRef(Fab)))>
   </ThemeProvider>
-</Slider>
+</ViewMode>
 `;

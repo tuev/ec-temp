@@ -9,7 +9,7 @@ describe('Button', () => {
     const primaryLargeBtn = mount(<Button size="large">Primary</Button>)
     expect(primaryLargeBtn).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '225px !important',
       'min-height': '60px !important',
       padding: '20px',
@@ -19,7 +19,9 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(primaryLargeBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(primaryLargeBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -31,7 +33,7 @@ describe('Button', () => {
     )
     expect(outlineLargeBtn).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '225px !important',
       'min-height': '60px !important',
       padding: '20px',
@@ -41,14 +43,16 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(outlineLargeBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(outlineLargeBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
   it('primary medium btn', () => {
     const primaryMediumBtn = mount(<Button>Primary</Button>)
     expect(primaryMediumBtn).toMatchSnapshot()
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '163px !important',
       'min-height': '48px !important',
       'font-size': '14px',
@@ -56,7 +60,9 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(primaryMediumBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(primaryMediumBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -64,7 +70,7 @@ describe('Button', () => {
     const outlineMediumBtn = mount(<Button variant="outlined">Outlined</Button>)
 
     expect(outlineMediumBtn).toMatchSnapshot()
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '163px !important',
       'min-height': '48px !important',
       'font-size': '14px',
@@ -72,7 +78,9 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(outlineMediumBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(outlineMediumBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -81,7 +89,7 @@ describe('Button', () => {
 
     expect(primarySmallBtn).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '90px !important',
       'min-height': '36px !important',
       'font-size': '12px',
@@ -89,7 +97,9 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(primarySmallBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(primarySmallBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 
@@ -101,7 +111,7 @@ describe('Button', () => {
     )
     expect(outlineSmallBtn).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       'min-width': '90px !important',
       'min-height': '36px !important',
       'font-size': '12px',
@@ -109,7 +119,9 @@ describe('Button', () => {
     }
 
     for (const style in expectStyle) {
-      expect(outlineSmallBtn).toHaveStyleRule(style, expectStyle[style])
+      if (expectStyle[style]) {
+        expect(outlineSmallBtn).toHaveStyleRule(style, expectStyle[style])
+      }
     }
   })
 })

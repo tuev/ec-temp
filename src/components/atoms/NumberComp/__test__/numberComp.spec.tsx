@@ -8,7 +8,7 @@ describe('App number component input', () => {
 
     expect(AppComp).toMatchSnapshot()
 
-    const expectStyle = {
+    const expectStyle: { [key: string]: string } = {
       width: '27px',
       height: '27px',
       border: '1px solid #F62F5E',
@@ -25,7 +25,27 @@ describe('App number component input', () => {
       color: '#fff',
     }
     for (const key in expectStyle) {
-      expect(AppComp).toHaveStyleRule(key, expectStyle[key])
+      if (expectStyle[key]) {
+        expect(AppComp).toHaveStyleRule(key, expectStyle[key])
+      }
     }
+  })
+
+  it('nmber input component with data < 0', () => {
+    const AppComp = mount(<NumberComp data={-1} />)
+
+    expect(AppComp).toMatchSnapshot()
+  })
+
+  it('nmber input component with data >0 and < 100', () => {
+    const AppComp = mount(<NumberComp data={10} />)
+
+    expect(AppComp).toMatchSnapshot()
+  })
+
+  it('nmber input component with data >100', () => {
+    const AppComp = mount(<NumberComp data={110} />)
+
+    expect(AppComp).toMatchSnapshot()
   })
 })

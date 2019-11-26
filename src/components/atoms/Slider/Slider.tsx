@@ -2,10 +2,12 @@ import React, { FC } from 'react'
 import { AppSlider, theme } from './Slider.styled'
 import { BaseSliderProps, ValueLabelProps } from './Slider.types'
 import { ThemeProvider } from '@material-ui/core/styles'
-import { get, isNumber, isArray } from 'lodash'
-const valueText: (value: number) => string = (value = 0) => `${value}`
+import { isNumber, isArray } from 'lodash'
 
-const ValueLabel: FC<ValueLabelProps> = (props: ValueLabelProps) => {
+export const valueText: (value?: number) => string = value =>
+  value === undefined ? '' : `${value}`
+
+export const ValueLabel: FC<ValueLabelProps> = (props: ValueLabelProps) => {
   const { showlabel, value } = props
   if (!showlabel) {
     return <div />
