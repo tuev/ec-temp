@@ -1,10 +1,13 @@
 import React from 'react'
 import { mount } from 'enzyme'
+import renderer from 'react-test-renderer'
 import BlogIcon from '..'
 
 describe('BlogIcon', () => {
   it('like icon', () => {
-    const likeIcon = mount(<BlogIcon icon="like" count={20} />)
+    const likeIcon = renderer
+      .create(<BlogIcon icon="like" count={20} />)
+      .toJSON()
 
     expect(likeIcon).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
