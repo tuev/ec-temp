@@ -20,8 +20,16 @@ jobs:
           command: npm run test:coverage # replace with `yarn test` if using yarn
 
       - run:
+          name: Check coverage generated
+          command: |
+            if ! [[ -s coverage/lcov.info ]]
+            then
+              exit 1
+            fi
+
+      - run:
           name: Coverage
-          command: bash <(curl -s https://codecov.io/bash) -Z -C $CIRCLE_SHA1 -s coverage
+          command: bash <(curl -s https://codecov.io/bash) -Z -C $CIRCLE_SHA1 -s coverage/lcov.info
 
 workflows:
   version: 2.1
