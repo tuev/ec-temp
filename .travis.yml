@@ -21,11 +21,9 @@ jobs:
       # cache: *2
       # node_js: '10'
       # if: branch != master
-    # - stage: lint
-    #   script: yarn lint
-    #   before_install: true
-    #   install:
-    #     - yarn install
+    - stage: lint
+      script: yarn lint
+      before_install: true
 sudo: false
 before_deploy:
   - rm -rf node_modules

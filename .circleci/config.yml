@@ -21,7 +21,7 @@ jobs:
 
       - run:
           name: Coverage
-          command: bash <(curl -s https://codecov.io/bash) -Z -C $CIRCLE_SHA1
+          command: bash <(curl -s https://codecov.io/bash) -Z -C $CIRCLE_SHA1 -s coverage
 
 workflows:
   version: 2.1
