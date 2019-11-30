@@ -7,7 +7,9 @@ node_js:
 cache:
   directories:
     - node_modules
-before_script: npm install --save --save-exact react-scripts@3.2.0
+before_script: 
+  - npm install --save --save-exact react-scripts@3.2.0
+
 addons:
   apt:
     packages:
@@ -24,6 +26,9 @@ jobs:
     - stage: lint
       script: yarn lint
       before_install: true
+
 sudo: false
+after_success:
+  - yarn report
 before_deploy:
   - rm -rf node_modules
