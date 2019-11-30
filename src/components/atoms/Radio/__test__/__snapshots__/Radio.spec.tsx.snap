@@ -945,6 +945,7 @@ exports[`Radio radio 1`] = `
                 }
                 color="primary"
                 customcolor="primary"
+                disabled={false}
                 icon={<ForwardRef(WithStyles) />}
                 onChange={[Function]}
                 type="radio"
@@ -967,6 +968,7 @@ exports[`Radio radio 1`] = `
                   }
                   color="primary"
                   customcolor="primary"
+                  disabled={false}
                   icon={<ForwardRef(WithStyles) />}
                   onChange={[Function]}
                   type="radio"
@@ -977,6 +979,7 @@ exports[`Radio radio 1`] = `
                     color="primary"
                     component="span"
                     customcolor="primary"
+                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -1000,6 +1003,7 @@ exports[`Radio radio 1`] = `
                       color="primary"
                       component="span"
                       customcolor="primary"
+                      disabled={false}
                       onBlur={[Function]}
                       onFocus={[Function]}
                       tabIndex={null}
@@ -1059,6 +1063,7 @@ exports[`Radio radio 1`] = `
                             >
                               <input
                                 className="PrivateSwitchBase-input-9"
+                                disabled={false}
                                 onChange={[Function]}
                                 type="radio"
                               />
@@ -2144,6 +2149,7 @@ exports[`Radio radio checked 1`] = `
                 }
                 color="primary"
                 customcolor="primary"
+                disabled={false}
                 icon={<ForwardRef(WithStyles) />}
                 onChange={[Function]}
                 type="radio"
@@ -2167,6 +2173,7 @@ exports[`Radio radio checked 1`] = `
                   }
                   color="primary"
                   customcolor="primary"
+                  disabled={false}
                   icon={<ForwardRef(WithStyles) />}
                   onChange={[Function]}
                   type="radio"
@@ -2177,6 +2184,7 @@ exports[`Radio radio checked 1`] = `
                     color="primary"
                     component="span"
                     customcolor="primary"
+                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -2200,6 +2208,7 @@ exports[`Radio radio checked 1`] = `
                       color="primary"
                       component="span"
                       customcolor="primary"
+                      disabled={false}
                       onBlur={[Function]}
                       onFocus={[Function]}
                       tabIndex={null}
@@ -2260,6 +2269,7 @@ exports[`Radio radio checked 1`] = `
                               <input
                                 checked={true}
                                 className="PrivateSwitchBase-input-95"
+                                disabled={false}
                                 onChange={[Function]}
                                 type="radio"
                               />
@@ -3349,6 +3359,7 @@ exports[`Radio radio green checked 1`] = `
                 }
                 color="primary"
                 customcolor="green"
+                disabled={false}
                 icon={<ForwardRef(WithStyles) />}
                 onChange={[Function]}
                 type="radio"
@@ -3372,6 +3383,7 @@ exports[`Radio radio green checked 1`] = `
                   }
                   color="primary"
                   customcolor="green"
+                  disabled={false}
                   icon={<ForwardRef(WithStyles) />}
                   onChange={[Function]}
                   type="radio"
@@ -3382,6 +3394,7 @@ exports[`Radio radio green checked 1`] = `
                     color="primary"
                     component="span"
                     customcolor="green"
+                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -3405,6 +3418,7 @@ exports[`Radio radio green checked 1`] = `
                       color="primary"
                       component="span"
                       customcolor="green"
+                      disabled={false}
                       onBlur={[Function]}
                       onFocus={[Function]}
                       tabIndex={null}
@@ -3465,6 +3479,7 @@ exports[`Radio radio green checked 1`] = `
                               <input
                                 checked={true}
                                 className="PrivateSwitchBase-input-138"
+                                disabled={false}
                                 onChange={[Function]}
                                 type="radio"
                               />
@@ -4548,6 +4563,7 @@ exports[`Radio radio primary 1`] = `
                 }
                 color="primary"
                 customcolor="primary"
+                disabled={false}
                 icon={<ForwardRef(WithStyles) />}
                 onChange={[Function]}
                 type="radio"
@@ -4570,6 +4586,7 @@ exports[`Radio radio primary 1`] = `
                   }
                   color="primary"
                   customcolor="primary"
+                  disabled={false}
                   icon={<ForwardRef(WithStyles) />}
                   onChange={[Function]}
                   type="radio"
@@ -4580,6 +4597,7 @@ exports[`Radio radio primary 1`] = `
                     color="primary"
                     component="span"
                     customcolor="primary"
+                    disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
                     tabIndex={null}
@@ -4603,6 +4621,7 @@ exports[`Radio radio primary 1`] = `
                       color="primary"
                       component="span"
                       customcolor="primary"
+                      disabled={false}
                       onBlur={[Function]}
                       onFocus={[Function]}
                       tabIndex={null}
@@ -4662,6 +4681,7 @@ exports[`Radio radio primary 1`] = `
                             >
                               <input
                                 className="PrivateSwitchBase-input-52"
+                                disabled={false}
                                 onChange={[Function]}
                                 type="radio"
                               />
