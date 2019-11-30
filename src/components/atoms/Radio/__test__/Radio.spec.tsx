@@ -1,11 +1,13 @@
 import React from 'react'
 import Radio from '..'
 import { getTheme } from '../Radio'
-import { mount } from 'enzyme'
+import { mount, shallow } from 'enzyme'
 import renderer from 'react-test-renderer'
 import { get } from 'lodash'
 import { COLOR, ColorType, colorPalettes } from 'theme/colors'
 import { getRadioColor } from '../Radio.styled'
+import toJson from 'enzyme-to-json'
+// import 'jest-styled-components'
 
 describe('Radio', () => {
   it('get radio color', () => {
@@ -50,24 +52,23 @@ describe('Radio', () => {
   })
 
   it('radio', () => {
-    const AppRadio = renderer.create(<Radio />).toJSON()
-    expect(AppRadio).toMatchSnapshot()
+    const AppRadio = mount(<Radio />)
+    expect(toJson(AppRadio)).toMatchSnapshot()
   })
 
   it('radio primary', () => {
-    const AppRadio = renderer.create(<Radio customcolor="primary" />).toJSON()
-    expect(AppRadio).toMatchSnapshot()
+    const AppRadio = mount(<Radio customcolor="primary" />)
+    expect(toJson(AppRadio)).toMatchSnapshot()
   })
 
   it('radio checked', () => {
-    const CheckedAppRadio = renderer.create(<Radio checked={true} />).toJSON()
-    expect(CheckedAppRadio).toMatchSnapshot()
+    const CheckedAppRadio = mount(<Radio checked={true} />)
+    expect(toJson(CheckedAppRadio)).toMatchSnapshot()
   })
 
   it('radio green checked', () => {
-    const CheckedAppRadio = renderer
-      .create(<Radio checked={true} customcolor="green" />)
-      .toJSON()
-    expect(CheckedAppRadio).toMatchSnapshot()
+    const CheckedAppRadio = mount(<Radio checked={true} customcolor="green" />)
+
+    expect(toJson(CheckedAppRadio)).toMatchSnapshot()
   })
 })

@@ -4,6 +4,4 @@ import Adapter from 'enzyme-adapter-react-16'
 import 'jest-styled-components'
 
 configure({ adapter: new Adapter() })
-expect.addSnapshotSerializer(
-  createSerializer({ ignoreDefaultProps: true, noKey: false })
-)
+expect.addSnapshotSerializer(createSerializer())
