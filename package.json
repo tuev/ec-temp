@@ -26,6 +26,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "commit": "npx git-cz",
     "start": "npm run lint && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,7 +37,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test-no-watch": "react-scripts test --watchAll=false",
     "test:coverage": "yarn test -- --coverage --watchAll=false --env=jsdom",
-    "report": "codecov -t aa174e44-1e0b-41d1-a276-015d172903a0"
+    "report": "coveragepy -t aa174e44-1e0b-41d1-a276-015d172903a0"
   },
   "eslintConfig": {
     "extends": [
