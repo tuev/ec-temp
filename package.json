@@ -36,7 +36,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test-no-watch": "react-scripts test --watchAll=false",
     "test:coverage": "yarn test -- --coverage --watchAll=false --env=jsdom",
-    "report": "cat ./coverage/lcov.info | codecov"
+    "report": "codecov -t aa174e44-1e0b-41d1-a276-015d172903a0"
   },
   "eslintConfig": {
     "extends": [
@@ -94,6 +94,7 @@
     "babel-plugin-import": "~1.13.0",
     "babel-plugin-macros": "~2.7.1",
     "babel-plugin-styled-components": "~1.10.6",
+    "codecov": "^3.6.1",
     "cross-env": "~6.0.3",
     "css-loader": "~3.2.0",
     "enzyme-to-json": "~3.4.3",
