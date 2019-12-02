@@ -17,6 +17,7 @@ exports[`Modal renders modal when open flag is true 1`] = `
 }
 
 .c1 {
+  outline: none !important;
   background-color: #fff;
   border: 2px solid #2E2E2E;
   padding: 16px 32px 24px;
@@ -139,6 +140,7 @@ exports[`Modal renders modal when open flag is true 1`] = `
 }
 
 .c1 {
+  outline: none !important;
   background-color: #fff;
   border: 2px solid #2E2E2E;
   padding: 16px 32px 24px;
@@ -244,6 +246,10 @@ exports[`Modal renders modal when open flag is true 1`] = `
                             "lastClassName": "c1",
                             "rules": Array [
                               "
+  ",
+                              [Function],
+                              "
+  outline: none !important;
   background-color: ",
                               "#fff",
                               ";
