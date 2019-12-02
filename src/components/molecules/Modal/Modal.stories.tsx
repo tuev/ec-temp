@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import Modal from './Modal'
-import Button from '../../atoms/Button'
-import Typography from '../../atoms/Typography'
+import Button from 'components/atoms/Button'
+import Typography from 'components/atoms/Typography'
 
 export default {
   component: Modal,
@@ -11,17 +11,20 @@ export default {
 
 function BasicModal() {
   const [openModal, setOpenModal] = useState(false)
+  const handleOpen = useCallback(() => setOpenModal(true), [])
+  const handleClose = useCallback(() => setOpenModal(true), [])
+
   return (
     <>
       <Button
         color="primary"
         variant="contained"
         size="small"
-        onClick={() => setOpenModal(true)}
+        onClick={handleOpen}
       >
         open modal
       </Button>
-      <Modal open={openModal} onClose={() => setOpenModal(false)}>
+      <Modal open={openModal} onClose={handleClose}>
         <>
           <Typography customvariant="header3">My Title</Typography>
           <Typography customvariant="body2">

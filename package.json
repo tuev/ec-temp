@@ -36,7 +36,7 @@
     "build-storybook": "build-storybook -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test-no-watch": "react-scripts test --watchAll=false",
-    "test:coverage": "npm run test -- --coverage --watchAll=false --env=jsdom",
+    "test:coverage": "npm test -- --coverage --watchAll=false",
     "report": "coveragepy -t aa174e44-1e0b-41d1-a276-015d172903a0"
   },
   "eslintConfig": {

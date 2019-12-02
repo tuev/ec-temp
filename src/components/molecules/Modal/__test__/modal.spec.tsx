@@ -16,6 +16,8 @@ describe('Modal', () => {
       </div>
     )
 
+    expect(wrapper).toMatchSnapshot()
+
     const isOpen = wrapper.find(Modal).props().open
     expect(isOpen).toEqual(true)
 
