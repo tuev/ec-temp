@@ -1,6 +1,6 @@
 # EC-TEMP
 
-[![Build Status](https://travis-ci.com/tuev/ec-temp.svg?branch=master)](https://travis-ci.com/tuev/ec-temp)
+[![Build Status](https://travis-ci.com/tuev/ec-temp.svg?branch=master)](https://travis-ci.com/tuev/ec-temp) [![Build Status](https://travis-ci.com/tuev/ec-temp.svg?branch=master)](https://travis-ci.com/tuev/ec-temp) [![codecov](https://codecov.io/gh/tuev/ec-temp/branch/master/graph/badge.svg)](https://codecov.io/gh/tuev/ec-temp) [![Dependencies](https://david-dm.org/tuev/ec-temp.svg)](https://david-dm.org/tuev/ec-temp)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
