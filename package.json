@@ -36,8 +36,7 @@
     "build-storybook": "build-storybook -s public",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test-no-watch": "react-scripts test --watchAll=false",
-    "test:coverage": "npm test -- --coverage --watchAll=false",
-    "report": "coveragepy -t aa174e44-1e0b-41d1-a276-015d172903a0"
+    "test:coverage": "npm test -- --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": [
@@ -141,9 +140,6 @@
         "statements": 90
       }
     },
-    "coverageReporters": [
-      "text"
-    ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
