@@ -13,6 +13,7 @@ export const AppModal: React.FC<BaseModalProps> = styled(Modal)<BaseModalProps>`
 
 export const AppModalContent: React.FC = styled.div`
   ${space}
+  outline: none !important;
   background-color: ${COLOR.white};
   border: 2px solid ${COLOR.black};
   padding: 16px 32px 24px;

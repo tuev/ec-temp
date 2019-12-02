@@ -12,7 +12,7 @@ export default {
 function BasicModal() {
   const [openModal, setOpenModal] = useState(false)
   const handleOpen = useCallback(() => setOpenModal(true), [])
-  const handleClose = useCallback(() => setOpenModal(true), [])
+  const handleClose = useCallback(() => setOpenModal(false), [])
 
   return (
     <>
@@ -24,7 +24,11 @@ function BasicModal() {
       >
         open modal
       </Button>
-      <Modal open={openModal} onClose={handleClose}>
+      <Modal
+        open={openModal}
+        onClose={handleClose}
+        onBackdropClick={handleClose}
+      >
         <>
           <Typography customvariant="header3">My Title</Typography>
           <Typography customvariant="body2">
