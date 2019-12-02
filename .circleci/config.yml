@@ -1,4 +1,16 @@
 version: 2.1 # use CircleCI 2.1
+machine:
+  environment:
+    PATH: '${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin'
+
+dependencies:
+  override:
+    - yarn
+  cache_directories:
+    - ~/.cache/yarn
+  pre:
+    - yarn global add now
+
 jobs:
   build:
     docker:
@@ -8,16 +20,16 @@ jobs:
 
       - run:
           name: Install dependencies with NPM
-          command: npm install # replace with `yarn install` if using yarn
+          command: yarn install # replace with `yarn install` if using yarn
 
       - run:
           name: Check if yarn lint was run
-          command: npm run lint
+          command: yarn lint
 
       - run:
           name: Run tests
           # Runs jest with "--maxWorkers=2" argument to avoid OOM issues
-          command: npm run test:coverage # replace with `yarn test` if using yarn
+          command: yarn test:coverage # replace with `yarn test` if using yarn
 
       - run:
           name: Coverage
