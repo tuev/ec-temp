@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders modal when open flag is true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  outline: none !important;
+  background-color: #fff;
+  border: 2px solid #2E2E2E;
+  padding: 16px 32px 24px;
+  width: 80%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+<div
+  id="root"
+>
+  <Modal
+    open={true}
+  >
+    <Styled(Component)
+      open={true}
+    >
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+  ",
+                [Function],
+                "
+  display: flex;
+  align-items: center;
+  justify-content: center;
+",
+              ],
+            },
+            "displayName": "Styled(Component)",
+            "foldedComponentIds": Array [],
+            "propTypes": Object {
+              "BackdropComponent": [Function],
+              "BackdropProps": [Function],
+              "children": [Function],
+              "closeAfterTransition": [Function],
+              "container": [Function],
+              "disableAutoFocus": [Function],
+              "disableBackdropClick": [Function],
+              "disableEnforceFocus": [Function],
+              "disableEscapeKeyDown": [Function],
+              "disablePortal": [Function],
+              "disableRestoreFocus": [Function],
+              "disableScrollLock": [Function],
+              "hideBackdrop": [Function],
+              "keepMounted": [Function],
+              "manager": [Function],
+              "onBackdropClick": [Function],
+              "onClose": [Function],
+              "onEscapeKeyDown": [Function],
+              "onRendered": [Function],
+              "open": [Function],
+            },
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "BackdropComponent": [Function],
+                "BackdropProps": [Function],
+                "children": [Function],
+                "closeAfterTransition": [Function],
+                "container": [Function],
+                "disableAutoFocus": [Function],
+                "disableBackdropClick": [Function],
+                "disableEnforceFocus": [Function],
+                "disableEscapeKeyDown": [Function],
+                "disablePortal": [Function],
+                "disableRestoreFocus": [Function],
+                "disableScrollLock": [Function],
+                "hideBackdrop": [Function],
+                "keepMounted": [Function],
+                "manager": [Function],
+                "onBackdropClick": [Function],
+                "onClose": [Function],
+                "onEscapeKeyDown": [Function],
+                "onRendered": [Function],
+                "open": [Function],
+              },
+              "render": [Function],
+            },
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        open={true}
+      >
+        <ForwardRef(Modal)
+          className="c0"
+          open={true}
+        >
+          <ForwardRef(Portal)
+            disablePortal={false}
+          >
+            <Portal
+              containerInfo={
+                .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  outline: none !important;
+  background-color: #fff;
+  border: 2px solid #2E2E2E;
+  padding: 16px 32px 24px;
+  width: 80%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+<body
+                  style="overflow: hidden; padding-right: 0px;"
+                >
+                  <div
+                    class="c0"
+                    role="presentation"
+                    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+                  >
+                    <div
+                      aria-hidden="true"
+                      style="z-index: -1; position: fixed; right: 0px; bottom: 0px; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5);"
+                    />
+                    <div
+                      data-test="sentinelStart"
+                      tabindex="0"
+                    />
+                    <div
+                      class="c1"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="title"
+                      >
+                        Modal Title
+                      </div>
+                    </div>
+                    <div
+                      data-test="sentinelEnd"
+                      tabindex="0"
+                    />
+                  </div>
+                </body>
+              }
+            >
+              <div
+                className="c0"
+                onKeyDown={[Function]}
+                role="presentation"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "fixed",
+                    "right": 0,
+                    "top": 0,
+                    "zIndex": 1300,
+                  }
+                }
+              >
+                <ForwardRef(SimpleBackdrop)
+                  onClick={[Function]}
+                  open={true}
+                >
+                  <div
+                    aria-hidden={true}
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "WebkitTapHighlightColor": "transparent",
+                        "backgroundColor": "rgba(0, 0, 0, 0.5)",
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "fixed",
+                        "right": 0,
+                        "top": 0,
+                        "touchAction": "none",
+                        "zIndex": -1,
+                      }
+                    }
+                  />
+                </ForwardRef(SimpleBackdrop)>
+                <TrapFocus
+                  disableAutoFocus={false}
+                  disableEnforceFocus={false}
+                  disableRestoreFocus={false}
+                  getDoc={[Function]}
+                  isEnabled={[Function]}
+                  open={true}
+                >
+                  <div
+                    data-test="sentinelStart"
+                    tabIndex={0}
+                  />
+                  <styled.div
+                    tabIndex="-1"
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": false,
+                            "lastClassName": "c1",
+                            "rules": Array [
+                              "
+  ",
+                              [Function],
+                              "
+  outline: none !important;
+  background-color: ",
+                              "#fff",
+                              ";
+  border: 2px solid ",
+                              "#2E2E2E",
+                              ";
+  padding: 16px 32px 24px;
+  width: 80%;
+  max-height: 100%;
+  overflow-y: auto;
+",
+                            ],
+                          },
+                          "displayName": "styled.div",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={[Function]}
+                      tabIndex="-1"
+                    >
+                      <div
+                        className="c1"
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="title"
+                        >
+                          Modal Title
+                        </div>
+                      </div>
+                    </StyledComponent>
+                  </styled.div>
+                  <div
+                    data-test="sentinelEnd"
+                    tabIndex={0}
+                  />
+                </TrapFocus>
+              </div>
+            </Portal>
+          </ForwardRef(Portal)>
+        </ForwardRef(Modal)>
+      </StyledComponent>
+    </Styled(Component)>
+  </Modal>
+</div>
+`;

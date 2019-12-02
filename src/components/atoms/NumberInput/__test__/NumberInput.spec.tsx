@@ -1,11 +1,12 @@
 import React from 'react'
-import { mount } from 'enzyme'
+import { shallow } from 'enzyme'
 import NumberInput from '..'
+import toJson from 'enzyme-to-json'
 
 describe('Number Input', () => {
   it('Number input', () => {
-    const AppNumberInput = mount(<NumberInput />)
+    const AppNumberInput = shallow(<NumberInput />)
 
-    expect(AppNumberInput).toMatchSnapshot()
+    expect(toJson(AppNumberInput)).toMatchSnapshot()
   })
 })
