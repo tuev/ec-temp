@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import ReactDOM from 'react-dom'
+import React, { useState, useCallback } from 'react'
 import { mount } from 'enzyme'
 import Modal from '..'
 
@@ -8,11 +7,10 @@ import Modal from '..'
 
 function WithModal() {
   const [openModal, setOpenModal] = useState(false)
+  const onClose = useCallback(() => setOpenModal(false), [])
   return (
-    <Modal onClose={() => setOpenModal(false)} open={openModal}>
-      <div>
-        Hello World
-        </div>
+    <Modal onClose={onClose} open={openModal}>
+      <div>Hello World</div>
     </Modal>
   )
 }
@@ -38,9 +36,9 @@ describe('Modal', () => {
   })
 
   it('closes the Modal when ESC key is pressed', () => {
-    const wrapper = mount(<WithModal />);
+    const wrapper = mount(<WithModal />)
     const evt = new KeyboardEvent('keydown', { keyCode: 27 } as any)
     document.dispatchEvent(evt)
     expect(wrapper.find(Modal).props().open).toEqual(false)
-  });
+  })
 })
