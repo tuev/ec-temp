@@ -9,7 +9,7 @@ export default {
   includeStories: ['basic'],
 }
 
-function BasicModal() {
+const BasicModal = () => {
   const [openModal, setOpenModal] = useState(false)
   const handleOpen = useCallback(() => setOpenModal(true), [])
   const handleClose = useCallback(() => setOpenModal(false), [])
