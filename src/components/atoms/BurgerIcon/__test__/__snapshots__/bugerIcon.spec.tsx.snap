@@ -110,13 +110,13 @@ exports[`Burger icon basic burger icon 1`] = `
     position: relative;
     transform-origin: 1px;
 
-    :first-child {
+    &:first-child {
       transform: ",
               [Function],
               ";
     }
 
-    :nth-child(2) {
+    &:nth-child(2) {
       opacity: ",
               [Function],
               ";
@@ -125,7 +125,7 @@ exports[`Burger icon basic burger icon 1`] = `
               ";
     }
 
-    :nth-child(3) {
+    &:nth-child(3) {
       transform: ",
               [Function],
               ";
@@ -273,13 +273,13 @@ exports[`Burger icon green green 1`] = `
     position: relative;
     transform-origin: 1px;
 
-    :first-child {
+    &:first-child {
       transform: ",
               [Function],
               ";
     }
 
-    :nth-child(2) {
+    &:nth-child(2) {
       opacity: ",
               [Function],
               ";
@@ -288,7 +288,7 @@ exports[`Burger icon green green 1`] = `
               ";
     }
 
-    :nth-child(3) {
+    &:nth-child(3) {
       transform: ",
               [Function],
               ";
@@ -436,13 +436,13 @@ exports[`Burger icon opned burger icon btn 1`] = `
     position: relative;
     transform-origin: 1px;
 
-    :first-child {
+    &:first-child {
       transform: ",
               [Function],
               ";
     }
 
-    :nth-child(2) {
+    &:nth-child(2) {
       opacity: ",
               [Function],
               ";
@@ -451,7 +451,7 @@ exports[`Burger icon opned burger icon btn 1`] = `
               ";
     }
 
-    :nth-child(3) {
+    &:nth-child(3) {
       transform: ",
               [Function],
               ";
