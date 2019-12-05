@@ -7,4 +7,4 @@ export interface INumberInputProps
   variant?: 'standard' | 'outlined' | 'filled'
 }
 
-export declare type BaseNumberInputProps = SpaceProps & INumberInputProps
+export declare type BaseNumberInputProps = SpaceProps | INumberInputProps

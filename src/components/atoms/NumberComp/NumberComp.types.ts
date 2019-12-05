@@ -6,6 +6,6 @@ export interface INumberCompProps
   children?: null
 }
 
-export type BaseNumberProps = INumberCompProps & SpaceProps
+export type BaseNumberProps = INumberCompProps | SpaceProps
 
 export type NumberButton = Omit<INumberCompProps, 'data'>
