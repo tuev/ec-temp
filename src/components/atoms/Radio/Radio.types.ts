@@ -11,4 +11,4 @@ export interface IRadioProps extends RadioProps {
 export type GetTheme = (color?: ColorType) => Theme
 export type getColor = (props: BaseRadioProps) => ColorValues
 
-export declare type BaseRadioProps = IRadioProps | SpaceProps
+export declare type BaseRadioProps = IRadioProps & SpaceProps

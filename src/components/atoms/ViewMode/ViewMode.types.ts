@@ -6,4 +6,4 @@ export interface IViewModeProps extends Omit<FabProps, 'type'> {
   type: 'list' | 'grid'
 }
 
-export declare type BaseViewModeProps = IViewModeProps | SpaceProps
+export declare type BaseViewModeProps = IViewModeProps & SpaceProps

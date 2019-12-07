@@ -8,6 +8,6 @@ interface IValueLabel {
   showlabel?: boolean | 1 | 0
 }
 
-export declare type BaseSliderProps = SliderProps | SpaceProps | IValueLabel
+export declare type BaseSliderProps = SliderProps & SpaceProps & IValueLabel
 
-export type ValueLabelProps = BaseValueLabel | IValueLabel
+export type ValueLabelProps = BaseValueLabel & IValueLabel

@@ -25,4 +25,4 @@ export interface ITypography extends TypographyProps {
 
 // export type GetColor = (color?: string) => string
 
-export declare type BaseTypographyProps = SpaceProps | ITypography
+export declare type BaseTypographyProps = SpaceProps & ITypography
