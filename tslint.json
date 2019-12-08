@@ -9,7 +9,14 @@
   "rules": {
     "no-implicit-dependencies": [
       true,
-      ["components", "containers", "theme", "@storybook", "utils"]
+      [
+        "components",
+        "containers",
+        "theme",
+        "@storybook",
+        "utils",
+        "@testing-library/react"
+      ]
     ],
     "no-submodule-imports": false,
     "ordered-imports": false,
