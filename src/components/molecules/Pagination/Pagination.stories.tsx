@@ -9,7 +9,7 @@ export default {
 }
 
 export const basic = () => {
-  return <Pagination />
+  return <Pagination total={5} page={3} step={5} />
 }
 
 export const example = () => {
@@ -34,85 +34,85 @@ export const example = () => {
 }
 
 const Pagination1 = () => {
-  const props = { total: 0, current: 0, step: 5 }
+  const props = { total: 0, page: 0, step: 5 }
   const handleChange = useCallback(page => console.log('page'), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination2 = () => {
-  const props = { total: 0, current: 1, step: 5 }
+  const props = { total: 0, page: 1, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination3 = () => {
-  const props = { total: 1, current: 1, step: 5 }
+  const props = { total: 1, page: 1, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination4 = () => {
-  const props = { total: 3, current: 1, step: 5 }
+  const props = { total: 3, page: 1, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination5 = () => {
-  const props = { total: 5, current: 1, step: 5 }
+  const props = { total: 5, page: 3, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination6 = () => {
-  const props = { total: 5, current: 1, step: 5 }
+  const props = { total: 5, page: 1, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination7 = () => {
-  const props = { total: 5, current: 5, step: 5 }
+  const props = { total: 5, page: 5, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination8 = () => {
-  const props = { total: 5, current: 5, step: 5 }
+  const props = { total: 5, page: 5, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination9 = () => {
-  const props = { total: 6, current: 5, step: 5 }
+  const props = { total: 6, page: 5, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination10 = () => {
-  const props = { total: 6, current: 6, step: 5 }
+  const props = { total: 6, page: 6, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination11 = () => {
-  const props = { total: 8, current: 1, step: 5 }
+  const props = { total: 8, page: 1, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination12 = () => {
-  const props = { total: 8, current: 6, step: 5 }
+  const props = { total: 8, page: 6, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination13 = () => {
-  const props = { total: 8, current: 6, step: 5 }
+  const props = { total: 8, page: 6, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }
 
 const Pagination14 = () => {
-  const props = { total: 12, current: 6, step: 5 }
+  const props = { total: 12, page: 6, step: 5 }
   const handleChange = useCallback(page => console.log(page), [])
   return <Pagination {...props} onChange={handleChange} />
 }

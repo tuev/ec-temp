@@ -1,19 +1,11 @@
-import React, { FC, useMemo, useCallback, ReactEventHandler } from 'react'
+import React, { FC, useMemo, useCallback } from 'react'
 import {
   PaginationWrapper,
   PaginationIcon,
   PaginationNumber,
 } from './Pagination.styled'
-import {
-  PaginationType,
-  GetRangePage,
-  GetPageItem,
-  MemoFirstPageDisabled,
-  MemoLastPageDisabled,
-  MemoPreviousDisabled,
-  MemoNextDisabled,
-} from './Pagination.types'
-import { flow } from 'lodash'
+import { PaginationType } from './Pagination.types'
+import { flow, get } from 'lodash'
 
 import {
   ChevronLeft,
@@ -21,111 +13,107 @@ import {
   LastPage,
   FirstPage,
 } from '@material-ui/icons'
+import * as utils from './utils'
 
-export const getRangePage: GetRangePage = ({ total, current, step }) => {
-  if (total === 0) {
-    return [0, 0]
-  }
-  const currentStep = Math.ceil(current / step)
-  const max = currentStep * step
-  const min = max - step + 1
-  // console.log(currentStep, min, max, current, step, 'min - max')
-  return [min < 1 ? 1 : min, max > total ? total : max]
-}
-
-export const getPageItem: GetPageItem = ([min = 1, max = 1]) =>
-  Array.apply(null, Array(max - min + 1)).map((_, index) => index + min || 1)
-
-export const memoFirstPageDisabled: MemoFirstPageDisabled = page => page === 1
-export const memoLastPageDisabled: MemoLastPageDisabled = ({ page, total }) =>
-  page === total
-
-export const memoPreviousDisabled: MemoPreviousDisabled = ({ page, step }) =>
-  page - step <= 0
-
-export const memoNextDisabled: MemoNextDisabled = ({ page, step, total }) =>
-  page + step >= total
-export const Pagination: FC<PaginationType> = ({
-  total = 1,
-  current = 1,
-  step = 5,
-  onChange,
-}) => {
+export const Pagination: FC<PaginationType> = props => {
+  const onChange = get(props, 'onChange', utils.defaultOnChange)
+  const defaultSkip = +get(process.env, 'SKIP', 5)
+  const { page, total, step } = utils.getDefaultValue({
+    page: get(props, 'page', 1),
+    step: get(props, 'step', defaultSkip),
+    total: get(props, 'total', 1),
+  })
   /* ---------------------------------- Memo ---------------------------------- */
 
-  const isFirstPageDisabled = useMemo(() => memoFirstPageDisabled(current), [
-    current,
-  ])
+  const isFirstPageDisabled = useMemo(
+    () => utils.memoFirstPageDisabled({ page, step }),
+    [page, step]
+  )
   const isLastPageDisabled = useMemo(
-    () => memoLastPageDisabled({ total, page: current }),
-    [total, current]
+    () => utils.memoLastPageDisabled({ total, page, step }),
+    [total, page, step]
   )
   const isPreviousDisabled = useMemo(
-    () => memoPreviousDisabled({ page: current, step }),
-    [current, step]
+    () => utils.memoPreviousDisabled({ page, step }),
+    [page, step]
   )
   const isNextDisabled = useMemo(
-    () => memoNextDisabled({ page: current, total, step }),
-    [total, current, step]
+    () => utils.memoNextDisabled({ page, total, step }),
+    [total, page, step]
   )
   const rangePage = useMemo(
-    () => flow(getRangePage, getPageItem)({ total, current, step }),
-    [current, step, total]
+    () => flow(utils.getRangePage, utils.getPageItem)({ total, page, step }),
+    [page, step, total]
   )
-
+  const lastPage = useMemo(() => utils.memoLastPage({ total, step }), [
+    step,
+    total,
+  ])
+  const nextStepPage = useMemo(
+    () => utils.memoNextStep({ page, step, total }),
+    [page, step, total]
+  )
+  const prevStepPage = useMemo(() => utils.memoPrevStep({ page, step }), [
+    page,
+    step,
+  ])
   /* -------------------------------- Callback -------------------------------- */
 
-  const handleFirstPageSelect = useCallback(() => onChange && onChange(1), [
+  const handleFirstPageSelect = useCallback(() => onChange(1), [onChange])
+  const handleLastPageSelect = useCallback(() => onChange(lastPage), [
+    lastPage,
     onChange,
   ])
-  const handleLastPageSelect = useCallback(
-    () => onChange && onChange(Math.ceil(total / step)),
-    [onChange, step, total]
-  )
-  const handleNextPageSelect = useCallback(() => {
-    const currentStep = Math.floor(current / step) + 1
-    return onChange && onChange(currentStep + 1)
-  }, [current, onChange, step])
-  const handlePreviousPageSelect = useCallback(() => {
-    const currentStep = Math.ceil(current / step) - 1
-    return currentStep + 1
-  }, [current, step])
+  const handleNextStepSelect = useCallback(() => onChange(nextStepPage), [
+    nextStepPage,
+    onChange,
+  ])
+  const handlePreviousStepSelect = useCallback(() => onChange(prevStepPage), [
+    onChange,
+    prevStepPage,
+  ])
 
   // TODO: Need to define type for high order functional
-  const handlePageSelect = useCallback(
-    data => () => onChange && onChange(data),
-    [onChange]
-  )
+  const handlePageSelect = useCallback(data => () => onChange(data), [onChange])
 
   return (
     <PaginationWrapper display="flex">
       <PaginationIcon
         disabled={isFirstPageDisabled}
         onClick={handleFirstPageSelect}
+        data-testid="pagination-first-page"
       >
         <FirstPage />
       </PaginationIcon>
       <PaginationIcon
         disabled={isPreviousDisabled}
-        onClick={handlePreviousPageSelect}
+        onClick={handlePreviousStepSelect}
+        data-testid="pagination-previous-page"
       >
         <ChevronLeft />
       </PaginationIcon>
       {rangePage.map(data => (
         <PaginationNumber
           key={data}
-          active={current === data ? 1 : 0}
+          active={+(page === data)}
           onClick={handlePageSelect(data)}
+          data-testid={`pagination-page-${data}`}
         >
           <span>{data}</span>
         </PaginationNumber>
       ))}
-      <PaginationIcon disabled={isNextDisabled} onChange={handleNextPageSelect}>
+
+      <PaginationIcon
+        disabled={isNextDisabled}
+        onClick={handleNextStepSelect}
+        data-testid="pagination-next-page"
+      >
         <ChevronRight />
       </PaginationIcon>
       <PaginationIcon
         disabled={isLastPageDisabled}
         onClick={handleLastPageSelect}
+        data-testid="pagination-last-page"
       >
         <LastPage />
       </PaginationIcon>
