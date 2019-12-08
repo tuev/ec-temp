@@ -26,6 +26,10 @@ export const PaginationIcon: React.FC<FabProps> = styled(Fab)<FabProps>`
   }
 `
 
+export const PaginationNumberWrapper = styled.div`
+  display: block;
+  padding: 0 16px;
+`
 export const PaginationNumber: React.FC<PaginationNumberType> = styled(Fab)<
   PaginationNumberType
 >`

@@ -3,6 +3,7 @@ import {
   PaginationWrapper,
   PaginationIcon,
   PaginationNumber,
+  PaginationNumberWrapper,
 } from './Pagination.styled'
 import { PaginationType } from './Pagination.types'
 import { flow, get } from 'lodash'
@@ -92,16 +93,18 @@ export const Pagination: FC<PaginationType> = props => {
       >
         <ChevronLeft />
       </PaginationIcon>
-      {rangePage.map(data => (
-        <PaginationNumber
-          key={data}
-          active={+(page === data)}
-          onClick={handlePageSelect(data)}
-          data-testid={`pagination-page-${data}`}
-        >
-          <span>{data}</span>
-        </PaginationNumber>
-      ))}
+      <PaginationNumberWrapper>
+        {rangePage.map(data => (
+          <PaginationNumber
+            key={data}
+            active={+(page === data)}
+            onClick={handlePageSelect(data)}
+            data-testid={`pagination-page-${data}`}
+          >
+            <span>{data}</span>
+          </PaginationNumber>
+        ))}
+      </PaginationNumberWrapper>
 
       <PaginationIcon
         disabled={isNextDisabled}

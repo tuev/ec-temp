@@ -25,6 +25,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -89,24 +94,28 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -211,24 +220,28 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -357,6 +370,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -421,24 +439,28 @@ Object {
               </svg>
             </span>
           </button>
-          <button
-            active="1"
-            class="MuiButtonBase-root MuiFab-root c2"
-            data-testid="pagination-page-1"
-            tabindex="0"
-            type="button"
+          <div
+            class="c2"
           >
-            <span
-              class="MuiFab-label"
+            <button
+              active="1"
+              class="MuiButtonBase-root MuiFab-root c3"
+              data-testid="pagination-page-1"
+              tabindex="0"
+              type="button"
             >
-              <span>
-                1
+              <span
+                class="MuiFab-label"
+              >
+                <span>
+                  1
+                </span>
               </span>
-            </span>
-            <span
-              class="MuiTouchRipple-root"
-            />
-          </button>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
           <button
             class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
             data-testid="pagination-next-page"
@@ -545,24 +567,28 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="sc-htpNat fFJGwb"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -692,6 +718,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -755,24 +786,28 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -877,24 +912,28 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -1023,6 +1062,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -1086,24 +1130,28 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -1208,24 +1256,28 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -1354,6 +1406,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -1362,7 +1419,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -1426,60 +1483,64 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -1584,60 +1645,64 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -1766,6 +1831,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -1774,7 +1844,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -1838,96 +1908,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -2032,96 +2106,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -2249,7 +2327,12 @@ Object {
   margin-left: 16px !important;
 }
 
-.c3 {
+.c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -2258,7 +2341,7 @@ Object {
   color: #fff !important;
 }
 
-.c2 {
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -2322,96 +2405,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -2516,96 +2603,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -2733,7 +2824,12 @@ Object {
   margin-left: 16px !important;
 }
 
-.c3 {
+.c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -2742,7 +2838,7 @@ Object {
   color: #fff !important;
 }
 
-.c2 {
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -2806,96 +2902,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -3000,96 +3100,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -3217,7 +3321,12 @@ Object {
   margin-left: 16px !important;
 }
 
-.c3 {
+.c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -3226,7 +3335,7 @@ Object {
   color: #fff !important;
 }
 
-.c2 {
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -3290,96 +3399,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -3484,96 +3597,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -3701,7 +3818,12 @@ Object {
   margin-left: 16px !important;
 }
 
-.c3 {
+.c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -3710,7 +3832,7 @@ Object {
   color: #fff !important;
 }
 
-.c2 {
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -3774,96 +3896,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1"
           data-testid="pagination-next-page"
@@ -3972,96 +4098,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM"
         data-testid="pagination-next-page"
@@ -4194,6 +4324,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -4261,24 +4396,28 @@ Object {
             class="MuiTouchRipple-root"
           />
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-6"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-6"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              6
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                6
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -4387,24 +4526,28 @@ Object {
           class="MuiTouchRipple-root"
         />
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-6"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-6"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            6
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              6
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -4533,6 +4676,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -4541,7 +4689,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -4605,96 +4753,100 @@ Object {
             </svg>
           </span>
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-1"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-1"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              1
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                1
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-2"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-2"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              2
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                2
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-3"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-3"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              3
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                3
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-4"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-4"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              4
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                4
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-5"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-5"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              5
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                5
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1"
           data-testid="pagination-next-page"
@@ -4803,96 +4955,100 @@ Object {
           </svg>
         </span>
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-1"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-1"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            1
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              1
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-2"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-2"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            2
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              2
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-3"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-3"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            3
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              3
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-4"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-4"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            4
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              4
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-5"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-5"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            5
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              5
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM"
         data-testid="pagination-next-page"
@@ -5025,6 +5181,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5033,7 +5194,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5101,60 +5262,64 @@ Object {
             class="MuiTouchRipple-root"
           />
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-6"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-6"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              6
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                6
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-7"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-7"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              7
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                7
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-8"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-8"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              8
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                8
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -5263,60 +5428,64 @@ Object {
           class="MuiTouchRipple-root"
         />
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-6"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-6"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            6
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              6
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-7"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-7"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            7
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              7
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-8"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-8"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            8
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              8
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -5445,6 +5614,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5453,7 +5627,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5521,60 +5695,64 @@ Object {
             class="MuiTouchRipple-root"
           />
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-6"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-6"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              6
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                6
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-7"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-7"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              7
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                7
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-8"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-8"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              8
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                8
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1 Mui-disabled Mui-disabled"
           data-testid="pagination-next-page"
@@ -5683,60 +5861,64 @@ Object {
           class="MuiTouchRipple-root"
         />
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-6"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-6"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            6
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              6
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-7"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-7"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            7
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              7
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-8"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-8"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            8
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              8
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM Mui-disabled Mui-disabled"
         data-testid="pagination-next-page"
@@ -5865,6 +6047,11 @@ Object {
 }
 
 .c2 {
+  display: block;
+  padding: 0 16px;
+}
+
+.c3 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5873,7 +6060,7 @@ Object {
   color: #fff !important;
 }
 
-.c3 {
+.c4 {
   width: 36px !important;
   height: 36px !important;
   outline: none !important;
@@ -5941,96 +6128,100 @@ Object {
             class="MuiTouchRipple-root"
           />
         </button>
-        <button
-          active="1"
-          class="MuiButtonBase-root MuiFab-root c2"
-          data-testid="pagination-page-6"
-          tabindex="0"
-          type="button"
+        <div
+          class="c2"
         >
-          <span
-            class="MuiFab-label"
+          <button
+            active="1"
+            class="MuiButtonBase-root MuiFab-root c3"
+            data-testid="pagination-page-6"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              6
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                6
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-7"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-7"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              7
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                7
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-8"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-8"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              8
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                8
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-9"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-9"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              9
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                9
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
-        <button
-          active="0"
-          class="MuiButtonBase-root MuiFab-root c3"
-          data-testid="pagination-page-10"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="MuiFab-label"
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            active="0"
+            class="MuiButtonBase-root MuiFab-root c4"
+            data-testid="pagination-page-10"
+            tabindex="0"
+            type="button"
           >
-            <span>
-              10
+            <span
+              class="MuiFab-label"
+            >
+              <span>
+                10
+              </span>
             </span>
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </button>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
         <button
           class="MuiButtonBase-root MuiFab-root c1"
           data-testid="pagination-next-page"
@@ -6143,96 +6334,100 @@ Object {
           class="MuiTouchRipple-root"
         />
       </button>
-      <button
-        active="1"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eDWQOm"
-        data-testid="pagination-page-6"
-        tabindex="0"
-        type="button"
+      <div
+        class="sc-htpNat fFJGwb"
       >
-        <span
-          class="MuiFab-label"
+        <button
+          active="1"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb hnONdU"
+          data-testid="pagination-page-6"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            6
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              6
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-7"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-7"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            7
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              7
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-8"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-8"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            8
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              8
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-9"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-9"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            9
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              9
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
-      <button
-        active="0"
-        class="MuiButtonBase-root MuiFab-root sc-htpNat eFVYUO"
-        data-testid="pagination-page-10"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiFab-label"
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          active="0"
+          class="MuiButtonBase-root MuiFab-root sc-bxivhb gvEfVf"
+          data-testid="pagination-page-10"
+          tabindex="0"
+          type="button"
         >
-          <span>
-            10
+          <span
+            class="MuiFab-label"
+          >
+            <span>
+              10
+            </span>
           </span>
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
       <button
         class="MuiButtonBase-root MuiFab-root sc-bwzfXH kdUkpM"
         data-testid="pagination-next-page"
