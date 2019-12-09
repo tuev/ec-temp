@@ -24,7 +24,7 @@ export const getRangePage: GetRangePage = ({ total, page, step }) => {
 }
 
 export const getPageItem: GetPageItem = ([min, max]) =>
-  Array.apply(null, Array(max - min + 1)).map((_, index) => index + min || 1)
+  [...Array(max - min + 1)].map((_, index) => index + min || 1)
 
 export const memoFirstPageDisabled: MemoFirstPageDisabled = ({ page, step }) =>
   Math.ceil(page / step) === 1

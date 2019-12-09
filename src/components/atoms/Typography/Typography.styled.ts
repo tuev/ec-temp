@@ -4,7 +4,7 @@ import { COLOR } from 'theme/colors'
 import styled, { css } from 'styled-components'
 import { BaseTypographyProps } from './Typography.types'
 import { Typography } from '@material-ui/core'
-import { prop, switchProp } from 'styled-tools'
+import { switchProp } from 'styled-tools'
 
 export const AppTypography = styled(Typography)<BaseTypographyProps>`
   ${space};
