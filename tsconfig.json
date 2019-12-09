@@ -21,5 +21,6 @@
     "sourceMap": true,
     "rootDirs": ["src", "stories"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/*.spec.tsx", "**/*.stories.tsx"]
 }

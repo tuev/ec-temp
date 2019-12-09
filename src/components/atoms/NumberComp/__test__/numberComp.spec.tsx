@@ -17,7 +17,6 @@ describe('App number component input', () => {
       display: 'inline-flex',
       'justify-content': 'center',
       'align-items': 'center',
-      'background-color': 'transparent',
       'outline-color': 'transparent',
       'outline-style': 'none',
       cursor: 'pointer',
