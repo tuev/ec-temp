@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Burger icon basic burger icon 1`] = `
+.c0 {
+  position: absolute;
+  top: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<BurgerIcon>
+  <styled.button>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              ";
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: ",
+              [Function],
+              ";
+    height: 0.25rem;
+    background: ",
+              [Function],
+              ";
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+
+    &:first-child {
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(2) {
+      opacity: ",
+              [Function],
+              ";
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(3) {
+      transform: ",
+              [Function],
+              ";
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <button
+        className="c0"
+      >
+        <div />
+        <div />
+        <div />
+      </button>
+    </StyledComponent>
+  </styled.button>
+</BurgerIcon>
+`;
+
+exports[`Burger icon green green 1`] = `
+.c0 {
+  position: absolute;
+  top: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #00D3CA;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<BurgerIcon
+  color="green"
+>
+  <styled.button
+    color="green"
+  >
+    <StyledComponent
+      color="green"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              ";
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: ",
+              [Function],
+              ";
+    height: 0.25rem;
+    background: ",
+              [Function],
+              ";
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+
+    &:first-child {
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(2) {
+      opacity: ",
+              [Function],
+              ";
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(3) {
+      transform: ",
+              [Function],
+              ";
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <button
+        className="c0"
+        color="green"
+      >
+        <div />
+        <div />
+        <div />
+      </button>
+    </StyledComponent>
+  </styled.button>
+</BurgerIcon>
+`;
+
+exports[`Burger icon opned burger icon btn 1`] = `
+.c0 {
+  position: absolute;
+  top: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<BurgerIcon
+  open={true}
+>
+  <styled.button
+    open={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              ";
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+
+  &:focus {
+    outline: none;
+  }
+
+  div {
+    width: ",
+              [Function],
+              ";
+    height: 0.25rem;
+    background: ",
+              [Function],
+              ";
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+
+    &:first-child {
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(2) {
+      opacity: ",
+              [Function],
+              ";
+      transform: ",
+              [Function],
+              ";
+    }
+
+    &:nth-child(3) {
+      transform: ",
+              [Function],
+              ";
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.button",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "button",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      open={true}
+    >
+      <button
+        className="c0"
+        open={true}
+      >
+        <div />
+        <div />
+        <div />
+      </button>
+    </StyledComponent>
+  </styled.button>
+</BurgerIcon>
+`;
