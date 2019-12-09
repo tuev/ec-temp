@@ -5,7 +5,7 @@ import Modal from '..'
 // refer test modal
 // link: https://medium.com/front-end-weekly/tested-react-build-and-test-modal-using-react-features-and-dom-events-39b7246a3a6f
 
-function WithModal() {
+const WithModal: () => JSX.Element = () => {
   const [openModal, setOpenModal] = useState(false)
   const onClose = useCallback(() => setOpenModal(false), [])
   return (
@@ -37,7 +37,9 @@ describe('Modal', () => {
 
   it('closes the Modal when ESC key is pressed', () => {
     const wrapper = mount(<WithModal />)
-    const evt = new KeyboardEvent('keydown', { keyCode: 27 } as any)
+    const evt = new KeyboardEvent('keydown', ({
+      keyCode: 27,
+    } as unknown) as KeyboardEventInit)
     document.dispatchEvent(evt)
     expect(wrapper.find(Modal).props().open).toEqual(false)
   })
