@@ -1,0 +1,1314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App color filter Test get default color filter  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  color: #6EB2FB !important;
+}
+
+.c0 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c0 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c1 {
+  color: #F62F5E !important;
+}
+
+.c1 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c1 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c2 {
+  color: #00D3CA !important;
+}
+
+.c2 svg:first-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c2 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c3 {
+  color: ##EFFC90 !important;
+}
+
+.c3 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c3 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c4 {
+  color: #2E2E2E !important;
+}
+
+.c4 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c4 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+<div>
+      <div>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-19 MuiIconButton-root-10 PrivateSwitchBase-root-6 MuiRadio-root-1 MuiRadio-colorPrimary-4 c0 MuiIconButton-colorPrimary-14"
+          customcolor="blue"
+          data-testid="color-filter-blue"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-18"
+          >
+            <input
+              class="PrivateSwitchBase-input-9"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-22"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-25"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-25 PrivateRadioButtonIcon-layer-23"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-166"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-52 MuiIconButton-root-43 PrivateSwitchBase-root-39 MuiRadio-root-34 MuiRadio-colorPrimary-37 c1 MuiIconButton-colorPrimary-47"
+          customcolor="red"
+          data-testid="color-filter-red"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-51"
+          >
+            <input
+              class="PrivateSwitchBase-input-42"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-55"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-58"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-58 PrivateRadioButtonIcon-layer-56"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-176"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-85 MuiIconButton-root-76 PrivateSwitchBase-root-72 MuiRadio-root-67 MuiRadio-colorPrimary-70 c2 PrivateSwitchBase-checked-73 Mui-checked MuiIconButton-colorPrimary-80"
+          customcolor="green"
+          data-testid="color-filter-green"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-84"
+          >
+            <input
+              checked=""
+              class="PrivateSwitchBase-input-75"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-88 PrivateRadioButtonIcon-checked-90"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-91"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-91 PrivateRadioButtonIcon-layer-89"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-186"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 c3 MuiIconButton-colorPrimary-113"
+          customcolor="yellow"
+          data-testid="color-filter-yellow"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-117"
+          >
+            <input
+              class="PrivateSwitchBase-input-108"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-121"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-124"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-124 PrivateRadioButtonIcon-layer-122"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-196"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-151 MuiIconButton-root-142 PrivateSwitchBase-root-138 MuiRadio-root-133 MuiRadio-colorPrimary-136 c4 MuiIconButton-colorPrimary-146"
+          customcolor="black"
+          data-testid="color-filter-black"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-150"
+          >
+            <input
+              class="PrivateSwitchBase-input-141"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-154"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-157"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-157 PrivateRadioButtonIcon-layer-155"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-206"
+          />
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-19 MuiIconButton-root-10 PrivateSwitchBase-root-6 MuiRadio-root-1 MuiRadio-colorPrimary-4 sc-bdVaJa cSnZUY MuiIconButton-colorPrimary-14"
+        customcolor="blue"
+        data-testid="color-filter-blue"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-18"
+        >
+          <input
+            class="PrivateSwitchBase-input-9"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-22"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-25"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-25 PrivateRadioButtonIcon-layer-23"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-166"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-52 MuiIconButton-root-43 PrivateSwitchBase-root-39 MuiRadio-root-34 MuiRadio-colorPrimary-37 sc-bdVaJa jampGn MuiIconButton-colorPrimary-47"
+        customcolor="red"
+        data-testid="color-filter-red"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-51"
+        >
+          <input
+            class="PrivateSwitchBase-input-42"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-55"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-58"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-58 PrivateRadioButtonIcon-layer-56"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-176"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-85 MuiIconButton-root-76 PrivateSwitchBase-root-72 MuiRadio-root-67 MuiRadio-colorPrimary-70 sc-bdVaJa ebjHkV PrivateSwitchBase-checked-73 Mui-checked MuiIconButton-colorPrimary-80"
+        customcolor="green"
+        data-testid="color-filter-green"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-84"
+        >
+          <input
+            checked=""
+            class="PrivateSwitchBase-input-75"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-88 PrivateRadioButtonIcon-checked-90"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-91"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-91 PrivateRadioButtonIcon-layer-89"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-186"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 sc-bdVaJa goRBID MuiIconButton-colorPrimary-113"
+        customcolor="yellow"
+        data-testid="color-filter-yellow"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-117"
+        >
+          <input
+            class="PrivateSwitchBase-input-108"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-121"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-124"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-124 PrivateRadioButtonIcon-layer-122"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-196"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-151 MuiIconButton-root-142 PrivateSwitchBase-root-138 MuiRadio-root-133 MuiRadio-colorPrimary-136 sc-bdVaJa lbdrho MuiIconButton-colorPrimary-146"
+        customcolor="black"
+        data-testid="color-filter-black"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-150"
+        >
+          <input
+            class="PrivateSwitchBase-input-141"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-154"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-157"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-157 PrivateRadioButtonIcon-layer-155"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-206"
+        />
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App color filter Test get default color filter no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div />
+    </div>
+  </body>,
+  "container": <div>
+    <div />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App color filter Test get default color filter with actions  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c1 {
+  color: #F62F5E !important;
+}
+
+.c1 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c1 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c3 {
+  color: ##EFFC90 !important;
+}
+
+.c3 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c3 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c4 {
+  color: #2E2E2E !important;
+}
+
+.c4 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c4 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c0 {
+  color: #6EB2FB !important;
+}
+
+.c0 svg:first-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c0 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c2 {
+  color: #00D3CA !important;
+}
+
+.c2 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c2 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+<div>
+      <div>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-234 MuiIconButton-root-225 PrivateSwitchBase-root-221 MuiRadio-root-216 MuiRadio-colorPrimary-219 c0 PrivateSwitchBase-checked-222 Mui-checked MuiIconButton-colorPrimary-229"
+          customcolor="blue"
+          data-testid="color-filter-blue"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-233"
+          >
+            <input
+              checked=""
+              class="PrivateSwitchBase-input-224"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-237 PrivateRadioButtonIcon-checked-239"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-240"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-240 PrivateRadioButtonIcon-layer-238"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-381"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-267 MuiIconButton-root-258 PrivateSwitchBase-root-254 MuiRadio-root-249 MuiRadio-colorPrimary-252 c1 MuiIconButton-colorPrimary-262"
+          customcolor="red"
+          data-testid="color-filter-red"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-266"
+          >
+            <input
+              class="PrivateSwitchBase-input-257"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-270"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-273"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-273 PrivateRadioButtonIcon-layer-271"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-391"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-300 MuiIconButton-root-291 PrivateSwitchBase-root-287 MuiRadio-root-282 MuiRadio-colorPrimary-285 c2 MuiIconButton-colorPrimary-295"
+          customcolor="green"
+          data-testid="color-filter-green"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-299"
+          >
+            <input
+              class="PrivateSwitchBase-input-290"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-303"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-306"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-306 PrivateRadioButtonIcon-layer-304"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-401"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-333 MuiIconButton-root-324 PrivateSwitchBase-root-320 MuiRadio-root-315 MuiRadio-colorPrimary-318 c3 MuiIconButton-colorPrimary-328"
+          customcolor="yellow"
+          data-testid="color-filter-yellow"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-332"
+          >
+            <input
+              class="PrivateSwitchBase-input-323"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-336"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-339"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-339 PrivateRadioButtonIcon-layer-337"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-411"
+          />
+        </span>
+        <span
+          aria-disabled="false"
+          class="MuiButtonBase-root-366 MuiIconButton-root-357 PrivateSwitchBase-root-353 MuiRadio-root-348 MuiRadio-colorPrimary-351 c4 MuiIconButton-colorPrimary-361"
+          customcolor="black"
+          data-testid="color-filter-black"
+          variant="outer"
+        >
+          <span
+            class="MuiIconButton-label-365"
+          >
+            <input
+              class="PrivateSwitchBase-input-356"
+              type="radio"
+              value=""
+            />
+            <div
+              class="PrivateRadioButtonIcon-root-369"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-372"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                />
+              </svg>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root-372 PrivateRadioButtonIcon-layer-370"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                />
+              </svg>
+            </div>
+          </span>
+          <span
+            class="MuiTouchRipple-root-421"
+          />
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-234 MuiIconButton-root-225 PrivateSwitchBase-root-221 MuiRadio-root-216 MuiRadio-colorPrimary-219 sc-bdVaJa cgzflP PrivateSwitchBase-checked-222 Mui-checked MuiIconButton-colorPrimary-229"
+        customcolor="blue"
+        data-testid="color-filter-blue"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-233"
+        >
+          <input
+            checked=""
+            class="PrivateSwitchBase-input-224"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-237 PrivateRadioButtonIcon-checked-239"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-240"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-240 PrivateRadioButtonIcon-layer-238"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-381"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-267 MuiIconButton-root-258 PrivateSwitchBase-root-254 MuiRadio-root-249 MuiRadio-colorPrimary-252 sc-bdVaJa jampGn MuiIconButton-colorPrimary-262"
+        customcolor="red"
+        data-testid="color-filter-red"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-266"
+        >
+          <input
+            class="PrivateSwitchBase-input-257"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-270"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-273"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-273 PrivateRadioButtonIcon-layer-271"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-391"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-300 MuiIconButton-root-291 PrivateSwitchBase-root-287 MuiRadio-root-282 MuiRadio-colorPrimary-285 sc-bdVaJa fcCrLk MuiIconButton-colorPrimary-295"
+        customcolor="green"
+        data-testid="color-filter-green"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-299"
+        >
+          <input
+            class="PrivateSwitchBase-input-290"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-303"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-306"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-306 PrivateRadioButtonIcon-layer-304"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-401"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-333 MuiIconButton-root-324 PrivateSwitchBase-root-320 MuiRadio-root-315 MuiRadio-colorPrimary-318 sc-bdVaJa goRBID MuiIconButton-colorPrimary-328"
+        customcolor="yellow"
+        data-testid="color-filter-yellow"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-332"
+        >
+          <input
+            class="PrivateSwitchBase-input-323"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-336"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-339"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-339 PrivateRadioButtonIcon-layer-337"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-411"
+        />
+      </span>
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root-366 MuiIconButton-root-357 PrivateSwitchBase-root-353 MuiRadio-root-348 MuiRadio-colorPrimary-351 sc-bdVaJa lbdrho MuiIconButton-colorPrimary-361"
+        customcolor="black"
+        data-testid="color-filter-black"
+        variant="outer"
+      >
+        <span
+          class="MuiIconButton-label-365"
+        >
+          <input
+            class="PrivateSwitchBase-input-356"
+            type="radio"
+            value=""
+          />
+          <div
+            class="PrivateRadioButtonIcon-root-369"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-372"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-372 PrivateRadioButtonIcon-layer-370"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+              />
+            </svg>
+          </div>
+        </span>
+        <span
+          class="MuiTouchRipple-root-421"
+        />
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
