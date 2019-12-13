@@ -8,6 +8,7 @@ export interface IPaginationSpec {
 }
 
 type IReqiredPaginationSpec = Required<IPaginationSpec>
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type PageHandler = (page: number) => any
 export interface IPaginationHandler {
   onChange?: PageHandler
