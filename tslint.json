@@ -21,13 +21,5 @@
     "no-submodule-imports": false,
     "ordered-imports": false,
     "no-unexpected-multiline": 0
-  },
-  "overrides": [
-    {
-      "files": ["**/*.ts?(x)"],
-      "rules": {
-        "no-unexpected-multiline": 0
-      }
-    }
-  ]
+  }
 }
