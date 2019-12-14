@@ -4,8 +4,8 @@ import { action } from '@storybook/addon-actions'
 
 export default {
   component: Pagination,
-  title: 'Pagination',
   includeStories: ['basic', 'example'],
+  title: 'Pagination',
 }
 
 export const basic = () => {

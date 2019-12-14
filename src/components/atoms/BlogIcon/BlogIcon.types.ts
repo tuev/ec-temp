@@ -1,7 +1,7 @@
 type BlogIconType = 'like' | 'comment' | 'bookmark' | 'options'
 
 interface IBlogIcon extends React.HTMLProps<HTMLDivElement> {
-  icon?: BlogIconType
+  icon?: 'like' | 'comment' | 'bookmark' | 'options'
   count?: number
 }
 

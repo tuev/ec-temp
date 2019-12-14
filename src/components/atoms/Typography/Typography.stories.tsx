@@ -3,8 +3,8 @@ import Typography from './Typography'
 
 export default {
   component: Typography,
-  title: 'AppTypography',
   includeStories: ['basic'],
+  title: 'AppTypography',
 }
 
 export const basic = () => (
