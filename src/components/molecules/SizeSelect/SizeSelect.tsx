@@ -1,7 +1,7 @@
 import React, { FC, useCallback } from 'react'
-import { BasicSizeSelectProps } from './Size.type'
+import { BasicSizeSelectProps } from './SizeSelect.types'
 import Button from 'components/atoms/Button'
-import { SizeSelectWrapper, SizeItemWrapper } from './Size.styled'
+import { SizeSelectWrapper, SizeItemWrapper } from './SizeSelect.styled'
 
 export const defaultMethod = () => true
 
