@@ -1,0 +1,658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App price select Test get default price select  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span
+        class="MuiSlider-root MuiSlider-colorPrimary "
+        showlabel="1"
+      >
+        <span
+          class="MuiSlider-rail"
+        />
+        <span
+          class="MuiSlider-track"
+          style="left: 5.2631578947368425%; width: 10.526315789473683%;"
+        />
+        <input
+          type="hidden"
+          value="10,20"
+        />
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="5"
+          aria-valuenow="10"
+          aria-valuetext="10"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-46"
+          data-index="0"
+          role="slider"
+          style="left: 5.2631578947368425%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-48 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-49"
+            >
+              <span
+                class="PrivateValueLabel-label-50"
+              >
+                10
+              </span>
+            </span>
+          </span>
+        </span>
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="5"
+          aria-valuenow="20"
+          aria-valuetext="20"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-46"
+          data-index="1"
+          role="slider"
+          style="left: 15.789473684210526%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-48 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-49"
+            >
+              <span
+                class="PrivateValueLabel-label-50"
+              >
+                20
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <span>
+          10
+        </span>
+        <span>
+          20
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <span
+      class="MuiSlider-root MuiSlider-colorPrimary sc-bdVaJa ibTDPh"
+      showlabel="1"
+    >
+      <span
+        class="MuiSlider-rail"
+      />
+      <span
+        class="MuiSlider-track"
+        style="left: 5.2631578947368425%; width: 10.526315789473683%;"
+      />
+      <input
+        type="hidden"
+        value="10,20"
+      />
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="5"
+        aria-valuenow="10"
+        aria-valuetext="10"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-46"
+        data-index="0"
+        role="slider"
+        style="left: 5.2631578947368425%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-48 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-49"
+          >
+            <span
+              class="PrivateValueLabel-label-50"
+            >
+              10
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="5"
+        aria-valuenow="20"
+        aria-valuetext="20"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-46"
+        data-index="1"
+        role="slider"
+        style="left: 15.789473684210526%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-48 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-49"
+          >
+            <span
+              class="PrivateValueLabel-label-50"
+            >
+              20
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <div
+      style="display: flex; justify-content: space-between;"
+    >
+      <span>
+        10
+      </span>
+      <span>
+        20
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App price select Test get default price select or filter no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span
+        class="MuiSlider-root MuiSlider-colorPrimary "
+        showlabel="1"
+      >
+        <span
+          class="MuiSlider-rail"
+        />
+        <span
+          class="MuiSlider-track"
+          style="left: 5%; width: 85%;"
+        />
+        <input
+          type="hidden"
+          value="5,90"
+        />
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="5"
+          aria-valuetext="5"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
+          data-index="0"
+          role="slider"
+          style="left: 5%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-24"
+            >
+              <span
+                class="PrivateValueLabel-label-25"
+              >
+                5
+              </span>
+            </span>
+          </span>
+        </span>
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="90"
+          aria-valuetext="90"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
+          data-index="1"
+          role="slider"
+          style="left: 90%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-24"
+            >
+              <span
+                class="PrivateValueLabel-label-25"
+              >
+                90
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <span>
+          5
+        </span>
+        <span>
+          90
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <span
+      class="MuiSlider-root MuiSlider-colorPrimary sc-bdVaJa ibTDPh"
+      showlabel="1"
+    >
+      <span
+        class="MuiSlider-rail"
+      />
+      <span
+        class="MuiSlider-track"
+        style="left: 5%; width: 85%;"
+      />
+      <input
+        type="hidden"
+        value="5,90"
+      />
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="5"
+        aria-valuetext="5"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
+        data-index="0"
+        role="slider"
+        style="left: 5%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-24"
+          >
+            <span
+              class="PrivateValueLabel-label-25"
+            >
+              5
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="90"
+        aria-valuetext="90"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-21"
+        data-index="1"
+        role="slider"
+        style="left: 90%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-23 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-24"
+          >
+            <span
+              class="PrivateValueLabel-label-25"
+            >
+              90
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <div
+      style="display: flex; justify-content: space-between;"
+    >
+      <span>
+        5
+      </span>
+      <span>
+        90
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App price select Test get default price select with actions  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span
+        class="MuiSlider-root MuiSlider-colorPrimary "
+        showlabel="1"
+      >
+        <span
+          class="MuiSlider-rail"
+        />
+        <span
+          class="MuiSlider-track"
+          style="left: 6.521739130434782%; width: 1.0869565217391308%;"
+        />
+        <input
+          type="hidden"
+          value="9,10"
+        />
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="95"
+          aria-valuemin="3"
+          aria-valuenow="9"
+          aria-valuetext="9"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-71"
+          data-index="0"
+          role="slider"
+          style="left: 6.521739130434782%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-73 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-74"
+            >
+              <span
+                class="PrivateValueLabel-label-75"
+              >
+                9
+              </span>
+            </span>
+          </span>
+        </span>
+        <span
+          aria-orientation="horizontal"
+          aria-valuemax="95"
+          aria-valuemin="3"
+          aria-valuenow="10"
+          aria-valuetext="10"
+          class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-71"
+          data-index="1"
+          role="slider"
+          style="left: 7.608695652173913%;"
+          tabindex="0"
+        >
+          <span
+            class="PrivateValueLabel-offset-73 MuiSlider-valueLabel"
+          >
+            <span
+              class="PrivateValueLabel-circle-74"
+            >
+              <span
+                class="PrivateValueLabel-label-75"
+              >
+                10
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <div
+        style="display: flex; justify-content: space-between;"
+      >
+        <span>
+          9
+        </span>
+        <span>
+          10
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <span
+      class="MuiSlider-root MuiSlider-colorPrimary sc-bdVaJa ibTDPh"
+      showlabel="1"
+    >
+      <span
+        class="MuiSlider-rail"
+      />
+      <span
+        class="MuiSlider-track"
+        style="left: 6.521739130434782%; width: 1.0869565217391308%;"
+      />
+      <input
+        type="hidden"
+        value="9,10"
+      />
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="95"
+        aria-valuemin="3"
+        aria-valuenow="9"
+        aria-valuetext="9"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-71"
+        data-index="0"
+        role="slider"
+        style="left: 6.521739130434782%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-73 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-74"
+          >
+            <span
+              class="PrivateValueLabel-label-75"
+            >
+              9
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        aria-orientation="horizontal"
+        aria-valuemax="95"
+        aria-valuemin="3"
+        aria-valuenow="10"
+        aria-valuetext="10"
+        class="MuiSlider-thumb MuiSlider-thumbColorPrimary PrivateValueLabel-thumb-71"
+        data-index="1"
+        role="slider"
+        style="left: 7.608695652173913%;"
+        tabindex="0"
+      >
+        <span
+          class="PrivateValueLabel-offset-73 MuiSlider-valueLabel"
+        >
+          <span
+            class="PrivateValueLabel-circle-74"
+          >
+            <span
+              class="PrivateValueLabel-label-75"
+            >
+              10
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <div
+      style="display: flex; justify-content: space-between;"
+    >
+      <span>
+        9
+      </span>
+      <span>
+        10
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -14,7 +14,6 @@ describe('App color filter', () => {
   })
 
   it('Test get default color filter no params ', () => {
-    const colors = ['blue', 'red', 'green', 'yellow', 'black']
     // test snapshot
     const wrapper = render(<ColorFilter />)
     expect(wrapper).toMatchSnapshot()
