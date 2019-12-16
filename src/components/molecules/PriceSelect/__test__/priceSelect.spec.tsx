@@ -2,14 +2,8 @@ import React from 'react'
 
 import { render, fireEvent } from '@testing-library/react'
 import PriceSelect from '..'
-import { defaultMethod } from '../PriceSelect'
 
 describe('App price select', () => {
-  it('Test default onChange method', () => {
-    const value = defaultMethod()
-    expect(value).toBe(true)
-  })
-
   it('Test get default price select or filter no params ', () => {
     // test snapshot
     const wrapper = render(<PriceSelect />)
