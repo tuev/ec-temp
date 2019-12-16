@@ -145,7 +145,8 @@
       "!src/**/index.ts",
       "!src/**/*.types.ts",
       "!src/*.ts",
-      "!src/index.tsx"
+      "!src/index.tsx",
+      "!src/utils/type.ts"
     ],
     "coverageThreshold": {
       "global": {

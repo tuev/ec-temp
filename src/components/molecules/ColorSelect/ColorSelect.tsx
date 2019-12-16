@@ -1,12 +1,11 @@
-/* eslint-disable react/prop-types */
 import React, { FC, useCallback } from 'react'
 import Radio from 'components/atoms/Radio'
-import { ColorFilterType } from './ColorFilter.types'
+import { ColorSelectType } from './ColorSelect.types'
 import { get } from 'lodash'
 
 export const defaultMethod = () => true
 
-const ColorFilter: FC<ColorFilterType> = props => {
+const ColorSelect: FC<ColorSelectType> = props => {
   const { colors = [], value = 'blue' } = props
   const onChange = get(props, 'onChange', defaultMethod)
 
@@ -28,4 +27,4 @@ const ColorFilter: FC<ColorFilterType> = props => {
   )
 }
 
-export default ColorFilter
+export default ColorSelect
