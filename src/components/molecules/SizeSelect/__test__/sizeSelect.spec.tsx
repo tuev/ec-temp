@@ -2,19 +2,12 @@ import React from 'react'
 
 import { render, fireEvent } from '@testing-library/react'
 import SizeSelect from '..'
-import { defaultMethod } from '../SizeSelect'
 
 // NOTE: https://codesandbox.io/s/pknk1v4mmx for testing style-components
 // * using: data-testid on component and getByTestId return by 'render' of react-testing-library
 
 describe('App size select', () => {
-  it('Test default onChange method', () => {
-    const value = defaultMethod()
-    expect(value).toBe(true)
-  })
-
   it('Test get default size select no params ', () => {
-    const sizes = ['M', 'L', 'XS', 'XXL', 'XL']
     // test snapshot
     const wrapper = render(<SizeSelect />)
     expect(wrapper).toMatchSnapshot()

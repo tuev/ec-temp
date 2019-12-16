@@ -3,12 +3,11 @@ import { BasicSizeSelectProps } from './SizeSelect.types'
 import Button from 'components/atoms/Button'
 import { SizeSelectWrapper, SizeItemWrapper } from './SizeSelect.styled'
 
-export const defaultMethod = () => true
-
 const SizeSelect: FC<BasicSizeSelectProps> = props => {
-  const { sizes = [], value, onChange = defaultMethod } = props
+  const { sizes = [], value, onChange } = props
   const handleSizeOnChange = useCallback(
-    (size: string) => () => onChange(size),
+    // todo: need to make typecheck for hof
+    (size: string) => () => onChange && onChange(size),
     [onChange]
   )
 
