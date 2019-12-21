@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from 'react'
 
 import BrandSelect from './BrandSelect'
-import { ColorType } from 'theme/colors'
 
 export default {
   component: BrandSelect,
