@@ -5,7 +5,7 @@ import { ThemeProvider } from '@material-ui/core/styles'
 
 const TextArea: FC<BaseTextAreaProps> = (props: BaseTextAreaProps) => (
   <ThemeProvider theme={theme}>
-    <AppTextArea {...props} />
+    <AppTextArea {...props} variant={'outlined'} rows="4" multiline={true} />
   </ThemeProvider>
 )
 

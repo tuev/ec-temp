@@ -9,7 +9,6 @@ export const AppTextArea: React.FC<BaseTextAreaProps> = styled(TextField)<
   BaseTextAreaProps
 >`
   ${space}
-  height: 121px;
 `
 
 export const theme = createMuiTheme({
@@ -22,6 +21,6 @@ export const theme = createMuiTheme({
     },
   },
   shape: {
-    borderRadius: 50,
+    borderRadius: 6,
   },
 })

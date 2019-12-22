@@ -8,4 +8,4 @@ export default {
   title: 'AppTextArea',
 }
 
-export const basic = () => <></>
+export const basic = () => <TextArea />
