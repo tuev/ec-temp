@@ -9,6 +9,7 @@ const path = require('path')
 const { execSync } = require('child_process')
 const atomGenerators = require('./atom/index.js')
 const moleculeGenerators = require('./molecule/index.js')
+const organismGenerators = require('./organism/index.js')
 
 /**
  * Every generated backup file gets this extension
@@ -19,6 +20,8 @@ const BACKUPFILE_EXTENSION = 'rbgen'
 module.exports = plop => {
   plop.setGenerator('atom', atomGenerators)
   plop.setGenerator('molecule', moleculeGenerators)
+  plop.setGenerator('organism', organismGenerators)
+
   plop.addHelper('directory', comp => {
     try {
       fs.accessSync(
