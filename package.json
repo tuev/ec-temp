@@ -37,7 +37,8 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "test-no-watch": "react-scripts test --watchAll=false",
     "test:coverage": "npm test -- --coverage --watchAll=false",
-    "eslint": "eslint src/**/*.{ts,tsx} --ext .js,.jsx,.ts,.tsx --fix"
+    "eslint": "eslint src/**/*.{ts,tsx} --ext .js,.jsx,.ts,.tsx --fix",
+    "generate": "plop --plopfile generators/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -114,8 +115,10 @@
     "husky": "~3.1.0",
     "jest-styled-components": "~6.3.4",
     "lint-staged": "~9.5.0",
+    "node-plop": "^0.23.0",
     "node-sass": "~4.13.0",
     "nyc": "^14.1.1",
+    "plop": "^2.5.3",
     "prettier": "^1.19.1",
     "react-app-rewired": "^2.1.5",
     "react-docgen-typescript-loader": "~3.6.0",
@@ -146,7 +149,9 @@
       "!src/**/*.types.ts",
       "!src/*.ts",
       "!src/index.tsx",
-      "!src/utils/type.ts"
+      "!src/utils/type.ts",
+      "!src/utils/loadable.tsx",
+      "!generators"
     ],
     "coverageThreshold": {
       "global": {
