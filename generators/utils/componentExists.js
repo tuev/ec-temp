@@ -16,7 +16,6 @@ const pageMocules = fs.readdirSync(
 const components = pageMocules.concat(pageAtoms)
 
 function componentExists(comp) {
-  console.log(components, 'atoms')
   return components.indexOf(comp) >= 0
 }
 
