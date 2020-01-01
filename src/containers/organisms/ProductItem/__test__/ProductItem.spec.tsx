@@ -10,7 +10,7 @@ import { render, fireEvent } from '@testing-library/react'
 import ProductItem from '..'
 
 describe('App ProductItem', () => {
-  it('Test get default ProductItem no params ', () => {
+  it.skip('Test get default ProductItem no params ', () => {
     // test snapshot
     const wrapper = render(<ProductItem />)
     const { asFragment } = wrapper
