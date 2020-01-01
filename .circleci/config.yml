@@ -6,8 +6,8 @@ machine:
 dependencies:
   override:
     - yarn
-  cache_directories:
-    - ~/.cache/yarn
+  # cache_directories:
+  #   - ~/.cache/yarn
   pre:
     - yarn global add now
 
@@ -29,7 +29,6 @@ jobs:
       - run:
           name: Coverage
           command: bash <(curl -s https://codecov.io/bash) -t aa174e44-1e0b-41d1-a276-015d172903a0
-
 
 workflows:
   version: 2.1
