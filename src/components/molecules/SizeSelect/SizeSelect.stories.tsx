@@ -1,15 +1,19 @@
 import React, { useCallback, useState } from 'react'
 
 import SizeSelect from './SizeSelect'
-import { SIZE_PARAMS } from './Size.type'
+import { SIZE_PARAMS } from './SizeSelect.types'
 
 export default {
   component: SizeSelect,
-  includeStories: ['basic', 'example'],
+  includeStories: ['basic', 'example', 'dropdown'],
   title: 'SizeSelect',
 }
 
-export const basic = () => <SizeSelect size={['M', 'XL', 'L']} value={'L'} />
+export const basic = () => <SizeSelect sizes={['M', 'XL', 'L']} value={'L'} />
+
+export const dropdown = () => (
+  <SizeSelect sizes={['M', 'XL', 'L']} value={'L'} type="select" />
+)
 
 export const example = () => <SizeSelectExample />
 

@@ -3,7 +3,6 @@
 exports[`Typography body1 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #6C6C6C !important;
   line-height: 1.5 !important;
   font-family: 'Open Sans' !important;
 }
@@ -961,7 +960,6 @@ exports[`Typography body1 1`] = `
 exports[`Typography body2 1`] = `
 .c0 {
   font-size: 12px !important;
-  color: #6C6C6C !important;
   line-height: 2 !important;
   font-family: 'Open Sans' !important;
 }
@@ -1919,7 +1917,6 @@ exports[`Typography body2 1`] = `
 exports[`Typography header1 1`] = `
 .c0 {
   font-size: 48px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Playfair Display' !important;
   font-weight: bold !important;
@@ -2878,7 +2875,6 @@ exports[`Typography header1 1`] = `
 exports[`Typography header2 1`] = `
 .c0 {
   font-size: 24px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
@@ -3837,7 +3833,6 @@ exports[`Typography header2 1`] = `
 exports[`Typography header3 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
@@ -4796,7 +4791,6 @@ exports[`Typography header3 1`] = `
 exports[`Typography topbar 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #2E2E2E !important;
   line-height: 2.4 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;

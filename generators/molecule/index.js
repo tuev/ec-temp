@@ -51,7 +51,7 @@ module.exports = {
     const actions = [
       {
         type: 'add',
-        path: path + '{{properCase name}}/index.tsx',
+        path: path + '{{properCase name}}/index.ts',
         templateFile: './molecule/index.tsx.hbs',
         abortOnFail: true,
       },

@@ -9,7 +9,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '48px !important',
-      color: '#2E2E2E !important',
       'line-height': '1.5 !important',
       'font-family': `'Playfair Display' !important`,
       'font-weight': 'bold !important',
@@ -25,7 +24,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '24px !important',
-      color: '#2E2E2E !important',
       'line-height': '1.5 !important',
       'font-family': `'Montserrat Alternates' !important`,
       'font-weight': 'bold !important',
@@ -41,7 +39,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '16px !important',
-      color: '#2E2E2E !important',
       'line-height': '1.5 !important',
       'font-family': `'Montserrat Alternates' !important`,
       'font-weight': 'bold !important',
@@ -57,7 +54,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '16px !important',
-      color: `${COLOR.black} !important`,
       'line-height': '2.4 !important',
       'font-family': `'Montserrat Alternates' !important`,
       'font-weight': 'bold !important',
@@ -73,7 +69,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '16px !important',
-      color: `${COLOR.black1} !important`,
       'line-height': '1.5 !important',
       'font-family': `'Open Sans' !important`,
     }
@@ -88,7 +83,6 @@ describe('Typography', () => {
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
       'font-size': '12px !important',
-      color: `${COLOR.black1} !important`,
       'line-height': '2 !important',
       'font-family': `'Open Sans' !important`,
     }

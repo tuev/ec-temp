@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
+import { createMuiTheme } from '@material-ui/core/styles'
 
 export const SizeSelectWrapper = styled.div``
 
@@ -21,3 +23,22 @@ export const SizeItemWrapper = styled.div`
     margin-right: 0;
   }
 `
+
+export const SizeInputLabel = styled(InputLabel)`
+  /* background-color: white; */
+`
+
+export const theme = createMuiTheme({
+  props: {
+    MuiInputBase: {
+      style: {
+        backgroundColor: 'white',
+        borderRadius: 32,
+        width: 120,
+      },
+    },
+    MuiOutlinedInput: {
+      margin: 'dense',
+    },
+  },
+})

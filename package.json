@@ -126,6 +126,7 @@
     "react-test-renderer": "~16.12.0",
     "require-context.macro": "~1.2.2",
     "rimraf": "~3.0.0",
+    "snapshot-diff": "^0.6.1",
     "source-map-explorer": "~2.1.1",
     "style-loader": "~1.0.1",
     "stylelint": "~12.0.0",
@@ -151,7 +152,8 @@
       "!src/index.tsx",
       "!src/utils/type.ts",
       "!src/utils/loadable.tsx",
-      "!generators"
+      "!generators",
+      "!src/**/Loadable.tsx"
     ],
     "coverageThreshold": {
       "global": {
