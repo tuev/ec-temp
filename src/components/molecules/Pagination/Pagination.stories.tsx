@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react'
 import Pagination from './Pagination'
 import { action } from '@storybook/addon-actions'
+import { PageHandler } from './Pagination.types'
 
 export default {
   component: Pagination,
@@ -13,13 +14,12 @@ export const basic = () => {
 }
 
 export const example = () => {
-  return <PaginationExample onChange={msg => action(msg)} />
+  const handleMsgChange = (page: number) => action(`${page}`)
+  return <PaginationExample onChange={handleMsgChange} />
 }
 
-const PaginationExample = ({ onChange }) => {
+const PaginationExample = ({ onChange }: { onChange: PageHandler }) => {
   const props = { total: 24, page: 16, step: 5 }
-  const handleChange = useCallback(page => onChange(`Page select : ${page}`), [
-    onChange,
-  ])
+  const handleChange = useCallback(page => onChange(page), [onChange])
   return <Pagination {...props} onChange={handleChange} />
 }

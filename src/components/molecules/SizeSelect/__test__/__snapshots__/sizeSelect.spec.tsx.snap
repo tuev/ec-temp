@@ -16,24 +16,24 @@ Object {
         </label>
         <div
           class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-          data-testid="size-filter-select"
           style="background-color: white; border-radius: 32px; width: 120px;"
         >
           <div
             aria-haspopup="listbox"
             aria-labelledby=" "
-            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-356 MuiTypography-body1-358"
+              class="MuiTypography-root-352 MuiTypography-body1-354"
               data-testid="size-filter-M"
             >
               M
             </p>
           </div>
           <input
+            data-testid="size-filter-select"
             type="hidden"
             value="M"
           />
@@ -50,11 +50,11 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-399 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-395 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-400"
+              class="PrivateNotchedOutline-legend-396"
               style="width: 0px;"
             >
               <span>
@@ -78,24 +78,24 @@ Object {
       </label>
       <div
         class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-        data-testid="size-filter-select"
         style="background-color: white; border-radius: 32px; width: 120px;"
       >
         <div
           aria-haspopup="listbox"
           aria-labelledby=" "
-          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-356 sc-ifAKCX hOXuFE MuiTypography-body1-358"
+            class="MuiTypography-root-352 sc-ifAKCX hOXuFE MuiTypography-body1-354"
             data-testid="size-filter-M"
           >
             M
           </p>
         </div>
         <input
+          data-testid="size-filter-select"
           type="hidden"
           value="M"
         />
@@ -112,11 +112,11 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-399 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-395 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-400"
+            class="PrivateNotchedOutline-legend-396"
             style="width: 0px;"
           >
             <span>
@@ -522,7 +522,7 @@ Object {
           class="c0"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="size-filter-M"
             mx="4px"
             tabindex="0"
@@ -562,7 +562,7 @@ Object {
           class="c0"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained c1 MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="size-filter-XS"
             mx="4px"
             tabindex="0"
@@ -629,7 +629,7 @@ Object {
         class="sc-htpNat jtYCUb"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -669,7 +669,7 @@ Object {
         class="sc-htpNat jtYCUb"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -866,26 +866,26 @@ Object {
         </label>
         <div
           class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-          data-testid="size-filter-select"
           style="background-color: white; border-radius: 32px; width: 120px;"
         >
           <div
             aria-haspopup="listbox"
             aria-labelledby=" "
-            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-199 MuiTypography-body1-201"
-              data-testid="size-filter-M"
+              class="MuiTypography-root-196 MuiTypography-body1-198"
+              data-testid="size-filter-XS"
             >
-              M
+              XS
             </p>
           </div>
           <input
+            data-testid="size-filter-select"
             type="hidden"
-            value="M"
+            value="XS"
           />
           <svg
             aria-hidden="true"
@@ -900,11 +900,11 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-239 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-243"
+              class="PrivateNotchedOutline-legend-240"
               style="width: 0px;"
             >
               <span>
@@ -928,26 +928,26 @@ Object {
       </label>
       <div
         class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-        data-testid="size-filter-select"
         style="background-color: white; border-radius: 32px; width: 120px;"
       >
         <div
           aria-haspopup="listbox"
           aria-labelledby=" "
-          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-199 sc-ifAKCX hOXuFE MuiTypography-body1-201"
-            data-testid="size-filter-M"
+            class="MuiTypography-root-196 sc-ifAKCX hOXuFE MuiTypography-body1-198"
+            data-testid="size-filter-XS"
           >
-            M
+            XS
           </p>
         </div>
         <input
+          data-testid="size-filter-select"
           type="hidden"
-          value="M"
+          value="XS"
         />
         <svg
           aria-hidden="true"
@@ -962,11 +962,11 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-239 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-243"
+            class="PrivateNotchedOutline-legend-240"
             style="width: 0px;"
           >
             <span>
@@ -1040,20 +1040,19 @@ Object {
         class="MuiFormControl-root"
       >
         <label
-          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
-          data-shrink="false"
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+          data-shrink="true"
         >
           Size
         </label>
         <div
           class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-          data-testid="size-filter-select"
           style="background-color: white; border-radius: 32px; width: 120px;"
         >
           <div
             aria-haspopup="listbox"
             aria-labelledby=" "
-            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
           >
@@ -1062,8 +1061,9 @@ Object {
             </span>
           </div>
           <input
+            data-testid="size-filter-select"
             type="hidden"
-            value=""
+            value="M"
           />
           <svg
             aria-hidden="true"
@@ -1078,12 +1078,12 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-85 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-83 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-86"
-              style="width: 0.01px;"
+              class="PrivateNotchedOutline-legend-84"
+              style="width: 0px;"
             >
               <span>
                 ​
@@ -1099,20 +1099,19 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-bxivhb hlkkYi MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
-        data-shrink="false"
+        class="MuiFormLabel-root MuiInputLabel-root sc-bxivhb hlkkYi MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        data-shrink="true"
       >
         Size
       </label>
       <div
         class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-        data-testid="size-filter-select"
         style="background-color: white; border-radius: 32px; width: 120px;"
       >
         <div
           aria-haspopup="listbox"
           aria-labelledby=" "
-          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
         >
@@ -1121,8 +1120,9 @@ Object {
           </span>
         </div>
         <input
+          data-testid="size-filter-select"
           type="hidden"
-          value=""
+          value="M"
         />
         <svg
           aria-hidden="true"
@@ -1137,12 +1137,12 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-85 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-83 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-86"
-            style="width: 0.01px;"
+            class="PrivateNotchedOutline-legend-84"
+            style="width: 0px;"
           >
             <span>
               ​

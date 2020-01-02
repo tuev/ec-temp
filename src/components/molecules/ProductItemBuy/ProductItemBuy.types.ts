@@ -15,7 +15,7 @@ interface IProductSize {
 }
 
 export interface IProductImage {
-  image: string
+  image?: string
 }
 
 export interface IProductItemBuyState {

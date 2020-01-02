@@ -173,24 +173,24 @@ Object {
                 </label>
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                  data-testid="size-filter-select"
                   style="background-color: white; border-radius: 32px; width: 120px;"
                 >
                   <div
                     aria-haspopup="listbox"
                     aria-labelledby=" "
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                     role="button"
                     tabindex="0"
                   >
                     <p
-                      class="MuiTypography-root-854 MuiTypography-body1-856"
+                      class="MuiTypography-root-850 MuiTypography-body1-852"
                       data-testid="size-filter-L"
                     >
                       L
                     </p>
                   </div>
                   <input
+                    data-testid="size-filter-select"
                     type="hidden"
                     value="L"
                   />
@@ -207,11 +207,11 @@ Object {
                   </svg>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-897 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-893 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-898"
+                      class="PrivateNotchedOutline-legend-894"
                       style="width: 0px;"
                     >
                       <span>
@@ -224,26 +224,26 @@ Object {
               <div>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-917 MuiIconButton-root-908 PrivateSwitchBase-root-904 MuiRadio-root-899 MuiRadio-colorPrimary-902 c5 PrivateSwitchBase-checked-905 Mui-checked MuiIconButton-colorPrimary-912"
+                  class="MuiButtonBase-root-913 MuiIconButton-root-904 PrivateSwitchBase-root-900 MuiRadio-root-895 MuiRadio-colorPrimary-898 c5 PrivateSwitchBase-checked-901 Mui-checked MuiIconButton-colorPrimary-908"
                   customcolor="green"
                   data-testid="color-filter-green"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-916"
+                    class="MuiIconButton-label-912"
                   >
                     <input
                       checked=""
-                      class="PrivateSwitchBase-input-907"
+                      class="PrivateSwitchBase-input-903"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-920 PrivateRadioButtonIcon-checked-922"
+                      class="PrivateRadioButtonIcon-root-916 PrivateRadioButtonIcon-checked-918"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-923"
+                        class="MuiSvgIcon-root-919"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -254,7 +254,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-923 PrivateRadioButtonIcon-layer-921"
+                        class="MuiSvgIcon-root-919 PrivateRadioButtonIcon-layer-917"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -266,30 +266,30 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1099"
+                    class="MuiTouchRipple-root-1096"
                   />
                 </span>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-950 MuiIconButton-root-941 PrivateSwitchBase-root-937 MuiRadio-root-932 MuiRadio-colorPrimary-935 c6 MuiIconButton-colorPrimary-945"
+                  class="MuiButtonBase-root-946 MuiIconButton-root-937 PrivateSwitchBase-root-933 MuiRadio-root-928 MuiRadio-colorPrimary-931 c6 MuiIconButton-colorPrimary-941"
                   customcolor="red"
                   data-testid="color-filter-red"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-949"
+                    class="MuiIconButton-label-945"
                   >
                     <input
-                      class="PrivateSwitchBase-input-940"
+                      class="PrivateSwitchBase-input-936"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-953"
+                      class="PrivateRadioButtonIcon-root-949"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-956"
+                        class="MuiSvgIcon-root-952"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -300,7 +300,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-956 PrivateRadioButtonIcon-layer-954"
+                        class="MuiSvgIcon-root-952 PrivateRadioButtonIcon-layer-950"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -312,7 +312,7 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1109"
+                    class="MuiTouchRipple-root-1106"
                   />
                 </span>
               </div>
@@ -411,24 +411,24 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                data-testid="size-filter-select"
                 style="background-color: white; border-radius: 32px; width: 120px;"
               >
                 <div
                   aria-haspopup="listbox"
                   aria-labelledby=" "
-                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                   role="button"
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-854 sc-bwzfXH gSJoRl MuiTypography-body1-856"
+                    class="MuiTypography-root-850 sc-bwzfXH gSJoRl MuiTypography-body1-852"
                     data-testid="size-filter-L"
                   >
                     L
                   </p>
                 </div>
                 <input
+                  data-testid="size-filter-select"
                   type="hidden"
                   value="L"
                 />
@@ -445,11 +445,11 @@ Object {
                 </svg>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-897 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-893 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-898"
+                    class="PrivateNotchedOutline-legend-894"
                     style="width: 0px;"
                   >
                     <span>
@@ -462,26 +462,26 @@ Object {
             <div>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-917 MuiIconButton-root-908 PrivateSwitchBase-root-904 MuiRadio-root-899 MuiRadio-colorPrimary-902 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-905 Mui-checked MuiIconButton-colorPrimary-912"
+                class="MuiButtonBase-root-913 MuiIconButton-root-904 PrivateSwitchBase-root-900 MuiRadio-root-895 MuiRadio-colorPrimary-898 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-901 Mui-checked MuiIconButton-colorPrimary-908"
                 customcolor="green"
                 data-testid="color-filter-green"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-916"
+                  class="MuiIconButton-label-912"
                 >
                   <input
                     checked=""
-                    class="PrivateSwitchBase-input-907"
+                    class="PrivateSwitchBase-input-903"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-920 PrivateRadioButtonIcon-checked-922"
+                    class="PrivateRadioButtonIcon-root-916 PrivateRadioButtonIcon-checked-918"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-923"
+                      class="MuiSvgIcon-root-919"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -492,7 +492,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-923 PrivateRadioButtonIcon-layer-921"
+                      class="MuiSvgIcon-root-919 PrivateRadioButtonIcon-layer-917"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -504,30 +504,30 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1099"
+                  class="MuiTouchRipple-root-1096"
                 />
               </span>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-950 MuiIconButton-root-941 PrivateSwitchBase-root-937 MuiRadio-root-932 MuiRadio-colorPrimary-935 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-945"
+                class="MuiButtonBase-root-946 MuiIconButton-root-937 PrivateSwitchBase-root-933 MuiRadio-root-928 MuiRadio-colorPrimary-931 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-941"
                 customcolor="red"
                 data-testid="color-filter-red"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-949"
+                  class="MuiIconButton-label-945"
                 >
                   <input
-                    class="PrivateSwitchBase-input-940"
+                    class="PrivateSwitchBase-input-936"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-953"
+                    class="PrivateRadioButtonIcon-root-949"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-956"
+                      class="MuiSvgIcon-root-952"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -538,7 +538,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-956 PrivateRadioButtonIcon-layer-954"
+                      class="MuiSvgIcon-root-952 PrivateRadioButtonIcon-layer-950"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -550,7 +550,7 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1109"
+                  class="MuiTouchRipple-root-1106"
                 />
               </span>
             </div>
@@ -838,24 +838,24 @@ Object {
                 </label>
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                  data-testid="size-filter-select"
                   style="background-color: white; border-radius: 32px; width: 120px;"
                 >
                   <div
                     aria-haspopup="listbox"
                     aria-labelledby=" "
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                     role="button"
                     tabindex="0"
                   >
                     <p
-                      class="MuiTypography-root-1230 MuiTypography-body1-1232"
+                      class="MuiTypography-root-1225 MuiTypography-body1-1227"
                       data-testid="size-filter-L"
                     >
                       L
                     </p>
                   </div>
                   <input
+                    data-testid="size-filter-select"
                     type="hidden"
                     value="L"
                   />
@@ -872,11 +872,11 @@ Object {
                   </svg>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-1273 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-1268 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-1274"
+                      class="PrivateNotchedOutline-legend-1269"
                       style="width: 0px;"
                     >
                       <span>
@@ -889,26 +889,26 @@ Object {
               <div>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-1293 MuiIconButton-root-1284 PrivateSwitchBase-root-1280 MuiRadio-root-1275 MuiRadio-colorPrimary-1278 c5 PrivateSwitchBase-checked-1281 Mui-checked MuiIconButton-colorPrimary-1288"
+                  class="MuiButtonBase-root-1288 MuiIconButton-root-1279 PrivateSwitchBase-root-1275 MuiRadio-root-1270 MuiRadio-colorPrimary-1273 c5 PrivateSwitchBase-checked-1276 Mui-checked MuiIconButton-colorPrimary-1283"
                   customcolor="green"
                   data-testid="color-filter-green"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-1292"
+                    class="MuiIconButton-label-1287"
                   >
                     <input
                       checked=""
-                      class="PrivateSwitchBase-input-1283"
+                      class="PrivateSwitchBase-input-1278"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-1296 PrivateRadioButtonIcon-checked-1298"
+                      class="PrivateRadioButtonIcon-root-1291 PrivateRadioButtonIcon-checked-1293"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1299"
+                        class="MuiSvgIcon-root-1294"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -919,7 +919,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1299 PrivateRadioButtonIcon-layer-1297"
+                        class="MuiSvgIcon-root-1294 PrivateRadioButtonIcon-layer-1292"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -931,30 +931,30 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1475"
+                    class="MuiTouchRipple-root-1471"
                   />
                 </span>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-1326 MuiIconButton-root-1317 PrivateSwitchBase-root-1313 MuiRadio-root-1308 MuiRadio-colorPrimary-1311 c6 MuiIconButton-colorPrimary-1321"
+                  class="MuiButtonBase-root-1321 MuiIconButton-root-1312 PrivateSwitchBase-root-1308 MuiRadio-root-1303 MuiRadio-colorPrimary-1306 c6 MuiIconButton-colorPrimary-1316"
                   customcolor="red"
                   data-testid="color-filter-red"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-1325"
+                    class="MuiIconButton-label-1320"
                   >
                     <input
-                      class="PrivateSwitchBase-input-1316"
+                      class="PrivateSwitchBase-input-1311"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-1329"
+                      class="PrivateRadioButtonIcon-root-1324"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1332"
+                        class="MuiSvgIcon-root-1327"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -965,7 +965,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1332 PrivateRadioButtonIcon-layer-1330"
+                        class="MuiSvgIcon-root-1327 PrivateRadioButtonIcon-layer-1325"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -977,7 +977,7 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1485"
+                    class="MuiTouchRipple-root-1481"
                   />
                 </span>
               </div>
@@ -1076,24 +1076,24 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                data-testid="size-filter-select"
                 style="background-color: white; border-radius: 32px; width: 120px;"
               >
                 <div
                   aria-haspopup="listbox"
                   aria-labelledby=" "
-                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                   role="button"
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-1230 sc-bwzfXH gSJoRl MuiTypography-body1-1232"
+                    class="MuiTypography-root-1225 sc-bwzfXH gSJoRl MuiTypography-body1-1227"
                     data-testid="size-filter-L"
                   >
                     L
                   </p>
                 </div>
                 <input
+                  data-testid="size-filter-select"
                   type="hidden"
                   value="L"
                 />
@@ -1110,11 +1110,11 @@ Object {
                 </svg>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-1273 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-1268 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-1274"
+                    class="PrivateNotchedOutline-legend-1269"
                     style="width: 0px;"
                   >
                     <span>
@@ -1127,26 +1127,26 @@ Object {
             <div>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-1293 MuiIconButton-root-1284 PrivateSwitchBase-root-1280 MuiRadio-root-1275 MuiRadio-colorPrimary-1278 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-1281 Mui-checked MuiIconButton-colorPrimary-1288"
+                class="MuiButtonBase-root-1288 MuiIconButton-root-1279 PrivateSwitchBase-root-1275 MuiRadio-root-1270 MuiRadio-colorPrimary-1273 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-1276 Mui-checked MuiIconButton-colorPrimary-1283"
                 customcolor="green"
                 data-testid="color-filter-green"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-1292"
+                  class="MuiIconButton-label-1287"
                 >
                   <input
                     checked=""
-                    class="PrivateSwitchBase-input-1283"
+                    class="PrivateSwitchBase-input-1278"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-1296 PrivateRadioButtonIcon-checked-1298"
+                    class="PrivateRadioButtonIcon-root-1291 PrivateRadioButtonIcon-checked-1293"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1299"
+                      class="MuiSvgIcon-root-1294"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1157,7 +1157,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1299 PrivateRadioButtonIcon-layer-1297"
+                      class="MuiSvgIcon-root-1294 PrivateRadioButtonIcon-layer-1292"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1169,30 +1169,30 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1475"
+                  class="MuiTouchRipple-root-1471"
                 />
               </span>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-1326 MuiIconButton-root-1317 PrivateSwitchBase-root-1313 MuiRadio-root-1308 MuiRadio-colorPrimary-1311 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-1321"
+                class="MuiButtonBase-root-1321 MuiIconButton-root-1312 PrivateSwitchBase-root-1308 MuiRadio-root-1303 MuiRadio-colorPrimary-1306 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-1316"
                 customcolor="red"
                 data-testid="color-filter-red"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-1325"
+                  class="MuiIconButton-label-1320"
                 >
                   <input
-                    class="PrivateSwitchBase-input-1316"
+                    class="PrivateSwitchBase-input-1311"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-1329"
+                    class="PrivateRadioButtonIcon-root-1324"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1332"
+                      class="MuiSvgIcon-root-1327"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1203,7 +1203,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1332 PrivateRadioButtonIcon-layer-1330"
+                      class="MuiSvgIcon-root-1327 PrivateRadioButtonIcon-layer-1325"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1215,7 +1215,7 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1485"
+                  class="MuiTouchRipple-root-1481"
                 />
               </span>
             </div>
@@ -1503,24 +1503,24 @@ Object {
                 </label>
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                  data-testid="size-filter-select"
                   style="background-color: white; border-radius: 32px; width: 120px;"
                 >
                   <div
                     aria-haspopup="listbox"
                     aria-labelledby=" "
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                     role="button"
                     tabindex="0"
                   >
                     <p
-                      class="MuiTypography-root-1606 MuiTypography-body1-1608"
+                      class="MuiTypography-root-1600 MuiTypography-body1-1602"
                       data-testid="size-filter-L"
                     >
                       L
                     </p>
                   </div>
                   <input
+                    data-testid="size-filter-select"
                     type="hidden"
                     value="L"
                   />
@@ -1537,11 +1537,11 @@ Object {
                   </svg>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-1649 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-1643 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-1650"
+                      class="PrivateNotchedOutline-legend-1644"
                       style="width: 0px;"
                     >
                       <span>
@@ -1554,26 +1554,26 @@ Object {
               <div>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-1669 MuiIconButton-root-1660 PrivateSwitchBase-root-1656 MuiRadio-root-1651 MuiRadio-colorPrimary-1654 c5 PrivateSwitchBase-checked-1657 Mui-checked MuiIconButton-colorPrimary-1664"
+                  class="MuiButtonBase-root-1663 MuiIconButton-root-1654 PrivateSwitchBase-root-1650 MuiRadio-root-1645 MuiRadio-colorPrimary-1648 c5 PrivateSwitchBase-checked-1651 Mui-checked MuiIconButton-colorPrimary-1658"
                   customcolor="green"
                   data-testid="color-filter-green"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-1668"
+                    class="MuiIconButton-label-1662"
                   >
                     <input
                       checked=""
-                      class="PrivateSwitchBase-input-1659"
+                      class="PrivateSwitchBase-input-1653"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-1672 PrivateRadioButtonIcon-checked-1674"
+                      class="PrivateRadioButtonIcon-root-1666 PrivateRadioButtonIcon-checked-1668"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1675"
+                        class="MuiSvgIcon-root-1669"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -1584,7 +1584,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1675 PrivateRadioButtonIcon-layer-1673"
+                        class="MuiSvgIcon-root-1669 PrivateRadioButtonIcon-layer-1667"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -1596,30 +1596,30 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1851"
+                    class="MuiTouchRipple-root-1846"
                   />
                 </span>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-1702 MuiIconButton-root-1693 PrivateSwitchBase-root-1689 MuiRadio-root-1684 MuiRadio-colorPrimary-1687 c6 MuiIconButton-colorPrimary-1697"
+                  class="MuiButtonBase-root-1696 MuiIconButton-root-1687 PrivateSwitchBase-root-1683 MuiRadio-root-1678 MuiRadio-colorPrimary-1681 c6 MuiIconButton-colorPrimary-1691"
                   customcolor="red"
                   data-testid="color-filter-red"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-1701"
+                    class="MuiIconButton-label-1695"
                   >
                     <input
-                      class="PrivateSwitchBase-input-1692"
+                      class="PrivateSwitchBase-input-1686"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-1705"
+                      class="PrivateRadioButtonIcon-root-1699"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1708"
+                        class="MuiSvgIcon-root-1702"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -1630,7 +1630,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-1708 PrivateRadioButtonIcon-layer-1706"
+                        class="MuiSvgIcon-root-1702 PrivateRadioButtonIcon-layer-1700"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -1642,7 +1642,7 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-1861"
+                    class="MuiTouchRipple-root-1856"
                   />
                 </span>
               </div>
@@ -1741,24 +1741,24 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                data-testid="size-filter-select"
                 style="background-color: white; border-radius: 32px; width: 120px;"
               >
                 <div
                   aria-haspopup="listbox"
                   aria-labelledby=" "
-                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                   role="button"
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-1606 sc-bwzfXH gSJoRl MuiTypography-body1-1608"
+                    class="MuiTypography-root-1600 sc-bwzfXH gSJoRl MuiTypography-body1-1602"
                     data-testid="size-filter-L"
                   >
                     L
                   </p>
                 </div>
                 <input
+                  data-testid="size-filter-select"
                   type="hidden"
                   value="L"
                 />
@@ -1775,11 +1775,11 @@ Object {
                 </svg>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-1649 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-1643 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-1650"
+                    class="PrivateNotchedOutline-legend-1644"
                     style="width: 0px;"
                   >
                     <span>
@@ -1792,26 +1792,26 @@ Object {
             <div>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-1669 MuiIconButton-root-1660 PrivateSwitchBase-root-1656 MuiRadio-root-1651 MuiRadio-colorPrimary-1654 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-1657 Mui-checked MuiIconButton-colorPrimary-1664"
+                class="MuiButtonBase-root-1663 MuiIconButton-root-1654 PrivateSwitchBase-root-1650 MuiRadio-root-1645 MuiRadio-colorPrimary-1648 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-1651 Mui-checked MuiIconButton-colorPrimary-1658"
                 customcolor="green"
                 data-testid="color-filter-green"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-1668"
+                  class="MuiIconButton-label-1662"
                 >
                   <input
                     checked=""
-                    class="PrivateSwitchBase-input-1659"
+                    class="PrivateSwitchBase-input-1653"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-1672 PrivateRadioButtonIcon-checked-1674"
+                    class="PrivateRadioButtonIcon-root-1666 PrivateRadioButtonIcon-checked-1668"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1675"
+                      class="MuiSvgIcon-root-1669"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1822,7 +1822,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1675 PrivateRadioButtonIcon-layer-1673"
+                      class="MuiSvgIcon-root-1669 PrivateRadioButtonIcon-layer-1667"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1834,30 +1834,30 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1851"
+                  class="MuiTouchRipple-root-1846"
                 />
               </span>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-1702 MuiIconButton-root-1693 PrivateSwitchBase-root-1689 MuiRadio-root-1684 MuiRadio-colorPrimary-1687 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-1697"
+                class="MuiButtonBase-root-1696 MuiIconButton-root-1687 PrivateSwitchBase-root-1683 MuiRadio-root-1678 MuiRadio-colorPrimary-1681 sc-ifAKCX ktZjUU MuiIconButton-colorPrimary-1691"
                 customcolor="red"
                 data-testid="color-filter-red"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-1701"
+                  class="MuiIconButton-label-1695"
                 >
                   <input
-                    class="PrivateSwitchBase-input-1692"
+                    class="PrivateSwitchBase-input-1686"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-1705"
+                    class="PrivateRadioButtonIcon-root-1699"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1708"
+                      class="MuiSvgIcon-root-1702"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1868,7 +1868,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-1708 PrivateRadioButtonIcon-layer-1706"
+                      class="MuiSvgIcon-root-1702 PrivateRadioButtonIcon-layer-1700"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -1880,7 +1880,7 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-1861"
+                  class="MuiTouchRipple-root-1856"
                 />
               </span>
             </div>
@@ -2149,24 +2149,24 @@ Object {
                 </label>
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                  data-testid="size-filter-select"
                   style="background-color: white; border-radius: 32px; width: 120px;"
                 >
                   <div
                     aria-haspopup="listbox"
                     aria-labelledby=" "
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                     role="button"
                     tabindex="0"
                   >
                     <p
-                      class="MuiTypography-root-521 MuiTypography-body1-523"
+                      class="MuiTypography-root-518 MuiTypography-body1-520"
                       data-testid="size-filter-M"
                     >
                       M
                     </p>
                   </div>
                   <input
+                    data-testid="size-filter-select"
                     type="hidden"
                     value="M"
                   />
@@ -2183,11 +2183,11 @@ Object {
                   </svg>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-564 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-561 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-565"
+                      class="PrivateNotchedOutline-legend-562"
                       style="width: 0px;"
                     >
                       <span>
@@ -2200,26 +2200,26 @@ Object {
               <div>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-584 MuiIconButton-root-575 PrivateSwitchBase-root-571 MuiRadio-root-566 MuiRadio-colorPrimary-569 c5 PrivateSwitchBase-checked-572 Mui-checked MuiIconButton-colorPrimary-579"
+                  class="MuiButtonBase-root-581 MuiIconButton-root-572 PrivateSwitchBase-root-568 MuiRadio-root-563 MuiRadio-colorPrimary-566 c5 PrivateSwitchBase-checked-569 Mui-checked MuiIconButton-colorPrimary-576"
                   customcolor="green"
                   data-testid="color-filter-green"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-583"
+                    class="MuiIconButton-label-580"
                   >
                     <input
                       checked=""
-                      class="PrivateSwitchBase-input-574"
+                      class="PrivateSwitchBase-input-571"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-587 PrivateRadioButtonIcon-checked-589"
+                      class="PrivateRadioButtonIcon-root-584 PrivateRadioButtonIcon-checked-586"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-590"
+                        class="MuiSvgIcon-root-587"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2230,7 +2230,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-590 PrivateRadioButtonIcon-layer-588"
+                        class="MuiSvgIcon-root-587 PrivateRadioButtonIcon-layer-585"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2242,7 +2242,7 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-733"
+                    class="MuiTouchRipple-root-731"
                   />
                 </span>
               </div>
@@ -2341,24 +2341,24 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                data-testid="size-filter-select"
                 style="background-color: white; border-radius: 32px; width: 120px;"
               >
                 <div
                   aria-haspopup="listbox"
                   aria-labelledby=" "
-                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                   role="button"
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-521 sc-bwzfXH gSJoRl MuiTypography-body1-523"
+                    class="MuiTypography-root-518 sc-bwzfXH gSJoRl MuiTypography-body1-520"
                     data-testid="size-filter-M"
                   >
                     M
                   </p>
                 </div>
                 <input
+                  data-testid="size-filter-select"
                   type="hidden"
                   value="M"
                 />
@@ -2375,11 +2375,11 @@ Object {
                 </svg>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-564 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-561 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-565"
+                    class="PrivateNotchedOutline-legend-562"
                     style="width: 0px;"
                   >
                     <span>
@@ -2392,26 +2392,26 @@ Object {
             <div>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-584 MuiIconButton-root-575 PrivateSwitchBase-root-571 MuiRadio-root-566 MuiRadio-colorPrimary-569 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-572 Mui-checked MuiIconButton-colorPrimary-579"
+                class="MuiButtonBase-root-581 MuiIconButton-root-572 PrivateSwitchBase-root-568 MuiRadio-root-563 MuiRadio-colorPrimary-566 sc-ifAKCX kyggpQ PrivateSwitchBase-checked-569 Mui-checked MuiIconButton-colorPrimary-576"
                 customcolor="green"
                 data-testid="color-filter-green"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-583"
+                  class="MuiIconButton-label-580"
                 >
                   <input
                     checked=""
-                    class="PrivateSwitchBase-input-574"
+                    class="PrivateSwitchBase-input-571"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-587 PrivateRadioButtonIcon-checked-589"
+                    class="PrivateRadioButtonIcon-root-584 PrivateRadioButtonIcon-checked-586"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-590"
+                      class="MuiSvgIcon-root-587"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2422,7 +2422,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-590 PrivateRadioButtonIcon-layer-588"
+                      class="MuiSvgIcon-root-587 PrivateRadioButtonIcon-layer-585"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -2434,7 +2434,7 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-733"
+                  class="MuiTouchRipple-root-731"
                 />
               </span>
             </div>
@@ -2739,24 +2739,24 @@ Object {
                 </label>
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                  data-testid="size-filter-select"
                   style="background-color: white; border-radius: 32px; width: 120px;"
                 >
                   <div
                     aria-haspopup="listbox"
                     aria-labelledby=" "
-                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                     role="button"
                     tabindex="0"
                   >
                     <p
-                      class="MuiTypography-root-102 MuiTypography-body1-104"
+                      class="MuiTypography-root-100 MuiTypography-body1-102"
                       data-testid="size-filter-M"
                     >
                       M
                     </p>
                   </div>
                   <input
+                    data-testid="size-filter-select"
                     type="hidden"
                     value="M"
                   />
@@ -2773,11 +2773,11 @@ Object {
                   </svg>
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-145 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-143 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-146"
+                      class="PrivateNotchedOutline-legend-144"
                       style="width: 0px;"
                     >
                       <span>
@@ -2790,26 +2790,26 @@ Object {
               <div>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-165 MuiIconButton-root-156 PrivateSwitchBase-root-152 MuiRadio-root-147 MuiRadio-colorPrimary-150 c5 PrivateSwitchBase-checked-153 Mui-checked MuiIconButton-colorPrimary-160"
+                  class="MuiButtonBase-root-163 MuiIconButton-root-154 PrivateSwitchBase-root-150 MuiRadio-root-145 MuiRadio-colorPrimary-148 c5 PrivateSwitchBase-checked-151 Mui-checked MuiIconButton-colorPrimary-158"
                   customcolor="red"
                   data-testid="color-filter-red"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-164"
+                    class="MuiIconButton-label-162"
                   >
                     <input
                       checked=""
-                      class="PrivateSwitchBase-input-155"
+                      class="PrivateSwitchBase-input-153"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-168 PrivateRadioButtonIcon-checked-170"
+                      class="PrivateRadioButtonIcon-root-166 PrivateRadioButtonIcon-checked-168"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-171"
+                        class="MuiSvgIcon-root-169"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2820,7 +2820,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-171 PrivateRadioButtonIcon-layer-169"
+                        class="MuiSvgIcon-root-169 PrivateRadioButtonIcon-layer-167"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2832,30 +2832,30 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-380"
+                    class="MuiTouchRipple-root-379"
                   />
                 </span>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-198 MuiIconButton-root-189 PrivateSwitchBase-root-185 MuiRadio-root-180 MuiRadio-colorPrimary-183 c6 MuiIconButton-colorPrimary-193"
+                  class="MuiButtonBase-root-196 MuiIconButton-root-187 PrivateSwitchBase-root-183 MuiRadio-root-178 MuiRadio-colorPrimary-181 c6 MuiIconButton-colorPrimary-191"
                   customcolor="green"
                   data-testid="color-filter-green"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-197"
+                    class="MuiIconButton-label-195"
                   >
                     <input
-                      class="PrivateSwitchBase-input-188"
+                      class="PrivateSwitchBase-input-186"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-201"
+                      class="PrivateRadioButtonIcon-root-199"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-204"
+                        class="MuiSvgIcon-root-202"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2866,7 +2866,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-204 PrivateRadioButtonIcon-layer-202"
+                        class="MuiSvgIcon-root-202 PrivateRadioButtonIcon-layer-200"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2878,30 +2878,30 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-390"
+                    class="MuiTouchRipple-root-389"
                   />
                 </span>
                 <span
                   aria-disabled="false"
-                  class="MuiButtonBase-root-231 MuiIconButton-root-222 PrivateSwitchBase-root-218 MuiRadio-root-213 MuiRadio-colorPrimary-216 c7 MuiIconButton-colorPrimary-226"
+                  class="MuiButtonBase-root-229 MuiIconButton-root-220 PrivateSwitchBase-root-216 MuiRadio-root-211 MuiRadio-colorPrimary-214 c7 MuiIconButton-colorPrimary-224"
                   customcolor="blue"
                   data-testid="color-filter-blue"
                   variant="outer"
                 >
                   <span
-                    class="MuiIconButton-label-230"
+                    class="MuiIconButton-label-228"
                   >
                     <input
-                      class="PrivateSwitchBase-input-221"
+                      class="PrivateSwitchBase-input-219"
                       type="radio"
                       value=""
                     />
                     <div
-                      class="PrivateRadioButtonIcon-root-234"
+                      class="PrivateRadioButtonIcon-root-232"
                     >
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-237"
+                        class="MuiSvgIcon-root-235"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2912,7 +2912,7 @@ Object {
                       </svg>
                       <svg
                         aria-hidden="true"
-                        class="MuiSvgIcon-root-237 PrivateRadioButtonIcon-layer-235"
+                        class="MuiSvgIcon-root-235 PrivateRadioButtonIcon-layer-233"
                         focusable="false"
                         role="presentation"
                         viewBox="0 0 24 24"
@@ -2924,7 +2924,7 @@ Object {
                     </div>
                   </span>
                   <span
-                    class="MuiTouchRipple-root-400"
+                    class="MuiTouchRipple-root-399"
                   />
                 </span>
               </div>
@@ -3021,24 +3021,24 @@ Object {
               </label>
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
-                data-testid="size-filter-select"
                 style="background-color: white; border-radius: 32px; width: 120px;"
               >
                 <div
                   aria-haspopup="listbox"
                   aria-labelledby=" "
-                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                   role="button"
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-102 sc-bwzfXH gSJoRl MuiTypography-body1-104"
+                    class="MuiTypography-root-100 sc-bwzfXH gSJoRl MuiTypography-body1-102"
                     data-testid="size-filter-M"
                   >
                     M
                   </p>
                 </div>
                 <input
+                  data-testid="size-filter-select"
                   type="hidden"
                   value="M"
                 />
@@ -3055,11 +3055,11 @@ Object {
                 </svg>
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-145 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-143 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-146"
+                    class="PrivateNotchedOutline-legend-144"
                     style="width: 0px;"
                   >
                     <span>
@@ -3072,26 +3072,26 @@ Object {
             <div>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-165 MuiIconButton-root-156 PrivateSwitchBase-root-152 MuiRadio-root-147 MuiRadio-colorPrimary-150 sc-ifAKCX hxyMhG PrivateSwitchBase-checked-153 Mui-checked MuiIconButton-colorPrimary-160"
+                class="MuiButtonBase-root-163 MuiIconButton-root-154 PrivateSwitchBase-root-150 MuiRadio-root-145 MuiRadio-colorPrimary-148 sc-ifAKCX hxyMhG PrivateSwitchBase-checked-151 Mui-checked MuiIconButton-colorPrimary-158"
                 customcolor="red"
                 data-testid="color-filter-red"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-164"
+                  class="MuiIconButton-label-162"
                 >
                   <input
                     checked=""
-                    class="PrivateSwitchBase-input-155"
+                    class="PrivateSwitchBase-input-153"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-168 PrivateRadioButtonIcon-checked-170"
+                    class="PrivateRadioButtonIcon-root-166 PrivateRadioButtonIcon-checked-168"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-171"
+                      class="MuiSvgIcon-root-169"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3102,7 +3102,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-171 PrivateRadioButtonIcon-layer-169"
+                      class="MuiSvgIcon-root-169 PrivateRadioButtonIcon-layer-167"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3114,30 +3114,30 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-380"
+                  class="MuiTouchRipple-root-379"
                 />
               </span>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-198 MuiIconButton-root-189 PrivateSwitchBase-root-185 MuiRadio-root-180 MuiRadio-colorPrimary-183 sc-ifAKCX jUNieX MuiIconButton-colorPrimary-193"
+                class="MuiButtonBase-root-196 MuiIconButton-root-187 PrivateSwitchBase-root-183 MuiRadio-root-178 MuiRadio-colorPrimary-181 sc-ifAKCX jUNieX MuiIconButton-colorPrimary-191"
                 customcolor="green"
                 data-testid="color-filter-green"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-197"
+                  class="MuiIconButton-label-195"
                 >
                   <input
-                    class="PrivateSwitchBase-input-188"
+                    class="PrivateSwitchBase-input-186"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-201"
+                    class="PrivateRadioButtonIcon-root-199"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-204"
+                      class="MuiSvgIcon-root-202"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3148,7 +3148,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-204 PrivateRadioButtonIcon-layer-202"
+                      class="MuiSvgIcon-root-202 PrivateRadioButtonIcon-layer-200"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3160,30 +3160,30 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-390"
+                  class="MuiTouchRipple-root-389"
                 />
               </span>
               <span
                 aria-disabled="false"
-                class="MuiButtonBase-root-231 MuiIconButton-root-222 PrivateSwitchBase-root-218 MuiRadio-root-213 MuiRadio-colorPrimary-216 sc-ifAKCX dojhlH MuiIconButton-colorPrimary-226"
+                class="MuiButtonBase-root-229 MuiIconButton-root-220 PrivateSwitchBase-root-216 MuiRadio-root-211 MuiRadio-colorPrimary-214 sc-ifAKCX dojhlH MuiIconButton-colorPrimary-224"
                 customcolor="blue"
                 data-testid="color-filter-blue"
                 variant="outer"
               >
                 <span
-                  class="MuiIconButton-label-230"
+                  class="MuiIconButton-label-228"
                 >
                   <input
-                    class="PrivateSwitchBase-input-221"
+                    class="PrivateSwitchBase-input-219"
                     type="radio"
                     value=""
                   />
                   <div
-                    class="PrivateRadioButtonIcon-root-234"
+                    class="PrivateRadioButtonIcon-root-232"
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-237"
+                      class="MuiSvgIcon-root-235"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3194,7 +3194,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root-237 PrivateRadioButtonIcon-layer-235"
+                      class="MuiSvgIcon-root-235 PrivateRadioButtonIcon-layer-233"
                       focusable="false"
                       role="presentation"
                       viewBox="0 0 24 24"
@@ -3206,7 +3206,7 @@ Object {
                   </div>
                 </span>
                 <span
-                  class="MuiTouchRipple-root-400"
+                  class="MuiTouchRipple-root-399"
                 />
               </span>
             </div>

@@ -27,13 +27,12 @@ const ProductItem: FC<ProductItemProps> = (props: ProductItemProps) => {
   const handleHideBuy = useCallback(() => toggleShowBuy(false), [toggleShowBuy])
 
   const productCardCustomTransform = useMemo(
-    () => transform.interpolate(t => `${t} rotateY(180deg)`),
+    () => transform.to(t => `${t} rotateY(180deg)`),
     [transform]
   )
-  const productCartInfoOpacity = useMemo(
-    () => opacity.interpolate(o => 1 - +o),
-    [opacity]
-  )
+  const productCartInfoOpacity = useMemo(() => opacity.to(o => 1 - +o), [
+    opacity,
+  ])
 
   return (
     <ProductItemCardWrapper>

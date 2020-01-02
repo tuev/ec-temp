@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
+import { InputLabel } from '@material-ui/core'
 import { createMuiTheme } from '@material-ui/core/styles'
 
 export const SizeSelectWrapper = styled.div``

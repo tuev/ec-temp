@@ -18,7 +18,7 @@ export const dropdown = () => (
 export const example = () => <SizeSelectExample />
 
 const SizeSelectExample = () => {
-  const sizes: SIZE_PARAMS = ['M', 'L', 'XL', 'XXL']
+  const sizes: SIZE_PARAMS[] = ['M', 'L', 'XL', 'XXL']
   const [size, toggleSize] = useState<SIZE_PARAMS>('L')
   const handleToggleSize = useCallback(sizeCode => toggleSize(sizeCode), [])
 

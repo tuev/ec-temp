@@ -6,7 +6,7 @@ type HandleOnChange = (size: SIZE_PARAMS) => unknown
 
 export interface ISizeSelect {
   sizes?: SIZE_PARAMS[]
-  value?: SIZE_PARAMS
+  value: SIZE_PARAMS
   onChange?: HandleOnChange
   type?: 'radio' | 'select'
 }

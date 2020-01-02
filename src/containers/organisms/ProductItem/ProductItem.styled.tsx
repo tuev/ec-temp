@@ -5,9 +5,8 @@
  */
 
 import styled from 'styled-components'
-import mockImage from './mock/mock.png'
 import { prop } from 'styled-tools'
-import { animated } from 'react-spring'
+import { animated, SpringValue } from 'react-spring'
 
 export const ProductItemCardWrapper = styled.div`
   position: relative;
@@ -22,8 +21,8 @@ export const ProductItemCard = styled(animated.div).attrs(
     },
   })
 )<{
-  transform: OpaqueInterpolation<number>
-  opacity: OpaqueInterpolation<number>
+  transform: SpringValue<string>
+  opacity: SpringValue<number>
 }>`
   cursor: pointer;
   will-change: transform, opacity;

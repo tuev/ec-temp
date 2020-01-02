@@ -83,6 +83,12 @@ exports[`Radio radio 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#FFF",
             "dark": "#cf2557",
@@ -95,6 +101,12 @@ exports[`Radio radio 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -103,6 +115,12 @@ exports[`Radio radio 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -196,35 +214,35 @@ exports[`Radio radio 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -302,6 +320,7 @@ exports[`Radio radio 1`] = `
                   "name": [Function],
                   "onChange": [Function],
                   "required": [Function],
+                  "size": [Function],
                   "type": [Function],
                   "value": [Function],
                 },
@@ -405,6 +424,12 @@ exports[`Radio radio 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -417,6 +442,12 @@ exports[`Radio radio 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -425,6 +456,12 @@ exports[`Radio radio 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -518,35 +555,35 @@ exports[`Radio radio 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -617,6 +654,7 @@ exports[`Radio radio 1`] = `
                     "name": [Function],
                     "onChange": [Function],
                     "required": [Function],
+                    "size": [Function],
                     "type": [Function],
                     "value": [Function],
                   },
@@ -704,6 +742,12 @@ exports[`Radio radio 1`] = `
                         "A400": "#303030",
                         "A700": "#616161",
                       },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
                       "primary": Object {
                         "contrastText": "#fff",
                         "dark": "#303f9f",
@@ -716,6 +760,12 @@ exports[`Radio radio 1`] = `
                         "light": "#ff4081",
                         "main": "#f50057",
                       },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
                       "text": Object {
                         "disabled": "rgba(0, 0, 0, 0.38)",
                         "hint": "rgba(0, 0, 0, 0.38)",
@@ -724,6 +774,12 @@ exports[`Radio radio 1`] = `
                       },
                       "tonalOffset": 0.2,
                       "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#ffa000",
+                        "light": "#ffd54f",
+                        "main": "#ffc107",
+                      },
                     },
                     "props": Object {},
                     "shadows": Array [
@@ -817,35 +873,35 @@ exports[`Radio radio 1`] = `
                         "fontSize": "6rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.01562em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.167,
                       },
                       "h2": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3.75rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.00833em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.2,
                       },
                       "h3": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.04,
+                        "lineHeight": 1.167,
                       },
                       "h4": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "2.125rem",
                         "fontWeight": 400,
                         "letterSpacing": "0.00735em",
-                        "lineHeight": 1.17,
+                        "lineHeight": 1.235,
                       },
                       "h5": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "1.5rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.33,
+                        "lineHeight": 1.334,
                       },
                       "h6": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -933,6 +989,7 @@ exports[`Radio radio 1`] = `
                 checkedIcon={
                   <ForwardRef(WithStyles)
                     checked={true}
+                    fontSize="default"
                   />
                 }
                 className=""
@@ -946,7 +1003,11 @@ exports[`Radio radio 1`] = `
                 color="primary"
                 customcolor="primary"
                 disabled={false}
-                icon={<ForwardRef(WithStyles) />}
+                icon={
+                  <ForwardRef(WithStyles)
+                    fontSize="default"
+                  />
+                }
                 onChange={[Function]}
                 type="radio"
                 variant="inner"
@@ -955,6 +1016,7 @@ exports[`Radio radio 1`] = `
                   checkedIcon={
                     <ForwardRef(WithStyles)
                       checked={true}
+                      fontSize="default"
                     />
                   }
                   className=""
@@ -969,7 +1031,11 @@ exports[`Radio radio 1`] = `
                   color="primary"
                   customcolor="primary"
                   disabled={false}
-                  icon={<ForwardRef(WithStyles) />}
+                  icon={
+                    <ForwardRef(WithStyles)
+                      fontSize="default"
+                    />
+                  }
                   onChange={[Function]}
                   type="radio"
                   variant="inner"
@@ -1067,7 +1133,9 @@ exports[`Radio radio 1`] = `
                                 onChange={[Function]}
                                 type="radio"
                               />
-                              <WithStyles(RadioButtonIcon)>
+                              <WithStyles(RadioButtonIcon)
+                                fontSize="default"
+                              >
                                 <RadioButtonIcon
                                   classes={
                                     Object {
@@ -1076,12 +1144,17 @@ exports[`Radio radio 1`] = `
                                       "root": "PrivateRadioButtonIcon-root-22",
                                     }
                                   }
+                                  fontSize="default"
                                 >
                                   <div
                                     className="PrivateRadioButtonIcon-root-22"
                                   >
-                                    <ForwardRef>
-                                      <WithStyles(ForwardRef(SvgIcon))>
+                                    <ForwardRef
+                                      fontSize="default"
+                                    >
+                                      <WithStyles(ForwardRef(SvgIcon))
+                                        fontSize="default"
+                                      >
                                         <ForwardRef(SvgIcon)
                                           classes={
                                             Object {
@@ -1096,6 +1169,7 @@ exports[`Radio radio 1`] = `
                                               "root": "MuiSvgIcon-root-25",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -1113,9 +1187,11 @@ exports[`Radio radio 1`] = `
                                     </ForwardRef>
                                     <ForwardRef
                                       className="PrivateRadioButtonIcon-layer-23"
+                                      fontSize="default"
                                     >
                                       <WithStyles(ForwardRef(SvgIcon))
                                         className="PrivateRadioButtonIcon-layer-23"
+                                        fontSize="default"
                                       >
                                         <ForwardRef(SvgIcon)
                                           className="PrivateRadioButtonIcon-layer-23"
@@ -1132,6 +1208,7 @@ exports[`Radio radio 1`] = `
                                               "root": "MuiSvgIcon-root-25",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -1282,6 +1359,12 @@ exports[`Radio radio checked 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#FFF",
             "dark": "#cf2557",
@@ -1294,6 +1377,12 @@ exports[`Radio radio checked 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -1302,6 +1391,12 @@ exports[`Radio radio checked 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -1395,35 +1490,35 @@ exports[`Radio radio checked 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1503,6 +1598,7 @@ exports[`Radio radio checked 1`] = `
                   "name": [Function],
                   "onChange": [Function],
                   "required": [Function],
+                  "size": [Function],
                   "type": [Function],
                   "value": [Function],
                 },
@@ -1606,6 +1702,12 @@ exports[`Radio radio checked 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -1618,6 +1720,12 @@ exports[`Radio radio checked 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -1626,6 +1734,12 @@ exports[`Radio radio checked 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -1719,35 +1833,35 @@ exports[`Radio radio checked 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1818,6 +1932,7 @@ exports[`Radio radio checked 1`] = `
                     "name": [Function],
                     "onChange": [Function],
                     "required": [Function],
+                    "size": [Function],
                     "type": [Function],
                     "value": [Function],
                   },
@@ -1905,6 +2020,12 @@ exports[`Radio radio checked 1`] = `
                         "A400": "#303030",
                         "A700": "#616161",
                       },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
                       "primary": Object {
                         "contrastText": "#fff",
                         "dark": "#303f9f",
@@ -1917,6 +2038,12 @@ exports[`Radio radio checked 1`] = `
                         "light": "#ff4081",
                         "main": "#f50057",
                       },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
                       "text": Object {
                         "disabled": "rgba(0, 0, 0, 0.38)",
                         "hint": "rgba(0, 0, 0, 0.38)",
@@ -1925,6 +2052,12 @@ exports[`Radio radio checked 1`] = `
                       },
                       "tonalOffset": 0.2,
                       "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#ffa000",
+                        "light": "#ffd54f",
+                        "main": "#ffc107",
+                      },
                     },
                     "props": Object {},
                     "shadows": Array [
@@ -2018,35 +2151,35 @@ exports[`Radio radio checked 1`] = `
                         "fontSize": "6rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.01562em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.167,
                       },
                       "h2": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3.75rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.00833em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.2,
                       },
                       "h3": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.04,
+                        "lineHeight": 1.167,
                       },
                       "h4": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "2.125rem",
                         "fontWeight": 400,
                         "letterSpacing": "0.00735em",
-                        "lineHeight": 1.17,
+                        "lineHeight": 1.235,
                       },
                       "h5": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "1.5rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.33,
+                        "lineHeight": 1.334,
                       },
                       "h6": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2137,6 +2270,7 @@ exports[`Radio radio checked 1`] = `
                 checkedIcon={
                   <ForwardRef(WithStyles)
                     checked={true}
+                    fontSize="default"
                   />
                 }
                 className=""
@@ -2150,7 +2284,11 @@ exports[`Radio radio checked 1`] = `
                 color="primary"
                 customcolor="primary"
                 disabled={false}
-                icon={<ForwardRef(WithStyles) />}
+                icon={
+                  <ForwardRef(WithStyles)
+                    fontSize="default"
+                  />
+                }
                 onChange={[Function]}
                 type="radio"
                 variant="inner"
@@ -2160,6 +2298,7 @@ exports[`Radio radio checked 1`] = `
                   checkedIcon={
                     <ForwardRef(WithStyles)
                       checked={true}
+                      fontSize="default"
                     />
                   }
                   className=""
@@ -2174,7 +2313,11 @@ exports[`Radio radio checked 1`] = `
                   color="primary"
                   customcolor="primary"
                   disabled={false}
-                  icon={<ForwardRef(WithStyles) />}
+                  icon={
+                    <ForwardRef(WithStyles)
+                      fontSize="default"
+                    />
+                  }
                   onChange={[Function]}
                   type="radio"
                   variant="inner"
@@ -2275,6 +2418,7 @@ exports[`Radio radio checked 1`] = `
                               />
                               <WithStyles(RadioButtonIcon)
                                 checked={true}
+                                fontSize="default"
                               >
                                 <RadioButtonIcon
                                   checked={true}
@@ -2285,12 +2429,17 @@ exports[`Radio radio checked 1`] = `
                                       "root": "PrivateRadioButtonIcon-root-108",
                                     }
                                   }
+                                  fontSize="default"
                                 >
                                   <div
                                     className="PrivateRadioButtonIcon-root-108 PrivateRadioButtonIcon-checked-110"
                                   >
-                                    <ForwardRef>
-                                      <WithStyles(ForwardRef(SvgIcon))>
+                                    <ForwardRef
+                                      fontSize="default"
+                                    >
+                                      <WithStyles(ForwardRef(SvgIcon))
+                                        fontSize="default"
+                                      >
                                         <ForwardRef(SvgIcon)
                                           classes={
                                             Object {
@@ -2305,6 +2454,7 @@ exports[`Radio radio checked 1`] = `
                                               "root": "MuiSvgIcon-root-111",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -2322,9 +2472,11 @@ exports[`Radio radio checked 1`] = `
                                     </ForwardRef>
                                     <ForwardRef
                                       className="PrivateRadioButtonIcon-layer-109"
+                                      fontSize="default"
                                     >
                                       <WithStyles(ForwardRef(SvgIcon))
                                         className="PrivateRadioButtonIcon-layer-109"
+                                        fontSize="default"
                                       >
                                         <ForwardRef(SvgIcon)
                                           className="PrivateRadioButtonIcon-layer-109"
@@ -2341,6 +2493,7 @@ exports[`Radio radio checked 1`] = `
                                               "root": "MuiSvgIcon-root-111",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -2492,6 +2645,12 @@ exports[`Radio radio green checked 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#FFF",
             "dark": "#00ad9d",
@@ -2504,6 +2663,12 @@ exports[`Radio radio green checked 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -2512,6 +2677,12 @@ exports[`Radio radio green checked 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -2605,35 +2776,35 @@ exports[`Radio radio green checked 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2713,6 +2884,7 @@ exports[`Radio radio green checked 1`] = `
                   "name": [Function],
                   "onChange": [Function],
                   "required": [Function],
+                  "size": [Function],
                   "type": [Function],
                   "value": [Function],
                 },
@@ -2816,6 +2988,12 @@ exports[`Radio radio green checked 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -2828,6 +3006,12 @@ exports[`Radio radio green checked 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -2836,6 +3020,12 @@ exports[`Radio radio green checked 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -2929,35 +3119,35 @@ exports[`Radio radio green checked 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3028,6 +3218,7 @@ exports[`Radio radio green checked 1`] = `
                     "name": [Function],
                     "onChange": [Function],
                     "required": [Function],
+                    "size": [Function],
                     "type": [Function],
                     "value": [Function],
                   },
@@ -3115,6 +3306,12 @@ exports[`Radio radio green checked 1`] = `
                         "A400": "#303030",
                         "A700": "#616161",
                       },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
                       "primary": Object {
                         "contrastText": "#fff",
                         "dark": "#303f9f",
@@ -3127,6 +3324,12 @@ exports[`Radio radio green checked 1`] = `
                         "light": "#ff4081",
                         "main": "#f50057",
                       },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
                       "text": Object {
                         "disabled": "rgba(0, 0, 0, 0.38)",
                         "hint": "rgba(0, 0, 0, 0.38)",
@@ -3135,6 +3338,12 @@ exports[`Radio radio green checked 1`] = `
                       },
                       "tonalOffset": 0.2,
                       "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#ffa000",
+                        "light": "#ffd54f",
+                        "main": "#ffc107",
+                      },
                     },
                     "props": Object {},
                     "shadows": Array [
@@ -3228,35 +3437,35 @@ exports[`Radio radio green checked 1`] = `
                         "fontSize": "6rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.01562em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.167,
                       },
                       "h2": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3.75rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.00833em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.2,
                       },
                       "h3": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.04,
+                        "lineHeight": 1.167,
                       },
                       "h4": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "2.125rem",
                         "fontWeight": 400,
                         "letterSpacing": "0.00735em",
-                        "lineHeight": 1.17,
+                        "lineHeight": 1.235,
                       },
                       "h5": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "1.5rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.33,
+                        "lineHeight": 1.334,
                       },
                       "h6": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3347,6 +3556,7 @@ exports[`Radio radio green checked 1`] = `
                 checkedIcon={
                   <ForwardRef(WithStyles)
                     checked={true}
+                    fontSize="default"
                   />
                 }
                 className=""
@@ -3360,7 +3570,11 @@ exports[`Radio radio green checked 1`] = `
                 color="primary"
                 customcolor="green"
                 disabled={false}
-                icon={<ForwardRef(WithStyles) />}
+                icon={
+                  <ForwardRef(WithStyles)
+                    fontSize="default"
+                  />
+                }
                 onChange={[Function]}
                 type="radio"
                 variant="inner"
@@ -3370,6 +3584,7 @@ exports[`Radio radio green checked 1`] = `
                   checkedIcon={
                     <ForwardRef(WithStyles)
                       checked={true}
+                      fontSize="default"
                     />
                   }
                   className=""
@@ -3384,7 +3599,11 @@ exports[`Radio radio green checked 1`] = `
                   color="primary"
                   customcolor="green"
                   disabled={false}
-                  icon={<ForwardRef(WithStyles) />}
+                  icon={
+                    <ForwardRef(WithStyles)
+                      fontSize="default"
+                    />
+                  }
                   onChange={[Function]}
                   type="radio"
                   variant="inner"
@@ -3485,6 +3704,7 @@ exports[`Radio radio green checked 1`] = `
                               />
                               <WithStyles(RadioButtonIcon)
                                 checked={true}
+                                fontSize="default"
                               >
                                 <RadioButtonIcon
                                   checked={true}
@@ -3495,12 +3715,17 @@ exports[`Radio radio green checked 1`] = `
                                       "root": "PrivateRadioButtonIcon-root-151",
                                     }
                                   }
+                                  fontSize="default"
                                 >
                                   <div
                                     className="PrivateRadioButtonIcon-root-151 PrivateRadioButtonIcon-checked-153"
                                   >
-                                    <ForwardRef>
-                                      <WithStyles(ForwardRef(SvgIcon))>
+                                    <ForwardRef
+                                      fontSize="default"
+                                    >
+                                      <WithStyles(ForwardRef(SvgIcon))
+                                        fontSize="default"
+                                      >
                                         <ForwardRef(SvgIcon)
                                           classes={
                                             Object {
@@ -3515,6 +3740,7 @@ exports[`Radio radio green checked 1`] = `
                                               "root": "MuiSvgIcon-root-154",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -3532,9 +3758,11 @@ exports[`Radio radio green checked 1`] = `
                                     </ForwardRef>
                                     <ForwardRef
                                       className="PrivateRadioButtonIcon-layer-152"
+                                      fontSize="default"
                                     >
                                       <WithStyles(ForwardRef(SvgIcon))
                                         className="PrivateRadioButtonIcon-layer-152"
+                                        fontSize="default"
                                       >
                                         <ForwardRef(SvgIcon)
                                           className="PrivateRadioButtonIcon-layer-152"
@@ -3551,6 +3779,7 @@ exports[`Radio radio green checked 1`] = `
                                               "root": "MuiSvgIcon-root-154",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -3701,6 +3930,12 @@ exports[`Radio radio primary 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#FFF",
             "dark": "#cf2557",
@@ -3713,6 +3948,12 @@ exports[`Radio radio primary 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -3721,6 +3962,12 @@ exports[`Radio radio primary 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -3814,35 +4061,35 @@ exports[`Radio radio primary 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3920,6 +4167,7 @@ exports[`Radio radio primary 1`] = `
                   "name": [Function],
                   "onChange": [Function],
                   "required": [Function],
+                  "size": [Function],
                   "type": [Function],
                   "value": [Function],
                 },
@@ -4023,6 +4271,12 @@ exports[`Radio radio primary 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -4035,6 +4289,12 @@ exports[`Radio radio primary 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -4043,6 +4303,12 @@ exports[`Radio radio primary 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -4136,35 +4402,35 @@ exports[`Radio radio primary 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4235,6 +4501,7 @@ exports[`Radio radio primary 1`] = `
                     "name": [Function],
                     "onChange": [Function],
                     "required": [Function],
+                    "size": [Function],
                     "type": [Function],
                     "value": [Function],
                   },
@@ -4322,6 +4589,12 @@ exports[`Radio radio primary 1`] = `
                         "A400": "#303030",
                         "A700": "#616161",
                       },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
                       "primary": Object {
                         "contrastText": "#fff",
                         "dark": "#303f9f",
@@ -4334,6 +4607,12 @@ exports[`Radio radio primary 1`] = `
                         "light": "#ff4081",
                         "main": "#f50057",
                       },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
                       "text": Object {
                         "disabled": "rgba(0, 0, 0, 0.38)",
                         "hint": "rgba(0, 0, 0, 0.38)",
@@ -4342,6 +4621,12 @@ exports[`Radio radio primary 1`] = `
                       },
                       "tonalOffset": 0.2,
                       "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#ffa000",
+                        "light": "#ffd54f",
+                        "main": "#ffc107",
+                      },
                     },
                     "props": Object {},
                     "shadows": Array [
@@ -4435,35 +4720,35 @@ exports[`Radio radio primary 1`] = `
                         "fontSize": "6rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.01562em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.167,
                       },
                       "h2": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3.75rem",
                         "fontWeight": 300,
                         "letterSpacing": "-0.00833em",
-                        "lineHeight": 1,
+                        "lineHeight": 1.2,
                       },
                       "h3": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "3rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.04,
+                        "lineHeight": 1.167,
                       },
                       "h4": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "2.125rem",
                         "fontWeight": 400,
                         "letterSpacing": "0.00735em",
-                        "lineHeight": 1.17,
+                        "lineHeight": 1.235,
                       },
                       "h5": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": "1.5rem",
                         "fontWeight": 400,
                         "letterSpacing": "0em",
-                        "lineHeight": 1.33,
+                        "lineHeight": 1.334,
                       },
                       "h6": Object {
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4551,6 +4836,7 @@ exports[`Radio radio primary 1`] = `
                 checkedIcon={
                   <ForwardRef(WithStyles)
                     checked={true}
+                    fontSize="default"
                   />
                 }
                 className=""
@@ -4564,7 +4850,11 @@ exports[`Radio radio primary 1`] = `
                 color="primary"
                 customcolor="primary"
                 disabled={false}
-                icon={<ForwardRef(WithStyles) />}
+                icon={
+                  <ForwardRef(WithStyles)
+                    fontSize="default"
+                  />
+                }
                 onChange={[Function]}
                 type="radio"
                 variant="inner"
@@ -4573,6 +4863,7 @@ exports[`Radio radio primary 1`] = `
                   checkedIcon={
                     <ForwardRef(WithStyles)
                       checked={true}
+                      fontSize="default"
                     />
                   }
                   className=""
@@ -4587,7 +4878,11 @@ exports[`Radio radio primary 1`] = `
                   color="primary"
                   customcolor="primary"
                   disabled={false}
-                  icon={<ForwardRef(WithStyles) />}
+                  icon={
+                    <ForwardRef(WithStyles)
+                      fontSize="default"
+                    />
+                  }
                   onChange={[Function]}
                   type="radio"
                   variant="inner"
@@ -4685,7 +4980,9 @@ exports[`Radio radio primary 1`] = `
                                 onChange={[Function]}
                                 type="radio"
                               />
-                              <WithStyles(RadioButtonIcon)>
+                              <WithStyles(RadioButtonIcon)
+                                fontSize="default"
+                              >
                                 <RadioButtonIcon
                                   classes={
                                     Object {
@@ -4694,12 +4991,17 @@ exports[`Radio radio primary 1`] = `
                                       "root": "PrivateRadioButtonIcon-root-65",
                                     }
                                   }
+                                  fontSize="default"
                                 >
                                   <div
                                     className="PrivateRadioButtonIcon-root-65"
                                   >
-                                    <ForwardRef>
-                                      <WithStyles(ForwardRef(SvgIcon))>
+                                    <ForwardRef
+                                      fontSize="default"
+                                    >
+                                      <WithStyles(ForwardRef(SvgIcon))
+                                        fontSize="default"
+                                      >
                                         <ForwardRef(SvgIcon)
                                           classes={
                                             Object {
@@ -4714,6 +5016,7 @@ exports[`Radio radio primary 1`] = `
                                               "root": "MuiSvgIcon-root-68",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"
@@ -4731,9 +5034,11 @@ exports[`Radio radio primary 1`] = `
                                     </ForwardRef>
                                     <ForwardRef
                                       className="PrivateRadioButtonIcon-layer-66"
+                                      fontSize="default"
                                     >
                                       <WithStyles(ForwardRef(SvgIcon))
                                         className="PrivateRadioButtonIcon-layer-66"
+                                        fontSize="default"
                                       >
                                         <ForwardRef(SvgIcon)
                                           className="PrivateRadioButtonIcon-layer-66"
@@ -4750,6 +5055,7 @@ exports[`Radio radio primary 1`] = `
                                               "root": "MuiSvgIcon-root-68",
                                             }
                                           }
+                                          fontSize="default"
                                         >
                                           <svg
                                             aria-hidden="true"

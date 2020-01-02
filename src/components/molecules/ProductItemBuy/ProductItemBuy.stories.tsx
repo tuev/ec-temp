@@ -18,16 +18,40 @@ export default {
 export const basic = () => (
   <Grid container spacing={2}>
     <Grid item xs={3}>
-      <ProductItemBuy price="1$" />
+      <ProductItemBuy
+        price="1$"
+        name="name 1"
+        id="1"
+        colors={['green']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="2$" />
+      <ProductItemBuy
+        price="2$"
+        name="name 1"
+        id="1"
+        colors={['green', 'yellow']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="3$" />
+      <ProductItemBuy
+        price="3$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['red']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
   </Grid>
 )
@@ -35,16 +59,40 @@ export const basic = () => (
 export const grid4 = () => (
   <Grid container spacing={2}>
     <Grid item xs={3}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={3}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
   </Grid>
 )
@@ -52,13 +100,31 @@ export const grid4 = () => (
 export const grid3 = () => (
   <Grid container spacing={2}>
     <Grid item xs={4}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={4}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
     <Grid item xs={4}>
-      <ProductItemBuy price="4$" />
+      <ProductItemBuy
+        price="4$"
+        name="name 1"
+        id="1"
+        colors={['green', 'blue']}
+        sizes={['L', 'M', 'XS', 'S']}
+      />
     </Grid>
   </Grid>
 )

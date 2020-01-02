@@ -75,7 +75,9 @@ export const Pagination: FC<PaginationType> = props => {
   ])
 
   // TODO: Need to define type for high order functional
-  const handlePageSelect = useCallback(data => () => onChange(data), [onChange])
+  const handlePageSelect = useCallback(data => (): void => onChange(data), [
+    onChange,
+  ])
 
   return (
     <PaginationWrapper display="flex">

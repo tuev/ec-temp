@@ -19,12 +19,13 @@ export const BrandSelect: FC<BrandSelectProps> = (props: BrandSelectProps) => {
   const { values = {}, onChange } = props
   const [checkedValue, toggleCheck] = useState<IValueItem>({ ...values })
   const handleChange = useCallback(
-    (name: string | number) => (event: React.ChangeEvent<HTMLInputElement>) => {
+    (name: string | number) => (
+      event: React.ChangeEvent<HTMLInputElement>
+    ): unknown =>
       toggleCheck({
         ...checkedValue,
         [name]: { ...checkedValue[name], value: !!event.target.checked },
-      })
-    },
+      }),
     [checkedValue]
   )
 

@@ -13,21 +13,21 @@ import Typography from 'components/atoms/Typography'
 
 const SizeSelect: FC<BasicSizeSelectProps> = props => {
   const { sizes = [], value, onChange, type = 'radio' } = props
-  const [size, onSizeChange] = useState<SIZE_PARAMS>(sizes[0] || '')
+  const [size, onSizeChange] = useState<SIZE_PARAMS>(value)
   const handleSizeOnChange = useCallback(
     // todo: need to make typecheck for hof
-    (sizeValue: SIZE_PARAMS) => () => onChange && onChange(sizeValue),
+    sizeValue => (): unknown => onChange && onChange(sizeValue),
     [onChange]
   )
 
   const handleSelect = useCallback(
-    (e: React.ChangeEvent<{ value: unknown }>) =>
-      onSizeChange(e.target.value as SIZE_PARAMS),
+    (e: React.ChangeEvent<{ value: unknown }>) => {
+      onSizeChange(e.target.value as SIZE_PARAMS)
+    },
     [onSizeChange]
   )
 
   useEffect(() => {
-    // tslint:disable-next-line: no-unused-expression
     onChange && onChange(size)
   }, [size, onChange])
 
@@ -54,7 +54,9 @@ const SizeSelect: FC<BasicSizeSelectProps> = props => {
         <Select
           value={size}
           onChange={handleSelect}
-          data-testid="size-filter-select"
+          inputProps={{
+            'data-testid': 'size-filter-select',
+          }}
         >
           {sizes.map(sizeItem => (
             <MenuItem value={sizeItem} key={sizeItem}>

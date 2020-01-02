@@ -6,8 +6,10 @@
 
 import React from 'react'
 
-import { render, fireEvent } from '@testing-library/react'
+import { render, fireEvent, waitForElement } from '@testing-library/react'
 import ProductItemBuy from '..'
+import UserEvent from '@testing-library/user-event'
+import { last } from 'lodash'
 
 describe('App ProductItemBuy', () => {
   it('Test get default ProductItemBuy no params ', () => {
@@ -93,7 +95,7 @@ describe('App ProductItemBuy', () => {
     })
   })
 
-  it('Test buy product ProductItemBuy with size selection', () => {
+  it('Test buy product ProductItemBuy with size selection', async () => {
     const props = {
       colors: ['green', 'red'],
       image: 'test',
@@ -103,35 +105,49 @@ describe('App ProductItemBuy', () => {
       id: 'product id',
     }
 
-    let info = null
-    const handleBuy = productInfo => (info = productInfo)
+    let valueInfo = props.sizes[0]
+    const onChange = info => (valueInfo = info)
+    const changeHandler = jest.fn().mockImplementation(productInfo => {
+      onChange(productInfo)
+    })
     // test snapshot
-    const wrapper = render(<ProductItemBuy {...props} handleBuy={handleBuy} />)
+    const wrapper = render(
+      <ProductItemBuy {...props} handleBuy={changeHandler} />
+    )
     expect(wrapper).toMatchSnapshot()
     const buyBtn = wrapper.getByTestId('product-item-buy-btn')
 
     fireEvent.click(buyBtn)
-    expect(info).toStrictEqual({
+    expect(valueInfo).toStrictEqual({
       id: props.id,
       color: props.colors[0],
       size: props.sizes[0],
     })
 
-    // change color
-    const selectSizeComp = wrapper.getByTestId('size-filter-select')
-    fireEvent.click(selectSizeComp)
-    // const sizeRadio = wrapper.getByTestId(`size-filter-M`)
-    // fireEvent.click(sizeRadio)
-    props.sizes.forEach(size => {
-      fireEvent.click(selectSizeComp)
-      const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
-      fireEvent.click(sizeRadio)
+    expect(changeHandler).toHaveBeenCalled()
+
+    // change size
+    const { getByTestId, container, getAllByText, getAllByRole } = wrapper
+
+    const selectSizeComp = getByTestId('size-filter-select')
+    const selectButton = getAllByRole('button')
+
+    expect(selectButton).not.toBeNull()
+    expect(selectSizeComp).not.toBeNull()
+
+    for (const svalue of props.sizes) {
+      UserEvent.click(selectButton[0])
+      await waitForElement(() => getAllByText(svalue), {
+        container,
+      })
+      const label = getAllByText(svalue)
+      UserEvent.click(last(label))
       fireEvent.click(buyBtn)
-      expect(info).toStrictEqual({
+      expect(valueInfo).toStrictEqual({
         id: props.id,
         color: 'green',
-        size,
+        size: svalue,
       })
-    })
+    }
   })
 })
