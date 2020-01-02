@@ -6,8 +6,8 @@ machine:
 dependencies:
   override:
     - yarn
-  # cache_directories:
-  #   - ~/.cache/yarn
+  cache_directories:
+    - ~/.cache/yarn
   pre:
     - yarn global add now
 
