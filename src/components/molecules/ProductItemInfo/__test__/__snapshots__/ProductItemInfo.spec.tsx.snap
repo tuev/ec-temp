@@ -1,0 +1,627 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App ProductItemInfo Test get default ProductItemInfo no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 335px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c6 {
+  background-image: url(mock.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 165px;
+  background-repeat: no-repeat;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.c8 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+}
+
+.c10 {
+  margin-top: auto;
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c5 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+.c0 {
+  cursor: pointer;
+  will-change: transform,opacity;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  min-height: 335px;
+  padding: 8px;
+}
+
+.c0:hover {
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+          >
+            <div
+              class="c3"
+            >
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                  color="#F62F5E"
+                >
+                  <span>
+                    HOT
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c6"
+              />
+            </div>
+            <div
+              class="c7"
+            >
+              <p
+                class="MuiTypography-root c8 MuiTypography-body1 MuiTypography-alignCenter"
+                customvariant="header3"
+                data-testid="product-item-info-name"
+              />
+              <p
+                class="MuiTypography-root c8 MuiTypography-body1 MuiTypography-colorError"
+                customvariant="header3"
+              >
+                20$
+              </p>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained c10 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              data-testid="product-item-info-buy-btn"
+              mt="auto"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Buy now
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-iwsKbI jLlRxQ"
+    >
+      <div
+        class="sc-bdVaJa gNkBHk"
+      >
+        <div
+          class="sc-bwzfXH dUZBsS"
+        >
+          <div
+            class="sc-htpNat jiYSEo"
+          >
+            <div
+              class="sc-bxivhb zOTDl"
+            >
+              <div
+                class="sc-dnqmqq gPOBHA"
+                color="#F62F5E"
+              >
+                <span>
+                  HOT
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-ifAKCX gHOpDq"
+            />
+          </div>
+          <div
+            class="sc-EHOje ivvWgm"
+          >
+            <p
+              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-alignCenter"
+              customvariant="header3"
+              data-testid="product-item-info-name"
+            />
+            <p
+              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-colorError"
+              customvariant="header3"
+            >
+              20$
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bZQynM isRPXh"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-htoDjs cIoBCE MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            data-testid="product-item-info-buy-btn"
+            mt="auto"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Buy now
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductItemInfo Test get default ProductItemInfo with name more than 30 chars  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 335px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c6 {
+  background-image: url(mock.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 165px;
+  background-repeat: no-repeat;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.c8 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+}
+
+.c10 {
+  margin-top: auto;
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c5 {
+  background-color: #F62F5E;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+.c0 {
+  cursor: pointer;
+  will-change: transform,opacity;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  min-height: 335px;
+  padding: 8px;
+}
+
+.c0:hover {
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+}
+
+<div>
+      <div
+        class="c0"
+      >
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+          >
+            <div
+              class="c3"
+            >
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                  color="#F62F5E"
+                >
+                  <span>
+                    HOT
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c6"
+              />
+            </div>
+            <div
+              class="c7"
+            >
+              <p
+                class="MuiTypography-root c8 MuiTypography-body1 MuiTypography-alignCenter"
+                customvariant="header3"
+                data-testid="product-item-info-name"
+              >
+                this is name of the product w...
+              </p>
+              <p
+                class="MuiTypography-root c8 MuiTypography-body1 MuiTypography-colorError"
+                customvariant="header3"
+              >
+                20$
+              </p>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained c10 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              data-testid="product-item-info-buy-btn"
+              mt="auto"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Buy now
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-iwsKbI jLlRxQ"
+    >
+      <div
+        class="sc-bdVaJa gNkBHk"
+      >
+        <div
+          class="sc-bwzfXH dUZBsS"
+        >
+          <div
+            class="sc-htpNat jiYSEo"
+          >
+            <div
+              class="sc-bxivhb zOTDl"
+            >
+              <div
+                class="sc-dnqmqq gPOBHA"
+                color="#F62F5E"
+              >
+                <span>
+                  HOT
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-ifAKCX gHOpDq"
+            />
+          </div>
+          <div
+            class="sc-EHOje ivvWgm"
+          >
+            <p
+              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-alignCenter"
+              customvariant="header3"
+              data-testid="product-item-info-name"
+            >
+              this is name of the product w...
+            </p>
+            <p
+              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-colorError"
+              customvariant="header3"
+            >
+              20$
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bZQynM isRPXh"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-htoDjs cIoBCE MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            data-testid="product-item-info-buy-btn"
+            mt="auto"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Buy now
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

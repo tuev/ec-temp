@@ -12,12 +12,12 @@ module.exports = [
       },
     },
   },
-  {
-    name: '@storybook/addon-docs/react/preset',
-    options: {
-      babelOptions: {},
-      configureJSX: true,
-      sourceLoaderOptions: null,
-    },
-  },
+  // {
+  //   name: '@storybook/addon-docs/react/preset',
+  //   options: {
+  //     babelOptions: {},
+  //     configureJSX: true,
+  //     sourceLoaderOptions: null,
+  //   },
+  // },
 ]

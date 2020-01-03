@@ -3,7 +3,6 @@
 exports[`Typography body1 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #6C6C6C !important;
   line-height: 1.5 !important;
   font-family: 'Open Sans' !important;
 }
@@ -92,6 +91,12 @@ exports[`Typography body1 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -104,6 +109,12 @@ exports[`Typography body1 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -112,6 +123,12 @@ exports[`Typography body1 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -205,35 +222,35 @@ exports[`Typography body1 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -405,6 +422,12 @@ exports[`Typography body1 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -417,6 +440,12 @@ exports[`Typography body1 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -425,6 +454,12 @@ exports[`Typography body1 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -518,35 +553,35 @@ exports[`Typography body1 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -701,6 +736,12 @@ exports[`Typography body1 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -713,6 +754,12 @@ exports[`Typography body1 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -721,6 +768,12 @@ exports[`Typography body1 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -814,35 +867,35 @@ exports[`Typography body1 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -961,7 +1014,6 @@ exports[`Typography body1 1`] = `
 exports[`Typography body2 1`] = `
 .c0 {
   font-size: 12px !important;
-  color: #6C6C6C !important;
   line-height: 2 !important;
   font-family: 'Open Sans' !important;
 }
@@ -1050,6 +1102,12 @@ exports[`Typography body2 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -1062,6 +1120,12 @@ exports[`Typography body2 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -1070,6 +1134,12 @@ exports[`Typography body2 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -1163,35 +1233,35 @@ exports[`Typography body2 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1363,6 +1433,12 @@ exports[`Typography body2 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -1375,6 +1451,12 @@ exports[`Typography body2 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -1383,6 +1465,12 @@ exports[`Typography body2 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -1476,35 +1564,35 @@ exports[`Typography body2 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1659,6 +1747,12 @@ exports[`Typography body2 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -1671,6 +1765,12 @@ exports[`Typography body2 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -1679,6 +1779,12 @@ exports[`Typography body2 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -1772,35 +1878,35 @@ exports[`Typography body2 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1919,7 +2025,6 @@ exports[`Typography body2 1`] = `
 exports[`Typography header1 1`] = `
 .c0 {
   font-size: 48px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Playfair Display' !important;
   font-weight: bold !important;
@@ -2009,6 +2114,12 @@ exports[`Typography header1 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -2021,6 +2132,12 @@ exports[`Typography header1 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -2029,6 +2146,12 @@ exports[`Typography header1 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -2122,35 +2245,35 @@ exports[`Typography header1 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2322,6 +2445,12 @@ exports[`Typography header1 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -2334,6 +2463,12 @@ exports[`Typography header1 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -2342,6 +2477,12 @@ exports[`Typography header1 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -2435,35 +2576,35 @@ exports[`Typography header1 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2618,6 +2759,12 @@ exports[`Typography header1 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -2630,6 +2777,12 @@ exports[`Typography header1 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -2638,6 +2791,12 @@ exports[`Typography header1 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -2731,35 +2890,35 @@ exports[`Typography header1 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2878,7 +3037,6 @@ exports[`Typography header1 1`] = `
 exports[`Typography header2 1`] = `
 .c0 {
   font-size: 24px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
@@ -2968,6 +3126,12 @@ exports[`Typography header2 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -2980,6 +3144,12 @@ exports[`Typography header2 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -2988,6 +3158,12 @@ exports[`Typography header2 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -3081,35 +3257,35 @@ exports[`Typography header2 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3281,6 +3457,12 @@ exports[`Typography header2 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -3293,6 +3475,12 @@ exports[`Typography header2 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -3301,6 +3489,12 @@ exports[`Typography header2 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -3394,35 +3588,35 @@ exports[`Typography header2 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3577,6 +3771,12 @@ exports[`Typography header2 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -3589,6 +3789,12 @@ exports[`Typography header2 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -3597,6 +3803,12 @@ exports[`Typography header2 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -3690,35 +3902,35 @@ exports[`Typography header2 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3837,7 +4049,6 @@ exports[`Typography header2 1`] = `
 exports[`Typography header3 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #2E2E2E !important;
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
@@ -3927,6 +4138,12 @@ exports[`Typography header3 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -3939,6 +4156,12 @@ exports[`Typography header3 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -3947,6 +4170,12 @@ exports[`Typography header3 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -4040,35 +4269,35 @@ exports[`Typography header3 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4240,6 +4469,12 @@ exports[`Typography header3 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -4252,6 +4487,12 @@ exports[`Typography header3 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -4260,6 +4501,12 @@ exports[`Typography header3 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -4353,35 +4600,35 @@ exports[`Typography header3 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4536,6 +4783,12 @@ exports[`Typography header3 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -4548,6 +4801,12 @@ exports[`Typography header3 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -4556,6 +4815,12 @@ exports[`Typography header3 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -4649,35 +4914,35 @@ exports[`Typography header3 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4796,7 +5061,6 @@ exports[`Typography header3 1`] = `
 exports[`Typography topbar 1`] = `
 .c0 {
   font-size: 16px !important;
-  color: #2E2E2E !important;
   line-height: 2.4 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
@@ -4886,6 +5150,12 @@ exports[`Typography topbar 1`] = `
             "A400": "#303030",
             "A700": "#616161",
           },
+          "info": Object {
+            "contrastText": "#fff",
+            "dark": "#1976d2",
+            "light": "#64b5f6",
+            "main": "#2196f3",
+          },
           "primary": Object {
             "contrastText": "#fff",
             "dark": "#4592f7",
@@ -4898,6 +5168,12 @@ exports[`Typography topbar 1`] = `
             "light": "#ff4081",
             "main": "#f50057",
           },
+          "success": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#388e3c",
+            "light": "#81c784",
+            "main": "#4caf50",
+          },
           "text": Object {
             "disabled": "rgba(0, 0, 0, 0.38)",
             "hint": "rgba(0, 0, 0, 0.38)",
@@ -4906,6 +5182,12 @@ exports[`Typography topbar 1`] = `
           },
           "tonalOffset": 0.2,
           "type": "light",
+          "warning": Object {
+            "contrastText": "rgba(0, 0, 0, 0.87)",
+            "dark": "#ffa000",
+            "light": "#ffd54f",
+            "main": "#ffc107",
+          },
         },
         "props": Object {},
         "shadows": Array [
@@ -4999,35 +5281,35 @@ exports[`Typography topbar 1`] = `
             "fontSize": "6rem",
             "fontWeight": 300,
             "letterSpacing": "-0.01562em",
-            "lineHeight": 1,
+            "lineHeight": 1.167,
           },
           "h2": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3.75rem",
             "fontWeight": 300,
             "letterSpacing": "-0.00833em",
-            "lineHeight": 1,
+            "lineHeight": 1.2,
           },
           "h3": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "3rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.04,
+            "lineHeight": 1.167,
           },
           "h4": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "2.125rem",
             "fontWeight": 400,
             "letterSpacing": "0.00735em",
-            "lineHeight": 1.17,
+            "lineHeight": 1.235,
           },
           "h5": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
             "fontSize": "1.5rem",
             "fontWeight": 400,
             "letterSpacing": "0em",
-            "lineHeight": 1.33,
+            "lineHeight": 1.334,
           },
           "h6": Object {
             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -5199,6 +5481,12 @@ exports[`Typography topbar 1`] = `
                     "A400": "#303030",
                     "A700": "#616161",
                   },
+                  "info": Object {
+                    "contrastText": "#fff",
+                    "dark": "#1976d2",
+                    "light": "#64b5f6",
+                    "main": "#2196f3",
+                  },
                   "primary": Object {
                     "contrastText": "#fff",
                     "dark": "#303f9f",
@@ -5211,6 +5499,12 @@ exports[`Typography topbar 1`] = `
                     "light": "#ff4081",
                     "main": "#f50057",
                   },
+                  "success": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#388e3c",
+                    "light": "#81c784",
+                    "main": "#4caf50",
+                  },
                   "text": Object {
                     "disabled": "rgba(0, 0, 0, 0.38)",
                     "hint": "rgba(0, 0, 0, 0.38)",
@@ -5219,6 +5513,12 @@ exports[`Typography topbar 1`] = `
                   },
                   "tonalOffset": 0.2,
                   "type": "light",
+                  "warning": Object {
+                    "contrastText": "rgba(0, 0, 0, 0.87)",
+                    "dark": "#ffa000",
+                    "light": "#ffd54f",
+                    "main": "#ffc107",
+                  },
                 },
                 "props": Object {},
                 "shadows": Array [
@@ -5312,35 +5612,35 @@ exports[`Typography topbar 1`] = `
                     "fontSize": "6rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.01562em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.167,
                   },
                   "h2": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3.75rem",
                     "fontWeight": 300,
                     "letterSpacing": "-0.00833em",
-                    "lineHeight": 1,
+                    "lineHeight": 1.2,
                   },
                   "h3": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "3rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.04,
+                    "lineHeight": 1.167,
                   },
                   "h4": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "2.125rem",
                     "fontWeight": 400,
                     "letterSpacing": "0.00735em",
-                    "lineHeight": 1.17,
+                    "lineHeight": 1.235,
                   },
                   "h5": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                     "fontSize": "1.5rem",
                     "fontWeight": 400,
                     "letterSpacing": "0em",
-                    "lineHeight": 1.33,
+                    "lineHeight": 1.334,
                   },
                   "h6": Object {
                     "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -5495,6 +5795,12 @@ exports[`Typography topbar 1`] = `
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -5507,6 +5813,12 @@ exports[`Typography topbar 1`] = `
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -5515,6 +5827,12 @@ exports[`Typography topbar 1`] = `
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -5608,35 +5926,35 @@ exports[`Typography topbar 1`] = `
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",

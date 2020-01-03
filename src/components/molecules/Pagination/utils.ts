@@ -49,7 +49,7 @@ export const memoNextStep: MemoNextStep = ({ page, step, total }) =>
 export const memoPrevStep: MemoPrevStep = ({ page, step }) =>
   Math.max((Math.floor(page / step) - 1) * step + 1, 1)
 
-export const defaultOnChange = () => true
+export const defaultOnChange = (): boolean => true
 
 export const getDefaultValue: GetDefaultValue = ({ total, page, step }) => {
   return {
