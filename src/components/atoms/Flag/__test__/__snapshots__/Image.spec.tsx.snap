@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flag Flag no width and height attribute 1`] = `
+<styled.img
+  alt="flag"
+  src="icon-flag-gbr.png"
+/>
+`;
