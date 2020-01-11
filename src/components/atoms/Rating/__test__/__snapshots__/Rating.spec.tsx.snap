@@ -22,6 +22,7 @@ exports[`Rating rating 1`] = `
               "classes": [Function],
               "disabled": [Function],
               "emptyIcon": [Function],
+              "emptyLabelText": [Function],
               "getLabelText": [Function],
               "icon": [Function],
               "max": [Function],
@@ -354,6 +355,7 @@ exports[`Rating rating 1`] = `
                 "classes": [Function],
                 "disabled": [Function],
                 "emptyIcon": [Function],
+                "emptyLabelText": [Function],
                 "getLabelText": [Function],
                 "icon": [Function],
                 "max": [Function],
@@ -796,6 +798,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={0.5}
@@ -864,6 +867,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={1}
@@ -951,6 +955,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={1.5}
@@ -1019,6 +1024,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={2}
@@ -1106,6 +1112,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={2.5}
@@ -1174,6 +1181,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={3}
@@ -1261,6 +1269,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={3.5}
@@ -1329,6 +1338,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={4}
@@ -1416,6 +1426,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={4.5}
@@ -1484,6 +1495,7 @@ exports[`Rating rating 1`] = `
                 name="test rating"
                 onBlur={[Function]}
                 onChange={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 type="radio"
                 value={5}
