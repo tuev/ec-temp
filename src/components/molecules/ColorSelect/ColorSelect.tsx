@@ -17,9 +17,7 @@ const ColorSelect: FC<ColorSelectType> = props => {
   )
 
   useEffect((): void => {
-    if (onChange) {
-      onChange(colorValue)
-    }
+    onChange(colorValue)
   }, [colorValue, onChange])
 
   useEffect(() => {
