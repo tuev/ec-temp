@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Number Input Number input 1`] = `
+exports[`Date Date no attribute 1`] = `
 <ThemeProvider
   theme={
     Object {
@@ -289,13 +289,8 @@ exports[`Number Input Number input 1`] = `
   }
 >
   <Styled(WithStyles(ForwardRef(TextField)))
-    InputLabelProps={
-      Object {
-        "shrink": true,
-      }
-    }
     color="primary"
-    type="number"
+    type="date"
     variant="outlined"
   />
 </ThemeProvider>
