@@ -385,14 +385,14 @@ Object {
           class="sc-bxivhb eukDmZ"
         >
           <p
-            class="MuiTypography-root sc-bwzfXH kKmRjw MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH cCkPex MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
             data-testid="product-item-info-name"
           >
             This is the name of the produ...
           </p>
           <p
-            class="MuiTypography-root sc-bwzfXH bzjpum MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH geoIWM MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
             customvariant="header2"
           >
             200$
@@ -421,7 +421,7 @@ Object {
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-850 sc-bwzfXH gSJoRl MuiTypography-body1-852"
+                    class="MuiTypography-root-850 sc-bwzfXH dFADaQ MuiTypography-body1-852"
                     data-testid="size-filter-L"
                   >
                     L
@@ -1050,14 +1050,14 @@ Object {
           class="sc-bxivhb eukDmZ"
         >
           <p
-            class="MuiTypography-root sc-bwzfXH kKmRjw MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH cCkPex MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
             data-testid="product-item-info-name"
           >
             This is the name of the produ...
           </p>
           <p
-            class="MuiTypography-root sc-bwzfXH bzjpum MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH geoIWM MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
             customvariant="header2"
           >
             200$
@@ -1086,7 +1086,7 @@ Object {
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-1225 sc-bwzfXH gSJoRl MuiTypography-body1-1227"
+                    class="MuiTypography-root-1225 sc-bwzfXH dFADaQ MuiTypography-body1-1227"
                     data-testid="size-filter-L"
                   >
                     L
@@ -1715,14 +1715,14 @@ Object {
           class="sc-bxivhb eukDmZ"
         >
           <p
-            class="MuiTypography-root sc-bwzfXH kKmRjw MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH cCkPex MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
             data-testid="product-item-info-name"
           >
             This is the name of the produ...
           </p>
           <p
-            class="MuiTypography-root sc-bwzfXH bzjpum MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH geoIWM MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
             customvariant="header2"
           >
             200$
@@ -1751,7 +1751,7 @@ Object {
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-1600 sc-bwzfXH gSJoRl MuiTypography-body1-1602"
+                    class="MuiTypography-root-1600 sc-bwzfXH dFADaQ MuiTypography-body1-1602"
                     data-testid="size-filter-L"
                   >
                     L
@@ -2315,14 +2315,14 @@ Object {
           class="sc-bxivhb eukDmZ"
         >
           <p
-            class="MuiTypography-root sc-bwzfXH kKmRjw MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH cCkPex MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
             data-testid="product-item-info-name"
           >
             This is the name of the produ...
           </p>
           <p
-            class="MuiTypography-root sc-bwzfXH bzjpum MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH geoIWM MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
             customvariant="header2"
           >
             200$
@@ -2351,7 +2351,7 @@ Object {
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-518 sc-bwzfXH gSJoRl MuiTypography-body1-520"
+                    class="MuiTypography-root-518 sc-bwzfXH dFADaQ MuiTypography-body1-520"
                     data-testid="size-filter-M"
                   >
                     M
@@ -2997,14 +2997,14 @@ Object {
           class="sc-bxivhb eukDmZ"
         >
           <p
-            class="MuiTypography-root sc-bwzfXH kKmRjw MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH cCkPex MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
             data-testid="product-item-info-name"
           >
             this is product name
           </p>
           <p
-            class="MuiTypography-root sc-bwzfXH bzjpum MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+            class="MuiTypography-root sc-bwzfXH geoIWM MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
             customvariant="header2"
           />
           <div
@@ -3031,7 +3031,7 @@ Object {
                   tabindex="0"
                 >
                   <p
-                    class="MuiTypography-root-100 sc-bwzfXH gSJoRl MuiTypography-body1-102"
+                    class="MuiTypography-root-100 sc-bwzfXH dFADaQ MuiTypography-body1-102"
                     data-testid="size-filter-M"
                   >
                     M

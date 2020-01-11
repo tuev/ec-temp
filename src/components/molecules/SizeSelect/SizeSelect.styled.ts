@@ -5,7 +5,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 export const SizeSelectWrapper = styled.div``
 
 export const SizeItemWrapper = styled.div`
-  margin: 0 4px;
+  margin: 4px;
   display: inline-block;
 
   button {

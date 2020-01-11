@@ -4,12 +4,12 @@
  *
  */
 
-import React, { memo, FC } from 'react'
+import React, { FC } from 'react'
 import { WrapperProps } from './Wrapper.types'
-import { Wrapper } from './Wrapper.styled'
+import { WrapperComponent } from './Wrapper.styled'
 
-const WrapperComponent: FC<WrapperProps> = (props: WrapperProps) => {
-  return <Wrapper {...props} />
+const Wrapper: FC<WrapperProps> = (props: WrapperProps) => {
+  return <WrapperComponent {...props} />
 }
 
-export default memo(WrapperComponent)
+export default Wrapper

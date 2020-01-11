@@ -22,7 +22,7 @@ export const COLOR = {
   primary: '#F62F5E',
   red: '#F62F5E',
   white: '#fff',
-  yellow: '##EFFC90',
+  yellow: '#EFFC90',
 }
 
 export type ColorKey = keyof typeof COLOR

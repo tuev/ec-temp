@@ -4,7 +4,7 @@
  *
  */
 
-import React, { memo, FC, useState, useCallback, useMemo } from 'react'
+import React, { FC, useState, useCallback, useMemo } from 'react'
 import { ProductItemCard, ProductItemCardWrapper } from './ProductItem.styled'
 
 import { useSpring } from 'react-spring'
@@ -72,4 +72,4 @@ const ProductItem: FC<ProductItemProps> = (props: ProductItemProps) => {
   )
 }
 
-export default memo(ProductItem)
+export default ProductItem

@@ -632,7 +632,7 @@ exports[`Tag tag custom color 6`] = `
 
 exports[`Tag tag custom color 7`] = `
 .c0 {
-  background-color: ##EFFC90;
+  background-color: #EFFC90;
   color: #fff;
   font-size: 18px;
   text-align: center;
@@ -650,10 +650,10 @@ exports[`Tag tag custom color 7`] = `
   text="discount"
 >
   <styled.div
-    color="##EFFC90"
+    color="#EFFC90"
   >
     <StyledComponent
-      color="##EFFC90"
+      color="#EFFC90"
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -698,7 +698,7 @@ exports[`Tag tag custom color 7`] = `
     >
       <div
         className="c0"
-        color="##EFFC90"
+        color="#EFFC90"
       >
         <span>
           DISCOUNT

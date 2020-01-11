@@ -22,7 +22,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -31,7 +31,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -40,7 +40,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -49,7 +49,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -58,7 +58,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -67,7 +67,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>
@@ -76,7 +76,7 @@ export const basic = () => (
         price="1$"
         name="name 1"
         id="1"
-        colors={['green']}
+        colors={['green', 'red', 'yellow', 'blue']}
         sizes={['L', 'M', 'XS', 'S']}
       />
     </Grid>

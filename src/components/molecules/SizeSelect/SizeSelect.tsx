@@ -16,8 +16,8 @@ const SizeSelect: FC<BasicSizeSelectProps> = props => {
   const [size, onSizeChange] = useState<SIZE_PARAMS>(value)
   const handleSizeOnChange = useCallback(
     // todo: need to make typecheck for hof
-    sizeValue => (): unknown => onChange && onChange(sizeValue),
-    [onChange]
+    sizeValue => (): unknown => onSizeChange(sizeValue),
+    []
   )
 
   const handleSelect = useCallback(
@@ -28,8 +28,14 @@ const SizeSelect: FC<BasicSizeSelectProps> = props => {
   )
 
   useEffect(() => {
-    onChange && onChange(size)
+    if (onChange) {
+      onChange(size)
+    }
   }, [size, onChange])
+
+  useEffect(() => {
+    onSizeChange(value)
+  }, [value])
 
   return type === 'radio' ? (
     <SizeSelectWrapper>

@@ -19,7 +19,7 @@ describe('Slider', () => {
   })
 
   it('no label', () => {
-    const appLabel = mount(<ValueLabel showlabel={true} />)
+    const appLabel = mount(<ValueLabel showlabel={1} />)
     expect(appLabel).toMatchSnapshot()
   })
 

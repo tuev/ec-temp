@@ -14,8 +14,4 @@ export default {
   title: 'Wrapper',
 }
 
-export const basic = () => (
-  <div>
-    <Wrapper />
-  </div>
-)
+export const basic = () => <Wrapper />

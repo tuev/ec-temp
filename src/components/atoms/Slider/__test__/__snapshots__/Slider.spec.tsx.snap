@@ -1159,7 +1159,7 @@ exports[`Slider no label 1`] = `
 
 exports[`Slider no label 2`] = `
 <ValueLabel
-  showlabel={true}
+  showlabel={1}
 >
   <div />
 </ValueLabel>

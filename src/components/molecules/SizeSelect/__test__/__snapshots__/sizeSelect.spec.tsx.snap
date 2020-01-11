@@ -88,7 +88,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-352 sc-ifAKCX hOXuFE MuiTypography-body1-354"
+            class="MuiTypography-root-352 sc-ifAKCX olypy MuiTypography-body1-354"
             data-testid="size-filter-M"
           >
             M
@@ -195,7 +195,7 @@ Object {
 }
 
 .c0 {
-  margin: 0 4px;
+  margin: 4px;
   display: inline-block;
 }
 
@@ -326,7 +326,7 @@ Object {
       class="sc-bwzfXH uTxCW"
     >
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -346,7 +346,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -366,7 +366,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -386,7 +386,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -406,7 +406,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -495,7 +495,7 @@ Object {
 }
 
 .c0 {
-  margin: 0 4px;
+  margin: 4px;
   display: inline-block;
 }
 
@@ -626,7 +626,7 @@ Object {
       class="sc-bwzfXH uTxCW"
     >
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -646,7 +646,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -666,7 +666,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -686,7 +686,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -706,7 +706,7 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat jtYCUb"
+        class="sc-htpNat brEyXW"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
@@ -938,7 +938,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-196 sc-ifAKCX hOXuFE MuiTypography-body1-198"
+            class="MuiTypography-root-196 sc-ifAKCX olypy MuiTypography-body1-198"
             data-testid="size-filter-XS"
           >
             XS

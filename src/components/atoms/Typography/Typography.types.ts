@@ -21,6 +21,7 @@ export interface ITypography extends TypographyProps {
     | 'body1'
     | 'body2'
   // customcolor?: string
+  animation?: boolean | number
 }
 
 // export type GetColor = (color?: string) => string

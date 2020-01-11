@@ -62,7 +62,7 @@ Object {
 }
 
 .c3 {
-  color: ##EFFC90 !important;
+  color: #EFFC90 !important;
 }
 
 .c3 svg:first-child {
@@ -478,7 +478,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 sc-bdVaJa goRBID MuiIconButton-colorPrimary-113"
+        class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 sc-bdVaJa iBpJrJ MuiIconButton-colorPrimary-113"
         customcolor="yellow"
         data-testid="color-filter-yellow"
         variant="outer"
@@ -713,7 +713,7 @@ Object {
 }
 
 .c3 {
-  color: ##EFFC90 !important;
+  color: #EFFC90 !important;
 }
 
 .c3 svg:first-child {
@@ -1167,7 +1167,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-333 MuiIconButton-root-324 PrivateSwitchBase-root-320 MuiRadio-root-315 MuiRadio-colorPrimary-318 sc-bdVaJa goRBID MuiIconButton-colorPrimary-328"
+        class="MuiButtonBase-root-333 MuiIconButton-root-324 PrivateSwitchBase-root-320 MuiRadio-root-315 MuiRadio-colorPrimary-318 sc-bdVaJa iBpJrJ MuiIconButton-colorPrimary-328"
         customcolor="yellow"
         data-testid="color-filter-yellow"
         variant="outer"

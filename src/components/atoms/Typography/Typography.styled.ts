@@ -4,9 +4,11 @@ import { COLOR } from 'theme/colors'
 import styled, { css } from 'styled-components'
 import { BaseTypographyProps } from './Typography.types'
 import { Typography } from '@material-ui/core'
-import { switchProp } from 'styled-tools'
+import { switchProp, ifProp } from 'styled-tools'
 
-export const AppTypography = styled(Typography)<BaseTypographyProps>`
+export const AppTypography = styled(Typography)<
+  BaseTypographyProps & { animation?: boolean | number }
+>`
   ${space};
   ${switchProp('customvariant', {
     body1: css`
@@ -44,6 +46,22 @@ export const AppTypography = styled(Typography)<BaseTypographyProps>`
       font-weight: bold !important;
     `,
   })}
+  ${ifProp(
+    'animation',
+    css`
+      background-image: linear-gradient(
+        transparent calc(100% - 1px),
+        black 1px
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      transition: background-size 0.5s;
+
+      &:hover {
+        background-size: 100% 100%;
+      }
+    `
+  )}
 `
 
 export const theme = createMuiTheme({

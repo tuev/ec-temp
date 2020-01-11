@@ -2,8 +2,39 @@ import React from 'react'
 
 import { render, fireEvent } from '@testing-library/react'
 import BrandSelect from '..'
+import useBrandSelect from '../useBrandSelect'
+import { act, renderHook } from '@testing-library/react-hooks'
 
 describe('App brand select', () => {
+  it('Test use brand select hook', () => {
+    const initValue = {
+      brand1: { value: true, label: 'Brand 1' },
+      brand2: { value: false, label: 'Brand 2' },
+    }
+    const newBrandValue = {
+      brand1: { value: true, label: 'Brand 1' },
+      brand2: { value: true, label: 'Brand 2' },
+    }
+    const newChecked = false
+    let resultAfterChange = { ...initValue }
+
+    const handleFilterChange = value =>
+      (resultAfterChange = { ...initValue, ...value })
+
+    const { result } = renderHook(() =>
+      useBrandSelect(initValue, handleFilterChange)
+    )
+
+    expect(result.current[0]).toEqual(initValue)
+    act(() => {
+      result.current[1]('brand1')({ target: { checked: newChecked } })
+    })
+    expect(resultAfterChange).toEqual({
+      ...initValue,
+      brand1: { ...initValue.brand1, value: newChecked },
+    })
+  })
+
   it('Test get default brand select no params ', () => {
     // test snapshot
     const wrapper = render(<BrandSelect />)

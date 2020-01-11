@@ -222,12 +222,12 @@ Object {
             class="sc-EHOje ivvWgm"
           >
             <p
-              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             />
             <p
-              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -535,14 +535,14 @@ Object {
             class="sc-EHOje ivvWgm"
           >
             <p
-              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             >
               this is name of the product w...
             </p>
             <p
-              class="MuiTypography-root sc-gzVnrw gEcdjV MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$

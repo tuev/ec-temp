@@ -1,23 +1,16 @@
 /**
-  *
-  * {{ properCase name }}
-  *
-  */
+*
+* {{ properCase name }}
+*
+*/
 
-{{#if memo}}
-import React, { memo, FC } from 'react'
-{{else}}
 import React, { FC } from 'react'
-{{/if}}
 
 
 const {{ properCase name }}: FC = (props) => {
-  return (<div />)
+return (
+<div />)
 }
 
 
-{{#if memo}}
-export default memo({{ properCase name }})
-{{else}}
 export default {{ properCase name }}
-{{/if}}

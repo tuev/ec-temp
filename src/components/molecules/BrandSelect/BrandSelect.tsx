@@ -1,11 +1,11 @@
-import React, { useCallback, useState, useMemo, useEffect, FC } from 'react'
+import React, { useMemo, FC } from 'react'
 import Checkbox from 'components/atoms/Checkbox'
 import { FormGroup, FormControlLabel } from '@material-ui/core'
 import { keys, get } from 'lodash'
+import useBrandSelect from './useBrandSelect'
 
 import {
   BrandSelectProps,
-  IValueItem,
   GetBrandKey,
   GetBrandLabel,
 } from './BrandSelect.types'
@@ -17,23 +17,7 @@ const getBrandLabel: GetBrandLabel = ({ key, values }) =>
 
 export const BrandSelect: FC<BrandSelectProps> = (props: BrandSelectProps) => {
   const { values = {}, onChange } = props
-  const [checkedValue, toggleCheck] = useState<IValueItem>({ ...values })
-  const handleChange = useCallback(
-    (name: string | number) => (
-      event: React.ChangeEvent<HTMLInputElement>
-    ): unknown =>
-      toggleCheck({
-        ...checkedValue,
-        [name]: { ...checkedValue[name], value: !!event.target.checked },
-      }),
-    [checkedValue]
-  )
-
-  useEffect(() => {
-    if (onChange) {
-      onChange(checkedValue)
-    }
-  }, [checkedValue, onChange])
+  const [checkedValue, handleChange] = useBrandSelect(values, onChange)
 
   const valueLabels = useMemo<Array<string | number>>(
     () => getBrandKey(checkedValue),
