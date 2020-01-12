@@ -1,4 +1,4 @@
-export interface IValueItem {
+export interface IBrandValues {
   [name: string]: {
     value: boolean
     label: string
@@ -6,20 +6,32 @@ export interface IValueItem {
 }
 
 export interface IBrandBasicProps {
-  values?: IValueItem
+  values?: IBrandValues
   onChange?: OnChange
 }
 
-export type GetBrandKey = (values: IValueItem) => Array<keyof IValueItem>
+export type GetBrandKey = (values: IBrandValues) => Array<keyof IBrandValues>
 
 export type GetBrandLabel = ({
   key,
   values,
 }: {
-  key: keyof IValueItem
-  values: IValueItem
+  key: keyof IBrandValues
+  values: IBrandValues
 }) => string
 
-export type OnChange = (values: IValueItem) => unknown
+export type OnChange = (values: IBrandValues) => unknown
 
 export type BrandSelectProps = IBrandBasicProps
+
+export type UseBrandSelectOutput = [
+  IBrandValues,
+  (
+    name: string | number
+  ) => (event: React.ChangeEvent<HTMLInputElement>) => unknown
+]
+
+export type UseBrandSelect = (
+  initValue: IBrandValues,
+  onEffectCb?: OnChange
+) => UseBrandSelectOutput

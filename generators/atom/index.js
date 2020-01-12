@@ -28,12 +28,6 @@ module.exports = {
     },
     {
       type: 'confirm',
-      name: 'memo',
-      default: false,
-      message: 'Do you want to wrap your component in React.memo?',
-    },
-    {
-      type: 'confirm',
       name: 'wantLoadable',
       default: false,
       message: 'Do you want to load the component asynchronously?',
@@ -76,7 +70,7 @@ module.exports = {
       },
       {
         type: 'add',
-        path: path + '{{properCase name}}/{{properCase name}}.styled.tsx',
+        path: path + '{{properCase name}}/{{properCase name}}.styled.ts',
         templateFile: './atom/styled.tsx.hbs',
         abortOnFail: true,
       },

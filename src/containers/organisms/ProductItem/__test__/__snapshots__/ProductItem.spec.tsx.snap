@@ -709,12 +709,12 @@ Object {
                 class="sc-gzVnrw gKBNBW"
               >
                 <p
-                  class="MuiTypography-root sc-dnqmqq eyGzyH MuiTypography-body1 MuiTypography-alignCenter"
+                  class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-alignCenter"
                   customvariant="header3"
                   data-testid="product-item-info-name"
                 />
                 <p
-                  class="MuiTypography-root sc-dnqmqq eyGzyH MuiTypography-body1 MuiTypography-colorError"
+                  class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-colorError"
                   customvariant="header3"
                 />
               </div>
@@ -759,14 +759,14 @@ Object {
               class="sc-VigVT bxxuSL"
             >
               <p
-                class="MuiTypography-root sc-dnqmqq eyGzyH MuiTypography-body1 MuiTypography-alignCenter"
+                class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-alignCenter"
                 customvariant="header3"
                 data-testid="product-item-info-name"
               >
                 this is product name
               </p>
               <p
-                class="MuiTypography-root sc-dnqmqq iwmQnC MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+                class="MuiTypography-root sc-dnqmqq bSdSIn MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
                 customvariant="header2"
               />
               <div
@@ -793,7 +793,7 @@ Object {
                       tabindex="0"
                     >
                       <p
-                        class="MuiTypography-root-132 sc-dnqmqq iFMLBs MuiTypography-body1-134"
+                        class="MuiTypography-root-132 sc-dnqmqq edpasr MuiTypography-body1-134"
                         data-testid="size-filter-M"
                       >
                         M

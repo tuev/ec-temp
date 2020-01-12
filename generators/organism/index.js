@@ -28,12 +28,6 @@ module.exports = {
     },
     {
       type: 'confirm',
-      name: 'memo',
-      default: false,
-      message: 'Do you want to wrap your component in React.memo?',
-    },
-    {
-      type: 'confirm',
       name: 'styled',
       default: false,
       message: 'Do you want to add styled-compent definition?',
@@ -94,7 +88,7 @@ module.exports = {
     if (data.styled) {
       actions.push({
         type: 'add',
-        path: path + '{{properCase name}}/{{properCase name}}.styled.tsx',
+        path: path + '{{properCase name}}/{{properCase name}}.styled.ts',
         templateFile: './organism/styled.tsx.hbs',
         abortOnFail: true,
       })

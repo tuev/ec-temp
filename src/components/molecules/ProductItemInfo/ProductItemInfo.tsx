@@ -4,7 +4,7 @@
  *
  */
 
-import React, { memo, FC, useMemo, useCallback } from 'react'
+import React, { FC, useMemo, useCallback } from 'react'
 import {
   ImageWrapper,
   ProductInfoWrapper,
@@ -72,4 +72,4 @@ const ProductItem: FC<ProductItemProps> = (props: ProductItemProps) => {
   )
 }
 
-export default memo(ProductItem)
+export default ProductItem

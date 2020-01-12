@@ -43,4 +43,18 @@ describe('App color filter', () => {
       expect(value).toBe(color)
     })
   })
+
+  it('Test get default color filter no crash when actions with no handler ', () => {
+    const value = 'blue'
+    const colors = ['blue', 'red', 'green', 'yellow', 'black']
+    // test snapshot
+    const wrapper = render(<ColorSelect colors={colors} value={value} />)
+
+    expect(wrapper).toMatchSnapshot()
+
+    colors.forEach(color => {
+      const colorRadio = wrapper.getByTestId(`color-filter-${color}`)
+      fireEvent.click(colorRadio)
+    })
+  })
 })

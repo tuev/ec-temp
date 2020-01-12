@@ -16,7 +16,9 @@ import {
 } from 'styled-system'
 import { WrapperProps } from './Wrapper.types'
 
-export const Wrapper: React.FC<WrapperProps> = styled('div')<WrapperProps>`
+export const WrapperComponent: React.FC<WrapperProps> = styled('div')<
+  WrapperProps
+>`
   ${space};
   ${display};
   ${border};

@@ -1,7 +1,7 @@
 import { SpaceProps, FlexProps } from 'styled-system'
 import { ColorType } from 'theme/colors'
 
-type HandleOnChange = (color: ColorType) => unknown
+type HandleOnChange = (color: ColorType) => void
 
 export interface IColorSelect {
   colors: ColorType[]

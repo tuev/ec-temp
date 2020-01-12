@@ -1,17 +1,28 @@
-import React, { FC, useCallback } from 'react'
+import React, { FC, useCallback, useState, useEffect } from 'react'
 import Radio from 'components/atoms/Radio'
 import { ColorSelectType } from './ColorSelect.types'
 import { get } from 'lodash'
+import { ColorType } from 'theme/colors'
 
 export const defaultMethod = (): boolean => true
 
 const ColorSelect: FC<ColorSelectType> = props => {
   const { colors = [], value = 'blue' } = props
+  const [colorValue, setColorValue] = useState<ColorType>(value)
   const onChange = get(props, 'onChange', defaultMethod)
 
-  const handleOnchange = useCallback(color => (): unknown => onChange(color), [
-    onChange,
-  ])
+  const handleOnchange = useCallback(
+    color => (): unknown => setColorValue(color),
+    [setColorValue]
+  )
+
+  useEffect((): void => {
+    onChange(colorValue)
+  }, [colorValue, onChange])
+
+  useEffect(() => {
+    setColorValue(value)
+  }, [value])
 
   return (
     <div>
@@ -20,7 +31,7 @@ const ColorSelect: FC<ColorSelectType> = props => {
           key={color}
           customcolor={color}
           variant="outer"
-          checked={color === value}
+          checked={color === colorValue}
           onClick={handleOnchange(color)}
           data-testid={`color-filter-${color}`}
         />

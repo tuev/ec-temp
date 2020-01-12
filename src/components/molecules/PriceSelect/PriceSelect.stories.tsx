@@ -16,7 +16,7 @@ export const example = () => <PriceSelectExample />
 const PriceSelectExample = () => {
   const prices: PriceValue = [10, 20]
   const [values, changeValue] = useState<PriceValue>(prices)
-  const handleToggleColor = useCallback((e, value) => changeValue(value), [])
+  const handleToggleColor = useCallback(value => changeValue(value), [])
 
   return (
     <PriceSelect

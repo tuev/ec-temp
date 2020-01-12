@@ -4,7 +4,7 @@
  *
  */
 
-import React, { memo, useMemo, FC, useReducer, useCallback } from 'react'
+import React, { useMemo, FC, useReducer, useCallback } from 'react'
 import Card from 'components/atoms/Card'
 import Typography from 'components/atoms/Typography'
 import Button from 'components/atoms/Button'
@@ -137,4 +137,4 @@ const ProductItemBuy: FC<ProductItemBuyProps> = (
   )
 }
 
-export default memo(ProductItemBuy)
+export default ProductItemBuy

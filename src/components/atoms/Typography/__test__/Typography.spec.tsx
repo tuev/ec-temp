@@ -1,7 +1,6 @@
 import React from 'react'
 import { mount } from 'enzyme'
 import Typography from '..'
-import { COLOR } from 'theme/colors'
 
 describe('Typography', () => {
   it('header1', () => {
@@ -85,6 +84,26 @@ describe('Typography', () => {
       'font-size': '12px !important',
       'line-height': '2 !important',
       'font-family': `'Open Sans' !important`,
+    }
+    for (const style in expectStyle) {
+      if (expectStyle[style]) {
+        expect(appTypo).toHaveStyleRule(style, expectStyle[style])
+      }
+    }
+  })
+
+  it('animation', () => {
+    const appTypo = mount(<Typography customvariant="body2" animation={1} />)
+    expect(appTypo).toMatchSnapshot()
+    const expectStyle: { [key: string]: string } = {
+      'font-size': '12px !important',
+      'line-height': '2 !important',
+      'font-family': "'Open Sans' !important",
+      'background-image':
+        'linear-gradient( transparent calc(100% - 1px), black 1px )',
+      'background-repeat': 'no-repeat',
+      'background-size': '0% 100%',
+      transition: 'background-size 0.5s',
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
