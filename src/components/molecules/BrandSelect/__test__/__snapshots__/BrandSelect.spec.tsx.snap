@@ -102,7 +102,7 @@ Object {
       >
         <span
           aria-disabled="false"
-          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-17 MuiCheckbox-root MuiCheckbox-colorPrimary sc-bdVaJa ibTDPh PrivateSwitchBase-checked-18 Mui-checked MuiIconButton-colorPrimary"
+          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-17 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKC KUWBx PrivateSwitchBase-checked-18 Mui-checked MuiIconButton-colorPrimary"
           data-testid="brand-checkbox-brand1"
         >
           <span
@@ -143,7 +143,7 @@ Object {
       >
         <span
           aria-disabled="false"
-          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-17 MuiCheckbox-root MuiCheckbox-colorPrimary sc-bdVaJa ibTDPh MuiIconButton-colorPrimary"
+          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-17 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKC KUWBx MuiIconButton-colorPrimary"
           data-testid="brand-checkbox-brand2"
         >
           <span
@@ -404,7 +404,7 @@ Object {
       >
         <span
           aria-disabled="false"
-          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-96 MuiCheckbox-root MuiCheckbox-colorPrimary sc-bdVaJa ibTDPh PrivateSwitchBase-checked-97 Mui-checked MuiIconButton-colorPrimary"
+          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-96 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKC KUWBx PrivateSwitchBase-checked-97 Mui-checked MuiIconButton-colorPrimary"
           data-testid="brand-checkbox-brand1"
         >
           <span
@@ -445,7 +445,7 @@ Object {
       >
         <span
           aria-disabled="false"
-          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-96 MuiCheckbox-root MuiCheckbox-colorPrimary sc-bdVaJa ibTDPh MuiIconButton-colorPrimary"
+          class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-96 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKC KUWBx MuiIconButton-colorPrimary"
           data-testid="brand-checkbox-brand2"
         >
           <span
