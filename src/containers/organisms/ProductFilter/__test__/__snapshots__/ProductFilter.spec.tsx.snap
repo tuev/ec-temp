@@ -855,16 +855,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa eSDtMB"
+      class="sc-AykKC dlysji"
     >
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Color
@@ -873,7 +873,7 @@ Object {
         <div>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-49 MuiIconButton-root-40 PrivateSwitchBase-root-36 MuiRadio-root-31 MuiRadio-colorPrimary-34 sc-htpNat cLDUtT PrivateSwitchBase-checked-37 Mui-checked MuiIconButton-colorPrimary-44"
+            class="MuiButtonBase-root-49 MuiIconButton-root-40 PrivateSwitchBase-root-36 MuiRadio-root-31 MuiRadio-colorPrimary-34 sc-AykKE crtpkC PrivateSwitchBase-checked-37 Mui-checked MuiIconButton-colorPrimary-44"
             customcolor="black"
             data-testid="color-filter-black"
             variant="outer"
@@ -920,7 +920,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-82 MuiIconButton-root-73 PrivateSwitchBase-root-69 MuiRadio-root-64 MuiRadio-colorPrimary-67 sc-htpNat hVgfwt MuiIconButton-colorPrimary-77"
+            class="MuiButtonBase-root-82 MuiIconButton-root-73 PrivateSwitchBase-root-69 MuiRadio-root-64 MuiRadio-colorPrimary-67 sc-AykKE gqyiIH MuiIconButton-colorPrimary-77"
             customcolor="green"
             data-testid="color-filter-green"
             variant="outer"
@@ -966,7 +966,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-115 MuiIconButton-root-106 PrivateSwitchBase-root-102 MuiRadio-root-97 MuiRadio-colorPrimary-100 sc-htpNat gOXLRs MuiIconButton-colorPrimary-110"
+            class="MuiButtonBase-root-115 MuiIconButton-root-106 PrivateSwitchBase-root-102 MuiRadio-root-97 MuiRadio-colorPrimary-100 sc-AykKE eayAQJ MuiIconButton-colorPrimary-110"
             customcolor="yellow"
             data-testid="color-filter-yellow"
             variant="outer"
@@ -1012,7 +1012,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-148 MuiIconButton-root-139 PrivateSwitchBase-root-135 MuiRadio-root-130 MuiRadio-colorPrimary-133 sc-htpNat bQOifz MuiIconButton-colorPrimary-143"
+            class="MuiButtonBase-root-148 MuiIconButton-root-139 PrivateSwitchBase-root-135 MuiRadio-root-130 MuiRadio-colorPrimary-133 sc-AykKE kdWmHO MuiIconButton-colorPrimary-143"
             customcolor="red"
             data-testid="color-filter-red"
             variant="outer"
@@ -1058,7 +1058,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-181 MuiIconButton-root-172 PrivateSwitchBase-root-168 MuiRadio-root-163 MuiRadio-colorPrimary-166 sc-htpNat eZVdOV MuiIconButton-colorPrimary-176"
+            class="MuiButtonBase-root-181 MuiIconButton-root-172 PrivateSwitchBase-root-168 MuiRadio-root-163 MuiRadio-colorPrimary-166 sc-AykKE rMuLb MuiIconButton-colorPrimary-176"
             customcolor="blue"
             data-testid="color-filter-blue"
             variant="outer"
@@ -1104,7 +1104,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-214 MuiIconButton-root-205 PrivateSwitchBase-root-201 MuiRadio-root-196 MuiRadio-colorPrimary-199 sc-htpNat kIppty MuiIconButton-colorPrimary-209"
+            class="MuiButtonBase-root-214 MuiIconButton-root-205 PrivateSwitchBase-root-201 MuiRadio-root-196 MuiRadio-colorPrimary-199 sc-AykKE kYKtTT MuiIconButton-colorPrimary-209"
             customcolor="orange"
             data-testid="color-filter-orange"
             variant="outer"
@@ -1151,26 +1151,26 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Size
           </p>
         </div>
         <div
-          class="sc-ifAKCX cFlEyZ"
+          class="sc-AykKG fHxMdK"
         >
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-S"
               mx="4px"
               tabindex="0"
@@ -1187,10 +1187,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-M"
               mx="4px"
               tabindex="0"
@@ -1207,10 +1207,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-L"
               mx="4px"
               tabindex="0"
@@ -1227,10 +1227,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-XS"
               mx="4px"
               tabindex="0"
@@ -1247,10 +1247,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-XXL"
               mx="4px"
               tabindex="0"
@@ -1269,20 +1269,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Price range
           </p>
         </div>
         <span
-          class="MuiSlider-root MuiSlider-colorPrimary sc-gzVnrw bmNeJQ"
+          class="MuiSlider-root MuiSlider-colorPrimary sc-AykKJ eBMyss"
           showlabel="1"
         >
           <span
@@ -1361,13 +1361,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Brand
@@ -1382,7 +1382,7 @@ Object {
           >
             <span
               aria-disabled="false"
-              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-300 MuiCheckbox-root MuiCheckbox-colorPrimary sc-htoDjs gJSIof PrivateSwitchBase-checked-301 Mui-checked MuiIconButton-colorPrimary"
+              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-300 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKK gKdlfN PrivateSwitchBase-checked-301 Mui-checked MuiIconButton-colorPrimary"
               data-testid="brand-checkbox-brand1"
             >
               <span
@@ -1423,7 +1423,7 @@ Object {
           >
             <span
               aria-disabled="false"
-              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-300 MuiCheckbox-root MuiCheckbox-colorPrimary sc-htoDjs gJSIof MuiIconButton-colorPrimary"
+              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-300 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKK gKdlfN MuiIconButton-colorPrimary"
               data-testid="brand-checkbox-brand2"
             >
               <span
@@ -1460,11 +1460,11 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa flKYBm"
+        class="sc-AykKC kzsynU"
         display="flex"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH fyIICF MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD kHHTFv MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="product-filter-apply-btn"
           tabindex="0"
           type="button"
@@ -1480,7 +1480,7 @@ Object {
         </button>
         <p
           animation="1"
-          class="MuiTypography-root sc-bxivhb khivhE MuiTypography-body1"
+          class="MuiTypography-root sc-AykKF fVHzey MuiTypography-body1"
           data-testid="product-filter-clear-btn"
         >
           Clear all
@@ -2397,16 +2397,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa eSDtMB"
+      class="sc-AykKC dlysji"
     >
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Color
@@ -2415,7 +2415,7 @@ Object {
         <div>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-483 MuiIconButton-root-474 PrivateSwitchBase-root-470 MuiRadio-root-465 MuiRadio-colorPrimary-468 sc-htpNat cLDUtT PrivateSwitchBase-checked-471 Mui-checked MuiIconButton-colorPrimary-478"
+            class="MuiButtonBase-root-483 MuiIconButton-root-474 PrivateSwitchBase-root-470 MuiRadio-root-465 MuiRadio-colorPrimary-468 sc-AykKE crtpkC PrivateSwitchBase-checked-471 Mui-checked MuiIconButton-colorPrimary-478"
             customcolor="black"
             data-testid="color-filter-black"
             variant="outer"
@@ -2462,7 +2462,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-516 MuiIconButton-root-507 PrivateSwitchBase-root-503 MuiRadio-root-498 MuiRadio-colorPrimary-501 sc-htpNat hVgfwt MuiIconButton-colorPrimary-511"
+            class="MuiButtonBase-root-516 MuiIconButton-root-507 PrivateSwitchBase-root-503 MuiRadio-root-498 MuiRadio-colorPrimary-501 sc-AykKE gqyiIH MuiIconButton-colorPrimary-511"
             customcolor="green"
             data-testid="color-filter-green"
             variant="outer"
@@ -2508,7 +2508,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-549 MuiIconButton-root-540 PrivateSwitchBase-root-536 MuiRadio-root-531 MuiRadio-colorPrimary-534 sc-htpNat gOXLRs MuiIconButton-colorPrimary-544"
+            class="MuiButtonBase-root-549 MuiIconButton-root-540 PrivateSwitchBase-root-536 MuiRadio-root-531 MuiRadio-colorPrimary-534 sc-AykKE eayAQJ MuiIconButton-colorPrimary-544"
             customcolor="yellow"
             data-testid="color-filter-yellow"
             variant="outer"
@@ -2554,7 +2554,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-582 MuiIconButton-root-573 PrivateSwitchBase-root-569 MuiRadio-root-564 MuiRadio-colorPrimary-567 sc-htpNat bQOifz MuiIconButton-colorPrimary-577"
+            class="MuiButtonBase-root-582 MuiIconButton-root-573 PrivateSwitchBase-root-569 MuiRadio-root-564 MuiRadio-colorPrimary-567 sc-AykKE kdWmHO MuiIconButton-colorPrimary-577"
             customcolor="red"
             data-testid="color-filter-red"
             variant="outer"
@@ -2600,7 +2600,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-615 MuiIconButton-root-606 PrivateSwitchBase-root-602 MuiRadio-root-597 MuiRadio-colorPrimary-600 sc-htpNat eZVdOV MuiIconButton-colorPrimary-610"
+            class="MuiButtonBase-root-615 MuiIconButton-root-606 PrivateSwitchBase-root-602 MuiRadio-root-597 MuiRadio-colorPrimary-600 sc-AykKE rMuLb MuiIconButton-colorPrimary-610"
             customcolor="blue"
             data-testid="color-filter-blue"
             variant="outer"
@@ -2646,7 +2646,7 @@ Object {
           </span>
           <span
             aria-disabled="false"
-            class="MuiButtonBase-root-648 MuiIconButton-root-639 PrivateSwitchBase-root-635 MuiRadio-root-630 MuiRadio-colorPrimary-633 sc-htpNat kIppty MuiIconButton-colorPrimary-643"
+            class="MuiButtonBase-root-648 MuiIconButton-root-639 PrivateSwitchBase-root-635 MuiRadio-root-630 MuiRadio-colorPrimary-633 sc-AykKE kYKtTT MuiIconButton-colorPrimary-643"
             customcolor="orange"
             data-testid="color-filter-orange"
             variant="outer"
@@ -2693,26 +2693,26 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Size
           </p>
         </div>
         <div
-          class="sc-ifAKCX cFlEyZ"
+          class="sc-AykKG fHxMdK"
         >
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-S"
               mx="4px"
               tabindex="0"
@@ -2729,10 +2729,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-M"
               mx="4px"
               tabindex="0"
@@ -2749,10 +2749,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-L"
               mx="4px"
               tabindex="0"
@@ -2769,10 +2769,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-XS"
               mx="4px"
               tabindex="0"
@@ -2789,10 +2789,10 @@ Object {
             </button>
           </div>
           <div
-            class="sc-EHOje dKANjO"
+            class="sc-AykKH bvuwJn"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH gfnUfM MuiButton-containedSizeSmall MuiButton-sizeSmall"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD hePTdM MuiButton-containedSizeSmall MuiButton-sizeSmall"
               data-testid="size-filter-XXL"
               mx="4px"
               tabindex="0"
@@ -2811,20 +2811,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Price range
           </p>
         </div>
         <span
-          class="MuiSlider-root MuiSlider-colorPrimary sc-gzVnrw bmNeJQ"
+          class="MuiSlider-root MuiSlider-colorPrimary sc-AykKJ eBMyss"
           showlabel="1"
         >
           <span
@@ -2903,13 +2903,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa dPUrQM"
+        class="sc-AykKC jTssrf"
       >
         <div
-          class="sc-bdVaJa bEPybh"
+          class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-bxivhb dTbfUn MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF fQRjXO MuiTypography-body1"
             customvariant="header3"
           >
             Brand
@@ -2924,7 +2924,7 @@ Object {
           >
             <span
               aria-disabled="false"
-              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-734 MuiCheckbox-root MuiCheckbox-colorPrimary sc-htoDjs gJSIof PrivateSwitchBase-checked-735 Mui-checked MuiIconButton-colorPrimary"
+              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-734 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKK gKdlfN PrivateSwitchBase-checked-735 Mui-checked MuiIconButton-colorPrimary"
               data-testid="brand-checkbox-brand1"
             >
               <span
@@ -2965,7 +2965,7 @@ Object {
           >
             <span
               aria-disabled="false"
-              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-734 MuiCheckbox-root MuiCheckbox-colorPrimary sc-htoDjs gJSIof MuiIconButton-colorPrimary"
+              class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-734 MuiCheckbox-root MuiCheckbox-colorPrimary sc-AykKK gKdlfN MuiIconButton-colorPrimary"
               data-testid="brand-checkbox-brand2"
             >
               <span
@@ -3002,11 +3002,11 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa flKYBm"
+        class="sc-AykKC kzsynU"
         display="flex"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bwzfXH fyIICF MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKD kHHTFv MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="product-filter-apply-btn"
           tabindex="0"
           type="button"
@@ -3022,7 +3022,7 @@ Object {
         </button>
         <p
           animation="1"
-          class="MuiTypography-root sc-bxivhb khivhE MuiTypography-body1"
+          class="MuiTypography-root sc-AykKF fVHzey MuiTypography-body1"
           data-testid="product-filter-clear-btn"
         >
           Clear all

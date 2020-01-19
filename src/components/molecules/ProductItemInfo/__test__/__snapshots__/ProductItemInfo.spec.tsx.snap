@@ -191,22 +191,22 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-iwsKbI jLlRxQ"
+      class="sc-fzXfLP fmTMkR"
     >
       <div
-        class="sc-bdVaJa gNkBHk"
+        class="sc-AykKC cDRqmV"
       >
         <div
-          class="sc-bwzfXH dUZBsS"
+          class="sc-AykKD dvNfew"
         >
           <div
-            class="sc-htpNat jiYSEo"
+            class="sc-AykKE iSCtjt"
           >
             <div
-              class="sc-bxivhb zOTDl"
+              class="sc-AykKF bZWMkW"
             >
               <div
-                class="sc-dnqmqq gPOBHA"
+                class="sc-fzXfLO iIRrao"
                 color="#F62F5E"
               >
                 <span>
@@ -215,19 +215,19 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ifAKCX gHOpDq"
+              class="sc-AykKG dKQXOh"
             />
           </div>
           <div
-            class="sc-EHOje ivvWgm"
+            class="sc-AykKH dsZngC"
           >
             <p
-              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-AykKJ LiUhK MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             />
             <p
-              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-AykKJ LiUhK MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -235,10 +235,10 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bZQynM isRPXh"
+          class="sc-AykKI fIfYnY"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-htoDjs cIoBCE MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK funNDW MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"
@@ -504,22 +504,22 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-iwsKbI jLlRxQ"
+      class="sc-fzXfLP fmTMkR"
     >
       <div
-        class="sc-bdVaJa gNkBHk"
+        class="sc-AykKC cDRqmV"
       >
         <div
-          class="sc-bwzfXH dUZBsS"
+          class="sc-AykKD dvNfew"
         >
           <div
-            class="sc-htpNat jiYSEo"
+            class="sc-AykKE iSCtjt"
           >
             <div
-              class="sc-bxivhb zOTDl"
+              class="sc-AykKF bZWMkW"
             >
               <div
-                class="sc-dnqmqq gPOBHA"
+                class="sc-fzXfLO iIRrao"
                 color="#F62F5E"
               >
                 <span>
@@ -528,21 +528,21 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ifAKCX gHOpDq"
+              class="sc-AykKG dKQXOh"
             />
           </div>
           <div
-            class="sc-EHOje ivvWgm"
+            class="sc-AykKH dsZngC"
           >
             <p
-              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-AykKJ LiUhK MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             >
               this is name of the product w...
             </p>
             <p
-              class="MuiTypography-root sc-gzVnrw eTMOd MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-AykKJ LiUhK MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -550,10 +550,10 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bZQynM isRPXh"
+          class="sc-AykKI fIfYnY"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-htoDjs cIoBCE MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK funNDW MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"

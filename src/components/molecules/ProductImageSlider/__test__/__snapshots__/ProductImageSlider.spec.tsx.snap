@@ -1,0 +1,1692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App ProductImageSlider Test get ProductImageSlider left slide  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF bmOIvP"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF hAznDw"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get ProductImageSlider left slide at tail item 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF cONLIq"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF eYyeBt"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get ProductImageSlider left slide with a little scroll not enough to slide previous or next  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF bmOIvP"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF hAznDw"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get ProductImageSlider right slide  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF cONLIq"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF eYyeBt"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get ProductImageSlider right slide at the first item  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF bmOIvP"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF hAznDw"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get default ProductImageSlider no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<body>
+    <div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        />
+        <div
+          class="c1"
+          display="flex"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      />
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductImageSlider Test get default ProductImageSlider with images  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c2 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c3 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c1 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c6 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c7 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div>
+      <div
+        style="width: 320px;"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            data-testid="product-item-slide-0"
+            style="transform: translate3d(0%, 0, 0);"
+            transform="translate3d(0%, 0, 0)"
+          >
+            <div
+              class="c2"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-1"
+            style="transform: translate3d(100%, 0, 0);"
+            transform="translate3d(100%, 0, 0)"
+          >
+            <div
+              class="c3"
+            />
+          </div>
+          <div
+            class="c1"
+            data-testid="product-item-slide-2"
+            style="transform: translate3d(200%, 0, 0);"
+            transform="translate3d(200%, 0, 0)"
+          >
+            <div
+              class="c4"
+            />
+          </div>
+        </div>
+        <div
+          class="c5"
+          display="flex"
+        >
+          <div
+            class="c6"
+            data-testid="product-thumbnail-slide-0"
+          />
+          <div
+            class="c7"
+            data-testid="product-thumbnail-slide-1"
+          />
+          <div
+            class="c8"
+            data-testid="product-thumbnail-slide-2"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="width: 320px;"
+    >
+      <div
+        class="sc-AykKE cxWcju"
+      >
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-0"
+          style="transform: translate3d(0%, 0, 0);"
+          transform="translate3d(0%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC gVEcgt"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-1"
+          style="transform: translate3d(100%, 0, 0);"
+          transform="translate3d(100%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC hAUtJa"
+          />
+        </div>
+        <div
+          class="sc-AykKD hoawRL"
+          data-testid="product-item-slide-2"
+          style="transform: translate3d(200%, 0, 0);"
+          transform="translate3d(200%, 0, 0)"
+        >
+          <div
+            class="sc-AykKC igkLlH"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-AykKG bchHZU"
+        display="flex"
+      >
+        <div
+          class="sc-AykKF bmOIvP"
+          data-testid="product-thumbnail-slide-0"
+        />
+        <div
+          class="sc-AykKF kPrrsr"
+          data-testid="product-thumbnail-slide-1"
+        />
+        <div
+          class="sc-AykKF hAznDw"
+          data-testid="product-thumbnail-slide-2"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -668,32 +668,32 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa ituqcc"
+      class="sc-AykKC bzGAew"
     >
       <div
-        class="sc-bwzfXH ulJSH"
+        class="sc-AykKD hewwJW"
         opacity="1"
         style="opacity: 1; transform: perspective(600px) rotateY(0deg);"
         transform="perspective(600px) rotateY(0deg)"
         z-index="2"
       >
         <div
-          class="sc-gqjmRU jzGAax"
+          class="sc-fzXfLR hIkFlP"
         >
           <div
-            class="sc-htpNat jpDjNQ"
+            class="sc-AykKE lkyZEz"
           >
             <div
-              class="sc-bxivhb khTXFb"
+              class="sc-AykKF eKqPoq"
             >
               <div
-                class="sc-ifAKCX hniYuC"
+                class="sc-AykKG bPUHoX"
               >
                 <div
-                  class="sc-EHOje bwgSAh"
+                  class="sc-AykKH lbwVjw"
                 >
                   <div
-                    class="sc-gZMcBi gNIOFs"
+                    class="sc-fzXfLQ bNhcPS"
                     color="#F62F5E"
                   >
                     <span>
@@ -702,28 +702,28 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-bZQynM gTinpi"
+                  class="sc-AykKI fAHfRT"
                 />
               </div>
               <div
-                class="sc-gzVnrw gKBNBW"
+                class="sc-AykKJ dIEMEU"
               >
                 <p
-                  class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-alignCenter"
+                  class="MuiTypography-root sc-fzXfLO jsScfR MuiTypography-body1 MuiTypography-alignCenter"
                   customvariant="header3"
                   data-testid="product-item-info-name"
                 />
                 <p
-                  class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-colorError"
+                  class="MuiTypography-root sc-fzXfLO jsScfR MuiTypography-body1 MuiTypography-colorError"
                   customvariant="header3"
                 />
               </div>
             </div>
             <div
-              class="sc-htoDjs gRJXrI"
+              class="sc-AykKK dSQjDe"
             >
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iwsKbI ediwnP MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-fzXfLP jeoyGJ MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                 data-testid="product-item-info-buy-btn"
                 mt="auto"
                 tabindex="0"
@@ -743,40 +743,40 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bwzfXH kHsjxx"
+        class="sc-AykKD ftdwBo"
         opacity="0"
         style="opacity: 0; transform: perspective(600px) rotateY(0deg) rotateY(180deg);"
         transform="perspective(600px) rotateY(0deg) rotateY(180deg)"
         z-index="0"
       >
         <div
-          class="sc-gqjmRU jzGAax"
+          class="sc-fzXfLR hIkFlP"
         >
           <div
-            class="sc-kAzzGY dxBSUi"
+            class="sc-fzXfLX inUNgw"
           >
             <div
-              class="sc-VigVT bxxuSL"
+              class="sc-fzXfLS bRQhyp"
             >
               <p
-                class="MuiTypography-root sc-dnqmqq jsdheH MuiTypography-body1 MuiTypography-alignCenter"
+                class="MuiTypography-root sc-fzXfLO jsScfR MuiTypography-body1 MuiTypography-alignCenter"
                 customvariant="header3"
                 data-testid="product-item-info-name"
               >
                 this is product name
               </p>
               <p
-                class="MuiTypography-root sc-dnqmqq bSdSIn MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
+                class="MuiTypography-root sc-fzXfLO cDBdjk MuiTypography-body1 MuiTypography-colorError MuiTypography-alignCenter"
                 customvariant="header2"
               />
               <div
-                class="sc-chPdSV fZBViL"
+                class="sc-fzXfMv gUvBWi"
               >
                 <div
                   class="MuiFormControl-root"
                 >
                   <label
-                    class="MuiFormLabel-root MuiInputLabel-root sc-cSHVUG kdOfkg MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+                    class="MuiFormLabel-root MuiInputLabel-root sc-fzXfLW hPdDHo MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
                     data-shrink="true"
                   >
                     Size
@@ -793,7 +793,7 @@ Object {
                       tabindex="0"
                     >
                       <p
-                        class="MuiTypography-root-132 sc-dnqmqq edpasr MuiTypography-body1-134"
+                        class="MuiTypography-root-132 sc-fzXfLO bsJMks MuiTypography-body1-134"
                         data-testid="size-filter-M"
                       >
                         M
@@ -834,7 +834,7 @@ Object {
                 <div>
                   <span
                     aria-disabled="false"
-                    class="MuiButtonBase-root-195 MuiIconButton-root-186 PrivateSwitchBase-root-182 MuiRadio-root-177 MuiRadio-colorPrimary-180 sc-jTzLTM cSemml PrivateSwitchBase-checked-183 Mui-checked MuiIconButton-colorPrimary-190"
+                    class="MuiButtonBase-root-195 MuiIconButton-root-186 PrivateSwitchBase-root-182 MuiRadio-root-177 MuiRadio-colorPrimary-180 sc-fzXfLT iqaktk PrivateSwitchBase-checked-183 Mui-checked MuiIconButton-colorPrimary-190"
                     customcolor="red"
                     data-testid="color-filter-red"
                     variant="outer"
@@ -881,7 +881,7 @@ Object {
                   </span>
                   <span
                     aria-disabled="false"
-                    class="MuiButtonBase-root-228 MuiIconButton-root-219 PrivateSwitchBase-root-215 MuiRadio-root-210 MuiRadio-colorPrimary-213 sc-jTzLTM VojIo MuiIconButton-colorPrimary-223"
+                    class="MuiButtonBase-root-228 MuiIconButton-root-219 PrivateSwitchBase-root-215 MuiRadio-root-210 MuiRadio-colorPrimary-213 sc-fzXfLT fQEPBg MuiIconButton-colorPrimary-223"
                     customcolor="green"
                     data-testid="color-filter-green"
                     variant="outer"
@@ -927,7 +927,7 @@ Object {
                   </span>
                   <span
                     aria-disabled="false"
-                    class="MuiButtonBase-root-261 MuiIconButton-root-252 PrivateSwitchBase-root-248 MuiRadio-root-243 MuiRadio-colorPrimary-246 sc-jTzLTM fcDwbm MuiIconButton-colorPrimary-256"
+                    class="MuiButtonBase-root-261 MuiIconButton-root-252 PrivateSwitchBase-root-248 MuiRadio-root-243 MuiRadio-colorPrimary-246 sc-fzXfLT lhoLcw MuiIconButton-colorPrimary-256"
                     customcolor="blue"
                     data-testid="color-filter-blue"
                     variant="outer"
@@ -975,18 +975,18 @@ Object {
               </div>
             </div>
             <div
-              class="sc-VigVT bxxuSL"
+              class="sc-fzXfLS bRQhyp"
             >
               <div
                 class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
               >
                 <div
-                  class="sc-VigVT kJCAQl"
+                  class="sc-fzXfLS dLpJtQ"
                   display="flex"
                   width="100%"
                 >
                   <button
-                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iwsKbI eSTNCX MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-fzXfLP eutWDt MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                     data-testid="product-item-buy-btn"
                     tabindex="0"
                     type="button"
@@ -1002,12 +1002,12 @@ Object {
                   </button>
                 </div>
                 <div
-                  class="sc-VigVT kJCAQl"
+                  class="sc-fzXfLS dLpJtQ"
                   display="flex"
                   width="100%"
                 >
                   <button
-                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-iwsKbI eSTNCX MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-fzXfLP eutWDt MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
                     tabindex="0"
                     type="button"
                   >
@@ -1025,11 +1025,11 @@ Object {
             </div>
           </div>
           <div
-            class="sc-kGXeez gpsmlv"
+            class="sc-fzXfMx eHyUqc"
           />
         </div>
         <div
-          class="sc-VigVT iIUCMy"
+          class="sc-fzXfLS bkkSaJ"
         >
           <svg
             aria-hidden="true"
@@ -1109,11 +1109,11 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
 @@ -1,15 +1,15 @@
   <DocumentFragment>
     <div
-      class=\\"sc-bdVaJa ituqcc\\"
+      class=\\"sc-AykKC bzGAew\\"
     >
       <div
--       class=\\"sc-bwzfXH ulJSH\\"
-+       class=\\"sc-bwzfXH kHsjxx\\"
+-       class=\\"sc-AykKD hewwJW\\"
++       class=\\"sc-AykKD ftdwBo\\"
         opacity=\\"1\\"
         style=\\"opacity: 1; transform: perspective(600px) rotateY(0deg);\\"
         transform=\\"perspective(600px) rotateY(0deg)\\"
@@ -1121,7 +1121,7 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
 +       z-index=\\"0\\"
       >
         <div
-          class=\\"sc-gqjmRU jzGAax\\"
+          class=\\"sc-fzXfLR hIkFlP\\"
         >
           <div
 @@ -73,15 +73,15 @@
@@ -1130,8 +1130,8 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
         </div>
       </div>
       <div
--       class=\\"sc-bwzfXH kHsjxx\\"
-+       class=\\"sc-bwzfXH ulJSH\\"
+-       class=\\"sc-AykKD ftdwBo\\"
++       class=\\"sc-AykKD hewwJW\\"
         opacity=\\"0\\"
         style=\\"opacity: 0; transform: perspective(600px) rotateY(0deg) rotateY(180deg);\\"
         transform=\\"perspective(600px) rotateY(0deg) rotateY(180deg)\\"
@@ -1139,7 +1139,7 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
 +       z-index=\\"2\\"
       >
         <div
-          class=\\"sc-gqjmRU jzGAax\\"
+          class=\\"sc-fzXfLR hIkFlP\\"
         >
           <div"
 `;
@@ -1157,11 +1157,11 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
 @@ -1,15 +1,15 @@
   <DocumentFragment>
     <div
-      class=\\"sc-bdVaJa ituqcc\\"
+      class=\\"sc-AykKC bzGAew\\"
     >
       <div
--       class=\\"sc-bwzfXH ulJSH\\"
-+       class=\\"sc-bwzfXH kHsjxx\\"
+-       class=\\"sc-AykKD hewwJW\\"
++       class=\\"sc-AykKD ftdwBo\\"
         opacity=\\"1\\"
         style=\\"opacity: 1; transform: perspective(600px) rotateY(0deg);\\"
         transform=\\"perspective(600px) rotateY(0deg)\\"
@@ -1169,7 +1169,7 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
 +       z-index=\\"0\\"
       >
         <div
-          class=\\"sc-gqjmRU jzGAax\\"
+          class=\\"sc-fzXfLR hIkFlP\\"
         >
           <div
 @@ -73,15 +73,15 @@
@@ -1178,8 +1178,8 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
         </div>
       </div>
       <div
--       class=\\"sc-bwzfXH kHsjxx\\"
-+       class=\\"sc-bwzfXH ulJSH\\"
+-       class=\\"sc-AykKD ftdwBo\\"
++       class=\\"sc-AykKD hewwJW\\"
         opacity=\\"0\\"
         style=\\"opacity: 0; transform: perspective(600px) rotateY(0deg) rotateY(180deg);\\"
         transform=\\"perspective(600px) rotateY(0deg) rotateY(180deg)\\"
@@ -1187,7 +1187,7 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
 +       z-index=\\"2\\"
       >
         <div
-          class=\\"sc-gqjmRU jzGAax\\"
+          class=\\"sc-fzXfLR hIkFlP\\"
         >
           <div"
 `;

@@ -41,121 +41,53 @@ exports[`BlogIcon bookmark icon 1`] = `
   icon="bookmark"
 >
   <styled.div>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  max-width: 80px;
-  cursor: pointer;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="c0"
     >
-      <div
-        className="c0"
-      >
-        <styled.div>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "c1",
-                  "rules": Array [
-                    "
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: ",
-                    "#F2F2F2",
-                    ";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-",
-                  ],
-                },
-                "displayName": "styled.div",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <ForwardRef
+            fontSize="small"
           >
-            <div
-              className="c1"
+            <WithStyles(ForwardRef(SvgIcon))
+              fontSize="small"
             >
-              <ForwardRef
+              <ForwardRef(SvgIcon)
+                classes={
+                  Object {
+                    "colorAction": "MuiSvgIcon-colorAction",
+                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                    "colorError": "MuiSvgIcon-colorError",
+                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                    "root": "MuiSvgIcon-root",
+                  }
+                }
                 fontSize="small"
               >
-                <WithStyles(ForwardRef(SvgIcon))
-                  fontSize="small"
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
                 >
-                  <ForwardRef(SvgIcon)
-                    classes={
-                      Object {
-                        "colorAction": "MuiSvgIcon-colorAction",
-                        "colorDisabled": "MuiSvgIcon-colorDisabled",
-                        "colorError": "MuiSvgIcon-colorError",
-                        "colorPrimary": "MuiSvgIcon-colorPrimary",
-                        "colorSecondary": "MuiSvgIcon-colorSecondary",
-                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                        "root": "MuiSvgIcon-root",
-                      }
-                    }
-                    fontSize="small"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-                      focusable="false"
-                      role="presentation"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
-                      />
-                    </svg>
-                  </ForwardRef(SvgIcon)>
-                </WithStyles(ForwardRef(SvgIcon))>
-              </ForwardRef>
-            </div>
-          </StyledComponent>
-        </styled.div>
-        <span />
-      </div>
-    </StyledComponent>
+                  <path
+                    d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+                  />
+                </svg>
+              </ForwardRef(SvgIcon)>
+            </WithStyles(ForwardRef(SvgIcon))>
+          </ForwardRef>
+        </div>
+      </styled.div>
+      <span />
+    </div>
   </styled.div>
 </BlogIcon>
 `;
@@ -202,123 +134,55 @@ exports[`BlogIcon comment icon 1`] = `
   icon="comment"
 >
   <styled.div>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  max-width: 80px;
-  cursor: pointer;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="c0"
     >
-      <div
-        className="c0"
-      >
-        <styled.div>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "c1",
-                  "rules": Array [
-                    "
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: ",
-                    "#F2F2F2",
-                    ";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-",
-                  ],
-                },
-                "displayName": "styled.div",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <ForwardRef
+            fontSize="small"
           >
-            <div
-              className="c1"
+            <WithStyles(ForwardRef(SvgIcon))
+              fontSize="small"
             >
-              <ForwardRef
+              <ForwardRef(SvgIcon)
+                classes={
+                  Object {
+                    "colorAction": "MuiSvgIcon-colorAction",
+                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                    "colorError": "MuiSvgIcon-colorError",
+                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                    "root": "MuiSvgIcon-root",
+                  }
+                }
                 fontSize="small"
               >
-                <WithStyles(ForwardRef(SvgIcon))
-                  fontSize="small"
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
                 >
-                  <ForwardRef(SvgIcon)
-                    classes={
-                      Object {
-                        "colorAction": "MuiSvgIcon-colorAction",
-                        "colorDisabled": "MuiSvgIcon-colorDisabled",
-                        "colorError": "MuiSvgIcon-colorError",
-                        "colorPrimary": "MuiSvgIcon-colorPrimary",
-                        "colorSecondary": "MuiSvgIcon-colorSecondary",
-                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                        "root": "MuiSvgIcon-root",
-                      }
-                    }
-                    fontSize="small"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-                      focusable="false"
-                      role="presentation"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
-                      />
-                    </svg>
-                  </ForwardRef(SvgIcon)>
-                </WithStyles(ForwardRef(SvgIcon))>
-              </ForwardRef>
-            </div>
-          </StyledComponent>
-        </styled.div>
-        <span>
-          20
-        </span>
-      </div>
-    </StyledComponent>
+                  <path
+                    d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"
+                  />
+                </svg>
+              </ForwardRef(SvgIcon)>
+            </WithStyles(ForwardRef(SvgIcon))>
+          </ForwardRef>
+        </div>
+      </styled.div>
+      <span>
+        20
+      </span>
+    </div>
   </styled.div>
 </BlogIcon>
 `;
@@ -425,121 +289,53 @@ exports[`BlogIcon options icon 1`] = `
   icon="options"
 >
   <styled.div>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  max-width: 80px;
-  cursor: pointer;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <div
+      className="c0"
     >
-      <div
-        className="c0"
-      >
-        <styled.div>
-          <StyledComponent
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
-                  "isStatic": false,
-                  "lastClassName": "c1",
-                  "rules": Array [
-                    "
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: ",
-                    "#F2F2F2",
-                    ";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-",
-                  ],
-                },
-                "displayName": "styled.div",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
-                "target": "div",
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <ForwardRef
+            fontSize="small"
           >
-            <div
-              className="c1"
+            <WithStyles(ForwardRef(SvgIcon))
+              fontSize="small"
             >
-              <ForwardRef
+              <ForwardRef(SvgIcon)
+                classes={
+                  Object {
+                    "colorAction": "MuiSvgIcon-colorAction",
+                    "colorDisabled": "MuiSvgIcon-colorDisabled",
+                    "colorError": "MuiSvgIcon-colorError",
+                    "colorPrimary": "MuiSvgIcon-colorPrimary",
+                    "colorSecondary": "MuiSvgIcon-colorSecondary",
+                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                    "root": "MuiSvgIcon-root",
+                  }
+                }
                 fontSize="small"
               >
-                <WithStyles(ForwardRef(SvgIcon))
-                  fontSize="small"
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
                 >
-                  <ForwardRef(SvgIcon)
-                    classes={
-                      Object {
-                        "colorAction": "MuiSvgIcon-colorAction",
-                        "colorDisabled": "MuiSvgIcon-colorDisabled",
-                        "colorError": "MuiSvgIcon-colorError",
-                        "colorPrimary": "MuiSvgIcon-colorPrimary",
-                        "colorSecondary": "MuiSvgIcon-colorSecondary",
-                        "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                        "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                        "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                        "root": "MuiSvgIcon-root",
-                      }
-                    }
-                    fontSize="small"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-                      focusable="false"
-                      role="presentation"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
-                      />
-                    </svg>
-                  </ForwardRef(SvgIcon)>
-                </WithStyles(ForwardRef(SvgIcon))>
-              </ForwardRef>
-            </div>
-          </StyledComponent>
-        </styled.div>
-        <span />
-      </div>
-    </StyledComponent>
+                  <path
+                    d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+              </ForwardRef(SvgIcon)>
+            </WithStyles(ForwardRef(SvgIcon))>
+          </ForwardRef>
+        </div>
+      </styled.div>
+      <span />
+    </div>
   </styled.div>
 </BlogIcon>
 `;

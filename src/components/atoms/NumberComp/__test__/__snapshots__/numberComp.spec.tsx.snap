@@ -31,61 +31,12 @@ exports[`App number component input nmber input component 1`] = `
   <styled.button
     color="primary"
   >
-    <StyledComponent
+    <button
+      className="c0"
       color="primary"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              "
-  width: 27px;
-  height: 27px;
-  border: 1px solid ",
-              "#F62F5E",
-              ";
-  border-radius: 50%;
-  font-size: 14px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  outline-color: transparent;
-  outline-style: none;
-  cursor: pointer;
-
-  ",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
     >
-      <button
-        className="c0"
-        color="primary"
-      >
-        0
-      </button>
-    </StyledComponent>
+      0
+    </button>
   </styled.button>
 </NumberComp>
 `;
@@ -123,61 +74,12 @@ exports[`App number component input nmber input component with data < 0 1`] = `
   <styled.button
     color="primary"
   >
-    <StyledComponent
+    <button
+      className="c0"
       color="primary"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              "
-  width: 27px;
-  height: 27px;
-  border: 1px solid ",
-              "#F62F5E",
-              ";
-  border-radius: 50%;
-  font-size: 14px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  outline-color: transparent;
-  outline-style: none;
-  cursor: pointer;
-
-  ",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
     >
-      <button
-        className="c0"
-        color="primary"
-      >
-        0
-      </button>
-    </StyledComponent>
+      0
+    </button>
   </styled.button>
 </NumberComp>
 `;
@@ -215,61 +117,12 @@ exports[`App number component input nmber input component with data >0 and < 100
   <styled.button
     color="primary"
   >
-    <StyledComponent
+    <button
+      className="c0"
       color="primary"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              "
-  width: 27px;
-  height: 27px;
-  border: 1px solid ",
-              "#F62F5E",
-              ";
-  border-radius: 50%;
-  font-size: 14px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  outline-color: transparent;
-  outline-style: none;
-  cursor: pointer;
-
-  ",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
     >
-      <button
-        className="c0"
-        color="primary"
-      >
-        10
-      </button>
-    </StyledComponent>
+      10
+    </button>
   </styled.button>
 </NumberComp>
 `;
@@ -307,61 +160,12 @@ exports[`App number component input nmber input component with data >100 1`] = `
   <styled.button
     color="primary"
   >
-    <StyledComponent
+    <button
+      className="c0"
       color="primary"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              "
-  width: 27px;
-  height: 27px;
-  border: 1px solid ",
-              "#F62F5E",
-              ";
-  border-radius: 50%;
-  font-size: 14px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  outline-color: transparent;
-  outline-style: none;
-  cursor: pointer;
-
-  ",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
     >
-      <button
-        className="c0"
-        color="primary"
-      >
-        99
-      </button>
-    </StyledComponent>
+      99
+    </button>
   </styled.button>
 </NumberComp>
 `;

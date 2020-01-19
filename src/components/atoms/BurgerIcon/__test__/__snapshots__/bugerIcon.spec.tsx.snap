@@ -62,98 +62,13 @@ exports[`Burger icon basic burger icon 1`] = `
 
 <BurgerIcon>
   <styled.button>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              ";
-  position: absolute;
-  top: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: ",
-              [Function],
-              ";
-  height: ",
-              [Function],
-              ";
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
-
-  &:focus {
-    outline: none;
-  }
-
-  div {
-    width: ",
-              [Function],
-              ";
-    height: 0.25rem;
-    background: ",
-              [Function],
-              ";
-    border-radius: 10px;
-    transition: all 0.3s linear;
-    position: relative;
-    transform-origin: 1px;
-
-    &:first-child {
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(2) {
-      opacity: ",
-              [Function],
-              ";
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(3) {
-      transform: ",
-              [Function],
-              ";
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <button
+      className="c0"
     >
-      <button
-        className="c0"
-      >
-        <div />
-        <div />
-        <div />
-      </button>
-    </StyledComponent>
+      <div />
+      <div />
+      <div />
+    </button>
   </styled.button>
 </BurgerIcon>
 `;
@@ -224,100 +139,14 @@ exports[`Burger icon green green 1`] = `
   <styled.button
     color="green"
   >
-    <StyledComponent
+    <button
+      className="c0"
       color="green"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              ";
-  position: absolute;
-  top: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: ",
-              [Function],
-              ";
-  height: ",
-              [Function],
-              ";
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
-
-  &:focus {
-    outline: none;
-  }
-
-  div {
-    width: ",
-              [Function],
-              ";
-    height: 0.25rem;
-    background: ",
-              [Function],
-              ";
-    border-radius: 10px;
-    transition: all 0.3s linear;
-    position: relative;
-    transform-origin: 1px;
-
-    &:first-child {
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(2) {
-      opacity: ",
-              [Function],
-              ";
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(3) {
-      transform: ",
-              [Function],
-              ";
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
     >
-      <button
-        className="c0"
-        color="green"
-      >
-        <div />
-        <div />
-        <div />
-      </button>
-    </StyledComponent>
+      <div />
+      <div />
+      <div />
+    </button>
   </styled.button>
 </BurgerIcon>
 `;
@@ -388,100 +217,14 @@ exports[`Burger icon opned burger icon btn 1`] = `
   <styled.button
     open={true}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "c0",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              ";
-  position: absolute;
-  top: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: ",
-              [Function],
-              ";
-  height: ",
-              [Function],
-              ";
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
-
-  &:focus {
-    outline: none;
-  }
-
-  div {
-    width: ",
-              [Function],
-              ";
-    height: 0.25rem;
-    background: ",
-              [Function],
-              ";
-    border-radius: 10px;
-    transition: all 0.3s linear;
-    position: relative;
-    transform-origin: 1px;
-
-    &:first-child {
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(2) {
-      opacity: ",
-              [Function],
-              ";
-      transform: ",
-              [Function],
-              ";
-    }
-
-    &:nth-child(3) {
-      transform: ",
-              [Function],
-              ";
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.button",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "button",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <button
+      className="c0"
       open={true}
     >
-      <button
-        className="c0"
-        open={true}
-      >
-        <div />
-        <div />
-        <div />
-      </button>
-    </StyledComponent>
+      <div />
+      <div />
+      <div />
+    </button>
   </styled.button>
 </BurgerIcon>
 `;
