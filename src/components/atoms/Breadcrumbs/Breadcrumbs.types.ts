@@ -1,4 +1,13 @@
-import { SpaceProps } from 'styled-system'
 import { BreadcrumbsProps } from '@material-ui/core/Breadcrumbs'
 
-export declare type BaseBreadcrumbsProps = BreadcrumbsProps & SpaceProps
+export interface IBreadCrumbItem {
+  href: string
+  title: string
+}
+
+export interface IBreadCrumbProp {
+  links: IBreadCrumbItem[]
+  active: string
+}
+
+export declare type BaseBreadcrumbsProps = IBreadCrumbProp & BreadcrumbsProps

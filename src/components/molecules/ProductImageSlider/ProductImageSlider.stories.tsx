@@ -5,7 +5,6 @@
  */
 
 import React from 'react'
-import { action } from '@storybook/addon-actions'
 import ProductImageSlider from './ProductImageSlider'
 import img1 from './mock/img2.jpg'
 import img2 from './mock/img3.jpg'

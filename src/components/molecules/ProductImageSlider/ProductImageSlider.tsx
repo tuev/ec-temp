@@ -4,7 +4,7 @@
  *
  */
 
-import React, { FC, useRef } from 'react'
+import React, { FC } from 'react'
 
 import {
   ImageSliderItem,

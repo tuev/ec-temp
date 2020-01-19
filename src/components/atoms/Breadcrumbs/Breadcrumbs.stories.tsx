@@ -7,16 +7,17 @@
 import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 
-import Items from './mock'
-
 export default {
   component: Breadcrumbs,
   includeStories: ['basic'],
   title: 'Breadcrumbs',
 }
 
+const fakeLinks = [
+  { href: '/', title: 'Home' },
+  { href: '/products', title: 'All Categories' },
+]
+
 export const basic = () => (
-  <Breadcrumbs>
-    <Items />
-  </Breadcrumbs>
+  <Breadcrumbs links={fakeLinks} active="Men's clothing & Accessories" />
 )
