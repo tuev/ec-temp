@@ -4,7 +4,11 @@ exports[`App size select Test get default size filter select with actions  1`] =
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
+    .c0 {
+  color: #2E2E2E;
+}
+
+<div>
       <div
         class="MuiFormControl-root"
       >
@@ -26,7 +30,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-352 MuiTypography-body1-354"
+              class="MuiTypography-root-352 c0 MuiTypography-body1-354"
               data-testid="size-filter-M"
             >
               M
@@ -88,7 +92,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-352 sc-AykKG cMItlm MuiTypography-body1-354"
+            class="MuiTypography-root-352 sc-AykKG jjimnK MuiTypography-body1-354"
             data-testid="size-filter-M"
           >
             M
@@ -854,7 +858,11 @@ exports[`App size select Test get default size select type dropdown  1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
+    .c0 {
+  color: #2E2E2E;
+}
+
+<div>
       <div
         class="MuiFormControl-root"
       >
@@ -876,7 +884,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-196 MuiTypography-body1-198"
+              class="MuiTypography-root-196 c0 MuiTypography-body1-198"
               data-testid="size-filter-XS"
             >
               XS
@@ -938,7 +946,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-196 sc-AykKG cMItlm MuiTypography-body1-198"
+            class="MuiTypography-root-196 sc-AykKG jjimnK MuiTypography-body1-198"
             data-testid="size-filter-XS"
           >
             XS
