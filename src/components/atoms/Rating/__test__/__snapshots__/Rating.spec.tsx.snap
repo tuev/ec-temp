@@ -10,1184 +10,380 @@ exports[`Rating rating 1`] = `
     precision={0.5}
     value={4.3}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "Naked": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "propTypes": Object {
-              "IconContainerComponent": [Function],
-              "className": [Function],
-              "classes": [Function],
-              "disabled": [Function],
-              "emptyIcon": [Function],
-              "getLabelText": [Function],
-              "icon": [Function],
-              "max": [Function],
-              "name": [Function],
-              "onChange": [Function],
-              "onChangeActive": [Function],
-              "onMouseLeave": [Function],
-              "onMouseMove": [Function],
-              "precision": [Function],
-              "readOnly": [Function],
-              "size": [Function],
-              "value": [Function],
-            },
-            "render": [Function],
-          },
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "ibTDPh",
-            "rules": Array [
-              "
-  ",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "Styled(WithStyles(ForwardRef(Rating)))",
-          "foldedComponentIds": Array [],
-          "options": Object {
-            "defaultTheme": Object {
-              "breakpoints": Object {
-                "between": [Function],
-                "down": [Function],
-                "keys": Array [
-                  "xs",
-                  "sm",
-                  "md",
-                  "lg",
-                  "xl",
-                ],
-                "only": [Function],
-                "up": [Function],
-                "values": Object {
-                  "lg": 1280,
-                  "md": 960,
-                  "sm": 600,
-                  "xl": 1920,
-                  "xs": 0,
-                },
-                "width": [Function],
-              },
-              "direction": "ltr",
-              "mixins": Object {
-                "gutters": [Function],
-                "toolbar": Object {
-                  "@media (min-width:0px) and (orientation: landscape)": Object {
-                    "minHeight": 48,
-                  },
-                  "@media (min-width:600px)": Object {
-                    "minHeight": 64,
-                  },
-                  "minHeight": 56,
-                },
-              },
-              "overrides": Object {},
-              "palette": Object {
-                "action": Object {
-                  "active": "rgba(0, 0, 0, 0.54)",
-                  "disabled": "rgba(0, 0, 0, 0.26)",
-                  "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
-                },
-                "augmentColor": [Function],
-                "background": Object {
-                  "default": "#fafafa",
-                  "paper": "#fff",
-                },
-                "common": Object {
-                  "black": "#000",
-                  "white": "#fff",
-                },
-                "contrastThreshold": 3,
-                "divider": "rgba(0, 0, 0, 0.12)",
-                "error": Object {
-                  "contrastText": "#fff",
-                  "dark": "#d32f2f",
-                  "light": "#e57373",
-                  "main": "#f44336",
-                },
-                "getContrastText": [Function],
-                "grey": Object {
-                  "100": "#f5f5f5",
-                  "200": "#eeeeee",
-                  "300": "#e0e0e0",
-                  "400": "#bdbdbd",
-                  "50": "#fafafa",
-                  "500": "#9e9e9e",
-                  "600": "#757575",
-                  "700": "#616161",
-                  "800": "#424242",
-                  "900": "#212121",
-                  "A100": "#d5d5d5",
-                  "A200": "#aaaaaa",
-                  "A400": "#303030",
-                  "A700": "#616161",
-                },
-                "info": Object {
-                  "contrastText": "#fff",
-                  "dark": "#1976d2",
-                  "light": "#64b5f6",
-                  "main": "#2196f3",
-                },
-                "primary": Object {
-                  "contrastText": "#fff",
-                  "dark": "#303f9f",
-                  "light": "#7986cb",
-                  "main": "#3f51b5",
-                },
-                "secondary": Object {
-                  "contrastText": "#fff",
-                  "dark": "#c51162",
-                  "light": "#ff4081",
-                  "main": "#f50057",
-                },
-                "success": Object {
-                  "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#388e3c",
-                  "light": "#81c784",
-                  "main": "#4caf50",
-                },
-                "text": Object {
-                  "disabled": "rgba(0, 0, 0, 0.38)",
-                  "hint": "rgba(0, 0, 0, 0.38)",
-                  "primary": "rgba(0, 0, 0, 0.87)",
-                  "secondary": "rgba(0, 0, 0, 0.54)",
-                },
-                "tonalOffset": 0.2,
-                "type": "light",
-                "warning": Object {
-                  "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#f57c00",
-                  "light": "#ffb74d",
-                  "main": "#ff9800",
-                },
-              },
-              "props": Object {},
-              "shadows": Array [
-                "none",
-                "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
-                "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
-                "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
-                "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
-                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
-                "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
-                "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
-                "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
-                "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
-                "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
-                "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
-                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
-                "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
-                "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
-                "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
-                "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
-                "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
-                "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
-                "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
-                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
-                "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
-                "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
-                "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
-                "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
-              ],
-              "shape": Object {
-                "borderRadius": 4,
-              },
-              "spacing": [Function],
-              "transitions": Object {
-                "create": [Function],
-                "duration": Object {
-                  "complex": 375,
-                  "enteringScreen": 225,
-                  "leavingScreen": 195,
-                  "short": 250,
-                  "shorter": 200,
-                  "shortest": 150,
-                  "standard": 300,
-                },
-                "easing": Object {
-                  "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
-                  "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
-                  "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
-                  "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
-                },
-                "getAutoHeightDuration": [Function],
-              },
-              "typography": Object {
-                "body1": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "1rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.00938em",
-                  "lineHeight": 1.5,
-                },
-                "body2": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "0.875rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.01071em",
-                  "lineHeight": 1.43,
-                },
-                "button": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "0.875rem",
-                  "fontWeight": 500,
-                  "letterSpacing": "0.02857em",
-                  "lineHeight": 1.75,
-                  "textTransform": "uppercase",
-                },
-                "caption": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "0.75rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.03333em",
-                  "lineHeight": 1.66,
-                },
-                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                "fontSize": 14,
-                "fontWeightBold": 700,
-                "fontWeightLight": 300,
-                "fontWeightMedium": 500,
-                "fontWeightRegular": 400,
-                "h1": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "6rem",
-                  "fontWeight": 300,
-                  "letterSpacing": "-0.01562em",
-                  "lineHeight": 1.167,
-                },
-                "h2": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "3.75rem",
-                  "fontWeight": 300,
-                  "letterSpacing": "-0.00833em",
-                  "lineHeight": 1.2,
-                },
-                "h3": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "3rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0em",
-                  "lineHeight": 1.167,
-                },
-                "h4": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "2.125rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.00735em",
-                  "lineHeight": 1.235,
-                },
-                "h5": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "1.5rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0em",
-                  "lineHeight": 1.334,
-                },
-                "h6": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "1.25rem",
-                  "fontWeight": 500,
-                  "letterSpacing": "0.0075em",
-                  "lineHeight": 1.6,
-                },
-                "htmlFontSize": 16,
-                "overline": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "0.75rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.08333em",
-                  "lineHeight": 2.66,
-                  "textTransform": "uppercase",
-                },
-                "pxToRem": [Function],
-                "round": [Function],
-                "subtitle1": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "1rem",
-                  "fontWeight": 400,
-                  "letterSpacing": "0.00938em",
-                  "lineHeight": 1.75,
-                },
-                "subtitle2": Object {
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": "0.875rem",
-                  "fontWeight": 500,
-                  "letterSpacing": "0.00714em",
-                  "lineHeight": 1.57,
-                },
-              },
-              "zIndex": Object {
-                "appBar": 1100,
-                "drawer": 1200,
-                "mobileStepper": 1000,
-                "modal": 1300,
-                "snackbar": 1400,
-                "speedDial": 1050,
-                "tooltip": 1500,
-              },
-            },
-            "name": "MuiRating",
-          },
-          "propTypes": Object {
-            "classes": [Function],
-            "innerRef": [Function],
-          },
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "Naked": Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "propTypes": Object {
-                "IconContainerComponent": [Function],
-                "className": [Function],
-                "classes": [Function],
-                "disabled": [Function],
-                "emptyIcon": [Function],
-                "getLabelText": [Function],
-                "icon": [Function],
-                "max": [Function],
-                "name": [Function],
-                "onChange": [Function],
-                "onChangeActive": [Function],
-                "onMouseLeave": [Function],
-                "onMouseMove": [Function],
-                "precision": [Function],
-                "readOnly": [Function],
-                "size": [Function],
-                "value": [Function],
-              },
-              "render": [Function],
-            },
-            "defaultProps": undefined,
-            "displayName": "WithStyles(ForwardRef(Rating))",
-            "options": Object {
-              "defaultTheme": Object {
-                "breakpoints": Object {
-                  "between": [Function],
-                  "down": [Function],
-                  "keys": Array [
-                    "xs",
-                    "sm",
-                    "md",
-                    "lg",
-                    "xl",
-                  ],
-                  "only": [Function],
-                  "up": [Function],
-                  "values": Object {
-                    "lg": 1280,
-                    "md": 960,
-                    "sm": 600,
-                    "xl": 1920,
-                    "xs": 0,
-                  },
-                  "width": [Function],
-                },
-                "direction": "ltr",
-                "mixins": Object {
-                  "gutters": [Function],
-                  "toolbar": Object {
-                    "@media (min-width:0px) and (orientation: landscape)": Object {
-                      "minHeight": 48,
-                    },
-                    "@media (min-width:600px)": Object {
-                      "minHeight": 64,
-                    },
-                    "minHeight": 56,
-                  },
-                },
-                "overrides": Object {},
-                "palette": Object {
-                  "action": Object {
-                    "active": "rgba(0, 0, 0, 0.54)",
-                    "disabled": "rgba(0, 0, 0, 0.26)",
-                    "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                    "hover": "rgba(0, 0, 0, 0.08)",
-                    "hoverOpacity": 0.08,
-                    "selected": "rgba(0, 0, 0, 0.14)",
-                  },
-                  "augmentColor": [Function],
-                  "background": Object {
-                    "default": "#fafafa",
-                    "paper": "#fff",
-                  },
-                  "common": Object {
-                    "black": "#000",
-                    "white": "#fff",
-                  },
-                  "contrastThreshold": 3,
-                  "divider": "rgba(0, 0, 0, 0.12)",
-                  "error": Object {
-                    "contrastText": "#fff",
-                    "dark": "#d32f2f",
-                    "light": "#e57373",
-                    "main": "#f44336",
-                  },
-                  "getContrastText": [Function],
-                  "grey": Object {
-                    "100": "#f5f5f5",
-                    "200": "#eeeeee",
-                    "300": "#e0e0e0",
-                    "400": "#bdbdbd",
-                    "50": "#fafafa",
-                    "500": "#9e9e9e",
-                    "600": "#757575",
-                    "700": "#616161",
-                    "800": "#424242",
-                    "900": "#212121",
-                    "A100": "#d5d5d5",
-                    "A200": "#aaaaaa",
-                    "A400": "#303030",
-                    "A700": "#616161",
-                  },
-                  "info": Object {
-                    "contrastText": "#fff",
-                    "dark": "#1976d2",
-                    "light": "#64b5f6",
-                    "main": "#2196f3",
-                  },
-                  "primary": Object {
-                    "contrastText": "#fff",
-                    "dark": "#303f9f",
-                    "light": "#7986cb",
-                    "main": "#3f51b5",
-                  },
-                  "secondary": Object {
-                    "contrastText": "#fff",
-                    "dark": "#c51162",
-                    "light": "#ff4081",
-                    "main": "#f50057",
-                  },
-                  "success": Object {
-                    "contrastText": "rgba(0, 0, 0, 0.87)",
-                    "dark": "#388e3c",
-                    "light": "#81c784",
-                    "main": "#4caf50",
-                  },
-                  "text": Object {
-                    "disabled": "rgba(0, 0, 0, 0.38)",
-                    "hint": "rgba(0, 0, 0, 0.38)",
-                    "primary": "rgba(0, 0, 0, 0.87)",
-                    "secondary": "rgba(0, 0, 0, 0.54)",
-                  },
-                  "tonalOffset": 0.2,
-                  "type": "light",
-                  "warning": Object {
-                    "contrastText": "rgba(0, 0, 0, 0.87)",
-                    "dark": "#f57c00",
-                    "light": "#ffb74d",
-                    "main": "#ff9800",
-                  },
-                },
-                "props": Object {},
-                "shadows": Array [
-                  "none",
-                  "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
-                  "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
-                  "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
-                  "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
-                  "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
-                  "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
-                  "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
-                  "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
-                  "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
-                  "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
-                  "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
-                  "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
-                  "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
-                  "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
-                  "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
-                  "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
-                  "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
-                  "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
-                  "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
-                  "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
-                  "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
-                  "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
-                  "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
-                  "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
-                ],
-                "shape": Object {
-                  "borderRadius": 4,
-                },
-                "spacing": [Function],
-                "transitions": Object {
-                  "create": [Function],
-                  "duration": Object {
-                    "complex": 375,
-                    "enteringScreen": 225,
-                    "leavingScreen": 195,
-                    "short": 250,
-                    "shorter": 200,
-                    "shortest": 150,
-                    "standard": 300,
-                  },
-                  "easing": Object {
-                    "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
-                    "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
-                    "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
-                    "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
-                  },
-                  "getAutoHeightDuration": [Function],
-                },
-                "typography": Object {
-                  "body1": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "1rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.00938em",
-                    "lineHeight": 1.5,
-                  },
-                  "body2": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "0.875rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.01071em",
-                    "lineHeight": 1.43,
-                  },
-                  "button": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "0.875rem",
-                    "fontWeight": 500,
-                    "letterSpacing": "0.02857em",
-                    "lineHeight": 1.75,
-                    "textTransform": "uppercase",
-                  },
-                  "caption": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "0.75rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.03333em",
-                    "lineHeight": 1.66,
-                  },
-                  "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                  "fontSize": 14,
-                  "fontWeightBold": 700,
-                  "fontWeightLight": 300,
-                  "fontWeightMedium": 500,
-                  "fontWeightRegular": 400,
-                  "h1": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "6rem",
-                    "fontWeight": 300,
-                    "letterSpacing": "-0.01562em",
-                    "lineHeight": 1.167,
-                  },
-                  "h2": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "3.75rem",
-                    "fontWeight": 300,
-                    "letterSpacing": "-0.00833em",
-                    "lineHeight": 1.2,
-                  },
-                  "h3": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "3rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0em",
-                    "lineHeight": 1.167,
-                  },
-                  "h4": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "2.125rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.00735em",
-                    "lineHeight": 1.235,
-                  },
-                  "h5": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "1.5rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0em",
-                    "lineHeight": 1.334,
-                  },
-                  "h6": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "1.25rem",
-                    "fontWeight": 500,
-                    "letterSpacing": "0.0075em",
-                    "lineHeight": 1.6,
-                  },
-                  "htmlFontSize": 16,
-                  "overline": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "0.75rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.08333em",
-                    "lineHeight": 2.66,
-                    "textTransform": "uppercase",
-                  },
-                  "pxToRem": [Function],
-                  "round": [Function],
-                  "subtitle1": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "1rem",
-                    "fontWeight": 400,
-                    "letterSpacing": "0.00938em",
-                    "lineHeight": 1.75,
-                  },
-                  "subtitle2": Object {
-                    "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                    "fontSize": "0.875rem",
-                    "fontWeight": 500,
-                    "letterSpacing": "0.00714em",
-                    "lineHeight": 1.57,
-                  },
-                },
-                "zIndex": Object {
-                  "appBar": 1100,
-                  "drawer": 1200,
-                  "mobileStepper": 1000,
-                  "modal": 1300,
-                  "snackbar": 1400,
-                  "speedDial": 1050,
-                  "tooltip": 1500,
-                },
-              },
-              "name": "MuiRating",
-            },
-            "propTypes": Object {
-              "classes": [Function],
-              "innerRef": [Function],
-            },
-            "render": [Function],
-            "useStyles": [Function],
-          },
-          "toString": [Function],
-          "useStyles": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <WithStyles(ForwardRef(Rating))
+      className=""
       name="test rating"
       precision={0.5}
       value={4.3}
     >
-      <WithStyles(ForwardRef(Rating))
+      <ForwardRef(Rating)
         className=""
+        classes={
+          Object {
+            "decimal": "MuiRating-decimal",
+            "disabled": "Mui-disabled",
+            "focusVisible": "Mui-focusVisible",
+            "icon": "MuiRating-icon",
+            "iconActive": "MuiRating-iconActive",
+            "iconEmpty": "MuiRating-iconEmpty",
+            "iconFilled": "MuiRating-iconFilled",
+            "iconFocus": "MuiRating-iconFocus",
+            "iconHover": "MuiRating-iconHover",
+            "label": "MuiRating-label",
+            "pristine": "MuiRating-pristine",
+            "readOnly": "MuiRating-readOnly",
+            "root": "MuiRating-root",
+            "sizeLarge": "MuiRating-sizeLarge",
+            "sizeSmall": "MuiRating-sizeSmall",
+            "visuallyhidden": "MuiRating-visuallyhidden",
+          }
+        }
         name="test rating"
         precision={0.5}
         value={4.3}
       >
-        <ForwardRef(Rating)
-          className=""
-          classes={
-            Object {
-              "decimal": "MuiRating-decimal",
-              "disabled": "Mui-disabled",
-              "focusVisible": "Mui-focusVisible",
-              "icon": "MuiRating-icon",
-              "iconActive": "MuiRating-iconActive",
-              "iconEmpty": "MuiRating-iconEmpty",
-              "iconFilled": "MuiRating-iconFilled",
-              "iconFocus": "MuiRating-iconFocus",
-              "iconHover": "MuiRating-iconHover",
-              "label": "MuiRating-label",
-              "pristine": "MuiRating-pristine",
-              "readOnly": "MuiRating-readOnly",
-              "root": "MuiRating-root",
-              "sizeLarge": "MuiRating-sizeLarge",
-              "sizeSmall": "MuiRating-sizeSmall",
-              "visuallyhidden": "MuiRating-visuallyhidden",
-            }
-          }
-          name="test rating"
-          precision={0.5}
-          value={4.3}
+        <span
+          aria-label={null}
+          className="MuiRating-root "
+          onMouseLeave={[Function]}
+          onMouseMove={[Function]}
+          role={null}
         >
           <span
-            aria-label={null}
-            className="MuiRating-root "
-            onMouseLeave={[Function]}
-            onMouseMove={[Function]}
-            role={null}
+            className="MuiRating-decimal"
+            key="1"
           >
-            <span
-              className="MuiRating-decimal"
-              key="1"
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-0-5"
             >
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-0-5"
-              >
-                <IconContainer
-                  className="MuiRating-icon MuiRating-iconFilled"
-                  style={
-                    Object {
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "width": "0%",
-                      "zIndex": 1,
-                    }
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "width": "0%",
+                    "zIndex": 1,
                   }
-                  value={0.5}
-                >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={
-                      Object {
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "width": "0%",
-                        "zIndex": 1,
-                      }
-                    }
-                  >
-                    <ForwardRef
-                      fontSize="inherit"
-                    >
-                      <WithStyles(ForwardRef(SvgIcon))
-                        fontSize="inherit"
-                      >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  0.5 Stars
-                </span>
-              </label>
-              <input
-                checked={false}
-                className="MuiRating-visuallyhidden"
-                id="test rating-0-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
+                }
                 value={0.5}
-              />
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-1"
               >
-                <IconContainer
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
-                  style={Object {}}
-                  value={1}
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "width": "0%",
+                      "zIndex": 1,
+                    }
+                  }
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={Object {}}
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  1 Star
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-1"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
+              >
+                0.5 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-0-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={0.5}
+            />
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-1"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={Object {}}
                 value={1}
-              />
-            </span>
-            <span
-              className="MuiRating-decimal"
-              key="2"
-            >
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-1-5"
               >
-                <IconContainer
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
-                  style={
-                    Object {
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "width": "0%",
-                      "zIndex": 1,
-                    }
-                  }
-                  value={1.5}
+                  style={Object {}}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={
-                      Object {
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "width": "0%",
-                        "zIndex": 1,
-                      }
-                    }
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  1.5 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-1-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-1"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={1}
+            />
+          </span>
+          <span
+            className="MuiRating-decimal"
+            key="2"
+          >
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-1-5"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "width": "0%",
+                    "zIndex": 1,
+                  }
+                }
                 value={1.5}
-              />
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-2"
               >
-                <IconContainer
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
-                  style={Object {}}
-                  value={2}
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "width": "0%",
+                      "zIndex": 1,
+                    }
+                  }
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={Object {}}
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  2 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-2"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
+              >
+                1.5 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-1-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={1.5}
+            />
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-2"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={Object {}}
                 value={2}
-              />
-            </span>
-            <span
-              className="MuiRating-decimal"
-              key="3"
-            >
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-2-5"
               >
-                <IconContainer
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
-                  style={
-                    Object {
-                      "overflow": "hidden",
-                      "position": "absolute",
-                      "width": "0%",
-                      "zIndex": 1,
-                    }
-                  }
-                  value={2.5}
+                  style={Object {}}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={
-                      Object {
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "width": "0%",
-                        "zIndex": 1,
-                      }
-                    }
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  2.5 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-2-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-2"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={2}
+            />
+          </span>
+          <span
+            className="MuiRating-decimal"
+            key="3"
+          >
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-2-5"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "width": "0%",
+                    "zIndex": 1,
+                  }
+                }
                 value={2.5}
-              />
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-3"
               >
-                <IconContainer
-                  className="MuiRating-icon MuiRating-iconFilled"
-                  style={Object {}}
-                  value={3}
-                >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={Object {}}
-                  >
-                    <ForwardRef
-                      fontSize="inherit"
-                    >
-                      <WithStyles(ForwardRef(SvgIcon))
-                        fontSize="inherit"
-                      >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
                 <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  3 Stars
-                </span>
-              </label>
-              <input
-                checked={false}
-                className="MuiRating-visuallyhidden"
-                id="test rating-3"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
-                value={3}
-              />
-            </span>
-            <span
-              className="MuiRating-decimal"
-              key="4"
-            >
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-3-5"
-              >
-                <IconContainer
                   className="MuiRating-icon MuiRating-iconFilled"
                   style={
                     Object {
@@ -1197,152 +393,311 @@ exports[`Rating rating 1`] = `
                       "zIndex": 1,
                     }
                   }
-                  value={3.5}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={
-                      Object {
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "width": "0%",
-                        "zIndex": 1,
-                      }
-                    }
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  3.5 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-3-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
-                value={3.5}
-              />
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-4"
               >
-                <IconContainer
+                2.5 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-2-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={2.5}
+            />
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-3"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={Object {}}
+                value={3}
+              >
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
                   style={Object {}}
-                  value={4}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={Object {}}
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  4 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-4"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
-                value={4}
-              />
-            </span>
-            <span
-              className="MuiRating-decimal"
-              key="5"
-            >
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-4-5"
               >
-                <IconContainer
+                3 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-3"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={3}
+            />
+          </span>
+          <span
+            className="MuiRating-decimal"
+            key="4"
+          >
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-3-5"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "width": "0%",
+                    "zIndex": 1,
+                  }
+                }
+                value={3.5}
+              >
+                <span
+                  className="MuiRating-icon MuiRating-iconFilled"
+                  style={
+                    Object {
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "width": "0%",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  <ForwardRef
+                    fontSize="inherit"
+                  >
+                    <WithStyles(ForwardRef(SvgIcon))
+                      fontSize="inherit"
+                    >
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
+                        fontSize="inherit"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
+                </span>
+              </IconContainer>
+              <span
+                className="MuiRating-visuallyhidden"
+              >
+                3.5 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-3-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={3.5}
+            />
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-4"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={Object {}}
+                value={4}
+              >
+                <span
+                  className="MuiRating-icon MuiRating-iconFilled"
+                  style={Object {}}
+                >
+                  <ForwardRef
+                    fontSize="inherit"
+                  >
+                    <WithStyles(ForwardRef(SvgIcon))
+                      fontSize="inherit"
+                    >
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
+                        fontSize="inherit"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
+                </span>
+              </IconContainer>
+              <span
+                className="MuiRating-visuallyhidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-4"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={4}
+            />
+          </span>
+          <span
+            className="MuiRating-decimal"
+            key="5"
+          >
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-4-5"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconFilled"
+                style={
+                  Object {
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "width": "50%",
+                    "zIndex": 1,
+                  }
+                }
+                value={4.5}
+              >
+                <span
                   className="MuiRating-icon MuiRating-iconFilled"
                   style={
                     Object {
@@ -1352,147 +707,136 @@ exports[`Rating rating 1`] = `
                       "zIndex": 1,
                     }
                   }
-                  value={4.5}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconFilled"
-                    style={
-                      Object {
-                        "overflow": "hidden",
-                        "position": "absolute",
-                        "width": "50%",
-                        "zIndex": 1,
-                      }
-                    }
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  4.5 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={true}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-4-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
-                value={4.5}
-              />
-              <label
-                className="MuiRating-label"
-                htmlFor="test rating-5"
               >
-                <IconContainer
+                4.5 Stars
+              </span>
+            </label>
+            <input
+              checked={true}
+              className="MuiRating-visuallyhidden"
+              id="test rating-4-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={4.5}
+            />
+            <label
+              className="MuiRating-label"
+              htmlFor="test rating-5"
+            >
+              <IconContainer
+                className="MuiRating-icon MuiRating-iconEmpty"
+                style={Object {}}
+                value={5}
+              >
+                <span
                   className="MuiRating-icon MuiRating-iconEmpty"
                   style={Object {}}
-                  value={5}
                 >
-                  <span
-                    className="MuiRating-icon MuiRating-iconEmpty"
-                    style={Object {}}
+                  <ForwardRef
+                    fontSize="inherit"
                   >
-                    <ForwardRef
+                    <WithStyles(ForwardRef(SvgIcon))
                       fontSize="inherit"
                     >
-                      <WithStyles(ForwardRef(SvgIcon))
+                      <ForwardRef(SvgIcon)
+                        classes={
+                          Object {
+                            "colorAction": "MuiSvgIcon-colorAction",
+                            "colorDisabled": "MuiSvgIcon-colorDisabled",
+                            "colorError": "MuiSvgIcon-colorError",
+                            "colorPrimary": "MuiSvgIcon-colorPrimary",
+                            "colorSecondary": "MuiSvgIcon-colorSecondary",
+                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                            "root": "MuiSvgIcon-root",
+                          }
+                        }
                         fontSize="inherit"
                       >
-                        <ForwardRef(SvgIcon)
-                          classes={
-                            Object {
-                              "colorAction": "MuiSvgIcon-colorAction",
-                              "colorDisabled": "MuiSvgIcon-colorDisabled",
-                              "colorError": "MuiSvgIcon-colorError",
-                              "colorPrimary": "MuiSvgIcon-colorPrimary",
-                              "colorSecondary": "MuiSvgIcon-colorSecondary",
-                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                              "root": "MuiSvgIcon-root",
-                            }
-                          }
-                          fontSize="inherit"
+                        <svg
+                          aria-hidden="true"
+                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
                         >
-                          <svg
-                            aria-hidden="true"
-                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
-                            focusable="false"
-                            role="presentation"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                            />
-                          </svg>
-                        </ForwardRef(SvgIcon)>
-                      </WithStyles(ForwardRef(SvgIcon))>
-                    </ForwardRef>
-                  </span>
-                </IconContainer>
-                <span
-                  className="MuiRating-visuallyhidden"
-                >
-                  5 Stars
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </ForwardRef(SvgIcon)>
+                    </WithStyles(ForwardRef(SvgIcon))>
+                  </ForwardRef>
                 </span>
-              </label>
-              <input
-                checked={false}
+              </IconContainer>
+              <span
                 className="MuiRating-visuallyhidden"
-                id="test rating-5"
-                name="test rating"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                type="radio"
-                value={5}
-              />
-            </span>
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              checked={false}
+              className="MuiRating-visuallyhidden"
+              id="test rating-5"
+              name="test rating"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              type="radio"
+              value={5}
+            />
           </span>
-        </ForwardRef(Rating)>
-      </WithStyles(ForwardRef(Rating))>
-    </StyledComponent>
+        </span>
+      </ForwardRef(Rating)>
+    </WithStyles(ForwardRef(Rating))>
   </Styled(WithStyles(ForwardRef(Rating)))>
 </Rating>
 `;

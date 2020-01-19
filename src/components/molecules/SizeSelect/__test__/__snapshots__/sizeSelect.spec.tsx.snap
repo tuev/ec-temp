@@ -71,7 +71,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-bxivhb hlkkYi MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
@@ -88,7 +88,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-352 sc-ifAKCX olypy MuiTypography-body1-354"
+            class="MuiTypography-root-352 sc-AykKG cMItlm MuiTypography-body1-354"
             data-testid="size-filter-M"
           >
             M
@@ -323,13 +323,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bwzfXH uTxCW"
+      class="sc-AykKD fruMGD"
     >
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -346,10 +346,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -366,10 +366,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -386,10 +386,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -406,10 +406,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -623,13 +623,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bwzfXH uTxCW"
+      class="sc-AykKD fruMGD"
     >
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -646,10 +646,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -666,10 +666,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -686,10 +686,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -706,10 +706,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-htpNat brEyXW"
+        class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-bdVaJa gKhRMU MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -793,7 +793,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bwzfXH uTxCW"
+      class="sc-AykKD fruMGD"
     />
   </div>,
   "debug": [Function],
@@ -921,7 +921,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-bxivhb hlkkYi MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
@@ -938,7 +938,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-196 sc-ifAKCX olypy MuiTypography-body1-198"
+            class="MuiTypography-root-196 sc-AykKG cMItlm MuiTypography-body1-198"
             data-testid="size-filter-XS"
           >
             XS
@@ -1099,7 +1099,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-bxivhb hlkkYi MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
