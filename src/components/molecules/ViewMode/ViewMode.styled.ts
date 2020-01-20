@@ -4,8 +4,14 @@ import { primaryPalette } from 'theme/colors'
 import styled from 'styled-components'
 
 import { Fab } from '@material-ui/core'
+import { IViewModeItem, ViewModeValue } from './ViewMode.types'
 
-export const AppViewMode: React.FC = styled(Fab)<{ cheked?: boolean }>`
+export const AppViewMode: React.FC<IViewModeItem> = styled(Fab)<{
+  checked?: boolean
+  customtype: ViewModeValue
+  color: 'primary' | 'inherit'
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void
+}>`
   ${space}
   width: 40px !important;
   height: 40px !important;

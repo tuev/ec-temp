@@ -5,6 +5,7 @@ export interface IBurgerIcon {
   open?: boolean
   size?: number | string
   color?: ColorType
+  handleOpen?: (openStatus: boolean) => void
 }
 
 export declare type BaseBurgerIconProps = IBurgerIcon &
