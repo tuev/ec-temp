@@ -48,7 +48,7 @@ const ProductImageSlider: FC<ProductItemSliderProps> = (
           </ImageSliderItemWrapper>
         ))}
       </ImageSliderWrapper>
-      <Wrapper display="flex" justifyContent="space-around">
+      <Wrapper display="flex" justifyContent="space-around" mt="1rem">
         {images.map((item, index) => (
           <ThumbnailItem
             background={item}

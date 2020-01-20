@@ -1,13 +1,13 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import { space } from 'styled-system'
-import { COLOR } from 'theme/colors'
+import { COLOR, ColorKey } from 'theme/colors'
 import styled, { css } from 'styled-components'
 import { BaseTypographyProps } from './Typography.types'
 import { Typography } from '@material-ui/core'
 import { switchProp, ifProp } from 'styled-tools'
 
 export const AppTypography = styled(Typography)<
-  BaseTypographyProps & { animation?: boolean | number }
+  BaseTypographyProps & { animation?: boolean | number; customcolor?: ColorKey }
 >`
   ${space};
   ${switchProp('customvariant', {
@@ -61,7 +61,8 @@ export const AppTypography = styled(Typography)<
         background-size: 100% 100%;
       }
     `
-  )}
+  )};
+  color: ${(props): string => COLOR[props.customcolor || 'black']};
 `
 
 export const theme = createMuiTheme({

@@ -10,6 +10,7 @@ exports[`Typography animation 1`] = `
   background-size: 0% 100%;
   -webkit-transition: background-size 0.5s;
   transition: background-size 0.5s;
+  color: #2E2E2E;
 }
 
 .c0:hover {
@@ -373,6 +374,7 @@ exports[`Typography body1 1`] = `
   font-size: 16px !important;
   line-height: 1.5 !important;
   font-family: 'Open Sans' !important;
+  color: #2E2E2E;
 }
 
 <Typography
@@ -727,6 +729,7 @@ exports[`Typography body2 1`] = `
   font-size: 12px !important;
   line-height: 2 !important;
   font-family: 'Open Sans' !important;
+  color: #2E2E2E;
 }
 
 <Typography
@@ -1082,6 +1085,7 @@ exports[`Typography header1 1`] = `
   line-height: 1.5 !important;
   font-family: 'Playfair Display' !important;
   font-weight: bold !important;
+  color: #2E2E2E;
 }
 
 <Typography
@@ -1437,6 +1441,7 @@ exports[`Typography header2 1`] = `
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
+  color: #2E2E2E;
 }
 
 <Typography
@@ -1792,6 +1797,7 @@ exports[`Typography header3 1`] = `
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
+  color: #2E2E2E;
 }
 
 <Typography
@@ -2147,6 +2153,7 @@ exports[`Typography topbar 1`] = `
   line-height: 2.4 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
+  color: #2E2E2E;
 }
 
 <Typography

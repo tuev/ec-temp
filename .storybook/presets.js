@@ -2,7 +2,6 @@ const path = require('path')
 
 module.exports = [
   {
-    // name: '@storybook/addon-docs/react/preset',
     name: '@storybook/preset-typescript',
     options: {
       babelOptions: {},
@@ -13,11 +12,19 @@ module.exports = [
     },
   },
   // {
-  //   name: '@storybook/addon-docs/react/preset',
+  //   name: '@storybook/preset-create-react-app',
   //   options: {
-  //     babelOptions: {},
-  //     configureJSX: true,
-  //     sourceLoaderOptions: null,
+  //     tsDocgenLoaderOptions: {
+  //       tsconfigPath: path.resolve(__dirname, '../tsconfig.json'),
+  //     },
   //   },
   // },
+  {
+    name: '@storybook/addon-docs',
+    options: {
+      babelOptions: {},
+      configureJSX: true,
+      sourceLoaderOptions: null,
+    },
+  },
 ]

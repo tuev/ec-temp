@@ -81,6 +81,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -192,7 +193,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div
@@ -345,6 +346,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -456,7 +458,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div
@@ -609,6 +611,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -720,7 +723,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div
@@ -873,6 +876,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -984,7 +988,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div
@@ -1137,6 +1141,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1248,7 +1253,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div
@@ -1331,6 +1336,7 @@ Object {
 }
 
 .c1 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1368,7 +1374,7 @@ Object {
         class="sc-AykKE cxWcju"
       />
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       />
     </div>
@@ -1508,6 +1514,7 @@ Object {
 }
 
 .c5 {
+  margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1619,7 +1626,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-AykKG bchHZU"
+        class="sc-AykKG kXyjoA"
         display="flex"
       >
         <div

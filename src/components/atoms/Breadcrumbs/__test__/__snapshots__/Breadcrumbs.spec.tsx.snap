@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
+.c0 {
+  color: #2E2E2E;
+}
+
 <Breadcrumbs
   active="Men's clothing & Accessories"
   links={
@@ -594,10 +598,10 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                   >
                     <Styled(WithStyles(ForwardRef(Typography)))>
                       <WithStyles(ForwardRef(Typography))
-                        className=""
+                        className="c0"
                       >
                         <ForwardRef(Typography)
-                          className=""
+                          className="c0"
                           classes={
                             Object {
                               "alignCenter": "MuiTypography-alignCenter",
@@ -634,7 +638,7 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                           }
                         >
                           <p
-                            className="MuiTypography-root MuiTypography-body1"
+                            className="MuiTypography-root c0 MuiTypography-body1"
                           >
                             Men's clothing & Accessories
                              
@@ -655,6 +659,10 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
 `;
 
 exports[`App Breadcrumbs Test get default Breadcrumbs no params  1`] = `
+.c0 {
+  color: #2E2E2E;
+}
+
 <Breadcrumbs>
   <WithStyles(ForwardRef(Breadcrumbs))
     aria-label="breadcrumb"
@@ -1022,10 +1030,10 @@ exports[`App Breadcrumbs Test get default Breadcrumbs no params  1`] = `
                   >
                     <Styled(WithStyles(ForwardRef(Typography)))>
                       <WithStyles(ForwardRef(Typography))
-                        className=""
+                        className="c0"
                       >
                         <ForwardRef(Typography)
-                          className=""
+                          className="c0"
                           classes={
                             Object {
                               "alignCenter": "MuiTypography-alignCenter",
@@ -1062,7 +1070,7 @@ exports[`App Breadcrumbs Test get default Breadcrumbs no params  1`] = `
                           }
                         >
                           <p
-                            className="MuiTypography-root MuiTypography-body1"
+                            className="MuiTypography-root c0 MuiTypography-body1"
                           >
                              
                           </p>

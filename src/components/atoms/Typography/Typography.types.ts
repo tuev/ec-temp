@@ -1,4 +1,4 @@
-import { ColorType } from 'theme/colors'
+import { ColorType, ColorKey } from 'theme/colors'
 import { SpaceProps } from 'styled-system'
 import { TypographyProps } from '@material-ui/core/Typography'
 
@@ -20,7 +20,7 @@ export interface ITypography extends TypographyProps {
     | 'topbar'
     | 'body1'
     | 'body2'
-  // customcolor?: string
+  customcolor?: ColorKey
   animation?: boolean | number
 }
 
