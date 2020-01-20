@@ -53,6 +53,7 @@ const useProductSelect: ProductSelectHook = initState => {
     }),
     [onColorChange, onQuantityChange, onSizeChange]
   )
+
   return [options, onOptionsChange]
 }
 

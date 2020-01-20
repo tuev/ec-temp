@@ -1,5 +1,5570 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App ProductDetail Test get default ProductDetail  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c3 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c5 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c2 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c7 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c9 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c6 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 {
+  margin-bottom: 1rem;
+}
+
+.c14 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.c21 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c25 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c11 {
+  color: #2E2E2E;
+}
+
+.c12 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c13 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #F62F5E;
+}
+
+.c15 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #6C6C6C;
+}
+
+.c16 {
+  color: #2E2E2E !important;
+}
+
+.c16 svg:first-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c16 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c17 {
+  color: #6EB2FB !important;
+}
+
+.c17 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c17 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c18 {
+  color: #F62F5E !important;
+}
+
+.c18 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c18 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c19 {
+  color: #EFFC90 !important;
+}
+
+.c19 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c19 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c20 {
+  color: #00D3CA !important;
+}
+
+.c20 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c20 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c23 {
+  margin-left: 4px;
+  margin-right: 4px;
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c26 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c22 {
+  margin: 4px;
+  display: inline-block;
+}
+
+.c22 button {
+  border-radius: 4px;
+  min-height: 28px !important;
+  min-width: 55px !important;
+  line-height: 20px;
+}
+
+.c22:first-child {
+  margin-left: 0;
+}
+
+.c22:last-child {
+  margin-right: 0;
+}
+
+<div>
+      <div
+        class="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              style="width: 320px;"
+            >
+              <div
+                class="c1"
+              >
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-0"
+                  style="transform: translate3d(0%, 0, 0);"
+                  transform="translate3d(0%, 0, 0)"
+                >
+                  <div
+                    class="c3"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-1"
+                  style="transform: translate3d(100%, 0, 0);"
+                  transform="translate3d(100%, 0, 0)"
+                >
+                  <div
+                    class="c4"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-2"
+                  style="transform: translate3d(200%, 0, 0);"
+                  transform="translate3d(200%, 0, 0)"
+                >
+                  <div
+                    class="c5"
+                  />
+                </div>
+              </div>
+              <div
+                class="c6"
+                display="flex"
+              >
+                <div
+                  class="c7"
+                  data-testid="product-thumbnail-slide-0"
+                />
+                <div
+                  class="c8"
+                  data-testid="product-thumbnail-slide-1"
+                />
+                <div
+                  class="c9"
+                  data-testid="product-thumbnail-slide-2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              class="c10"
+            >
+              <nav
+                aria-label="breadcrumb"
+                class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+              >
+                <ol
+                  class="MuiBreadcrumbs-ol"
+                >
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    aria-hidden="true"
+                    class="PrivateBreadcrumbSeparator-root-452 MuiBreadcrumbs-separator"
+                  >
+                    •
+                  </li>
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <p
+                      class="MuiTypography-root c11 MuiTypography-body1"
+                    >
+                      product
+                       
+                    </p>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <span
+              class="MuiRating-root "
+            >
+              <label
+                class="MuiRating-label"
+                for="app-rating-1"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconFilled"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                checked=""
+                class="MuiRating-visuallyhidden"
+                id="app-rating-1"
+                name="app-rating"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-2"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-2"
+                name="app-rating"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-3"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-3"
+                name="app-rating"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-4"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-4"
+                name="app-rating"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-5"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-5"
+                name="app-rating"
+                type="radio"
+                value="5"
+              />
+            </span>
+            <div
+              class=""
+            >
+              <div
+                class=""
+              >
+                <p
+                  class="MuiTypography-root c12 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Product name
+                </p>
+                <p
+                  class="MuiTypography-root c13 MuiTypography-body1"
+                  customcolor="red"
+                  customvariant="header2"
+                >
+                  2$
+                </p>
+              </div>
+              <div
+                class="c14"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Color
+                </p>
+                <div>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-526 MuiIconButton-root-517 PrivateSwitchBase-root-513 MuiRadio-root-508 MuiRadio-colorPrimary-511 c16 PrivateSwitchBase-checked-514 Mui-checked MuiIconButton-colorPrimary-521"
+                    customcolor="black"
+                    data-testid="color-filter-black"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-525"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-516"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-529 PrivateRadioButtonIcon-checked-531"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-532"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-532 PrivateRadioButtonIcon-layer-530"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-769"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-559 MuiIconButton-root-550 PrivateSwitchBase-root-546 MuiRadio-root-541 MuiRadio-colorPrimary-544 c17 MuiIconButton-colorPrimary-554"
+                    customcolor="blue"
+                    data-testid="color-filter-blue"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-558"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-549"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-562"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-565"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-565 PrivateRadioButtonIcon-layer-563"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-779"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-592 MuiIconButton-root-583 PrivateSwitchBase-root-579 MuiRadio-root-574 MuiRadio-colorPrimary-577 c18 MuiIconButton-colorPrimary-587"
+                    customcolor="red"
+                    data-testid="color-filter-red"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-591"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-582"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-595"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-598"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-598 PrivateRadioButtonIcon-layer-596"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-789"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-625 MuiIconButton-root-616 PrivateSwitchBase-root-612 MuiRadio-root-607 MuiRadio-colorPrimary-610 c19 MuiIconButton-colorPrimary-620"
+                    customcolor="yellow"
+                    data-testid="color-filter-yellow"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-624"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-615"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-628"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-631"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-631 PrivateRadioButtonIcon-layer-629"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-799"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-658 MuiIconButton-root-649 PrivateSwitchBase-root-645 MuiRadio-root-640 MuiRadio-colorPrimary-643 c20 MuiIconButton-colorPrimary-653"
+                    customcolor="green"
+                    data-testid="color-filter-green"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-657"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-648"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-661"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-664"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-664 PrivateRadioButtonIcon-layer-662"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-809"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Size
+                </p>
+                <div
+                  class=""
+                >
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-L"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        L
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-M"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        M
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-S"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        S
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-XL"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        XL
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Quantity
+                </p>
+                <div
+                  class="c24"
+                  display="flex"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13H5v-2h14v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                    >
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input"
+                        min="0"
+                        type="number"
+                        value="1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-767 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-768"
+                          style="width: 0px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="c25"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained c26 MuiButton-containedPrimary"
+                  data-testid="product-detail-buy-btn"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Add to cart
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            style="width: 320px;"
+          >
+            <div
+              class="sc-AykKE cxWcju"
+            >
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-0"
+                style="transform: translate3d(0%, 0, 0);"
+                transform="translate3d(0%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC gVEcgt"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-1"
+                style="transform: translate3d(100%, 0, 0);"
+                transform="translate3d(100%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC hAUtJa"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-2"
+                style="transform: translate3d(200%, 0, 0);"
+                transform="translate3d(200%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC igkLlH"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-AykKG kXyjoA"
+              display="flex"
+            >
+              <div
+                class="sc-AykKF bmOIvP"
+                data-testid="product-thumbnail-slide-0"
+              />
+              <div
+                class="sc-AykKF kPrrsr"
+                data-testid="product-thumbnail-slide-1"
+              />
+              <div
+                class="sc-AykKF hAznDw"
+                data-testid="product-thumbnail-slide-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            class="sc-AykKG kryvSJ"
+          >
+            <nav
+              aria-label="breadcrumb"
+              class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+            >
+              <ol
+                class="MuiBreadcrumbs-ol"
+              >
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  aria-hidden="true"
+                  class="PrivateBreadcrumbSeparator-root-452 MuiBreadcrumbs-separator"
+                >
+                  •
+                </li>
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <p
+                    class="MuiTypography-root sc-AykKH jvoJCj MuiTypography-body1"
+                  >
+                    product
+                     
+                  </p>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <span
+            class="MuiRating-root sc-AykKI ctvLEX"
+          >
+            <label
+              class="MuiRating-label"
+              for="app-rating-1"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconFilled"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              checked=""
+              class="MuiRating-visuallyhidden"
+              id="app-rating-1"
+              name="app-rating"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-2"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-2"
+              name="app-rating"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-3"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                3 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-3"
+              name="app-rating"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-4"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-4"
+              name="app-rating"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-5"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-5"
+              name="app-rating"
+              type="radio"
+              value="5"
+            />
+          </span>
+          <div
+            class="sc-AykKG kLLdqP"
+          >
+            <div
+              class="sc-AykKG kLLdqP"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Product name
+              </p>
+              <p
+                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                customcolor="red"
+                customvariant="header2"
+              >
+                2$
+              </p>
+            </div>
+            <div
+              class="sc-AykKG bwAPKj"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Color
+              </p>
+              <div>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-526 MuiIconButton-root-517 PrivateSwitchBase-root-513 MuiRadio-root-508 MuiRadio-colorPrimary-511 sc-AykKJ kvEQFT PrivateSwitchBase-checked-514 Mui-checked MuiIconButton-colorPrimary-521"
+                  customcolor="black"
+                  data-testid="color-filter-black"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-525"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input-516"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-529 PrivateRadioButtonIcon-checked-531"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-532"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-532 PrivateRadioButtonIcon-layer-530"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-769"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-559 MuiIconButton-root-550 PrivateSwitchBase-root-546 MuiRadio-root-541 MuiRadio-colorPrimary-544 sc-AykKJ ivXWgs MuiIconButton-colorPrimary-554"
+                  customcolor="blue"
+                  data-testid="color-filter-blue"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-558"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-549"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-562"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-565"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-565 PrivateRadioButtonIcon-layer-563"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-779"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-592 MuiIconButton-root-583 PrivateSwitchBase-root-579 MuiRadio-root-574 MuiRadio-colorPrimary-577 sc-AykKJ gSMeEj MuiIconButton-colorPrimary-587"
+                  customcolor="red"
+                  data-testid="color-filter-red"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-591"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-582"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-595"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-598"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-598 PrivateRadioButtonIcon-layer-596"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-789"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-625 MuiIconButton-root-616 PrivateSwitchBase-root-612 MuiRadio-root-607 MuiRadio-colorPrimary-610 sc-AykKJ PosNe MuiIconButton-colorPrimary-620"
+                  customcolor="yellow"
+                  data-testid="color-filter-yellow"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-624"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-615"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-628"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-631"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-631 PrivateRadioButtonIcon-layer-629"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-799"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-658 MuiIconButton-root-649 PrivateSwitchBase-root-645 MuiRadio-root-640 MuiRadio-colorPrimary-643 sc-AykKJ dfoaFc MuiIconButton-colorPrimary-653"
+                  customcolor="green"
+                  data-testid="color-filter-green"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-657"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-648"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-661"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-664"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-664 PrivateRadioButtonIcon-layer-662"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-809"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Size
+              </p>
+              <div
+                class="sc-fzXfLO iVXeHU"
+              >
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-L"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      L
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-M"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      M
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-S"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      S
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-XL"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      XL
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Quantity
+              </p>
+              <div
+                class="sc-AykKG gfmPnj"
+                display="flex"
+              >
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13H5v-2h14v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="MuiFormControl-root MuiTextField-root"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input"
+                      min="0"
+                      type="number"
+                      value="1"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-767 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-768"
+                        style="width: 0px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG ibYTzz"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK jPLyQf MuiButton-containedPrimary"
+                data-testid="product-detail-buy-btn"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Add to cart
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductDetail Test get default ProductDetail handle buy event 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c3 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c5 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c2 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c7 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c9 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c6 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 {
+  margin-bottom: 1rem;
+}
+
+.c14 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.c21 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c25 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c11 {
+  color: #2E2E2E;
+}
+
+.c12 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c13 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #F62F5E;
+}
+
+.c15 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #6C6C6C;
+}
+
+.c16 {
+  color: #2E2E2E !important;
+}
+
+.c16 svg:first-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c16 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c17 {
+  color: #6EB2FB !important;
+}
+
+.c17 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c17 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c18 {
+  color: #F62F5E !important;
+}
+
+.c18 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c18 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c19 {
+  color: #EFFC90 !important;
+}
+
+.c19 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c19 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c20 {
+  color: #00D3CA !important;
+}
+
+.c20 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c20 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c23 {
+  margin-left: 4px;
+  margin-right: 4px;
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c26 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c22 {
+  margin: 4px;
+  display: inline-block;
+}
+
+.c22 button {
+  border-radius: 4px;
+  min-height: 28px !important;
+  min-width: 55px !important;
+  line-height: 20px;
+}
+
+.c22:first-child {
+  margin-left: 0;
+}
+
+.c22:last-child {
+  margin-right: 0;
+}
+
+<div>
+      <div
+        class="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              style="width: 320px;"
+            >
+              <div
+                class="c1"
+              >
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-0"
+                  style="transform: translate3d(0%, 0, 0);"
+                  transform="translate3d(0%, 0, 0)"
+                >
+                  <div
+                    class="c3"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-1"
+                  style="transform: translate3d(100%, 0, 0);"
+                  transform="translate3d(100%, 0, 0)"
+                >
+                  <div
+                    class="c4"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-2"
+                  style="transform: translate3d(200%, 0, 0);"
+                  transform="translate3d(200%, 0, 0)"
+                >
+                  <div
+                    class="c5"
+                  />
+                </div>
+              </div>
+              <div
+                class="c6"
+                display="flex"
+              >
+                <div
+                  class="c7"
+                  data-testid="product-thumbnail-slide-0"
+                />
+                <div
+                  class="c8"
+                  data-testid="product-thumbnail-slide-1"
+                />
+                <div
+                  class="c9"
+                  data-testid="product-thumbnail-slide-2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              class="c10"
+            >
+              <nav
+                aria-label="breadcrumb"
+                class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+              >
+                <ol
+                  class="MuiBreadcrumbs-ol"
+                >
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    aria-hidden="true"
+                    class="PrivateBreadcrumbSeparator-root-982 MuiBreadcrumbs-separator"
+                  >
+                    •
+                  </li>
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <p
+                      class="MuiTypography-root c11 MuiTypography-body1"
+                    >
+                      product
+                       
+                    </p>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <span
+              class="MuiRating-root "
+            >
+              <label
+                class="MuiRating-label"
+                for="app-rating-1"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconFilled"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                checked=""
+                class="MuiRating-visuallyhidden"
+                id="app-rating-1"
+                name="app-rating"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-2"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-2"
+                name="app-rating"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-3"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-3"
+                name="app-rating"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-4"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-4"
+                name="app-rating"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-5"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-5"
+                name="app-rating"
+                type="radio"
+                value="5"
+              />
+            </span>
+            <div
+              class=""
+            >
+              <div
+                class=""
+              >
+                <p
+                  class="MuiTypography-root c12 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Product name
+                </p>
+                <p
+                  class="MuiTypography-root c13 MuiTypography-body1"
+                  customcolor="red"
+                  customvariant="header2"
+                >
+                  2$
+                </p>
+              </div>
+              <div
+                class="c14"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Color
+                </p>
+                <div>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1056 MuiIconButton-root-1047 PrivateSwitchBase-root-1043 MuiRadio-root-1038 MuiRadio-colorPrimary-1041 c16 PrivateSwitchBase-checked-1044 Mui-checked MuiIconButton-colorPrimary-1051"
+                    customcolor="black"
+                    data-testid="color-filter-black"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1055"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-1046"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1059 PrivateRadioButtonIcon-checked-1061"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1062"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1062 PrivateRadioButtonIcon-layer-1060"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1299"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1089 MuiIconButton-root-1080 PrivateSwitchBase-root-1076 MuiRadio-root-1071 MuiRadio-colorPrimary-1074 c17 MuiIconButton-colorPrimary-1084"
+                    customcolor="blue"
+                    data-testid="color-filter-blue"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1088"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1079"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1092"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1095"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1095 PrivateRadioButtonIcon-layer-1093"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1309"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1122 MuiIconButton-root-1113 PrivateSwitchBase-root-1109 MuiRadio-root-1104 MuiRadio-colorPrimary-1107 c18 MuiIconButton-colorPrimary-1117"
+                    customcolor="red"
+                    data-testid="color-filter-red"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1121"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1112"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1125"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1128"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1128 PrivateRadioButtonIcon-layer-1126"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1319"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1155 MuiIconButton-root-1146 PrivateSwitchBase-root-1142 MuiRadio-root-1137 MuiRadio-colorPrimary-1140 c19 MuiIconButton-colorPrimary-1150"
+                    customcolor="yellow"
+                    data-testid="color-filter-yellow"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1154"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1145"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1158"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1161"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1161 PrivateRadioButtonIcon-layer-1159"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1329"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1188 MuiIconButton-root-1179 PrivateSwitchBase-root-1175 MuiRadio-root-1170 MuiRadio-colorPrimary-1173 c20 MuiIconButton-colorPrimary-1183"
+                    customcolor="green"
+                    data-testid="color-filter-green"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1187"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1178"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1191"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1194"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1194 PrivateRadioButtonIcon-layer-1192"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1339"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Size
+                </p>
+                <div
+                  class=""
+                >
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-L"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        L
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-M"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        M
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-S"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        S
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-XL"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        XL
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Quantity
+                </p>
+                <div
+                  class="c24"
+                  display="flex"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13H5v-2h14v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                    >
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input"
+                        min="0"
+                        type="number"
+                        value="1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-1297 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-1298"
+                          style="width: 0px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="c25"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained c26 MuiButton-containedPrimary"
+                  data-testid="product-detail-buy-btn"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Add to cart
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            style="width: 320px;"
+          >
+            <div
+              class="sc-AykKE cxWcju"
+            >
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-0"
+                style="transform: translate3d(0%, 0, 0);"
+                transform="translate3d(0%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC gVEcgt"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-1"
+                style="transform: translate3d(100%, 0, 0);"
+                transform="translate3d(100%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC hAUtJa"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-2"
+                style="transform: translate3d(200%, 0, 0);"
+                transform="translate3d(200%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC igkLlH"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-AykKG kXyjoA"
+              display="flex"
+            >
+              <div
+                class="sc-AykKF bmOIvP"
+                data-testid="product-thumbnail-slide-0"
+              />
+              <div
+                class="sc-AykKF kPrrsr"
+                data-testid="product-thumbnail-slide-1"
+              />
+              <div
+                class="sc-AykKF hAznDw"
+                data-testid="product-thumbnail-slide-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            class="sc-AykKG kryvSJ"
+          >
+            <nav
+              aria-label="breadcrumb"
+              class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+            >
+              <ol
+                class="MuiBreadcrumbs-ol"
+              >
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  aria-hidden="true"
+                  class="PrivateBreadcrumbSeparator-root-982 MuiBreadcrumbs-separator"
+                >
+                  •
+                </li>
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <p
+                    class="MuiTypography-root sc-AykKH jvoJCj MuiTypography-body1"
+                  >
+                    product
+                     
+                  </p>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <span
+            class="MuiRating-root sc-AykKI ctvLEX"
+          >
+            <label
+              class="MuiRating-label"
+              for="app-rating-1"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconFilled"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              checked=""
+              class="MuiRating-visuallyhidden"
+              id="app-rating-1"
+              name="app-rating"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-2"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-2"
+              name="app-rating"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-3"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                3 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-3"
+              name="app-rating"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-4"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-4"
+              name="app-rating"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-5"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-5"
+              name="app-rating"
+              type="radio"
+              value="5"
+            />
+          </span>
+          <div
+            class="sc-AykKG kLLdqP"
+          >
+            <div
+              class="sc-AykKG kLLdqP"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Product name
+              </p>
+              <p
+                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                customcolor="red"
+                customvariant="header2"
+              >
+                2$
+              </p>
+            </div>
+            <div
+              class="sc-AykKG bwAPKj"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Color
+              </p>
+              <div>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1056 MuiIconButton-root-1047 PrivateSwitchBase-root-1043 MuiRadio-root-1038 MuiRadio-colorPrimary-1041 sc-AykKJ kvEQFT PrivateSwitchBase-checked-1044 Mui-checked MuiIconButton-colorPrimary-1051"
+                  customcolor="black"
+                  data-testid="color-filter-black"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1055"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input-1046"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1059 PrivateRadioButtonIcon-checked-1061"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1062"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1062 PrivateRadioButtonIcon-layer-1060"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1299"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1089 MuiIconButton-root-1080 PrivateSwitchBase-root-1076 MuiRadio-root-1071 MuiRadio-colorPrimary-1074 sc-AykKJ ivXWgs MuiIconButton-colorPrimary-1084"
+                  customcolor="blue"
+                  data-testid="color-filter-blue"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1088"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1079"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1092"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1095"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1095 PrivateRadioButtonIcon-layer-1093"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1309"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1122 MuiIconButton-root-1113 PrivateSwitchBase-root-1109 MuiRadio-root-1104 MuiRadio-colorPrimary-1107 sc-AykKJ gSMeEj MuiIconButton-colorPrimary-1117"
+                  customcolor="red"
+                  data-testid="color-filter-red"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1121"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1112"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1125"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1128"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1128 PrivateRadioButtonIcon-layer-1126"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1319"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1155 MuiIconButton-root-1146 PrivateSwitchBase-root-1142 MuiRadio-root-1137 MuiRadio-colorPrimary-1140 sc-AykKJ PosNe MuiIconButton-colorPrimary-1150"
+                  customcolor="yellow"
+                  data-testid="color-filter-yellow"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1154"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1145"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1158"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1161"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1161 PrivateRadioButtonIcon-layer-1159"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1329"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1188 MuiIconButton-root-1179 PrivateSwitchBase-root-1175 MuiRadio-root-1170 MuiRadio-colorPrimary-1173 sc-AykKJ dfoaFc MuiIconButton-colorPrimary-1183"
+                  customcolor="green"
+                  data-testid="color-filter-green"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1187"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1178"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1191"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1194"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1194 PrivateRadioButtonIcon-layer-1192"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1339"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Size
+              </p>
+              <div
+                class="sc-fzXfLO iVXeHU"
+              >
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-L"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      L
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-M"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      M
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-S"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      S
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-XL"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      XL
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Quantity
+              </p>
+              <div
+                class="sc-AykKG gfmPnj"
+                display="flex"
+              >
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13H5v-2h14v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="MuiFormControl-root MuiTextField-root"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input"
+                      min="0"
+                      type="number"
+                      value="1"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-1297 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-1298"
+                        style="width: 0px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG ibYTzz"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK jPLyQf MuiButton-containedPrimary"
+                data-testid="product-detail-buy-btn"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Add to cart
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App ProductDetail Test get default ProductDetail no handle buy event 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c3 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c4 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c5 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 320px;
+}
+
+.c2 {
+  cursor: pointer;
+  will-change: transform;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c7 {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #F62F5E;
+  position: relative;
+  cursor: pointer;
+}
+
+.c8 {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c9 {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  position: relative;
+  cursor: pointer;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c6 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c10 {
+  margin-bottom: 1rem;
+}
+
+.c14 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.c21 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c25 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c11 {
+  color: #2E2E2E;
+}
+
+.c12 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c13 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #F62F5E;
+}
+
+.c15 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #6C6C6C;
+}
+
+.c16 {
+  color: #2E2E2E !important;
+}
+
+.c16 svg:first-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c16 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c17 {
+  color: #6EB2FB !important;
+}
+
+.c17 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c17 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c18 {
+  color: #F62F5E !important;
+}
+
+.c18 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c18 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c19 {
+  color: #EFFC90 !important;
+}
+
+.c19 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c19 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c20 {
+  color: #00D3CA !important;
+}
+
+.c20 svg:first-child {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  -webkit-transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+  transition: transform 150ms cubic-bezier(0.4,0,1,1) 0ms;
+}
+
+.c20 svg:last-child {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.c23 {
+  margin-left: 4px;
+  margin-right: 4px;
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c26 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c22 {
+  margin: 4px;
+  display: inline-block;
+}
+
+.c22 button {
+  border-radius: 4px;
+  min-height: 28px !important;
+  min-width: 55px !important;
+  line-height: 20px;
+}
+
+.c22:first-child {
+  margin-left: 0;
+}
+
+.c22:last-child {
+  margin-right: 0;
+}
+
+<div>
+      <div
+        class="MuiGrid-root MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              style="width: 320px;"
+            >
+              <div
+                class="c1"
+              >
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-0"
+                  style="transform: translate3d(0%, 0, 0);"
+                  transform="translate3d(0%, 0, 0)"
+                >
+                  <div
+                    class="c3"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-1"
+                  style="transform: translate3d(100%, 0, 0);"
+                  transform="translate3d(100%, 0, 0)"
+                >
+                  <div
+                    class="c4"
+                  />
+                </div>
+                <div
+                  class="c2"
+                  data-testid="product-item-slide-2"
+                  style="transform: translate3d(200%, 0, 0);"
+                  transform="translate3d(200%, 0, 0)"
+                >
+                  <div
+                    class="c5"
+                  />
+                </div>
+              </div>
+              <div
+                class="c6"
+                display="flex"
+              >
+                <div
+                  class="c7"
+                  data-testid="product-thumbnail-slide-0"
+                />
+                <div
+                  class="c8"
+                  data-testid="product-thumbnail-slide-1"
+                />
+                <div
+                  class="c9"
+                  data-testid="product-thumbnail-slide-2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+        >
+          <div
+            class="c0"
+          >
+            <div
+              class="c10"
+            >
+              <nav
+                aria-label="breadcrumb"
+                class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+              >
+                <ol
+                  class="MuiBreadcrumbs-ol"
+                >
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li
+                    aria-hidden="true"
+                    class="PrivateBreadcrumbSeparator-root-1512 MuiBreadcrumbs-separator"
+                  >
+                    •
+                  </li>
+                  <li
+                    class="MuiBreadcrumbs-li"
+                  >
+                    <p
+                      class="MuiTypography-root c11 MuiTypography-body1"
+                    >
+                      product
+                       
+                    </p>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <span
+              class="MuiRating-root "
+            >
+              <label
+                class="MuiRating-label"
+                for="app-rating-1"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconFilled"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                checked=""
+                class="MuiRating-visuallyhidden"
+                id="app-rating-1"
+                name="app-rating"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-2"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-2"
+                name="app-rating"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-3"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-3"
+                name="app-rating"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-4"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-4"
+                name="app-rating"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-5"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-5"
+                name="app-rating"
+                type="radio"
+                value="5"
+              />
+            </span>
+            <div
+              class=""
+            >
+              <div
+                class=""
+              >
+                <p
+                  class="MuiTypography-root c12 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Product name
+                </p>
+                <p
+                  class="MuiTypography-root c13 MuiTypography-body1"
+                  customcolor="red"
+                  customvariant="header2"
+                >
+                  2$
+                </p>
+              </div>
+              <div
+                class="c14"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Color
+                </p>
+                <div>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1586 MuiIconButton-root-1577 PrivateSwitchBase-root-1573 MuiRadio-root-1568 MuiRadio-colorPrimary-1571 c16 PrivateSwitchBase-checked-1574 Mui-checked MuiIconButton-colorPrimary-1581"
+                    customcolor="black"
+                    data-testid="color-filter-black"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1585"
+                    >
+                      <input
+                        checked=""
+                        class="PrivateSwitchBase-input-1576"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1589 PrivateRadioButtonIcon-checked-1591"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1592"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1592 PrivateRadioButtonIcon-layer-1590"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1829"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1619 MuiIconButton-root-1610 PrivateSwitchBase-root-1606 MuiRadio-root-1601 MuiRadio-colorPrimary-1604 c17 MuiIconButton-colorPrimary-1614"
+                    customcolor="blue"
+                    data-testid="color-filter-blue"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1618"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1609"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1622"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1625"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1625 PrivateRadioButtonIcon-layer-1623"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1839"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1652 MuiIconButton-root-1643 PrivateSwitchBase-root-1639 MuiRadio-root-1634 MuiRadio-colorPrimary-1637 c18 MuiIconButton-colorPrimary-1647"
+                    customcolor="red"
+                    data-testid="color-filter-red"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1651"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1642"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1655"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1658"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1658 PrivateRadioButtonIcon-layer-1656"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1849"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1685 MuiIconButton-root-1676 PrivateSwitchBase-root-1672 MuiRadio-root-1667 MuiRadio-colorPrimary-1670 c19 MuiIconButton-colorPrimary-1680"
+                    customcolor="yellow"
+                    data-testid="color-filter-yellow"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1684"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1675"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1688"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1691"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1691 PrivateRadioButtonIcon-layer-1689"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1859"
+                    />
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    class="MuiButtonBase-root-1718 MuiIconButton-root-1709 PrivateSwitchBase-root-1705 MuiRadio-root-1700 MuiRadio-colorPrimary-1703 c20 MuiIconButton-colorPrimary-1713"
+                    customcolor="green"
+                    data-testid="color-filter-green"
+                    variant="outer"
+                  >
+                    <span
+                      class="MuiIconButton-label-1717"
+                    >
+                      <input
+                        class="PrivateSwitchBase-input-1708"
+                        type="radio"
+                        value=""
+                      />
+                      <div
+                        class="PrivateRadioButtonIcon-root-1721"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1724"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                          />
+                        </svg>
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root-1724 PrivateRadioButtonIcon-layer-1722"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                          />
+                        </svg>
+                      </div>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root-1869"
+                    />
+                  </span>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Size
+                </p>
+                <div
+                  class=""
+                >
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-L"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        L
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-M"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        M
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-S"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        S
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="c22"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained c23 MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                      data-testid="size-filter-XL"
+                      mx="4px"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <span
+                        class="MuiButton-label"
+                      >
+                        XL
+                      </span>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c21"
+              >
+                <p
+                  class="MuiTypography-root c15 MuiTypography-body1"
+                  customcolor="black1"
+                  customvariant="header3"
+                >
+                  Quantity
+                </p>
+                <div
+                  class="c24"
+                  display="flex"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13H5v-2h14v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                    >
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input"
+                        min="0"
+                        type="number"
+                        value="1"
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-1827 MuiOutlinedInput-notchedOutline"
+                        style="padding-left: 8px;"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legend-1828"
+                          style="width: 0px;"
+                        >
+                          <span>
+                            ​
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <button
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="c25"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained c26 MuiButton-containedPrimary"
+                  data-testid="product-detail-buy-btn"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Add to cart
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            style="width: 320px;"
+          >
+            <div
+              class="sc-AykKE cxWcju"
+            >
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-0"
+                style="transform: translate3d(0%, 0, 0);"
+                transform="translate3d(0%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC gVEcgt"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-1"
+                style="transform: translate3d(100%, 0, 0);"
+                transform="translate3d(100%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC hAUtJa"
+                />
+              </div>
+              <div
+                class="sc-AykKD hoawRL"
+                data-testid="product-item-slide-2"
+                style="transform: translate3d(200%, 0, 0);"
+                transform="translate3d(200%, 0, 0)"
+              >
+                <div
+                  class="sc-AykKC igkLlH"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-AykKG kXyjoA"
+              display="flex"
+            >
+              <div
+                class="sc-AykKF bmOIvP"
+                data-testid="product-thumbnail-slide-0"
+              />
+              <div
+                class="sc-AykKF kPrrsr"
+                data-testid="product-thumbnail-slide-1"
+              />
+              <div
+                class="sc-AykKF hAznDw"
+                data-testid="product-thumbnail-slide-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-8"
+      >
+        <div
+          class="sc-AykKG BHWeQ"
+        >
+          <div
+            class="sc-AykKG kryvSJ"
+          >
+            <nav
+              aria-label="breadcrumb"
+              class="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+            >
+              <ol
+                class="MuiBreadcrumbs-ol"
+              >
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li
+                  aria-hidden="true"
+                  class="PrivateBreadcrumbSeparator-root-1512 MuiBreadcrumbs-separator"
+                >
+                  •
+                </li>
+                <li
+                  class="MuiBreadcrumbs-li"
+                >
+                  <p
+                    class="MuiTypography-root sc-AykKH jvoJCj MuiTypography-body1"
+                  >
+                    product
+                     
+                  </p>
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <span
+            class="MuiRating-root sc-AykKI ctvLEX"
+          >
+            <label
+              class="MuiRating-label"
+              for="app-rating-1"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconFilled"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              checked=""
+              class="MuiRating-visuallyhidden"
+              id="app-rating-1"
+              name="app-rating"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-2"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-2"
+              name="app-rating"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-3"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                3 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-3"
+              name="app-rating"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-4"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-4"
+              name="app-rating"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="MuiRating-label"
+              for="app-rating-5"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyhidden"
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyhidden"
+              id="app-rating-5"
+              name="app-rating"
+              type="radio"
+              value="5"
+            />
+          </span>
+          <div
+            class="sc-AykKG kLLdqP"
+          >
+            <div
+              class="sc-AykKG kLLdqP"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Product name
+              </p>
+              <p
+                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                customcolor="red"
+                customvariant="header2"
+              >
+                2$
+              </p>
+            </div>
+            <div
+              class="sc-AykKG bwAPKj"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Color
+              </p>
+              <div>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1586 MuiIconButton-root-1577 PrivateSwitchBase-root-1573 MuiRadio-root-1568 MuiRadio-colorPrimary-1571 sc-AykKJ kvEQFT PrivateSwitchBase-checked-1574 Mui-checked MuiIconButton-colorPrimary-1581"
+                  customcolor="black"
+                  data-testid="color-filter-black"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1585"
+                  >
+                    <input
+                      checked=""
+                      class="PrivateSwitchBase-input-1576"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1589 PrivateRadioButtonIcon-checked-1591"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1592"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1592 PrivateRadioButtonIcon-layer-1590"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1829"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1619 MuiIconButton-root-1610 PrivateSwitchBase-root-1606 MuiRadio-root-1601 MuiRadio-colorPrimary-1604 sc-AykKJ ivXWgs MuiIconButton-colorPrimary-1614"
+                  customcolor="blue"
+                  data-testid="color-filter-blue"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1618"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1609"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1622"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1625"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1625 PrivateRadioButtonIcon-layer-1623"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1839"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1652 MuiIconButton-root-1643 PrivateSwitchBase-root-1639 MuiRadio-root-1634 MuiRadio-colorPrimary-1637 sc-AykKJ gSMeEj MuiIconButton-colorPrimary-1647"
+                  customcolor="red"
+                  data-testid="color-filter-red"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1651"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1642"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1655"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1658"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1658 PrivateRadioButtonIcon-layer-1656"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1849"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1685 MuiIconButton-root-1676 PrivateSwitchBase-root-1672 MuiRadio-root-1667 MuiRadio-colorPrimary-1670 sc-AykKJ PosNe MuiIconButton-colorPrimary-1680"
+                  customcolor="yellow"
+                  data-testid="color-filter-yellow"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1684"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1675"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1688"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1691"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1691 PrivateRadioButtonIcon-layer-1689"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1859"
+                  />
+                </span>
+                <span
+                  aria-disabled="false"
+                  class="MuiButtonBase-root-1718 MuiIconButton-root-1709 PrivateSwitchBase-root-1705 MuiRadio-root-1700 MuiRadio-colorPrimary-1703 sc-AykKJ dfoaFc MuiIconButton-colorPrimary-1713"
+                  customcolor="green"
+                  data-testid="color-filter-green"
+                  variant="outer"
+                >
+                  <span
+                    class="MuiIconButton-label-1717"
+                  >
+                    <input
+                      class="PrivateSwitchBase-input-1708"
+                      type="radio"
+                      value=""
+                    />
+                    <div
+                      class="PrivateRadioButtonIcon-root-1721"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1724"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root-1724 PrivateRadioButtonIcon-layer-1722"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+                        />
+                      </svg>
+                    </div>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root-1869"
+                  />
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Size
+              </p>
+              <div
+                class="sc-fzXfLO iVXeHU"
+              >
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-L"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      L
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-M"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      M
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-S"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      S
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+                <div
+                  class="sc-fzXfLP fhoPzN"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK eZXNyP MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="size-filter-XL"
+                    mx="4px"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      XL
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG bYCFOX"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                customcolor="black1"
+                customvariant="header3"
+              >
+                Quantity
+              </p>
+              <div
+                class="sc-AykKG gfmPnj"
+                display="flex"
+              >
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13H5v-2h14v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="MuiFormControl-root MuiTextField-root"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input"
+                      min="0"
+                      type="number"
+                      value="1"
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-1827 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-1828"
+                        style="width: 0px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="sc-AykKG ibYTzz"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK jPLyQf MuiButton-containedPrimary"
+                data-testid="product-detail-buy-btn"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Add to cart
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`App ProductDetail Test get default ProductDetail no params  1`] = `
 Object {
   "asFragment": [Function],
@@ -458,6 +6023,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained c12 MuiButton-containedPrimary"
+                  data-testid="product-detail-buy-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -834,6 +6400,7 @@ Object {
             >
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK jPLyQf MuiButton-containedPrimary"
+                data-testid="product-detail-buy-btn"
                 tabindex="0"
                 type="button"
               >

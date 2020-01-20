@@ -5,9 +5,8 @@
  */
 
 import React from 'react'
-import { render, fireEvent, createEvent, wait } from '@testing-library/react'
+import { render, fireEvent, createEvent } from '@testing-library/react'
 import ProductImageSlider from '..'
-import { getRect } from 'css-box-model'
 import useImageSlide from '../useImageSlide'
 import { act, renderHook } from '@testing-library/react-hooks'
 

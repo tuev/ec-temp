@@ -105,7 +105,12 @@ const ProductDetail: FC<ProductDetailProps> = (props: ProductDetailProps) => {
             </Wrapper>
 
             <Wrapper py="1rem">
-              <Button onClick={handleBuyClick}>Add to cart</Button>
+              <Button
+                onClick={handleBuyClick}
+                data-testid="product-detail-buy-btn"
+              >
+                Add to cart
+              </Button>
             </Wrapper>
           </Wrapper>
         </Wrapper>
