@@ -188,6 +188,7 @@ Object {
 
 .c14:hover {
   background-size: 100% 100%;
+  cursor: pointer;
 }
 
 .c10 {
@@ -1482,7 +1483,7 @@ Object {
         </button>
         <p
           animation="1"
-          class="MuiTypography-root sc-AykKF eJcnKO MuiTypography-body1"
+          class="MuiTypography-root sc-AykKF ffCdbc MuiTypography-body1"
           data-testid="product-filter-clear-btn"
         >
           Clear all
@@ -1733,6 +1734,7 @@ Object {
 
 .c14:hover {
   background-size: 100% 100%;
+  cursor: pointer;
 }
 
 .c10 {
@@ -3026,7 +3028,7 @@ Object {
         </button>
         <p
           animation="1"
-          class="MuiTypography-root sc-AykKF eJcnKO MuiTypography-body1"
+          class="MuiTypography-root sc-AykKF ffCdbc MuiTypography-body1"
           data-testid="product-filter-clear-btn"
         >
           Clear all
