@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App CartItem Test get default CartItem no handle props  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 96px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  padding-left: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  margin-right: 4px;
+}
+
+.c7 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+.c10 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+}
+
+.c3 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c6 {
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #F62F5E;
+}
+
+.c6:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c8 {
+  color: #2E2E2E;
+}
+
+<div>
+      <div
+        class="c0"
+        display="flex"
+      >
+        <div
+          class="c1"
+          display="flex"
+          width="96px"
+        />
+        <div
+          class="c2"
+          display="flex"
+          width="40%"
+        >
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            customvariant="header3"
+          >
+            prduct name
+          </p>
+          <div
+            class="c4"
+            display="flex"
+          >
+            <div
+              class="c5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorError"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </div>
+            <p
+              animation="1"
+              class="MuiTypography-root c6 MuiTypography-body1"
+              customcolor="red"
+              data-testid="remove-cart-item-1234567890-btn"
+            >
+              Remove
+            </p>
+          </div>
+        </div>
+        <div
+          class="c7"
+          display="flex"
+          width="50px"
+        >
+          <p
+            class="MuiTypography-root c8 MuiTypography-body1"
+          >
+            L
+          </p>
+        </div>
+        <div
+          class="c9"
+          display="flex"
+          width="150px"
+        >
+          <div
+            class="c4"
+            display="flex"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 13H5v-2h14v2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiFormControl-root MuiTextField-root"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  min="0"
+                  type="number"
+                  value="1"
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-215 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-216"
+                    style="width: 0px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="c10"
+          display="flex"
+          width="80px"
+        >
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            customvariant="header3"
+          >
+            23
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AykKC bPBviz"
+      display="flex"
+    >
+      <div
+        class="sc-AykKC fMPwRj"
+        display="flex"
+        width="96px"
+      />
+      <div
+        class="sc-AykKC kqrNUE"
+        display="flex"
+        width="40%"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1"
+          customvariant="header3"
+        >
+          prduct name
+        </p>
+        <div
+          class="sc-AykKC kEplvf"
+          display="flex"
+        >
+          <div
+            class="sc-AykKC edsKCF"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-colorError"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </div>
+          <p
+            animation="1"
+            class="MuiTypography-root sc-AykKD hLvHJH MuiTypography-body1"
+            customcolor="red"
+            data-testid="remove-cart-item-1234567890-btn"
+          >
+            Remove
+          </p>
+        </div>
+      </div>
+      <div
+        class="sc-AykKC gLmWLd"
+        display="flex"
+        width="50px"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD iyOUwn MuiTypography-body1"
+        >
+          L
+        </p>
+      </div>
+      <div
+        class="sc-AykKC kEAPfW"
+        display="flex"
+        width="150px"
+      >
+        <div
+          class="sc-AykKC kEplvf"
+          display="flex"
+        >
+          <button
+            class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13H5v-2h14v2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+          >
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                min="0"
+                type="number"
+                value="1"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-215 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-216"
+                  style="width: 0px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AykKC hCpPBk"
+        display="flex"
+        width="80px"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1"
+          customvariant="header3"
+        >
+          23
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App CartItem Test get default CartItem no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 96px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  padding-left: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  margin-right: 4px;
+}
+
+.c7 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+.c10 {
+  padding: 8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+}
+
+.c3 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c6 {
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #F62F5E;
+}
+
+.c6:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c8 {
+  color: #2E2E2E;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        display="flex"
+      >
+        <div
+          class="c1"
+          display="flex"
+          width="96px"
+        />
+        <div
+          class="c2"
+          display="flex"
+          width="40%"
+        >
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            customvariant="header3"
+          >
+            prduct name
+          </p>
+          <div
+            class="c4"
+            display="flex"
+          >
+            <div
+              class="c5"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorError"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </div>
+            <p
+              animation="1"
+              class="MuiTypography-root c6 MuiTypography-body1"
+              customcolor="red"
+              data-testid="remove-cart-item-1234567890-btn"
+            >
+              Remove
+            </p>
+          </div>
+        </div>
+        <div
+          class="c7"
+          display="flex"
+          width="50px"
+        >
+          <p
+            class="MuiTypography-root c8 MuiTypography-body1"
+          >
+            L
+          </p>
+        </div>
+        <div
+          class="c9"
+          display="flex"
+          width="150px"
+        >
+          <div
+            class="c4"
+            display="flex"
+          >
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 13H5v-2h14v2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiFormControl-root MuiTextField-root"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  min="0"
+                  type="number"
+                  value="1"
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-102 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-103"
+                    style="width: 0px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <button
+              class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="c10"
+          display="flex"
+          width="80px"
+        >
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            customvariant="header3"
+          >
+            23
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AykKC bPBviz"
+      display="flex"
+    >
+      <div
+        class="sc-AykKC fMPwRj"
+        display="flex"
+        width="96px"
+      />
+      <div
+        class="sc-AykKC kqrNUE"
+        display="flex"
+        width="40%"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1"
+          customvariant="header3"
+        >
+          prduct name
+        </p>
+        <div
+          class="sc-AykKC kEplvf"
+          display="flex"
+        >
+          <div
+            class="sc-AykKC edsKCF"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-colorError"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </div>
+          <p
+            animation="1"
+            class="MuiTypography-root sc-AykKD hLvHJH MuiTypography-body1"
+            customcolor="red"
+            data-testid="remove-cart-item-1234567890-btn"
+          >
+            Remove
+          </p>
+        </div>
+      </div>
+      <div
+        class="sc-AykKC gLmWLd"
+        display="flex"
+        width="50px"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD iyOUwn MuiTypography-body1"
+        >
+          L
+        </p>
+      </div>
+      <div
+        class="sc-AykKC kEAPfW"
+        display="flex"
+        width="150px"
+      >
+        <div
+          class="sc-AykKC kEplvf"
+          display="flex"
+        >
+          <button
+            class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13H5v-2h14v2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="MuiFormControl-root MuiTextField-root"
+          >
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                min="0"
+                type="number"
+                value="1"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-102 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legend-103"
+                  style="width: 0px;"
+                >
+                  <span>
+                    ​
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-AykKC hCpPBk"
+        display="flex"
+        width="80px"
+      >
+        <p
+          class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1"
+          customvariant="header3"
+        >
+          23
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

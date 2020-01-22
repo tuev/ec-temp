@@ -25,12 +25,12 @@ const Banner: FC<BannerProps> = (props: BannerProps) => {
   return (
     <BannerWrapper background={background}>
       <Wrapper pb="1rem" maxWidth="50%">
-        <Typography customvariant="header1" customcolor={COLOR.white}>
+        <Typography customvariant="header1" customcolor="white">
           {title}
         </Typography>
       </Wrapper>
       <Wrapper pb="2rem" maxWidth="50%">
-        <Typography customvariant="header2" customcolor={COLOR.white}>
+        <Typography customvariant="header2" customcolor="white">
           {subtitle}
         </Typography>
       </Wrapper>

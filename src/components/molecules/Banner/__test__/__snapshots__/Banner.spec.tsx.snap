@@ -18,6 +18,7 @@ Object {
   line-height: 1.5 !important;
   font-family: 'Playfair Display' !important;
   font-weight: bold !important;
+  color: #fff;
 }
 
 .c4 {
@@ -25,6 +26,7 @@ Object {
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
+  color: #fff;
 }
 
 .c5 {
@@ -54,7 +56,7 @@ Object {
         >
           <p
             class="MuiTypography-root c2 MuiTypography-body1"
-            customcolor="#fff"
+            customcolor="white"
             customvariant="header1"
           >
             banner title
@@ -65,7 +67,7 @@ Object {
         >
           <p
             class="MuiTypography-root c4 MuiTypography-body1"
-            customcolor="#fff"
+            customcolor="white"
             customvariant="header2"
           />
         </div>
@@ -95,8 +97,8 @@ Object {
         class="sc-AykKC hHpGgs"
       >
         <p
-          class="MuiTypography-root sc-AykKD fUcVmJ MuiTypography-body1"
-          customcolor="#fff"
+          class="MuiTypography-root sc-AykKD iLGAmO MuiTypography-body1"
+          customcolor="white"
           customvariant="header1"
         >
           banner title
@@ -106,8 +108,8 @@ Object {
         class="sc-AykKC gXLXEJ"
       >
         <p
-          class="MuiTypography-root sc-AykKD fpkxzT MuiTypography-body1"
-          customcolor="#fff"
+          class="MuiTypography-root sc-AykKD gddKlQ MuiTypography-body1"
+          customcolor="white"
           customvariant="header2"
         />
       </div>
@@ -201,6 +203,7 @@ Object {
   line-height: 1.5 !important;
   font-family: 'Playfair Display' !important;
   font-weight: bold !important;
+  color: #fff;
 }
 
 .c4 {
@@ -208,6 +211,7 @@ Object {
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
   font-weight: bold !important;
+  color: #fff;
 }
 
 .c5 {
@@ -236,7 +240,7 @@ Object {
         >
           <p
             class="MuiTypography-root c2 MuiTypography-body1"
-            customcolor="#fff"
+            customcolor="white"
             customvariant="header1"
           >
             banner title
@@ -247,7 +251,7 @@ Object {
         >
           <p
             class="MuiTypography-root c4 MuiTypography-body1"
-            customcolor="#fff"
+            customcolor="white"
             customvariant="header2"
           />
         </div>
@@ -277,8 +281,8 @@ Object {
         class="sc-AykKC hHpGgs"
       >
         <p
-          class="MuiTypography-root sc-AykKD fUcVmJ MuiTypography-body1"
-          customcolor="#fff"
+          class="MuiTypography-root sc-AykKD iLGAmO MuiTypography-body1"
+          customcolor="white"
           customvariant="header1"
         >
           banner title
@@ -288,8 +292,8 @@ Object {
         class="sc-AykKC gXLXEJ"
       >
         <p
-          class="MuiTypography-root sc-AykKD fpkxzT MuiTypography-body1"
-          customcolor="#fff"
+          class="MuiTypography-root sc-AykKD gddKlQ MuiTypography-body1"
+          customcolor="white"
           customvariant="header2"
         />
       </div>
