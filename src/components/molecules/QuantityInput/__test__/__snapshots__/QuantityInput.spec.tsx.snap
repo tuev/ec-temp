@@ -69,7 +69,7 @@ Object {
             >
               <legend
                 class="PrivateNotchedOutline-legend-64"
-                style="width: 0px;"
+                style="width: 0.01px;"
               >
                 <span>
                   ​
@@ -156,7 +156,7 @@ Object {
           >
             <legend
               class="PrivateNotchedOutline-legend-64"
-              style="width: 0px;"
+              style="width: 0.01px;"
             >
               <span>
                 ​
@@ -310,12 +310,12 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-137 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-139 MuiOutlinedInput-notchedOutline"
               style="padding-left: 8px;"
             >
               <legend
-                class="PrivateNotchedOutline-legend-138"
-                style="width: 0px;"
+                class="PrivateNotchedOutline-legend-140"
+                style="width: 0.01px;"
               >
                 <span>
                   ​
@@ -397,12 +397,12 @@ Object {
           />
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-137 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-139 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-138"
-              style="width: 0px;"
+              class="PrivateNotchedOutline-legend-140"
+              style="width: 0.01px;"
             >
               <span>
                 ​
