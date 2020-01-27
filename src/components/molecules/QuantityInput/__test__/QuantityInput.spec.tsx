@@ -41,4 +41,27 @@ describe('App QuantityInput', () => {
     const wrapper = render(<QuantityInput />)
     expect(wrapper).toMatchSnapshot()
   })
+
+  it('Test get default QuantityInput with event handler ', () => {
+    const initValue = 5
+    let result = initValue
+    const onChangeQuantity = jest
+      .fn()
+      .mockImplementation(value => (result = value))
+
+    // test snapshot
+    const wrapper = render(
+      <QuantityInput value={initValue} onChange={onChangeQuantity} />
+    )
+    expect(wrapper).toMatchSnapshot()
+
+    const increaseBtn = wrapper.getByTestId('increase-quantity-btn')
+    const descreaseBtn = wrapper.getByTestId('decrease-quantity-btn')
+
+    fireEvent.click(increaseBtn)
+    expect(result).toEqual(initValue + 1)
+
+    fireEvent.click(descreaseBtn)
+    expect(result).toEqual(initValue)
+  })
 })

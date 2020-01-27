@@ -23,7 +23,12 @@ const QuantityInput: FC<QuantityProps> = props => {
   return (
     <ThemeProvider theme={theme}>
       <Wrapper display="flex" alignItems="center">
-        <Fab color="secondary" size="small" onClick={decrease}>
+        <Fab
+          color="secondary"
+          size="small"
+          onClick={decrease}
+          data-testid="decrease-quantity-btn"
+        >
           <MinusIcon />
         </Fab>
         <TextField
@@ -33,7 +38,12 @@ const QuantityInput: FC<QuantityProps> = props => {
           value={quantity}
           onChange={handleQuantityChange}
         />
-        <Fab color="secondary" size="small" onClick={increase}>
+        <Fab
+          color="secondary"
+          size="small"
+          onClick={increase}
+          data-testid="increase-quantity-btn"
+        >
           <AddIcon />
         </Fab>
       </Wrapper>

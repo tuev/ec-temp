@@ -3,7 +3,7 @@ import { useSprings } from 'react-spring'
 import { useDrag } from 'react-use-gesture'
 import { ImageSlideHook } from './ProductImageSlider.types'
 
-const useImageSlide: ImageSlideHook = (images, onSlideChange, active) => {
+const useImageSlide: ImageSlideHook = (images, active, onSlideChange) => {
   /* --------------------------------- states --------------------------------- */
   const [slide, setSlide] = useState<number>(active)
 

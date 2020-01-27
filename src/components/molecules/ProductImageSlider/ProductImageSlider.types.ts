@@ -26,8 +26,8 @@ export interface ISlideAnimation {
 
 export type ImageSlideHook = (
   images: string[],
-  onSlideChange?: ProductItemSliderOnChange,
-  active: number
+  active: number,
+  onSlideChange?: ProductItemSliderOnChange
 ) => [
   number,
   ISlideHandle,

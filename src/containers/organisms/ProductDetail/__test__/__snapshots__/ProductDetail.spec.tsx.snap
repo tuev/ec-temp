@@ -946,6 +946,7 @@ Object {
                 >
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="decrease-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -999,6 +1000,7 @@ Object {
                   </div>
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="increase-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -1700,6 +1702,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="decrease-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -1753,6 +1756,7 @@ Object {
                 </div>
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="increase-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -2801,6 +2805,7 @@ Object {
                 >
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="decrease-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -2854,6 +2859,7 @@ Object {
                   </div>
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="increase-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -3555,6 +3561,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="decrease-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -3608,6 +3615,7 @@ Object {
                 </div>
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="increase-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -4656,6 +4664,7 @@ Object {
                 >
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="decrease-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -4709,6 +4718,7 @@ Object {
                   </div>
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="increase-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -5410,6 +5420,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="decrease-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -5463,6 +5474,7 @@ Object {
                 </div>
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="increase-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -5941,6 +5953,7 @@ Object {
                 >
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="decrease-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -5994,6 +6007,7 @@ Object {
                   </div>
                   <button
                     class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    data-testid="increase-quantity-btn"
                     tabindex="0"
                     type="button"
                   >
@@ -6318,6 +6332,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="decrease-quantity-btn"
                   tabindex="0"
                   type="button"
                 >
@@ -6371,6 +6386,7 @@ Object {
                 </div>
                 <button
                   class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                  data-testid="increase-quantity-btn"
                   tabindex="0"
                   type="button"
                 >

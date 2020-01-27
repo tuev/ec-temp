@@ -1,6 +1,6 @@
 /**
  *
- * Asynchronously loads the component for CartItem
+ * Asynchronously loads the component for CartList
  *
  */
 
