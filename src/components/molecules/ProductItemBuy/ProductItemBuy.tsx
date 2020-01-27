@@ -108,7 +108,7 @@ const ProductItemBuy: FC<ProductItemBuyProps> = (
         <Wrapper>
           <Grid container={true} spacing={2}>
             <Wrapper
-              width={['100%']}
+              width={'100%'}
               justifyContent="center"
               display="flex"
               p="8px"
@@ -122,7 +122,7 @@ const ProductItemBuy: FC<ProductItemBuyProps> = (
               </Button>
             </Wrapper>
             <Wrapper
-              width={['100%']}
+              width={'100%'}
               justifyContent="center"
               display="flex"
               p="8px"
