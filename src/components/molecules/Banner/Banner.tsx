@@ -11,7 +11,6 @@ import Button from 'components/atoms/Button'
 import { BannerWrapper } from './Banner.styled'
 import { BannerProps } from './Banner.types'
 import mockImage from './mock/mock.png'
-import { COLOR } from 'theme/colors'
 
 const Banner: FC<BannerProps> = (props: BannerProps) => {
   const {

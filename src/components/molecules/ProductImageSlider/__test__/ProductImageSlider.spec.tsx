@@ -20,7 +20,7 @@ describe('App ProductImageSlider', () => {
     let slide = 0
     const toSlide = 2
     const handleSlide = slideIdx => (slide = slideIdx)
-    const { result } = renderHook(() => useImageSlide(imgMock, handleSlide))
+    const { result } = renderHook(() => useImageSlide(imgMock, 0, handleSlide))
 
     expect(result.current[0]).toEqual(slide)
     act(() => {

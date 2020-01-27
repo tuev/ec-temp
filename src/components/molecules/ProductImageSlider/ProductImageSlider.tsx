@@ -27,8 +27,8 @@ const ProductImageSlider: FC<ProductItemSliderProps> = (
 
   const [slide, slideHandle, animation, dragHandle] = useImageSlide(
     images,
-    onSlideChange,
-    active
+    active,
+    onSlideChange
   )
 
   const { springProps, transform } = animation

@@ -30,7 +30,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-352 c0 MuiTypography-body1-354"
+              class="MuiTypography-root-356 c0 MuiTypography-body1-358"
               data-testid="size-filter-M"
             >
               M
@@ -54,12 +54,12 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-395 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-399 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-396"
-              style="width: 0px;"
+              class="PrivateNotchedOutline-legend-400"
+              style="width: 0.01px;"
             >
               <span>
                 ​
@@ -92,7 +92,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-352 sc-AykKG jjimnK MuiTypography-body1-354"
+            class="MuiTypography-root-356 sc-AykKG jjimnK MuiTypography-body1-358"
             data-testid="size-filter-M"
           >
             M
@@ -116,12 +116,12 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-395 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-399 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-396"
-            style="width: 0px;"
+            class="PrivateNotchedOutline-legend-400"
+            style="width: 0.01px;"
           >
             <span>
               ​
@@ -884,7 +884,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-196 c0 MuiTypography-body1-198"
+              class="MuiTypography-root-198 c0 MuiTypography-body1-200"
               data-testid="size-filter-XS"
             >
               XS
@@ -908,12 +908,12 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-239 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-241 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-240"
-              style="width: 0px;"
+              class="PrivateNotchedOutline-legend-242"
+              style="width: 0.01px;"
             >
               <span>
                 ​
@@ -946,7 +946,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-196 sc-AykKG jjimnK MuiTypography-body1-198"
+            class="MuiTypography-root-198 sc-AykKG jjimnK MuiTypography-body1-200"
             data-testid="size-filter-XS"
           >
             XS
@@ -970,12 +970,12 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-239 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-241 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-240"
-            style="width: 0px;"
+            class="PrivateNotchedOutline-legend-242"
+            style="width: 0.01px;"
           >
             <span>
               ​
@@ -1091,7 +1091,7 @@ Object {
           >
             <legend
               class="PrivateNotchedOutline-legend-84"
-              style="width: 0px;"
+              style="width: 0.01px;"
             >
               <span>
                 ​
@@ -1150,7 +1150,7 @@ Object {
         >
           <legend
             class="PrivateNotchedOutline-legend-84"
-            style="width: 0px;"
+            style="width: 0.01px;"
           >
             <span>
               ​
