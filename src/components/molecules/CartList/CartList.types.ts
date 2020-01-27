@@ -20,7 +20,7 @@ export interface ICartItem {
 export type CartItemProps = ICartItem
 
 export interface ICartList {
-  items: CartItemProps[]
+  data: CartItemProps[]
 }
 
 export type CartListProps = ICartList & {

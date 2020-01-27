@@ -18,7 +18,7 @@ export default {
 export const basic = () => (
   <div>
     <CartList
-      items={mockCartItems}
+      data={mockCartItems}
       onCartItemChange={items => console.log(items)}
     />
   </div>

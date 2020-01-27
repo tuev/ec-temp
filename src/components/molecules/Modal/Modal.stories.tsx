@@ -2,6 +2,7 @@ import React, { useState, useCallback } from 'react'
 import Modal from './Modal'
 import Button from 'components/atoms/Button'
 import Typography from 'components/atoms/Typography'
+import Wrapper from 'components/atoms/Wrapper'
 
 export default {
   component: Modal,
@@ -29,7 +30,7 @@ const BasicModal = () => {
         onClose={handleClose}
         onBackdropClick={handleClose}
       >
-        <>
+        <Wrapper p="2rem">
           <Typography customvariant="header3">My Title</Typography>
           <Typography customvariant="body2">
             My Description Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -40,7 +41,7 @@ const BasicModal = () => {
             unde, cumque sit mollitia, incidunt et recusandae, ea odit pariatur
             officia aliquam minus nulla laborum! Laborum, dignissimos!
           </Typography>
-        </>
+        </Wrapper>
       </Modal>
     </>
   )

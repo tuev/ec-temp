@@ -51,7 +51,13 @@ exports[`Button outline large btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",
@@ -486,7 +492,13 @@ exports[`Button outline medium btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",
@@ -919,7 +931,13 @@ exports[`Button outline small btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",
@@ -1356,7 +1374,13 @@ exports[`Button primary large btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",
@@ -1789,7 +1813,13 @@ exports[`Button primary medium btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",
@@ -2221,7 +2251,13 @@ exports[`Button primary small btn 1`] = `
             "minHeight": 56,
           },
         },
-        "overrides": Object {},
+        "overrides": Object {
+          "MuiButton": Object {
+            "outlined": Object {
+              "background": "#fff",
+            },
+          },
+        },
         "palette": Object {
           "action": Object {
             "active": "rgba(0, 0, 0, 0.54)",

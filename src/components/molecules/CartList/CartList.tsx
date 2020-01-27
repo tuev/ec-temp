@@ -23,9 +23,9 @@ import { CartItemImage } from './CartList.styled'
 import useCartListHandler from './useCartListHandler'
 
 const CartList: FC<CartListProps> = (props: CartListProps) => {
-  const { items = [], onCartItemChange } = props
+  const { data = [], onCartItemChange } = props
   const [state, stateCount, quantityChange, removeItem] = useCartListHandler(
-    items,
+    data,
     onCartItemChange
   )
 
