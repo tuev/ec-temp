@@ -239,7 +239,7 @@ Object {
           class="sc-AykKI fIfYnY"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK funNDW MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK esAVxJ MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"
@@ -555,7 +555,7 @@ Object {
           class="sc-AykKI fIfYnY"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK funNDW MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK esAVxJ MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"

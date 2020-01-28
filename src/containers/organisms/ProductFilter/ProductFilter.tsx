@@ -101,6 +101,7 @@ const ProductFilter: FC<ProductFilterProps> = (props: ProductFilterProps) => {
           onClick={onFilterClear}
           animation={1}
           data-testid="product-filter-clear-btn"
+          color="error"
         >
           Clear all
         </Typography>
