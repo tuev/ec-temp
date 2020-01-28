@@ -22,6 +22,7 @@ export interface ITypography extends TypographyProps {
     | 'body2'
   customcolor?: ColorKey
   animation?: boolean | number
+  linecolor?: ColorKey
 }
 
 // export type GetColor = (color?: string) => string
