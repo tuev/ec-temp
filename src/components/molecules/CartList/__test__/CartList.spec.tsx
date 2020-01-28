@@ -45,7 +45,7 @@ describe('App CartList', () => {
 
   it('Test get default CartList with mock data  ', () => {
     // test snapshot
-    const wrapper = render(<CartList items={mock} />)
+    const wrapper = render(<CartList data={mock} />)
     expect(wrapper).toMatchSnapshot()
   })
 
@@ -56,7 +56,7 @@ describe('App CartList', () => {
     })
 
     const wrapper = render(
-      <CartList items={mock} onCartItemChange={onChangeHandler} />
+      <CartList data={mock} onCartItemChange={onChangeHandler} />
     )
     expect(wrapper).toMatchSnapshot()
 

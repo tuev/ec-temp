@@ -16,7 +16,6 @@ export const AppModalContent: React.FC = styled.div`
   outline: none !important;
   background-color: ${COLOR.white};
   border: 2px solid ${COLOR.black};
-  padding: 16px 32px 24px;
   width: 80%;
   max-height: 100%;
   overflow-y: auto;

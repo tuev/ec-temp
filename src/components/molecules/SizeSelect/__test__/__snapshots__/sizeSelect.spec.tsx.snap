@@ -333,7 +333,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -353,7 +353,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -373,7 +373,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -393,7 +393,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -413,7 +413,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -633,7 +633,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -653,7 +653,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -673,7 +673,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -693,7 +693,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -713,7 +713,7 @@ Object {
         class="sc-AykKE eUXmXs"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC cCFxmr MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
