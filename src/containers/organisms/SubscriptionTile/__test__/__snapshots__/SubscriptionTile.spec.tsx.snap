@@ -47,7 +47,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -86,7 +86,7 @@ Object {
 
 @media screen and (min-width:40em) {
   .c4 {
-    width: 50vw;
+    width: 50%;
   }
 }
 
@@ -104,7 +104,7 @@ Object {
         </p>
         <div
           class="c2"
-          width="100%,50%"
+          width="1,0.5"
         >
           <p
             class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
@@ -116,7 +116,7 @@ Object {
         <div
           class="c4"
           display="flex"
-          width="100vw,50vw"
+          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -199,7 +199,7 @@ Object {
       </p>
       <div
         class="sc-AykKC hSZhAe"
-        width="100%,50%"
+        width="1,0.5"
       >
         <p
           class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1 MuiTypography-alignCenter"
@@ -209,9 +209,9 @@ Object {
         </p>
       </div>
       <div
-        class="sc-AykKC esOtZH"
+        class="sc-AykKC kOjYBH"
         display="flex"
-        width="100vw,50vw"
+        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -262,7 +262,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE lkGFgk MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"
@@ -379,7 +379,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -418,7 +418,7 @@ Object {
 
 @media screen and (min-width:40em) {
   .c4 {
-    width: 50vw;
+    width: 50%;
   }
 }
 
@@ -437,7 +437,7 @@ Object {
         </p>
         <div
           class="c2"
-          width="100%,50%"
+          width="1,0.5"
         >
           <p
             class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
@@ -449,7 +449,7 @@ Object {
         <div
           class="c4"
           display="flex"
-          width="100vw,50vw"
+          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -532,7 +532,7 @@ Object {
       </p>
       <div
         class="sc-AykKC hSZhAe"
-        width="100%,50%"
+        width="1,0.5"
       >
         <p
           class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1 MuiTypography-alignCenter"
@@ -542,9 +542,9 @@ Object {
         </p>
       </div>
       <div
-        class="sc-AykKC esOtZH"
+        class="sc-AykKC kOjYBH"
         display="flex"
-        width="100vw,50vw"
+        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -595,7 +595,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE lkGFgk MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"
@@ -713,7 +713,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -752,7 +752,7 @@ Object {
 
 @media screen and (min-width:40em) {
   .c4 {
-    width: 50vw;
+    width: 50%;
   }
 }
 
@@ -770,7 +770,7 @@ Object {
         </p>
         <div
           class="c2"
-          width="100%,50%"
+          width="1,0.5"
         >
           <p
             class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
@@ -782,7 +782,7 @@ Object {
         <div
           class="c4"
           display="flex"
-          width="100vw,50vw"
+          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -865,7 +865,7 @@ Object {
       </p>
       <div
         class="sc-AykKC hSZhAe"
-        width="100%,50%"
+        width="1,0.5"
       >
         <p
           class="MuiTypography-root sc-AykKD fRZGCk MuiTypography-body1 MuiTypography-alignCenter"
@@ -875,9 +875,9 @@ Object {
         </p>
       </div>
       <div
-        class="sc-AykKC esOtZH"
+        class="sc-AykKC kOjYBH"
         display="flex"
-        width="100vw,50vw"
+        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -928,7 +928,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE lkGFgk MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"

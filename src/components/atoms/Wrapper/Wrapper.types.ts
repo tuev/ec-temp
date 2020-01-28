@@ -6,14 +6,27 @@ import {
   PositionProps,
   FlexboxProps,
   LayoutProps,
+  WidthProps,
+  ResponsiveValue,
 } from 'styled-system'
 
-import { ReactHTMLElement } from 'react'
+export interface IWrapperProps {
+  width?:
+    | string
+    | number
+    | (string | number | null)[]
+    | {
+        [key: string]: string
+      }
+}
 
-export type WrapperProps = SpaceProps &
+export type BaseProps = SpaceProps &
   DisplayProps &
   BorderProps &
   BackgroundProps &
   PositionProps &
+  WidthProps &
   FlexboxProps & { children?: React.ReactNode } & LayoutProps &
   React.HTMLProps<HTMLDivElement>
+
+export type WrapperProps = Omit<BaseProps, 'width'> & IWrapperProps
