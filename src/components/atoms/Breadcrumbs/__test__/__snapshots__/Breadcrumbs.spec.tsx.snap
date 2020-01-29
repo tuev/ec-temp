@@ -175,13 +175,26 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                   </ForwardRef(Link)>
                 </WithStyles(ForwardRef(Link))>
               </li>
-              <li
-                aria-hidden={true}
+              <WithStyles(BreadcrumbSeparator)
                 className="MuiBreadcrumbs-separator"
                 key="separator-0"
               >
-                •
-              </li>
+                <BreadcrumbSeparator
+                  className="MuiBreadcrumbs-separator"
+                  classes={
+                    Object {
+                      "root": "PrivateBreadcrumbSeparator-root-41",
+                    }
+                  }
+                >
+                  <li
+                    aria-hidden={true}
+                    className="PrivateBreadcrumbSeparator-root-41 MuiBreadcrumbs-separator"
+                  >
+                    •
+                  </li>
+                </BreadcrumbSeparator>
+              </WithStyles(BreadcrumbSeparator)>
               <li
                 className="MuiBreadcrumbs-li"
                 key="child-1"
@@ -268,13 +281,26 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                   </ForwardRef(Link)>
                 </WithStyles(ForwardRef(Link))>
               </li>
-              <li
-                aria-hidden={true}
+              <WithStyles(BreadcrumbSeparator)
                 className="MuiBreadcrumbs-separator"
                 key="separator-1"
               >
-                •
-              </li>
+                <BreadcrumbSeparator
+                  className="MuiBreadcrumbs-separator"
+                  classes={
+                    Object {
+                      "root": "PrivateBreadcrumbSeparator-root-41",
+                    }
+                  }
+                >
+                  <li
+                    aria-hidden={true}
+                    className="PrivateBreadcrumbSeparator-root-41 MuiBreadcrumbs-separator"
+                  >
+                    •
+                  </li>
+                </BreadcrumbSeparator>
+              </WithStyles(BreadcrumbSeparator)>
               <li
                 className="MuiBreadcrumbs-li"
                 key="child-2"
@@ -325,10 +351,9 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.04)",
-                            "hoverOpacity": 0.04,
-                            "selected": "rgba(0, 0, 0, 0.08)",
-                            "selectedOpacity": 0.08,
+                            "hover": "rgba(0, 0, 0, 0.08)",
+                            "hoverOpacity": 0.08,
+                            "selected": "rgba(0, 0, 0, 0.14)",
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -762,10 +787,9 @@ exports[`App Breadcrumbs Test get default Breadcrumbs no params  1`] = `
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.04)",
-                            "hoverOpacity": 0.04,
-                            "selected": "rgba(0, 0, 0, 0.08)",
-                            "selectedOpacity": 0.08,
+                            "hover": "rgba(0, 0, 0, 0.08)",
+                            "hoverOpacity": 0.08,
+                            "selected": "rgba(0, 0, 0, 0.14)",
                           },
                           "augmentColor": [Function],
                           "background": Object {
