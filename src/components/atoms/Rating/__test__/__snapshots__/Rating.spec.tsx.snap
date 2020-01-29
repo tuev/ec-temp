@@ -107,7 +107,6 @@ exports[`Rating rating 1`] = `
           <input
             checked={false}
             className="MuiRating-visuallyhidden"
-            disabled={false}
             id="app-rating-1"
             name="app-rating"
             onBlur={[Function]}
@@ -174,7 +173,6 @@ exports[`Rating rating 1`] = `
           <input
             checked={false}
             className="MuiRating-visuallyhidden"
-            disabled={false}
             id="app-rating-2"
             name="app-rating"
             onBlur={[Function]}
@@ -241,7 +239,6 @@ exports[`Rating rating 1`] = `
           <input
             checked={false}
             className="MuiRating-visuallyhidden"
-            disabled={false}
             id="app-rating-3"
             name="app-rating"
             onBlur={[Function]}
@@ -308,7 +305,6 @@ exports[`Rating rating 1`] = `
           <input
             checked={true}
             className="MuiRating-visuallyhidden"
-            disabled={false}
             id="app-rating-4"
             name="app-rating"
             onBlur={[Function]}
@@ -375,7 +371,6 @@ exports[`Rating rating 1`] = `
           <input
             checked={false}
             className="MuiRating-visuallyhidden"
-            disabled={false}
             id="app-rating-5"
             name="app-rating"
             onBlur={[Function]}

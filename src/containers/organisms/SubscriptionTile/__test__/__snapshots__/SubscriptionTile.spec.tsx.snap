@@ -154,13 +154,15 @@ Object {
               />
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-259 MuiOutlinedInput-notchedOutline"
+                class="PrivateNotchedOutline-root-257 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-261 PrivateNotchedOutline-legendNotched-262"
+                  class="PrivateNotchedOutline-legend-258"
+                  style="width: 0px;"
                 >
                   <span>
-                    Your email
+                    ​
                   </span>
                 </legend>
               </fieldset>
@@ -249,13 +251,15 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-259 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-257 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-261 PrivateNotchedOutline-legendNotched-262"
+                class="PrivateNotchedOutline-legend-258"
+                style="width: 0px;"
               >
                 <span>
-                  Your email
+                  ​
                 </span>
               </legend>
             </fieldset>
@@ -488,12 +492,14 @@ Object {
               <fieldset
                 aria-hidden="true"
                 class="PrivateNotchedOutline-root-107 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-109 PrivateNotchedOutline-legendNotched-110"
+                  class="PrivateNotchedOutline-legend-108"
+                  style="width: 0px;"
                 >
                   <span>
-                    Your email
+                    ​
                   </span>
                 </legend>
               </fieldset>
@@ -583,12 +589,14 @@ Object {
             <fieldset
               aria-hidden="true"
               class="PrivateNotchedOutline-root-107 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-109 PrivateNotchedOutline-legendNotched-110"
+                class="PrivateNotchedOutline-legend-108"
+                style="width: 0px;"
               >
                 <span>
-                  Your email
+                  ​
                 </span>
               </legend>
             </fieldset>
@@ -820,13 +828,15 @@ Object {
               />
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-411 MuiOutlinedInput-notchedOutline"
+                class="PrivateNotchedOutline-root-407 MuiOutlinedInput-notchedOutline"
+                style="padding-left: 8px;"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-413 PrivateNotchedOutline-legendNotched-414"
+                  class="PrivateNotchedOutline-legend-408"
+                  style="width: 0px;"
                 >
                   <span>
-                    Your email
+                    ​
                   </span>
                 </legend>
               </fieldset>
@@ -915,13 +925,15 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-411 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-407 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-413 PrivateNotchedOutline-legendNotched-414"
+                class="PrivateNotchedOutline-legend-408"
+                style="width: 0px;"
               >
                 <span>
-                  Your email
+                  ​
                 </span>
               </legend>
             </fieldset>
