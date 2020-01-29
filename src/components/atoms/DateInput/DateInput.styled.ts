@@ -5,22 +5,27 @@ import { BaseDateInputProps } from './DateInput.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { TextField } from '@material-ui/core'
 
-export const AppDateInput: React.FC<BaseDateInputProps> = styled(TextField)<
+export const AppDateInput: React.FC<BaseDateInputProps> = styled(TextField) <
   BaseDateInputProps
->`
+  >`
   ${space}
 `
 
 export const theme = createMuiTheme({
   palette: {
     primary: {
-      contrastText: COLOR.white,
-      dark: '#4592f7',
-      light: '#beddfe',
       main: COLOR.blue,
     },
   },
-  shape: {
-    borderRadius: 50,
+  overrides: {
+    MuiOutlinedInput: {
+      root: {
+        borderRadius: '6px',
+      },
+      input: {
+        paddingTop: '14.5px',
+        paddingBottom: '14.5px',
+      },
+    },
   },
 })
