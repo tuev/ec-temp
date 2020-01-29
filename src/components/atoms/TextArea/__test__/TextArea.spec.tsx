@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { TextArea } from '..'
+import TextArea from '..'
 import toJson from 'enzyme-to-json'
 
 describe('Text Area', () => {
