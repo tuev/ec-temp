@@ -1,12 +1,12 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import NumberInput from '..'
+import Input from '..'
 import toJson from 'enzyme-to-json'
 
 describe('Number Input', () => {
   it('Number input', () => {
-    const AppNumberInput = shallow(<NumberInput />)
+    const AppInput = shallow(<Input type="number" />)
 
-    expect(toJson(AppNumberInput)).toMatchSnapshot()
+    expect(toJson(AppInput)).toMatchSnapshot()
   })
 })
