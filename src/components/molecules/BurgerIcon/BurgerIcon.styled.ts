@@ -9,8 +9,7 @@ export const AppBurgerIcon: React.FC<BaseBurgerIconProps> = styled.button<
   BaseBurgerIconProps
 >`
   ${space};
-  position: absolute;
-  top: 5%;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -1,0 +1,1046 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App DesktopHeader Test get default DesktopHeader no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  background-image: url(logo_transparent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c6 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.c7 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c8 {
+  position: absolute;
+  top: -50%;
+  right: -25%;
+}
+
+.c9 {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #F62F5E;
+  border-radius: 50%;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  outline-color: transparent;
+  outline-style: none;
+  cursor: pointer;
+  background-color: #F62F5E;
+  color: #fff;
+}
+
+.c10 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c10:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c5 {
+  border-radius: 50%;
+}
+
+.c4 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+        data-testid="desktop-header"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="c0"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
+        >
+          <div
+            class="c1"
+            display="flex"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+        >
+          <div
+            class="c2"
+            display="flex"
+          >
+            <div
+              class="c3"
+            >
+              <div
+                class="c4"
+                data-testid="search-ref"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root c5"
+                  maxwidth="32px"
+                  opacity="0"
+                  style="opacity: 0; max-width: 32px;"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input"
+                      data-testid="search-input"
+                      id="outlined-secondary"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-181"
+                        style="width: 0.01px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <div
+                  class="c6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c3"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="c7"
+                  data-testid="product-cart-icon"
+                  height="2rem"
+                  width="2rem"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <div
+                    class="c8"
+                  >
+                    <button
+                      class="c9"
+                      color="primary"
+                    >
+                      0
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c3"
+            >
+              <p
+                animation="1"
+                class="MuiTypography-root c10 MuiTypography-body1"
+                customvariant="header3"
+              >
+                Login
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+      data-testid="desktop-header"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AykKC gASqyC"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
+      >
+        <div
+          class="sc-AykKD ieKWPw"
+          display="flex"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+      >
+        <div
+          class="sc-AykKD kRozGO"
+          display="flex"
+        >
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <div
+              class="sc-fzXfLO jyViaM"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-181"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="sc-AykKD dxwNTg"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <div
+              class="sc-AykKD hUuDfI"
+            >
+              <div
+                class="sc-AykKD hghWql"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="sc-AykKD EZxbM"
+                >
+                  <button
+                    class="sc-AykKE epmNKB"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <p
+              animation="1"
+              class="MuiTypography-root sc-AykKH flFGbP MuiTypography-body1"
+              customvariant="header3"
+            >
+              Login
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App DesktopHeader Test get default DesktopHeader with data  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  background-image: url(logo_transparent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c8 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.c9 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c10 {
+  position: absolute;
+  top: -50%;
+  right: -25%;
+}
+
+.c11 {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #F62F5E;
+  border-radius: 50%;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  outline-color: transparent;
+  outline-style: none;
+  cursor: pointer;
+  background-color: #F62F5E;
+  color: #fff;
+}
+
+.c3 {
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  color: #2E2E2E;
+}
+
+.c12 {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Montserrat Alternates' !important;
+  font-weight: bold !important;
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c12:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c7 {
+  border-radius: 50%;
+}
+
+.c6 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+<div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+        data-testid="desktop-header"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="c0"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
+        >
+          <div
+            class="c1"
+            display="flex"
+          >
+            <div
+              class="c2"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=women"
+              >
+                <p
+                  class="MuiTypography-root c3 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Women
+                </p>
+              </a>
+            </div>
+            <div
+              class="c2"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=men"
+              >
+                <p
+                  class="MuiTypography-root c3 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Men
+                </p>
+              </a>
+            </div>
+            <div
+              class="c2"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=shoe"
+              >
+                <p
+                  class="MuiTypography-root c3 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Shoe
+                </p>
+              </a>
+            </div>
+            <div
+              class="c2"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist"
+              >
+                <p
+                  class="MuiTypography-root c3 MuiTypography-body1"
+                  customvariant="header2"
+                >
+                  Brands
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+        >
+          <div
+            class="c4"
+            display="flex"
+          >
+            <div
+              class="c5"
+            >
+              <div
+                class="c6"
+                data-testid="search-ref"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root c7"
+                  maxwidth="32px"
+                  opacity="0"
+                  style="opacity: 0; max-width: 32px;"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input"
+                      data-testid="search-input"
+                      id="outlined-secondary"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-442"
+                        style="width: 0.01px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <div
+                  class="c8"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c5"
+            >
+              <div
+                class=""
+              >
+                <div
+                  class="c9"
+                  data-testid="product-cart-icon"
+                  height="2rem"
+                  width="2rem"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                    />
+                  </svg>
+                  <div
+                    class="c10"
+                  >
+                    <button
+                      class="c11"
+                      color="primary"
+                    >
+                      0
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c5"
+            >
+              <p
+                animation="1"
+                class="MuiTypography-root c12 MuiTypography-body1"
+                customvariant="header3"
+              >
+                Login
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+      data-testid="desktop-header"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-1 MuiGrid-grid-lg-2"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AykKC gASqyC"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
+      >
+        <div
+          class="sc-AykKD ieKWPw"
+          display="flex"
+        >
+          <div
+            class="sc-AykKD bRlBYj"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="/productlist?category=women"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Women
+              </p>
+            </a>
+          </div>
+          <div
+            class="sc-AykKD bRlBYj"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="/productlist?category=men"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Men
+              </p>
+            </a>
+          </div>
+          <div
+            class="sc-AykKD bRlBYj"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="/productlist?category=shoe"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Shoe
+              </p>
+            </a>
+          </div>
+          <div
+            class="sc-AykKD bRlBYj"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="/productlist"
+            >
+              <p
+                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                customvariant="header2"
+              >
+                Brands
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
+      >
+        <div
+          class="sc-AykKD kRozGO"
+          display="flex"
+        >
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <div
+              class="sc-fzXfLO jyViaM"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-442"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="sc-AykKD dxwNTg"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <div
+              class="sc-AykKD hUuDfI"
+            >
+              <div
+                class="sc-AykKD hghWql"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="sc-AykKD EZxbM"
+                >
+                  <button
+                    class="sc-AykKE epmNKB"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AykKD ilztcd"
+          >
+            <p
+              animation="1"
+              class="MuiTypography-root sc-AykKH flFGbP MuiTypography-body1"
+              customvariant="header3"
+            >
+              Login
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
