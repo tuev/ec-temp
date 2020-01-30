@@ -140,26 +140,26 @@ Object {
 }
 
 .c12 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
 .c13 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #F62F5E;
 }
 
 .c15 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #6C6C6C;
 }
 
@@ -1334,13 +1334,13 @@ Object {
               class="sc-AykKG kLLdqP"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gLdVmb MuiTypography-body1"
                 customvariant="header2"
               >
                 Product name
               </p>
               <p
-                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH eIuKGk MuiTypography-body1"
                 customcolor="red"
                 customvariant="header2"
               >
@@ -1351,7 +1351,7 @@ Object {
               class="sc-AykKG bwAPKj"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -1595,7 +1595,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -1690,7 +1690,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -1999,26 +1999,26 @@ Object {
 }
 
 .c12 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
 .c13 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #F62F5E;
 }
 
 .c15 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #6C6C6C;
 }
 
@@ -3193,13 +3193,13 @@ Object {
               class="sc-AykKG kLLdqP"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gLdVmb MuiTypography-body1"
                 customvariant="header2"
               >
                 Product name
               </p>
               <p
-                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH eIuKGk MuiTypography-body1"
                 customcolor="red"
                 customvariant="header2"
               >
@@ -3210,7 +3210,7 @@ Object {
               class="sc-AykKG bwAPKj"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -3454,7 +3454,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -3549,7 +3549,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -3858,26 +3858,26 @@ Object {
 }
 
 .c12 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
 .c13 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #F62F5E;
 }
 
 .c15 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #6C6C6C;
 }
 
@@ -5052,13 +5052,13 @@ Object {
               class="sc-AykKG kLLdqP"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gLdVmb MuiTypography-body1"
                 customvariant="header2"
               >
                 Product name
               </p>
               <p
-                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH eIuKGk MuiTypography-body1"
                 customcolor="red"
                 customvariant="header2"
               >
@@ -5069,7 +5069,7 @@ Object {
               class="sc-AykKG bwAPKj"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -5313,7 +5313,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -5408,7 +5408,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -5647,26 +5647,26 @@ Object {
 }
 
 .c5 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
 .c6 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #F62F5E;
 }
 
 .c8 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #6C6C6C;
 }
 
@@ -6281,11 +6281,11 @@ Object {
               class="sc-AykKG kLLdqP"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gLdVmb MuiTypography-body1"
                 customvariant="header2"
               />
               <p
-                class="MuiTypography-root sc-AykKH bWMmxA MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH eIuKGk MuiTypography-body1"
                 customcolor="red"
                 customvariant="header2"
               />
@@ -6294,7 +6294,7 @@ Object {
               class="sc-AykKG bwAPKj"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -6306,7 +6306,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >
@@ -6320,7 +6320,7 @@ Object {
               class="sc-AykKG bYCFOX"
             >
               <p
-                class="MuiTypography-root sc-AykKH eHeTJy MuiTypography-body1"
+                class="MuiTypography-root sc-AykKH gVaVlC MuiTypography-body1"
                 customcolor="black1"
                 customvariant="header3"
               >

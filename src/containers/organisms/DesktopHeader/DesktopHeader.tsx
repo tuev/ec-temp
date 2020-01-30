@@ -29,7 +29,7 @@ const DesktopHeader: FC<DesktopHeaderProps> = props => {
             {items.map((item: IHeaderItem) => (
               <Wrapper key={item.key} px="1.5rem">
                 <Link href={item.href}>
-                  <Typography customvariant="header2">{item.title}</Typography>
+                  <Typography customvariant="topbar">{item.title}</Typography>
                 </Link>
               </Wrapper>
             ))}

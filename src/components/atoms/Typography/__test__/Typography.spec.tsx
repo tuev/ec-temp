@@ -7,10 +7,10 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="header1" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '48px !important',
-      'line-height': '1.5 !important',
-      'font-family': `'Playfair Display' !important`,
-      'font-weight': 'bold !important',
+      'font-size': '48px',
+      'line-height': '1.5',
+      'font-family': `'Playfair Display'`,
+      'font-weight': 'bold',
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -22,10 +22,10 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="header2" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '24px !important',
-      'line-height': '1.5 !important',
-      'font-family': `'Montserrat Alternates' !important`,
-      'font-weight': 'bold !important',
+      'font-size': '24px',
+      'line-height': '1.5',
+      'font-family': `'Montserrat Alternates'`,
+      'font-weight': 'bold',
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -37,10 +37,10 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="header3" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '16px !important',
-      'line-height': '1.5 !important',
-      'font-family': `'Montserrat Alternates' !important`,
-      'font-weight': 'bold !important',
+      'font-size': '16px',
+      'line-height': '1.5',
+      'font-family': `'Montserrat Alternates'`,
+      'font-weight': 'bold',
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -52,10 +52,10 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="topbar" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '16px !important',
-      'line-height': '2.4 !important',
-      'font-family': `'Montserrat Alternates' !important`,
-      'font-weight': 'bold !important',
+      'font-size': '16px',
+      'line-height': '2.4',
+      'font-family': `'Montserrat Alternates'`,
+      'font-weight': 'bold',
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -67,9 +67,9 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="body1" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '16px !important',
-      'line-height': '1.5 !important',
-      'font-family': `'Open Sans' !important`,
+      'font-size': '16px',
+      'line-height': '1.5',
+      'font-family': `'Open Sans'`,
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -81,9 +81,9 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="body2" />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '12px !important',
-      'line-height': '2 !important',
-      'font-family': `'Open Sans' !important`,
+      'font-size': '12px',
+      'line-height': '2',
+      'font-family': `'Open Sans'`,
     }
     for (const style in expectStyle) {
       if (expectStyle[style]) {
@@ -96,9 +96,9 @@ describe('Typography', () => {
     const appTypo = mount(<Typography customvariant="body2" animation={1} />)
     expect(appTypo).toMatchSnapshot()
     const expectStyle: { [key: string]: string } = {
-      'font-size': '12px !important',
-      'line-height': '2 !important',
-      'font-family': "'Open Sans' !important",
+      'font-size': '12px',
+      'line-height': '2',
+      'font-family': "'Open Sans'",
       'background-image':
         'linear-gradient( transparent calc(100% - 1px), black 1px )',
       'background-repeat': 'no-repeat',

@@ -80,10 +80,10 @@ Object {
 }
 
 .c8 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -223,12 +223,12 @@ Object {
             class="sc-AykKH dsZngC"
           >
             <p
-              class="MuiTypography-root sc-AykKJ eXvpea MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             />
             <p
-              class="MuiTypography-root sc-AykKJ eXvpea MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -393,10 +393,10 @@ Object {
 }
 
 .c8 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -537,14 +537,14 @@ Object {
             class="sc-AykKH dsZngC"
           >
             <p
-              class="MuiTypography-root sc-AykKJ eXvpea MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             >
               this is name of the product w...
             </p>
             <p
-              class="MuiTypography-root sc-AykKJ eXvpea MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$

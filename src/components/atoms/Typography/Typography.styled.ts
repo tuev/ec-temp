@@ -16,38 +16,38 @@ export const AppTypography = styled(Typography)<
   ${space};
   ${switchProp('customvariant', {
     body1: css`
-      font-size: 16px !important;
-      line-height: 1.5 !important;
-      font-family: 'Open Sans' !important;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: 'Open Sans';
     `,
     body2: css`
-      font-size: 12px !important;
-      line-height: 2 !important;
-      font-family: 'Open Sans' !important;
+      font-size: 12px;
+      line-height: 2;
+      font-family: 'Open Sans';
     `,
     header1: css`
-      font-size: 48px !important;
-      line-height: 1.5 !important;
-      font-family: 'Playfair Display' !important;
-      font-weight: bold !important;
+      font-size: 48px;
+      line-height: 1.5;
+      font-family: 'Playfair Display';
+      font-weight: bold;
     `,
     header2: css`
-      font-size: 24px !important;
-      line-height: 1.5 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 24px;
+      line-height: 1.5;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
     header3: css`
-      font-size: 16px !important;
-      line-height: 1.5 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
     topbar: css`
-      font-size: 16px !important;
-      line-height: 2.4 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 16px;
+      line-height: 2.4;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
   })}
   ${ifProp(
