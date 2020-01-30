@@ -14,6 +14,12 @@ const BurgerIcon: FC<BaseBurgerIconProps> = (props: BaseBurgerIconProps) => {
     }
   }, [handleOpen, isOpen])
 
+  useEffect(() => {
+    // if (open !== isOpen) {
+    toggleOpen(open)
+    // }
+  }, [open])
+
   return (
     <AppBurgerIcon
       {...props}

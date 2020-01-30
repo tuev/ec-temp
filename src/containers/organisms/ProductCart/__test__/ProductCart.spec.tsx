@@ -39,7 +39,7 @@ describe('App ProductCart', () => {
 
   it('Test get default ProductCart no onBuy event ', () => {
     // test snapshot
-    const wrapper = render(<ProductCart />)
+    const wrapper = render(<ProductCart data={mock} />)
     expect(wrapper).toMatchSnapshot()
     const cartIcon = wrapper.getByTestId('product-cart-icon')
 

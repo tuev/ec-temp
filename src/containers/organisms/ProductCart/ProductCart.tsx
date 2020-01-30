@@ -36,7 +36,7 @@ const ProductCart: FC<ProductCartProps> = props => {
         onClick={cartHandler.show}
         data-testid="product-cart-icon"
       >
-        <ShoppingCart />
+        <ShoppingCart fontSize="large" />
         <Wrapper position="absolute" top="-50%" right="-25%">
           <NumberComp data={cartCount} />
         </Wrapper>
@@ -70,9 +70,14 @@ const ProductCart: FC<ProductCartProps> = props => {
             >
               Back to shop
             </Button>
-            <Button onClick={handleBuy} data-testid="product-cart-checkout-btn">
-              Checkout
-            </Button>
+            {cartCount ? (
+              <Button
+                onClick={handleBuy}
+                data-testid="product-cart-checkout-btn"
+              >
+                Checkout
+              </Button>
+            ) : null}
           </Wrapper>
         </Wrapper>
       </Modal>
