@@ -5,10 +5,10 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c0 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -17,10 +17,10 @@ Object {
 }
 
 .c5 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -702,7 +702,7 @@ Object {
       class="sc-AykKD hUuDfI"
     >
       <p
-        class="MuiTypography-root sc-AykKC gGhakq MuiTypography-body1"
+        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
         customvariant="header2"
       >
         3
@@ -798,7 +798,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 1
@@ -938,7 +938,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -971,7 +971,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 2
@@ -1111,7 +1111,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -1144,7 +1144,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 3
@@ -1284,7 +1284,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -1355,10 +1355,10 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c0 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -1367,10 +1367,10 @@ Object {
 }
 
 .c5 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -2052,7 +2052,7 @@ Object {
       class="sc-AykKD hUuDfI"
     >
       <p
-        class="MuiTypography-root sc-AykKC gGhakq MuiTypography-body1"
+        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
         customvariant="header2"
       >
         3
@@ -2148,7 +2148,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 1
@@ -2288,7 +2288,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2321,7 +2321,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 2
@@ -2461,7 +2461,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2494,7 +2494,7 @@ Object {
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 3
@@ -2634,7 +2634,7 @@ Object {
                 class="sc-AykKD hUuDfI"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC efSuTv MuiTypography-body1"
+                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2704,10 +2704,10 @@ exports[`App CartList Test get default CartList with no data   1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -2731,7 +2731,7 @@ Object {
       class="sc-AykKD hUuDfI"
     >
       <p
-        class="MuiTypography-root sc-AykKC gGhakq MuiTypography-body1"
+        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
         customvariant="header2"
       >
         0

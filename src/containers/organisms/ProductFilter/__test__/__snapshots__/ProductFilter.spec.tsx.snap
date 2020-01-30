@@ -170,10 +170,10 @@ Object {
 }
 
 .c3 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -867,7 +867,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Color
@@ -1160,7 +1160,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Size
@@ -1278,7 +1278,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Price range
@@ -1370,7 +1370,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Brand
@@ -1716,10 +1716,10 @@ Object {
 }
 
 .c3 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
@@ -2412,7 +2412,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Color
@@ -2705,7 +2705,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Size
@@ -2823,7 +2823,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Price range
@@ -2915,7 +2915,7 @@ Object {
           class="sc-AykKC hyHDgc"
         >
           <p
-            class="MuiTypography-root sc-AykKF jqodTO MuiTypography-body1"
+            class="MuiTypography-root sc-AykKF iABJTS MuiTypography-body1"
             customvariant="header3"
           >
             Brand

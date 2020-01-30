@@ -92,10 +92,10 @@ Object {
 }
 
 .c10 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
   background-repeat: no-repeat;
   background-size: 0% 100%;
@@ -391,7 +391,7 @@ Object {
           >
             <p
               animation="1"
-              class="MuiTypography-root sc-AykKH flFGbP MuiTypography-body1"
+              class="MuiTypography-root sc-AykKH bJuDrD MuiTypography-body1"
               customvariant="header3"
             >
               Login
@@ -553,18 +553,18 @@ Object {
 }
 
 .c3 {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 2.4;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   color: #2E2E2E;
 }
 
 .c12 {
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  font-family: 'Montserrat Alternates' !important;
-  font-weight: bold !important;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
   background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
   background-repeat: no-repeat;
   background-size: 0% 100%;
@@ -621,7 +621,7 @@ Object {
               >
                 <p
                   class="MuiTypography-root c3 MuiTypography-body1"
-                  customvariant="header2"
+                  customvariant="topbar"
                 >
                   Women
                 </p>
@@ -636,7 +636,7 @@ Object {
               >
                 <p
                   class="MuiTypography-root c3 MuiTypography-body1"
-                  customvariant="header2"
+                  customvariant="topbar"
                 >
                   Men
                 </p>
@@ -651,7 +651,7 @@ Object {
               >
                 <p
                   class="MuiTypography-root c3 MuiTypography-body1"
-                  customvariant="header2"
+                  customvariant="topbar"
                 >
                   Shoe
                 </p>
@@ -666,7 +666,7 @@ Object {
               >
                 <p
                   class="MuiTypography-root c3 MuiTypography-body1"
-                  customvariant="header2"
+                  customvariant="topbar"
                 >
                   Brands
                 </p>
@@ -822,8 +822,8 @@ Object {
               href="/productlist?category=women"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
-                customvariant="header2"
+                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                customvariant="topbar"
               >
                 Women
               </p>
@@ -837,8 +837,8 @@ Object {
               href="/productlist?category=men"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
-                customvariant="header2"
+                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                customvariant="topbar"
               >
                 Men
               </p>
@@ -852,8 +852,8 @@ Object {
               href="/productlist?category=shoe"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
-                customvariant="header2"
+                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                customvariant="topbar"
               >
                 Shoe
               </p>
@@ -867,8 +867,8 @@ Object {
               href="/productlist"
             >
               <p
-                class="MuiTypography-root sc-AykKH dZvxdr MuiTypography-body1"
-                customvariant="header2"
+                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                customvariant="topbar"
               >
                 Brands
               </p>
@@ -981,7 +981,7 @@ Object {
           >
             <p
               animation="1"
-              class="MuiTypography-root sc-AykKH flFGbP MuiTypography-body1"
+              class="MuiTypography-root sc-AykKH bJuDrD MuiTypography-body1"
               customvariant="header3"
             >
               Login

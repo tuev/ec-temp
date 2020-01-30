@@ -57,9 +57,7 @@ const MobileHeader: FC<MobileHeaderProps> = props => {
               {items.map((item: IHeaderItem) => (
                 <Wrapper key={item.key}>
                   <Link href={item.href}>
-                    <Typography customvariant="header2">
-                      {item.title}
-                    </Typography>
+                    <Typography customvariant="topbar">{item.title}</Typography>
                   </Link>
                 </Wrapper>
               ))}
