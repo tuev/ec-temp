@@ -8,11 +8,11 @@ const Typography: FC<BaseTypographyProps> = (props: BaseTypographyProps) => {
   // const typocustomcolor = useMemo(() => getColor(customcolor), [customcolor])
 
   return (
-    <StylesProvider injectFirst={true}>
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <StylesProvider injectFirst={true}>
         <AppTypography {...props} />
-      </ThemeProvider>
-    </StylesProvider>
+      </StylesProvider>
+    </ThemeProvider>
   )
 }
 

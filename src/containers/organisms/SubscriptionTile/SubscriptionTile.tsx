@@ -34,7 +34,7 @@ const SubscriptionTile: FC<SubscriptionTileProps> = (
 
   return (
     <Wrapper
-      width="100vw"
+      width="100%"
       background={COLOR.gray1}
       p="2rem"
       display="flex"

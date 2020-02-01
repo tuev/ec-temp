@@ -7,9 +7,10 @@
 const fs = require('fs')
 const path = require('path')
 const { execSync } = require('child_process')
-const atomGenerators = require('./atom/index.js')
-const moleculeGenerators = require('./molecule/index.js')
-const organismGenerators = require('./organism/index.js')
+const atomGenerators = require('./atom')
+const moleculeGenerators = require('./molecule')
+const organismGenerators = require('./organism')
+const templateGenerators = require('./template')
 
 /**
  * Every generated backup file gets this extension
@@ -21,6 +22,7 @@ module.exports = plop => {
   plop.setGenerator('atom', atomGenerators)
   plop.setGenerator('molecule', moleculeGenerators)
   plop.setGenerator('organism', organismGenerators)
+  plop.setGenerator('template', templateGenerators)
 
   plop.addHelper('directory', comp => {
     try {

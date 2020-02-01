@@ -22,7 +22,7 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -94,7 +94,7 @@ Object {
       <div
         class="c0"
         display="flex"
-        width="100vw"
+        width="100%"
       >
         <p
           class="MuiTypography-root c1 MuiTypography-body1 MuiTypography-colorError"
@@ -187,9 +187,9 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC eXVcOJ"
+      class="sc-AykKC cbkOkZ"
       display="flex"
-      width="100vw"
+      width="100%"
     >
       <p
         class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
@@ -354,7 +354,7 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -427,7 +427,7 @@ Object {
       <div
         class="c0"
         display="flex"
-        width="100vw"
+        width="100%"
       >
         <p
           class="MuiTypography-root c1 MuiTypography-body1 MuiTypography-colorError"
@@ -520,9 +520,9 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC eXVcOJ"
+      class="sc-AykKC cbkOkZ"
       display="flex"
-      width="100vw"
+      width="100%"
     >
       <p
         class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
@@ -688,7 +688,7 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -760,7 +760,7 @@ Object {
       <div
         class="c0"
         display="flex"
-        width="100vw"
+        width="100%"
       >
         <p
           class="MuiTypography-root c1 MuiTypography-body1 MuiTypography-colorError"
@@ -853,9 +853,9 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC eXVcOJ"
+      class="sc-AykKC cbkOkZ"
       display="flex"
-      width="100vw"
+      width="100%"
     >
       <p
         class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
