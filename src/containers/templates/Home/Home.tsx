@@ -10,16 +10,14 @@ import { HomeProps } from './Home.types'
 import Wrapper from 'components/atoms/Wrapper'
 import { Container } from '@material-ui/core'
 import Header from 'containers/organisms/Header'
-import Banner from 'containers/organisms/Banner'
-import SubscribeArea from 'containers/organisms/SubscriptionTile'
 import Footer from 'containers/organisms/Footer'
 
 const Home: FC<HomeProps> = (props: HomeProps) => {
   const {
     header: HeaderPart = Header,
-    banner: BannerPart = Banner,
+    banner: BannerPart,
     children,
-    subscribe: SubscribePart = SubscribeArea,
+    subscribe: SubscribePart,
     footer: FooterPart = Footer,
   } = props
   return (
