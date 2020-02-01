@@ -14,8 +14,8 @@ import mockImage from './mock/mock.png'
 
 const Banner: FC<BannerProps> = (props: BannerProps) => {
   const {
-    title,
-    subtitle = '',
+    title = 'Background and Development',
+    subtitle = 'This is your background subtitle',
     action,
     background = mockImage,
   }: BannerProps = props
@@ -23,19 +23,25 @@ const Banner: FC<BannerProps> = (props: BannerProps) => {
 
   return (
     <BannerWrapper background={background}>
-      <Wrapper pb="1rem" maxWidth="50%">
-        <Typography customvariant="header1" customcolor="white">
-          {title}
-        </Typography>
+      <Wrapper p="62px 128px">
+        <Wrapper pb="1rem" maxWidth="50%">
+          <Typography customvariant="header1" customcolor="white">
+            {title}
+          </Typography>
+        </Wrapper>
+        <Wrapper pb="2rem" maxWidth="50%">
+          <Typography customvariant="header2" customcolor="white">
+            {subtitle}
+          </Typography>
+        </Wrapper>
+        <Button
+          onClick={handleClick}
+          variant="outlined"
+          data-testid="banner-btn"
+        >
+          Shop now
+        </Button>
       </Wrapper>
-      <Wrapper pb="2rem" maxWidth="50%">
-        <Typography customvariant="header2" customcolor="white">
-          {subtitle}
-        </Typography>
-      </Wrapper>
-      <Button onClick={handleClick} variant="outlined" data-testid="banner-btn">
-        Shop now
-      </Button>
     </BannerWrapper>
   )
 }

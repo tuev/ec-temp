@@ -1,0 +1,951 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Home Test get default Home no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: grid;
+  grid-template-areas: "80px auto 240px" "100%";
+}
+
+.c1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: calc(100vh - 320px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  padding: 62px 128px;
+}
+
+.c5 {
+  padding-bottom: 1rem;
+  max-width: 50%;
+}
+
+.c7 {
+  padding-bottom: 2rem;
+  max-width: 50%;
+}
+
+.c10 {
+  margin-top: auto;
+}
+
+.c11 {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F5F5F5;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c13 {
+  width: 100%;
+}
+
+.c15 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c17 {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c18 {
+  padding: 1rem;
+}
+
+.c19 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  font-size: 48px;
+  line-height: 1.5;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  color: #fff;
+}
+
+.c8 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #fff;
+}
+
+.c12 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c14 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c20 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  color: #2E2E2E;
+}
+
+.c21 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c21:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c22 {
+  color: #2E2E2E;
+}
+
+.c9 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c16 {
+  min-width: 90px !important;
+  min-height: 36px !important;
+  font-size: 12px;
+  border-radius: 24px;
+}
+
+.c3 {
+  height: 440px;
+  width: 100%;
+  background-image: url(mock.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (min-width:40em) {
+  .c13 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:40em) {
+  .c15 {
+    width: 50%;
+  }
+}
+
+<body>
+    <div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+          >
+            <div
+              class=""
+            />
+          </div>
+          <div
+            class="c2"
+            display="flex"
+          >
+            <div
+              class="c3"
+            >
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                >
+                  <p
+                    class="MuiTypography-root c6 MuiTypography-body1"
+                    customcolor="white"
+                    customvariant="header1"
+                  >
+                    Background and Development
+                  </p>
+                </div>
+                <div
+                  class="c7"
+                >
+                  <p
+                    class="MuiTypography-root c8 MuiTypography-body1"
+                    customcolor="white"
+                    customvariant="header2"
+                  >
+                    This is your background subtitle
+                  </p>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined c9 MuiButton-outlinedPrimary"
+                  data-testid="banner-btn"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Shop now
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+            <div
+              class="c10"
+            >
+              <div
+                class="c11"
+                display="flex"
+                width="100%"
+              >
+                <p
+                  class="MuiTypography-root c12 MuiTypography-body1 MuiTypography-colorError"
+                  customvariant="header2"
+                >
+                  10% discount for your subscription
+                </p>
+                <div
+                  class="c13"
+                  width="1,0.5"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1 MuiTypography-alignCenter"
+                    customvariant="header3"
+                  >
+                    Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
+                  </p>
+                </div>
+                <div
+                  class="c15"
+                  display="flex"
+                  width="1,0.5"
+                >
+                  <div
+                    class="MuiFormControl-root MuiTextField-root"
+                  >
+                    <label
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined"
+                      data-shrink="true"
+                    >
+                      Your email
+                    </label>
+                    <div
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                    >
+                      <div
+                        class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-marginDense"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root"
+                          focusable="false"
+                          role="presentation"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"
+                          />
+                        </svg>
+                      </div>
+                      <input
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                        data-testid="subscribe-email-input"
+                        type="text"
+                        value=""
+                      />
+                      <fieldset
+                        aria-hidden="true"
+                        class="PrivateNotchedOutline-root-147 MuiOutlinedInput-notchedOutline"
+                      >
+                        <legend
+                          class="PrivateNotchedOutline-legendLabelled-149 PrivateNotchedOutline-legendNotched-150"
+                        >
+                          <span>
+                            Your email
+                          </span>
+                        </legend>
+                      </fieldset>
+                    </div>
+                  </div>
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-contained c16 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                    data-testid="subscribe-btn"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-label"
+                    >
+                      Subscribe
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c17"
+            display="flex"
+            width="1"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c18"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Questions
+                  </p>
+                  <div
+                    class="c19"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/help"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Help
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/trackorder"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Track Order
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/returns"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Return
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c18"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    What's in store
+                  </p>
+                  <div
+                    class="c19"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=women"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Women
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=men"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Men
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist"
+                    >
+                      <span
+                        class="MuiTypography-root c20 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Product A to Z
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c18"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Contact us
+                  </p>
+                  <div
+                    class="c19"
+                    display="flex"
+                  >
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c21 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Facebook
+                      </span>
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c21 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Twitter
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c18"
+                >
+                  <p
+                    class="MuiTypography-root c22 MuiTypography-body1"
+                  >
+                    ©2020 shopify
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="sc-AykKC dTYmna"
+      >
+        <div
+          class="sc-AykKD iYJjQy"
+        >
+          <div
+            class="sc-AykKD hUuDfI"
+          />
+        </div>
+        <div
+          class="sc-AykKD gCeepA"
+          display="flex"
+        >
+          <div
+            class="sc-fzXfLR eZAnsx"
+          >
+            <div
+              class="sc-AykKD eMCdyf"
+            >
+              <div
+                class="sc-AykKD beWUbx"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI jkMcSX MuiTypography-body1"
+                  customcolor="white"
+                  customvariant="header1"
+                >
+                  Background and Development
+                </p>
+              </div>
+              <div
+                class="sc-AykKD vtlzO"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI exItJd MuiTypography-body1"
+                  customcolor="white"
+                  customvariant="header2"
+                >
+                  This is your background subtitle
+                </p>
+              </div>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKK dEJazu MuiButton-outlinedPrimary"
+                data-testid="banner-btn"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Shop now
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="sc-AykKD sOyLE"
+          >
+            <div
+              class="sc-AykKD clabym"
+              display="flex"
+              width="100%"
+            >
+              <p
+                class="MuiTypography-root sc-AykKI jZcrIQ MuiTypography-body1 MuiTypography-colorError"
+                customvariant="header2"
+              >
+                10% discount for your subscription
+              </p>
+              <div
+                class="sc-AykKD cwoZpb"
+                width="1,0.5"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1 MuiTypography-alignCenter"
+                  customvariant="header3"
+                >
+                  Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
+                </p>
+              </div>
+              <div
+                class="sc-AykKD etiDDk"
+                display="flex"
+                width="1,0.5"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined"
+                    data-shrink="true"
+                  >
+                    Your email
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                  >
+                    <div
+                      class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-marginDense"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                      data-testid="subscribe-email-input"
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-147 MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legendLabelled-149 PrivateNotchedOutline-legendNotched-150"
+                      >
+                        <span>
+                          Your email
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK bDrYxN MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+                  data-testid="subscribe-btn"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Subscribe
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AykKD bXcXqI"
+          display="flex"
+          width="1"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AykKD eWUdDd"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Questions
+                </p>
+                <div
+                  class="sc-AykKD lbCjE"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/help"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Help
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/trackorder"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Track Order
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/returns"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Return
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AykKD eWUdDd"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  What's in store
+                </p>
+                <div
+                  class="sc-AykKD lbCjE"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=women"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Women
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=men"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Men
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Product A to Z
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AykKD eWUdDd"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Contact us
+                </p>
+                <div
+                  class="sc-AykKD lbCjE"
+                  display="flex"
+                >
+                  <div
+                    class="sc-AykKD hUuDfI"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Facebook
+                    </span>
+                  </div>
+                  <div
+                    class="sc-AykKD hUuDfI"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Twitter
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AykKD eWUdDd"
+              >
+                <p
+                  class="MuiTypography-root sc-AykKI jHvgQI MuiTypography-body1"
+                >
+                  ©2020 shopify
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

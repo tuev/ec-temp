@@ -4,16 +4,20 @@ exports[`App Banner Test get default Banner no params  1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
+  padding: 62px 128px;
+}
+
+.c2 {
   padding-bottom: 1rem;
   max-width: 50%;
 }
 
-.c3 {
+.c4 {
   padding-bottom: 2rem;
   max-width: 50%;
 }
 
-.c2 {
+.c3 {
   font-size: 48px;
   line-height: 1.5;
   font-family: 'Playfair Display';
@@ -21,7 +25,7 @@ Object {
   color: #fff;
 }
 
-.c4 {
+.c5 {
   font-size: 24px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -29,7 +33,7 @@ Object {
   color: #fff;
 }
 
-.c5 {
+.c6 {
   min-width: 163px !important;
   min-height: 48px !important;
   font-size: 14px;
@@ -37,13 +41,12 @@ Object {
 }
 
 .c0 {
-  height: calc(100vh - 80px);
-  width: 100vw;
+  height: 440px;
+  width: 100%;
   background-image: url(mock.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 64px 128px;
 }
 
 <body>
@@ -54,8 +57,59 @@ Object {
         <div
           class="c1"
         >
+          <div
+            class="c2"
+          >
+            <p
+              class="MuiTypography-root c3 MuiTypography-body1"
+              customcolor="white"
+              customvariant="header1"
+            >
+              banner title
+            </p>
+          </div>
+          <div
+            class="c4"
+          >
+            <p
+              class="MuiTypography-root c5 MuiTypography-body1"
+              customcolor="white"
+              customvariant="header2"
+            >
+              This is your background subtitle
+            </p>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined c6 MuiButton-outlinedPrimary"
+            data-testid="banner-btn"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Shop now
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AykKF cnRpaz"
+    >
+      <div
+        class="sc-AykKC jIsKsm"
+      >
+        <div
+          class="sc-AykKC hHpGgs"
+        >
           <p
-            class="MuiTypography-root c2 MuiTypography-body1"
+            class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
             customcolor="white"
             customvariant="header1"
           >
@@ -63,16 +117,18 @@ Object {
           </p>
         </div>
         <div
-          class="c3"
+          class="sc-AykKC gXLXEJ"
         >
           <p
-            class="MuiTypography-root c4 MuiTypography-body1"
+            class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
             customcolor="white"
             customvariant="header2"
-          />
+          >
+            This is your background subtitle
+          </p>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-outlined c5 MuiButton-outlinedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
           data-testid="banner-btn"
           tabindex="0"
           type="button"
@@ -87,47 +143,6 @@ Object {
           />
         </button>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="sc-AykKF laifGC"
-    >
-      <div
-        class="sc-AykKC hHpGgs"
-      >
-        <p
-          class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
-          customcolor="white"
-          customvariant="header1"
-        >
-          banner title
-        </p>
-      </div>
-      <div
-        class="sc-AykKC gXLXEJ"
-      >
-        <p
-          class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
-          customcolor="white"
-          customvariant="header2"
-        />
-      </div>
-      <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
-        data-testid="banner-btn"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiButton-label"
-        >
-          Shop now
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -189,16 +204,20 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     .c1 {
+  padding: 62px 128px;
+}
+
+.c2 {
   padding-bottom: 1rem;
   max-width: 50%;
 }
 
-.c3 {
+.c4 {
   padding-bottom: 2rem;
   max-width: 50%;
 }
 
-.c2 {
+.c3 {
   font-size: 48px;
   line-height: 1.5;
   font-family: 'Playfair Display';
@@ -206,7 +225,7 @@ Object {
   color: #fff;
 }
 
-.c4 {
+.c5 {
   font-size: 24px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -214,7 +233,7 @@ Object {
   color: #fff;
 }
 
-.c5 {
+.c6 {
   min-width: 163px !important;
   min-height: 48px !important;
   font-size: 14px;
@@ -222,13 +241,12 @@ Object {
 }
 
 .c0 {
-  height: calc(100vh - 80px);
-  width: 100vw;
+  height: 440px;
+  width: 100%;
   background-image: url(mock.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 64px 128px;
 }
 
 <div>
@@ -238,8 +256,59 @@ Object {
         <div
           class="c1"
         >
+          <div
+            class="c2"
+          >
+            <p
+              class="MuiTypography-root c3 MuiTypography-body1"
+              customcolor="white"
+              customvariant="header1"
+            >
+              banner title
+            </p>
+          </div>
+          <div
+            class="c4"
+          >
+            <p
+              class="MuiTypography-root c5 MuiTypography-body1"
+              customcolor="white"
+              customvariant="header2"
+            >
+              This is your background subtitle
+            </p>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined c6 MuiButton-outlinedPrimary"
+            data-testid="banner-btn"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Shop now
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AykKF cnRpaz"
+    >
+      <div
+        class="sc-AykKC jIsKsm"
+      >
+        <div
+          class="sc-AykKC hHpGgs"
+        >
           <p
-            class="MuiTypography-root c2 MuiTypography-body1"
+            class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
             customcolor="white"
             customvariant="header1"
           >
@@ -247,16 +316,18 @@ Object {
           </p>
         </div>
         <div
-          class="c3"
+          class="sc-AykKC gXLXEJ"
         >
           <p
-            class="MuiTypography-root c4 MuiTypography-body1"
+            class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
             customcolor="white"
             customvariant="header2"
-          />
+          >
+            This is your background subtitle
+          </p>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-outlined c5 MuiButton-outlinedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
           data-testid="banner-btn"
           tabindex="0"
           type="button"
@@ -271,47 +342,6 @@ Object {
           />
         </button>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="sc-AykKF laifGC"
-    >
-      <div
-        class="sc-AykKC hHpGgs"
-      >
-        <p
-          class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
-          customcolor="white"
-          customvariant="header1"
-        >
-          banner title
-        </p>
-      </div>
-      <div
-        class="sc-AykKC gXLXEJ"
-      >
-        <p
-          class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
-          customcolor="white"
-          customvariant="header2"
-        />
-      </div>
-      <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
-        data-testid="banner-btn"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="MuiButton-label"
-        >
-          Shop now
-        </span>
-        <span
-          class="MuiTouchRipple-root"
-        />
-      </button>
     </div>
   </div>,
   "debug": [Function],
