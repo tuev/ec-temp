@@ -4,6 +4,7 @@ stages:
 language: node_js
 before_script: 
   - npm install -g codecov
+  - npm install
 node_js:
   - 8
 cache:
@@ -14,14 +15,15 @@ addons:
   apt:
     packages:
       - libnotify-bin
+
 jobs:
   include:
     - stage: test
       install: *1
-      script: yarn test:coverage
+      script: npm run test:coverage
       before_install: true
     - stage: lint
-      script: yarn lint
+      script: npm run lint
 
 sudo: true
 after_success:
