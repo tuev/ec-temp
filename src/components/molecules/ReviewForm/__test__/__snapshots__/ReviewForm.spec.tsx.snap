@@ -3,7 +3,14 @@
 exports[`App ReviewForm Test get default ReviewForm no params  1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c6 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c0 {
   font-size: 24px !important;
   line-height: 1.5 !important;
   font-family: 'Montserrat Alternates' !important;
@@ -16,6 +23,29 @@ Object {
   line-height: 1.5 !important;
   font-family: 'Open Sans' !important;
   color: #2E2E2E;
+}
+
+.c3 {
+  padding-top: 10px;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  font-family: 'Open Sans' !important;
+  color: #2E2E2E;
+}
+
+.c4 {
+  font-size: 12px !important;
+  line-height: 2 !important;
+  font-family: 'Open Sans' !important;
+  color: #2E2E2E;
+}
+
+.c2 {
+  font-weight: 600;
+}
+
+.c5 {
+  color: #B4B4B4;
 }
 
 <body>
@@ -31,20 +61,20 @@ Object {
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
         >
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
           >
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
             >
               <p
-                class="MuiTypography-root c1 Review__Label MuiTypography-body1"
+                class="MuiTypography-root c1 c2 MuiTypography-body1"
                 customvariant="body1"
               >
                 Choose a nickname
               </p>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-9"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <div
                 class="MuiFormControl-root MuiTextField-root "
@@ -65,7 +95,7 @@ Object {
                   >
                     <legend
                       class="PrivateNotchedOutline-legend-175"
-                      style="width: 0px;"
+                      style="width: 0.01px;"
                     >
                       <span>
                         ​
@@ -77,20 +107,21 @@ Object {
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+            class="MuiGrid-root MuiGrid-container MuiGrid-item"
           >
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
             >
               <p
-                class="MuiTypography-root c1 Review__Label MuiTypography-body1"
+                class="MuiTypography-root c3 c2 MuiTypography-body1"
                 customvariant="body1"
+                pt="10"
               >
                 Your review
               </p>
             </div>
             <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-9"
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <div
                 class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
@@ -105,11 +136,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-216 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-218 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-217"
+                      class="PrivateNotchedOutline-legend-219"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -119,6 +150,216 @@ Object {
                   </fieldset>
                 </div>
               </div>
+              <p
+                class="MuiTypography-root c4 c5 MuiTypography-body1"
+                customvariant="body2"
+              >
+                Your review must be at least 50 characters
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+            >
+              <p
+                class="MuiTypography-root c1 c2 MuiTypography-body1"
+                customvariant="body1"
+              >
+                Overall rating
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <span
+                class="MuiRating-root "
+              >
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-1"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    1 Star
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-1"
+                  name="app-rating"
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-2"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    2 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-2"
+                  name="app-rating"
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-3"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    3 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-3"
+                  name="app-rating"
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-4"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    4 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-4"
+                  name="app-rating"
+                  type="radio"
+                  value="4"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-5"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-5"
+                  name="app-rating"
+                  type="radio"
+                  value="5"
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-flex-end"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained c6 MuiButton-containedPrimary"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Submit
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
             </div>
           </div>
         </div>
@@ -128,7 +369,7 @@ Object {
   "container": <div>
     <div>
       <p
-        class="MuiTypography-root sc-AykKC gGhakq MuiTypography-body1"
+        class="MuiTypography-root sc-AykKJ hxJUuV sc-AykKK gcTcIC MuiTypography-body1"
         customvariant="header2"
       >
         Add a review
@@ -137,23 +378,23 @@ Object {
         class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
       >
         <div
-          class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
         >
           <div
-            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
           >
             <p
-              class="MuiTypography-root sc-AykKC irOgjF Review__Label MuiTypography-body1"
+              class="MuiTypography-root sc-AykKJ kEPpwY sc-fzXfLO jEaXPj MuiTypography-body1"
               customvariant="body1"
             >
               Choose a nickname
             </p>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-9"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKF hjTiPI"
+              class="MuiFormControl-root MuiTextField-root sc-AykKE fbCwcn"
             >
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
@@ -171,7 +412,7 @@ Object {
                 >
                   <legend
                     class="PrivateNotchedOutline-legend-175"
-                    style="width: 0px;"
+                    style="width: 0.01px;"
                   >
                     <span>
                       ​
@@ -183,23 +424,24 @@ Object {
           </div>
         </div>
         <div
-          class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+          class="MuiGrid-root MuiGrid-container MuiGrid-item"
         >
           <div
-            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
           >
             <p
-              class="MuiTypography-root sc-AykKC irOgjF Review__Label MuiTypography-body1"
+              class="MuiTypography-root sc-AykKJ KpyIN sc-fzXfLO jEaXPj MuiTypography-body1"
               customvariant="body1"
+              pt="10"
             >
               Your review
             </p>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-9"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKG jsjVDd MuiFormControl-fullWidth"
+              class="MuiFormControl-root MuiTextField-root sc-AykKF hjTiPI MuiFormControl-fullWidth"
             >
               <div
                 class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
@@ -211,11 +453,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-216 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-218 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-217"
+                    class="PrivateNotchedOutline-legend-219"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -225,6 +467,216 @@ Object {
                 </fieldset>
               </div>
             </div>
+            <p
+              class="MuiTypography-root sc-AykKJ cQbbJi sc-fzXfLP ePYyeJ MuiTypography-body1"
+              customvariant="body2"
+            >
+              Your review must be at least 50 characters
+            </p>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+          >
+            <p
+              class="MuiTypography-root sc-AykKJ kEPpwY sc-fzXfLO jEaXPj MuiTypography-body1"
+              customvariant="body1"
+            >
+              Overall rating
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <span
+              class="MuiRating-root sc-AykKH leYRC"
+            >
+              <label
+                class="MuiRating-label"
+                for="app-rating-1"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-1"
+                name="app-rating"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-2"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-2"
+                name="app-rating"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-3"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-3"
+                name="app-rating"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-4"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-4"
+                name="app-rating"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-5"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-5"
+                name="app-rating"
+                type="radio"
+                value="5"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-flex-end"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKI evYzjc MuiButton-containedPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Submit
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
           </div>
         </div>
       </div>
