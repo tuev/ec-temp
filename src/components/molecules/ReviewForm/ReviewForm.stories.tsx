@@ -16,12 +16,6 @@ export default {
 
 export const basic = () => (
   <div>
-    <ReviewForm
-      id="123"
-      authorId="01"
-      authorName="dai"
-      authorRating={2}
-      authorOpinion="opinion"
-    />
+    <ReviewForm />
   </div>
 )
