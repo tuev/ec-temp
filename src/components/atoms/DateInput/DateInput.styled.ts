@@ -5,9 +5,9 @@ import { BaseDateInputProps } from './DateInput.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { TextField } from '@material-ui/core'
 
-export const AppDateInput: React.FC<BaseDateInputProps> = styled(TextField) <
+export const AppDateInput: React.FC<BaseDateInputProps> = styled(TextField)<
   BaseDateInputProps
-  >`
+>`
   ${space}
 `
 
