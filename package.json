@@ -102,7 +102,7 @@
     "git-cz": "^3.3.0",
     "husky": "~3.1.0",
     "jest-styled-components": "~6.3.4",
-    "lint-staged": "~9.5.0",
+    "lint-staged": "~10.0.7",
     "node-sass": "~4.13.0",
     "nyc": "^14.1.1",
     "prettier": "~1.19.1",
