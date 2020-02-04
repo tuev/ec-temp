@@ -20,6 +20,13 @@ export interface IReviewFilterData {
   [key: string]: string | number
 }
 
+export interface IReviewDirty {
+  nickname: boolean
+  reviewText: boolean
+  rating: boolean
+  [key: string]: boolean
+}
+
 export interface IReviewValidatorRule {
   func(value: string): boolean
   error: string
@@ -44,4 +51,5 @@ export interface IReviewHookForm {
   values: IReviewFilterData
   errors: IReviewFilterData
   disable: boolean
+  dirty: IReviewDirty
 }

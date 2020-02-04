@@ -5,6 +5,7 @@ import {
   IReviewForm,
   IReviewFilterData,
   IReviewHookForm,
+  IReviewDirty,
 } from './ReviewForm.types'
 
 const VALUE = 'value'
@@ -40,6 +41,13 @@ function getPropValues(
   }, {} as IReviewFilterData)
 }
 
+function getDirtyState(stateSchema: IReviewForm): IReviewDirty {
+  return Object.keys(stateSchema).reduce((accumulator, curr) => {
+    accumulator[curr] = false
+    return accumulator
+  }, {} as IReviewDirty)
+}
+
 /**
  * Custom hooks to validate your Form...
  *
@@ -57,6 +65,7 @@ const useForm = (
 
   const [values, setValues] = useState(getPropValues(state, VALUE))
   const [errors, setErrors] = useState(getPropValues(state, ERROR))
+  const [dirty, setDirty] = useState(getDirtyState(state))
 
   const [disable, setDisable] = useState(true)
   const [isDirty, setIsDirty] = useState(false)
@@ -115,6 +124,17 @@ const useForm = (
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDirty, errors])
 
+  const commonChange = useCallback(
+    (name: string, value: string | number): void => {
+      const error = validateFormFields(name, value)
+
+      setValues(prevState => ({ ...prevState, [name]: value }))
+      setErrors(prevState => ({ ...prevState, [name]: error }))
+      setDirty(prevState => ({ ...prevState, [name]: true }))
+    },
+    [validateFormFields]
+  )
+
   const handleOnChange = useCallback(
     event => {
       setIsDirty(true)
@@ -122,12 +142,9 @@ const useForm = (
       const name = event.target.name
       const value = event.target.value
 
-      const error = validateFormFields(name, value)
-
-      setValues(prevState => ({ ...prevState, [name]: value }))
-      setErrors(prevState => ({ ...prevState, [name]: error }))
+      commonChange(name, value)
     },
-    [validateFormFields]
+    [commonChange]
   )
 
   const handleOnRating = useCallback(
@@ -136,12 +153,9 @@ const useForm = (
       const name = 'rating'
       const value = event.target.value
 
-      const error = validateFormFields(name, value)
-
-      setValues(prevState => ({ ...prevState, [name]: value }))
-      setErrors(prevState => ({ ...prevState, [name]: error }))
+      commonChange(name, value)
     },
-    [validateFormFields]
+    [commonChange]
   )
 
   const handleOnSubmit = useCallback(() => {
@@ -157,6 +171,7 @@ const useForm = (
     values,
     errors,
     disable,
+    dirty,
   }
 }
 

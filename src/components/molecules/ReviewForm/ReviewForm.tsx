@@ -40,7 +40,7 @@ const ReviewForm: FC = () => {
     rating: {
       required: true,
       validator: {
-        func: (value: string): boolean => Number(value) >= 0,
+        func: (value: string): boolean => Number(value) > 0,
         error: 'Rating must be greater 0.',
       },
     },
@@ -57,6 +57,7 @@ const ReviewForm: FC = () => {
     handleOnRating,
     // handleOnSubmit,
     disable,
+    dirty,
   } = useForm(stateReview, stateValidatorSchema, onSubmitForm)
 
   const { nickname, reviewText, rating } = values
@@ -73,7 +74,7 @@ const ReviewForm: FC = () => {
               name="nickname"
               value={nickname}
               onChange={handleOnChange}
-              error={Boolean(errors.nickname)}
+              error={Boolean(errors.nickname) && dirty.nickname}
             />
           </Grid>
         </Grid>
@@ -90,7 +91,7 @@ const ReviewForm: FC = () => {
               name="reviewText"
               onChange={handleOnChange}
               value={reviewText}
-              error={Boolean(errors.reviewText)}
+              error={Boolean(errors.reviewText) && dirty.reviewText}
             />
             <Warning customvariant="body2">
               Your review must be at least 50 characters
