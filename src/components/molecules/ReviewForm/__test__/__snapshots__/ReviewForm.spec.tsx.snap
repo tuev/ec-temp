@@ -80,10 +80,10 @@ Object {
                 class="MuiFormControl-root MuiTextField-root "
               >
                 <div
-                  class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-formControl"
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
                 >
                   <input
-                    aria-invalid="true"
+                    aria-invalid="false"
                     class="MuiInputBase-input MuiOutlinedInput-input"
                     name="nickname"
                     type="text"
@@ -128,10 +128,10 @@ Object {
                 class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
               >
                 <div
-                  class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                 >
                   <textarea
-                    aria-invalid="true"
+                    aria-invalid="false"
                     class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
                     name="reviewText"
                     rows="4"
@@ -397,10 +397,10 @@ Object {
               class="MuiFormControl-root MuiTextField-root sc-AykKE fbCwcn"
             >
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-formControl"
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
               >
                 <input
-                  aria-invalid="true"
+                  aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input"
                   name="nickname"
                   type="text"
@@ -445,10 +445,10 @@ Object {
               class="MuiFormControl-root MuiTextField-root sc-AykKF hjTiPI MuiFormControl-fullWidth"
             >
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
               >
                 <textarea
-                  aria-invalid="true"
+                  aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
                   name="reviewText"
                   rows="4"
