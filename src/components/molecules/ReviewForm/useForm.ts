@@ -99,7 +99,8 @@ const useForm = (
     setStateSchema(stateSchema)
     setDisable(true)
     setInitialErrorState()
-  }, [stateSchema, setInitialErrorState])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const validateErrorState = useCallback(() => {
     return Object.values(errors).some(value => value)
@@ -111,14 +112,28 @@ const useForm = (
     if (isDirty) {
       setDisable(validateErrorState())
     }
-  }, [isDirty, validateErrorState])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isDirty, errors])
 
   const handleOnChange = useCallback(
     event => {
-      console.log(event)
       setIsDirty(true)
 
       const name = event.target.name
+      const value = event.target.value
+
+      const error = validateFormFields(name, value)
+
+      setValues(prevState => ({ ...prevState, [name]: value }))
+      setErrors(prevState => ({ ...prevState, [name]: error }))
+    },
+    [validateFormFields]
+  )
+
+  const handleOnRating = useCallback(
+    event => {
+      setIsDirty(true)
+      const name = 'rating'
       const value = event.target.value
 
       const error = validateFormFields(name, value)
@@ -138,6 +153,7 @@ const useForm = (
   return {
     handleOnChange,
     handleOnSubmit,
+    handleOnRating,
     values,
     errors,
     disable,

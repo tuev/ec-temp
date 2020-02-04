@@ -1,3 +1,5 @@
+import { ChangeEvent } from 'react'
+
 export interface IReviewField {
   value: string | number
   error: string
@@ -14,7 +16,7 @@ export interface IReviewForm {
 export interface IReviewFilterData {
   nickname: string
   reviewText: string
-  rating: number
+  rating: number | string
   [key: string]: string | number
 }
 
@@ -36,8 +38,9 @@ export interface IReviewFormValidator {
 }
 
 export interface IReviewHookForm {
-  handleOnChange(event?: unknown): void
+  handleOnChange(event?: ChangeEvent | object): void
   handleOnSubmit(event?: unknown): void
+  handleOnRating(event: React.FormEvent<HTMLSpanElement>): void
   values: IReviewFilterData
   errors: IReviewFilterData
   disable: boolean

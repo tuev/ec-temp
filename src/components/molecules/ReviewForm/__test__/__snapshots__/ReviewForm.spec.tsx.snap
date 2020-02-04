@@ -80,11 +80,12 @@ Object {
                 class="MuiFormControl-root MuiTextField-root "
               >
                 <div
-                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                  class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-formControl"
                 >
                   <input
-                    aria-invalid="false"
+                    aria-invalid="true"
                     class="MuiInputBase-input MuiOutlinedInput-input"
+                    name="nickname"
                     type="text"
                     value=""
                   />
@@ -127,11 +128,12 @@ Object {
                 class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
               >
                 <div
-                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                  class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                 >
                   <textarea
-                    aria-invalid="false"
+                    aria-invalid="true"
                     class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                    name="reviewText"
                     rows="4"
                   />
                   <fieldset
@@ -347,8 +349,9 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-contained c6 MuiButton-containedPrimary"
-                tabindex="0"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained c6 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                disabled=""
+                tabindex="-1"
                 type="button"
               >
                 <span
@@ -356,9 +359,6 @@ Object {
                 >
                   Submit
                 </span>
-                <span
-                  class="MuiTouchRipple-root"
-                />
               </button>
             </div>
           </div>
@@ -397,11 +397,12 @@ Object {
               class="MuiFormControl-root MuiTextField-root sc-AykKE fbCwcn"
             >
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-formControl"
               >
                 <input
-                  aria-invalid="false"
+                  aria-invalid="true"
                   class="MuiInputBase-input MuiOutlinedInput-input"
+                  name="nickname"
                   type="text"
                   value=""
                 />
@@ -444,11 +445,12 @@ Object {
               class="MuiFormControl-root MuiTextField-root sc-AykKF hjTiPI MuiFormControl-fullWidth"
             >
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
               >
                 <textarea
-                  aria-invalid="false"
+                  aria-invalid="true"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                  name="reviewText"
                   rows="4"
                 />
                 <fieldset
@@ -664,8 +666,9 @@ Object {
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKI evYzjc MuiButton-containedPrimary"
-              tabindex="0"
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKI evYzjc MuiButton-containedPrimary Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
               type="button"
             >
               <span
@@ -673,9 +676,6 @@ Object {
               >
                 Submit
               </span>
-              <span
-                class="MuiTouchRipple-root"
-              />
             </button>
           </div>
         </div>
