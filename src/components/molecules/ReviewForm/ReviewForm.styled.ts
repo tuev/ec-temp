@@ -14,6 +14,6 @@ export const Text = styled(Typography)`
   font-weight: 600;
 `
 
-export const Warning = styled(Typography)`
-  color: ${COLOR.black2};
+export const Error = styled(Typography)`
+  color: ${COLOR.red};
 `

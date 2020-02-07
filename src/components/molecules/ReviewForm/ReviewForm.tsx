@@ -12,14 +12,14 @@ import {
 } from './ReviewForm.types'
 import { Grid } from '@material-ui/core'
 import { Input, TextArea, Rating, Button } from '../../atoms'
-import { Title, Text, Warning } from './ReviewForm.styled'
+import { Title, Text, Warning, Error } from './ReviewForm.styled'
 import useForm from './useForm'
 
 const ReviewForm: FC = () => {
   const stateReview: IReviewForm = {
-    nickname: { value: '', error: '' },
-    reviewText: { value: '', error: '' },
-    rating: { value: 0, error: '' },
+    nickname: { value: '', dirty: false },
+    reviewText: { value: '', dirty: false },
+    rating: { value: 0, dirty: false },
   }
 
   const stateValidatorSchema: IReviewFormValidator = {
@@ -51,16 +51,14 @@ const ReviewForm: FC = () => {
   }
 
   const {
-    values,
-    errors,
+    state,
     handleOnChange,
     handleOnRating,
     // handleOnSubmit,
     disable,
-    dirty,
   } = useForm(stateReview, stateValidatorSchema, onSubmitForm)
 
-  const { nickname, reviewText, rating } = values
+  const { nickname, reviewText, rating } = state
   return (
     <div>
       <Title customvariant="header2">Add a review</Title>
@@ -72,10 +70,13 @@ const ReviewForm: FC = () => {
           <Grid item xs={12} md={9}>
             <Input
               name="nickname"
-              value={nickname}
+              value={nickname.value}
               onChange={handleOnChange}
-              error={Boolean(errors.nickname) && dirty.nickname}
+              error={Boolean(nickname.error) && nickname.dirty}
             />
+            {Boolean(nickname.error) && nickname.dirty && (
+              <Error customvariant="body2">{nickname.error}</Error>
+            )}
           </Grid>
         </Grid>
 
@@ -90,12 +91,12 @@ const ReviewForm: FC = () => {
               fullWidth
               name="reviewText"
               onChange={handleOnChange}
-              value={reviewText}
-              error={Boolean(errors.reviewText) && dirty.reviewText}
+              value={reviewText.value}
+              error={Boolean(reviewText.error) && reviewText.dirty}
             />
-            <Warning customvariant="body2">
-              Your review must be at least 50 characters
-            </Warning>
+            {Boolean(reviewText.error) && reviewText.dirty && (
+              <Error customvariant="body2">{reviewText.error}</Error>
+            )}
           </Grid>
         </Grid>
 
@@ -104,7 +105,7 @@ const ReviewForm: FC = () => {
             <Text customvariant="body1">Overall rating</Text>
           </Grid>
           <Grid item xs={12} md={9}>
-            <Rating value={Number(rating)} onInput={handleOnRating} />
+            <Rating value={Number(rating.value)} onInput={handleOnRating} />
           </Grid>
         </Grid>
 

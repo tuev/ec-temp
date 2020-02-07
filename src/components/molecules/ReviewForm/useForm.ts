@@ -1,15 +1,18 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useReducer } from 'react'
 import {
   IReviewFormValidator,
   IReviewValidatorRule,
-  IReviewForm,
-  IReviewFilterData,
   IReviewHookForm,
-  IReviewDirty,
+  ReviewFormReducer,
+  ValidationFormFields,
 } from './ReviewForm.types'
 
+const REVIEW_FORM_CHANGE_VALUE = 'REVIEW_FORM_CHANGE_VALUE'
+const REVIEW_FORM_CHANGE_ERROR = 'REVIEW_FORM_CHANGE_ERROR'
+const REVIEW_FORM_TOGGLE_DIRTY = 'REVIEW_FORM_TOGGLE_DIRTY'
 const VALUE = 'value'
 const ERROR = 'error'
+const DIRTY = 'dirty'
 const REQUIRED_FIELD_ERROR = 'This is required field'
 
 /**
@@ -31,57 +34,56 @@ function isRequired(value: unknown, isRequired?: boolean): string {
   return ''
 }
 
-function getPropValues(
-  stateSchema: IReviewForm,
-  prop: string
-): IReviewFilterData {
-  return Object.keys(stateSchema).reduce((accumulator, curr) => {
-    accumulator[curr] = !prop ? '' : stateSchema[curr][prop]
-    return accumulator
-  }, {} as IReviewFilterData)
+const reducer: ReviewFormReducer = (initState, action) => {
+  switch (action.type) {
+    case REVIEW_FORM_CHANGE_VALUE:
+      return {
+        ...initState,
+        [action.payload.name]: {
+          ...initState[action.payload.name],
+          [VALUE]: action.payload.data,
+        },
+      }
+    case REVIEW_FORM_CHANGE_ERROR:
+      return {
+        ...initState,
+        [action.payload.name]: {
+          ...initState[action.payload.name],
+          [ERROR]: action.payload.error,
+        },
+      }
+    case REVIEW_FORM_TOGGLE_DIRTY:
+      return {
+        ...initState,
+        [action.payload.name]: {
+          ...initState[action.payload.name],
+          [DIRTY]: true,
+        },
+      }
+    default:
+      return initState
+  }
 }
 
-function getDirtyState(stateSchema: IReviewForm): IReviewDirty {
-  return Object.keys(stateSchema).reduce((accumulator, curr) => {
-    accumulator[curr] = false
-    return accumulator
-  }, {} as IReviewDirty)
-}
-
-/**
- * Custom hooks to validate your Form...
- *
- * @param {object} stateSchema model you stateSchema.
- * @param {object} stateValidatorSchema model your validation.
- * @param {function} submitFormCallback function to be execute during form submission.
- */
-
-const useForm = (
-  stateSchema: IReviewForm,
-  stateValidatorSchema: IReviewFormValidator,
-  submitFormCallback: Function
-): IReviewHookForm => {
-  const [state, setStateSchema] = useState(stateSchema)
-
-  const [values, setValues] = useState(getPropValues(state, VALUE))
-  const [errors, setErrors] = useState(getPropValues(state, ERROR))
-  const [dirty, setDirty] = useState(getDirtyState(state))
-
+const useForm: IReviewHookForm = (
+  stateSchema,
+  stateValidatorSchema,
+  submitFormCallback
+) => {
+  const store = { ...stateSchema }
   const [disable, setDisable] = useState(true)
   const [isDirty, setIsDirty] = useState(false)
 
-  const validateFormFields = useCallback(
-    (name: string, value: string | number) => {
+  const validateFormFields: ValidationFormFields = useCallback(
+    (name, value) => {
       const validator: IReviewFormValidator = stateValidatorSchema
-      if (!validator[name]) return ''
-
       const field = validator[name]
-
-      let error: string | number = ''
-      error = isRequired(value, field.required)
-
+      let error = ''
       const fieldValidator: IReviewValidatorRule | undefined =
         field['validator']
+
+      error = isRequired(value, field.required)
+
       if (fieldValidator && isObject(fieldValidator) && error === '') {
         // Test the function callback if the value is meet the criteria
         const validateInput: Function = fieldValidator['func']
@@ -96,24 +98,21 @@ const useForm = (
   )
 
   const setInitialErrorState = useCallback(() => {
-    Object.keys(errors).map(name => {
-      setErrors(prevState => ({
-        ...prevState,
-        [name]: validateFormFields(name, values[name]),
-      }))
+    Object.keys(store).map(name => {
+      store[name][ERROR] = validateFormFields(name, store[name][VALUE])
     })
-  }, [errors, values, validateFormFields])
+  }, [store, validateFormFields])
 
   useEffect(() => {
-    setStateSchema(stateSchema)
     setDisable(true)
     setInitialErrorState()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  const [state, dispatch] = useReducer(reducer, store)
   const validateErrorState = useCallback(() => {
-    return Object.values(errors).some(value => value)
-  }, [errors])
+    return Object.values(state).some(field => field.error)
+  }, [state])
 
   // For every changed in our state this will be fired
   // To be able to disable the button
@@ -121,57 +120,68 @@ const useForm = (
     if (isDirty) {
       setDisable(validateErrorState())
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isDirty, errors])
+  }, [isDirty, validateErrorState])
 
-  const commonChange = useCallback(
-    (name: string, value: string | number): void => {
+  const updateInput = useCallback(
+    (name, value) => {
+      setIsDirty(true)
       const error = validateFormFields(name, value)
+      dispatch({
+        type: REVIEW_FORM_CHANGE_VALUE,
+        payload: {
+          name,
+          data: value,
+        },
+      })
 
-      setValues(prevState => ({ ...prevState, [name]: value }))
-      setErrors(prevState => ({ ...prevState, [name]: error }))
-      setDirty(prevState => ({ ...prevState, [name]: true }))
+      dispatch({
+        type: REVIEW_FORM_CHANGE_ERROR,
+        payload: {
+          name,
+          error,
+        },
+      })
+
+      dispatch({
+        type: REVIEW_FORM_TOGGLE_DIRTY,
+        payload: {
+          name,
+        },
+      })
     },
     [validateFormFields]
   )
 
   const handleOnChange = useCallback(
     event => {
-      setIsDirty(true)
-
       const name = event.target.name
       const value = event.target.value
-
-      commonChange(name, value)
+      updateInput(name, value)
     },
-    [commonChange]
+    [updateInput]
   )
 
   const handleOnRating = useCallback(
     event => {
-      setIsDirty(true)
       const name = 'rating'
       const value = event.target.value
-
-      commonChange(name, value)
+      updateInput(name, value)
     },
-    [commonChange]
+    [updateInput]
   )
 
   const handleOnSubmit = useCallback(() => {
     if (!validateErrorState()) {
-      submitFormCallback(values)
+      submitFormCallback(state)
     }
-  }, [validateErrorState, submitFormCallback, values])
+  }, [state, validateErrorState, submitFormCallback])
 
   return {
     handleOnChange,
     handleOnSubmit,
     handleOnRating,
-    values,
-    errors,
+    state,
     disable,
-    dirty,
   }
 }
 

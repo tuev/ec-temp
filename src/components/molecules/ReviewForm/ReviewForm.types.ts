@@ -1,9 +1,9 @@
 import { ChangeEvent } from 'react'
 
 export interface IReviewField {
-  value: string | number
-  error: string
-  [key: string]: string | number
+  value?: string | number
+  error?: string
+  dirty: boolean
 }
 
 export interface IReviewForm {
@@ -44,12 +44,33 @@ export interface IReviewFormValidator {
   [key: string]: IReviewFieldValidator
 }
 
-export interface IReviewHookForm {
-  handleOnChange(event?: ChangeEvent | object): void
+export type IReviewHookForm = (
+  stateSchema: IReviewForm,
+  stateValidatorSchema: IReviewFormValidator,
+  submitFormCallback: Function
+) => {
+  handleOnChange(event?: ChangeEvent): void
   handleOnSubmit(event?: unknown): void
   handleOnRating(event: React.FormEvent<HTMLSpanElement>): void
-  values: IReviewFilterData
-  errors: IReviewFilterData
+  state: IReviewForm
   disable: boolean
-  dirty: IReviewDirty
 }
+
+export interface IReviewAction {
+  type: string
+  payload: {
+    name: string
+    data?: string | number
+    error?: string
+  }
+}
+
+export type ReviewFormReducer = (
+  initState: IReviewForm,
+  action: IReviewAction
+) => IReviewForm
+
+export type ValidationFormFields = (
+  name: string,
+  value?: string | number
+) => string | undefined
