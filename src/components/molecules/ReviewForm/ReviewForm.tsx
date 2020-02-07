@@ -8,11 +8,11 @@ import React, { FC } from 'react'
 import {
   IReviewForm,
   IReviewFormValidator,
-  IReviewFilterData,
+  ISubmittedData,
 } from './ReviewForm.types'
 import { Grid } from '@material-ui/core'
 import { Input, TextArea, Rating, Button } from '../../atoms'
-import { Title, Text, Warning, Error } from './ReviewForm.styled'
+import { Title, Text, Error } from './ReviewForm.styled'
 import useForm from './useForm'
 
 const ReviewForm: FC = () => {
@@ -46,15 +46,16 @@ const ReviewForm: FC = () => {
     },
   }
 
-  const onSubmitForm = (values: IReviewFilterData): void => {
-    console.log(values)
+  const onSubmitForm = (data: ISubmittedData): void => {
+    const value = data
+    console.log(value)
   }
 
   const {
     state,
     handleOnChange,
     handleOnRating,
-    // handleOnSubmit,
+    handleOnSubmit,
     disable,
   } = useForm(stateReview, stateValidatorSchema, onSubmitForm)
 
@@ -62,12 +63,12 @@ const ReviewForm: FC = () => {
   return (
     <div>
       <Title customvariant="header2">Add a review</Title>
-      <Grid container spacing={3}>
-        <Grid container item alignItems="center">
-          <Grid item xs={12} md={3}>
+      <Grid container={true} spacing={3}>
+        <Grid container={true} item={true} alignItems="center">
+          <Grid item={true} xs={12} md={3}>
             <Text customvariant="body1">Choose a nickname</Text>
           </Grid>
-          <Grid item xs={12} md={9}>
+          <Grid item={true} xs={12} md={9}>
             <Input
               name="nickname"
               value={nickname.value}
@@ -80,15 +81,15 @@ const ReviewForm: FC = () => {
           </Grid>
         </Grid>
 
-        <Grid container item>
-          <Grid item xs={12} md={3}>
+        <Grid container={true} item={true}>
+          <Grid item={true} xs={12} md={3}>
             <Text pt={10} customvariant="body1">
               Your review
             </Text>
           </Grid>
-          <Grid item xs={12} md={9}>
+          <Grid item={true} xs={12} md={9}>
             <TextArea
-              fullWidth
+              fullWidth={true}
               name="reviewText"
               onChange={handleOnChange}
               value={reviewText.value}
@@ -100,22 +101,23 @@ const ReviewForm: FC = () => {
           </Grid>
         </Grid>
 
-        <Grid container item alignItems="center">
-          <Grid item xs={12} md={3}>
+        <Grid container={true} item={true} alignItems="center">
+          <Grid item={true} xs={12} md={3}>
             <Text customvariant="body1">Overall rating</Text>
           </Grid>
-          <Grid item xs={12} md={9}>
+          <Grid item={true} xs={12} md={9}>
             <Rating value={Number(rating.value)} onInput={handleOnRating} />
           </Grid>
         </Grid>
 
-        <Grid container item justify="flex-end">
-          <Grid item xs={12} md={9}>
+        <Grid container={true} item={true} justify="flex-end">
+          <Grid item={true} xs={12} md={9}>
             <Button
               size="medium"
               color="primary"
               variant="contained"
               disabled={disable}
+              onClick={handleOnSubmit}
             >
               Submit
             </Button>

@@ -12,23 +12,8 @@ export interface IReviewForm {
   rating: IReviewField
   [key: string]: IReviewField
 }
-
-export interface IReviewFilterData {
-  nickname: string
-  reviewText: string
-  rating: number | string
-  [key: string]: string | number
-}
-
-export interface IReviewDirty {
-  nickname: boolean
-  reviewText: boolean
-  rating: boolean
-  [key: string]: boolean
-}
-
 export interface IReviewValidatorRule {
-  func(value: string): boolean
+  func(value?: string | number): boolean
   error: string
   [key: number]: string | boolean
 }
@@ -47,15 +32,16 @@ export interface IReviewFormValidator {
 export type IReviewHookForm = (
   stateSchema: IReviewForm,
   stateValidatorSchema: IReviewFormValidator,
-  submitFormCallback: Function
+  submitFormCallback: (data: ISubmittedData) => void
 ) => {
   handleOnChange(event?: ChangeEvent): void
-  handleOnSubmit(event?: unknown): void
+  handleOnSubmit(
+    event?: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ): void | undefined
   handleOnRating(event: React.FormEvent<HTMLSpanElement>): void
   state: IReviewForm
   disable: boolean
 }
-
 export interface IReviewAction {
   type: string
   payload: {
@@ -74,3 +60,10 @@ export type ValidationFormFields = (
   name: string,
   value?: string | number
 ) => string | undefined
+
+export interface ISubmittedData {
+  nickname: string
+  reviewText: string
+  rating: number
+  [key: string]: string | number | undefined
+}

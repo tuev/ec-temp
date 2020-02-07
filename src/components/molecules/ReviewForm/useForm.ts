@@ -5,6 +5,7 @@ import {
   IReviewHookForm,
   ReviewFormReducer,
   ValidationFormFields,
+  ISubmittedData,
 } from './ReviewForm.types'
 
 const REVIEW_FORM_CHANGE_VALUE = 'REVIEW_FORM_CHANGE_VALUE'
@@ -29,8 +30,8 @@ function isObject(value: IReviewValidatorRule | undefined): boolean {
  * @param {string} value
  * @param {boolean} isRequired
  */
-function isRequired(value: unknown, isRequired?: boolean): string {
-  if (!value && isRequired) return REQUIRED_FIELD_ERROR
+function isRequired(value: unknown, checkRequired?: boolean): string {
+  if (!value && checkRequired) return REQUIRED_FIELD_ERROR
   return ''
 }
 
@@ -79,16 +80,14 @@ const useForm: IReviewHookForm = (
       const validator: IReviewFormValidator = stateValidatorSchema
       const field = validator[name]
       let error = ''
-      const fieldValidator: IReviewValidatorRule | undefined =
-        field['validator']
+      const fieldValidator: IReviewValidatorRule | undefined = field.validator
 
       error = isRequired(value, field.required)
 
       if (fieldValidator && isObject(fieldValidator) && error === '') {
         // Test the function callback if the value is meet the criteria
-        const validateInput: Function = fieldValidator['func']
-        if (!validateInput(value)) {
-          error = fieldValidator['error']
+        if (!fieldValidator.func(value)) {
+          error = fieldValidator.error
         }
       }
 
@@ -172,7 +171,14 @@ const useForm: IReviewHookForm = (
 
   const handleOnSubmit = useCallback(() => {
     if (!validateErrorState()) {
-      submitFormCallback(state)
+      const submitedData: ISubmittedData = Object.keys(state).reduce(
+        (accumulator, key) => {
+          accumulator[key] = state[key][VALUE]
+          return accumulator
+        },
+        ({} as unknown) as ISubmittedData
+      )
+      submitFormCallback(submitedData)
     }
   }, [state, validateErrorState, submitFormCallback])
 
