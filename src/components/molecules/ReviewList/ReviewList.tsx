@@ -9,9 +9,9 @@ import { Title, Text } from '../ReviewForm/ReviewForm.styled'
 import { Grid } from '@material-ui/core'
 import { Rating, Typography, BlogIcon } from 'components/atoms'
 import { ReviewListWrapper, ReviewListRow, Warning } from './ReviewList.styled'
-import { BaseReviewListProps } from './ReviewList.types'
+import { IReviewList } from './ReviewList.types'
 
-const ReviewList: FC<BaseReviewListProps> = (props: BaseReviewListProps) => {
+const ReviewList: FC<IReviewList> = props => {
   const { list } = props
   return (
     <ReviewListWrapper>

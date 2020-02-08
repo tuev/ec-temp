@@ -62,7 +62,9 @@ const ReviewForm: FC = () => {
   const { nickname, reviewText, rating } = state
   return (
     <div>
-      <Title customvariant="header2">Add a review</Title>
+      <Title customvariant="header2" mb={4}>
+        Add a review
+      </Title>
       <Grid container={true} spacing={3}>
         <Grid container={true} item={true} alignItems="center">
           <Grid item={true} xs={12} md={3}>

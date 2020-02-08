@@ -13,6 +13,4 @@ export interface IReviewList {
   list?: IReviewItem[]
 }
 
-export type BaseReviewListProps = IReviewList
-
 export type BaseReviewRowProps = SpaceProps

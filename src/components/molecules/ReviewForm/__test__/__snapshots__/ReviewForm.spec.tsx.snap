@@ -11,6 +11,7 @@ Object {
 }
 
 .c0 {
+  margin-bottom: 32px;
   font-size: 24px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -43,6 +44,7 @@ Object {
         <p
           class="MuiTypography-root c0 MuiTypography-body1"
           customvariant="header2"
+          mb="4"
         >
           Add a review
         </p>
@@ -352,8 +354,9 @@ Object {
   "container": <div>
     <div>
       <p
-        class="MuiTypography-root sc-AykKJ bXFeGJ sc-AykKK gcTcIC MuiTypography-body1"
+        class="MuiTypography-root sc-AykKJ khvmKv sc-AykKK gcTcIC MuiTypography-body1"
         customvariant="header2"
+        mb="4"
       >
         Add a review
       </p>
