@@ -108,7 +108,11 @@ const ReviewForm: FC = () => {
             <Text customvariant="body1">Overall rating</Text>
           </Grid>
           <Grid item={true} xs={12} md={9}>
-            <Rating value={Number(rating.value)} onInput={handleOnRating} />
+            <Rating
+              name="rating"
+              value={Number(rating.value)}
+              onInput={handleOnRating}
+            />
           </Grid>
         </Grid>
 
