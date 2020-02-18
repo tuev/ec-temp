@@ -15,42 +15,42 @@ import { Input, TextArea, Rating, Button } from '../../atoms'
 import { Title, Text, Error } from './ReviewForm.styled'
 import useForm from './useForm'
 
+export const stateReview: IReviewForm = {
+  nickname: { value: '', dirty: false },
+  reviewText: { value: '', dirty: false },
+  rating: { value: 0, dirty: false },
+}
+
+export const stateValidatorSchema: IReviewFormValidator = {
+  nickname: {
+    required: true,
+    validator: {
+      func: (value: string): boolean => /^[a-zA-Z]+$/.test(value),
+      error: 'Invalid first name format.',
+    },
+  },
+  reviewText: {
+    required: true,
+    validator: {
+      func: (value: string): boolean => value.length > 50,
+      error: 'Review must be at least 50 characters.',
+    },
+  },
+  rating: {
+    required: true,
+    validator: {
+      func: (value: string): boolean => Number(value) > 0,
+      error: 'Rating must be greater 0.',
+    },
+  },
+}
+
+export const onSubmitForm = (data: ISubmittedData): void => {
+  const value = data
+  console.log(value)
+}
+
 const ReviewForm: FC = () => {
-  const stateReview: IReviewForm = {
-    nickname: { value: '', dirty: false },
-    reviewText: { value: '', dirty: false },
-    rating: { value: 0, dirty: false },
-  }
-
-  const stateValidatorSchema: IReviewFormValidator = {
-    nickname: {
-      required: true,
-      validator: {
-        func: (value: string): boolean => /^[a-zA-Z]+$/.test(value),
-        error: 'Invalid first name format.',
-      },
-    },
-    reviewText: {
-      required: true,
-      validator: {
-        func: (value: string): boolean => value.length > 50,
-        error: 'Review must be at least 50 characters.',
-      },
-    },
-    rating: {
-      required: true,
-      validator: {
-        func: (value: string): boolean => Number(value) > 0,
-        error: 'Rating must be greater 0.',
-      },
-    },
-  }
-
-  const onSubmitForm = (data: ISubmittedData): void => {
-    const value = data
-    console.log(value)
-  }
-
   const {
     state,
     handleOnChange,
@@ -65,18 +65,20 @@ const ReviewForm: FC = () => {
       <Title customvariant="header2" mb={4}>
         Add a review
       </Title>
-      <Grid container={true} spacing={3}>
+      <Grid container={true} spacing={3} data-testid="form">
         <Grid container={true} item={true} alignItems="center">
           <Grid item={true} xs={12} md={3}>
             <Text customvariant="body1">Choose a nickname</Text>
           </Grid>
           <Grid item={true} xs={12} md={9}>
             <Input
+              inputProps={{ 'data-testid': 'nickname' }}
               name="nickname"
               value={nickname.value}
               onChange={handleOnChange}
               error={Boolean(nickname.error) && nickname.dirty}
             />
+
             {Boolean(nickname.error) && nickname.dirty && (
               <Error customvariant="body2">{nickname.error}</Error>
             )}
@@ -91,6 +93,7 @@ const ReviewForm: FC = () => {
           </Grid>
           <Grid item={true} xs={12} md={9}>
             <TextArea
+              inputProps={{ 'data-testid': 'reviewText' }}
               fullWidth={true}
               name="reviewText"
               onChange={handleOnChange}
@@ -109,6 +112,7 @@ const ReviewForm: FC = () => {
           </Grid>
           <Grid item={true} xs={12} md={9}>
             <Rating
+              data-testid="rating"
               name="rating"
               value={Number(rating.value)}
               onInput={handleOnRating}
@@ -119,6 +123,7 @@ const ReviewForm: FC = () => {
         <Grid container={true} item={true} justify="flex-end">
           <Grid item={true} xs={12} md={9}>
             <Button
+              data-testid="buttonSubmit"
               size="medium"
               color="primary"
               variant="contained"

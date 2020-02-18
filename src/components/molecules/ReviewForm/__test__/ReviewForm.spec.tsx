@@ -6,24 +6,49 @@
 
 import React from 'react'
 
-import { shallow } from 'enzyme'
+import { render, fireEvent, act } from '@testing-library/react'
+import { renderHook } from '@testing-library/react-hooks'
 import ReviewForm from '..'
+import useForm, { REQUIRED_FIELD_ERROR, ERROR } from '../useForm'
+import { stateReview, stateValidatorSchema, onSubmitForm } from '../ReviewForm'
 
-describe('App ReviewForm', () => {
-  let wrapper
-  beforeEach(() => {
-    wrapper = shallow(<ReviewForm />)
+// reference https://www.freecodecamp.org/news/testing-react-hooks/
+// https://react-testing-library-examples.netlify.com/
+
+describe('Test reducer and action', () => {
+  it('should have required error', () => {
+    const newState = { ...stateReview }
+    const {
+      result: {
+        current: { state, disable },
+      },
+    } = renderHook(() => useForm(newState, stateValidatorSchema, onSubmitForm))
+    const transformedState = Object.keys(newState).reduce(
+      (acc, key) => {
+        acc[key][ERROR] = REQUIRED_FIELD_ERROR
+        return acc
+      },
+      { ...newState }
+    )
+    expect(state).toEqual(transformedState)
+    expect(disable).toBeTruthy()
   })
 
-  it('Should enable button submit after validating correctly', () => {
-    const inputNickname = wrapper.find(`[name='nickname']`).at(0)
-    const inputReviewText = wrapper.find(`[name='reviewText']`).at(0)
-    const inputRating = wrapper.find(`[name='app-rating']`).at(0)
-    inputNickname.simulate('change', { target: { value: 'name' } })
-    inputReviewText.simulate('change', {
-      target: { value: 'this is a text 50 characters this is a text 50 char' },
+  it('should enable button submit after validating correctly', async () => {
+    const { container, getByText } = render(<ReviewForm />)
+
+    const nickname = container.querySelector('[data-testid="nickname"]')
+    const reviewComment = container.querySelector('[data-testid="reviewText"')
+    const ratingInput = container
+      .querySelector('[data-testid="rating"')
+      .querySelector('input')
+    const submitButon = getByText('Submit')
+
+    fireEvent.change(nickname, { target: { value: 'test name' } })
+    fireEvent.change(reviewComment, {
+      target: { value: 'test name test name test name test name test name ' },
     })
-    inputRating.simulate('input', { target: { value: 1 } })
-    expect(wrapper.state()).toEqual(false)
+    fireEvent.change(ratingInput, { target: { value: 2 } })
+    fireEvent.click(submitButon)
   })
 })

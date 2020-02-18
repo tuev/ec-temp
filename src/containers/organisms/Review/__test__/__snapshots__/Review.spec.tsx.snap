@@ -78,6 +78,7 @@ Object {
           </p>
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+            data-testid="form"
           >
             <div
               class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
@@ -104,6 +105,7 @@ Object {
                     <input
                       aria-invalid="false"
                       class="MuiInputBase-input MuiOutlinedInput-input"
+                      data-testid="nickname"
                       name="nickname"
                       type="text"
                       value=""
@@ -152,6 +154,7 @@ Object {
                     <textarea
                       aria-invalid="false"
                       class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                      data-testid="reviewText"
                       name="reviewText"
                       rows="4"
                     />
@@ -191,6 +194,7 @@ Object {
               >
                 <span
                   class="MuiRating-root "
+                  data-testid="rating"
                 >
                   <label
                     class="MuiRating-label"
@@ -363,6 +367,7 @@ Object {
               >
                 <button
                   class="MuiButtonBase-root MuiButton-root MuiButton-contained c6 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                  data-testid="buttonSubmit"
                   disabled=""
                   tabindex="-1"
                   type="button"
@@ -408,6 +413,7 @@ Object {
         </p>
         <div
           class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+          data-testid="form"
         >
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
@@ -434,6 +440,7 @@ Object {
                   <input
                     aria-invalid="false"
                     class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="nickname"
                     name="nickname"
                     type="text"
                     value=""
@@ -482,6 +489,7 @@ Object {
                   <textarea
                     aria-invalid="false"
                     class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                    data-testid="reviewText"
                     name="reviewText"
                     rows="4"
                   />
@@ -521,6 +529,7 @@ Object {
             >
               <span
                 class="MuiRating-root sc-AykKH leYRC"
+                data-testid="rating"
               >
                 <label
                   class="MuiRating-label"
@@ -693,6 +702,7 @@ Object {
             >
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKI evYzjc MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                data-testid="buttonSubmit"
                 disabled=""
                 tabindex="-1"
                 type="button"

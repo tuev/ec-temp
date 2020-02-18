@@ -12,9 +12,9 @@ const REVIEW_FORM_CHANGE_VALUE = 'REVIEW_FORM_CHANGE_VALUE'
 const REVIEW_FORM_CHANGE_ERROR = 'REVIEW_FORM_CHANGE_ERROR'
 const REVIEW_FORM_TOGGLE_DIRTY = 'REVIEW_FORM_TOGGLE_DIRTY'
 const VALUE = 'value'
-const ERROR = 'error'
+export const ERROR = 'error'
 const DIRTY = 'dirty'
-const REQUIRED_FIELD_ERROR = 'This is required field'
+export const REQUIRED_FIELD_ERROR = 'This is required field'
 
 /**
  * Determines a value if it's an object
@@ -71,9 +71,9 @@ const useForm: IReviewHookForm = (
   stateValidatorSchema,
   submitFormCallback
 ) => {
-  const store = { ...stateSchema }
   const [disable, setDisable] = useState(true)
   const [isDirty, setIsDirty] = useState(false)
+  const store = { ...stateSchema }
 
   const validateFormFields: ValidationFormFields = useCallback(
     (name, value) => {
@@ -103,7 +103,6 @@ const useForm: IReviewHookForm = (
   }, [store, validateFormFields])
 
   useEffect(() => {
-    setDisable(true)
     setInitialErrorState()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
@@ -113,13 +112,12 @@ const useForm: IReviewHookForm = (
     return Object.values(state).some(field => field.error)
   }, [state])
 
-  // For every changed in our state this will be fired
-  // To be able to disable the button
   useEffect(() => {
     if (isDirty) {
       setDisable(validateErrorState())
     }
-  }, [isDirty, validateErrorState])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const updateInput = useCallback(
     (name, value) => {
@@ -180,7 +178,8 @@ const useForm: IReviewHookForm = (
       )
       submitFormCallback(submitedData)
     }
-  }, [state, validateErrorState, submitFormCallback])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state, submitFormCallback])
 
   return {
     handleOnChange,
