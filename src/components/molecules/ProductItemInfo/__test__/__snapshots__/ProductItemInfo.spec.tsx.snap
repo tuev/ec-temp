@@ -117,7 +117,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 <body>
@@ -192,7 +192,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzXfLP fmTMkR"
+      class="sc-fzXfLP lhKnYy"
     >
       <div
         class="sc-AykKC cDRqmV"
@@ -430,7 +430,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 <div>
@@ -506,7 +506,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzXfLP fmTMkR"
+      class="sc-fzXfLP lhKnYy"
     >
       <div
         class="sc-AykKC cDRqmV"

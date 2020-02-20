@@ -31,11 +31,11 @@ export const reducer: ProductSelectReducer = (initState, action) => {
 const useProductSelect: ProductSelectHook = initState => {
   const [options, dispatch] = useReducer(reducer, initState)
   const onColorChange = useCallback(
-    (color: ColorType) => dispatch({ type: 'CHANGE_COLOR', payload: color }),
+    (color: ColorType[]) => dispatch({ type: 'CHANGE_COLOR', payload: color }),
     []
   )
   const onSizeChange = useCallback(
-    (size: SIZE_PARAMS) =>
+    (size: SIZE_PARAMS[]) =>
       dispatch({ type: ACTION_TYPE.CHANGE_SIZE, payload: size }),
     []
   )

@@ -19,18 +19,18 @@ export interface IProductImage {
 }
 
 export interface IProductItemBuyState {
-  color: ColorType
-  size: SIZE_PARAMS
+  color: ColorType[]
+  size: SIZE_PARAMS[]
 }
 
 export interface IActionChangeColor {
   type: 'CHANGE_COLOR'
-  value: ColorType
+  value: ColorType[]
 }
 
 export interface IActionChangeSize {
   type: 'CHANGE_SIZE'
-  value: SIZE_PARAMS
+  value: SIZE_PARAMS[]
 }
 
 export type ReducerType = (

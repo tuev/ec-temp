@@ -8,6 +8,9 @@ import React from 'react'
 import { action } from '@storybook/addon-actions'
 import ProductItem from './ProductItem'
 import { Grid } from '@material-ui/core'
+import data from './mock/data.mock'
+import Wrapper from 'components/atoms/Wrapper'
+import GridLayout from 'components/atoms/GridLayout'
 
 export default {
   component: ProductItem,
@@ -16,69 +19,20 @@ export default {
 }
 
 export const basic = () => (
-  <Grid container spacing={2}>
-    <Grid item xs={3}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={3}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={3}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={3}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={4}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={4}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-    <Grid item xs={4}>
-      <ProductItem
-        price="1$"
-        name="name 1"
-        id="1"
-        colors={['green', 'red', 'yellow', 'blue']}
-        sizes={['L', 'M', 'XS', 'S']}
-      />
-    </Grid>
-  </Grid>
+  <GridLayout
+    gridTemplateColumns={{
+      xs: '1fr',
+      sm: 'repeat(2, 1fr)',
+      md: 'repeat(3, 1fr)',
+      lg: 'repeat(4, 1fr)',
+    }}
+    gridColumnGap="8px"
+    gridRowGap="8PX"
+  >
+    {data.map((item, index) => (
+      <Wrapper p="8px">
+        <ProductItem {...item} key={index} />
+      </Wrapper>
+    ))}
+  </GridLayout>
 )

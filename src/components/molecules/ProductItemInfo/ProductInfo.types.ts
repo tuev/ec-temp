@@ -10,6 +10,6 @@ export interface IProductItemInfo {
   name?: string
   price: string
   handleBuy?: HandleProductBuy
+  id?: string
 }
-
 export type ProductItemProps = IProductItemInfo & IProductImageProps

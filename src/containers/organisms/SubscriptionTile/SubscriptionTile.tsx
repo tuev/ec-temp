@@ -45,7 +45,7 @@ const SubscriptionTile: FC<SubscriptionTileProps> = (
       <Typography color="error" customvariant="header2">
         10% discount for your subscription
       </Typography>
-      <Wrapper width={[1, 1 / 2]}>
+      <Wrapper>
         <Typography customvariant="header3" align="center">
           Carry the day in style with this extra-large tote crafted in our chic
           B.B. Collection textured PVC. Featuring coloful faux leather trim,
@@ -54,7 +54,6 @@ const SubscriptionTile: FC<SubscriptionTileProps> = (
       </Wrapper>
       <Wrapper
         mt="1rem"
-        width={[1, 1 / 2]}
         maxWidth="350px"
         display="flex"
         justifyContent="space-around"

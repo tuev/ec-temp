@@ -16,10 +16,7 @@ export interface IPaginationHandler {
 
 export type PaginationWrapperType = LayoutProps & SpaceProps
 
-export type PaginationType = IPaginationSpec &
-  LayoutProps &
-  SpaceProps &
-  IPaginationHandler
+export type PaginationType = IPaginationSpec & IPaginationHandler
 
 // export interface IRangePageParams
 

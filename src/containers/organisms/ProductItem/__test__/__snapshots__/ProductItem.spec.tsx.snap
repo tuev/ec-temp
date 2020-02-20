@@ -162,7 +162,7 @@ Object {
 }
 
 .c2:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c21 {
@@ -684,7 +684,7 @@ Object {
         z-index="2"
       >
         <div
-          class="sc-fzXfLR hIkFlP"
+          class="sc-fzXfLR cnFxAA"
         >
           <div
             class="sc-AykKE lkyZEz"
@@ -756,7 +756,7 @@ Object {
         z-index="0"
       >
         <div
-          class="sc-fzXfLR hIkFlP"
+          class="sc-fzXfLR cnFxAA"
         >
           <div
             class="sc-fzXfLX inUNgw"
@@ -1127,7 +1127,7 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
 +       z-index=\\"0\\"
       >
         <div
-          class=\\"sc-fzXfLR hIkFlP\\"
+          class=\\"sc-fzXfLR cnFxAA\\"
         >
           <div
 @@ -73,15 +73,15 @@
@@ -1145,7 +1145,7 @@ exports[`App ProductItem Test get default ProductItem no params  2`] = `
 +       z-index=\\"2\\"
       >
         <div
-          class=\\"sc-fzXfLR hIkFlP\\"
+          class=\\"sc-fzXfLR cnFxAA\\"
         >
           <div"
 `;
@@ -1175,7 +1175,7 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
 +       z-index=\\"0\\"
       >
         <div
-          class=\\"sc-fzXfLR hIkFlP\\"
+          class=\\"sc-fzXfLR cnFxAA\\"
         >
           <div
 @@ -73,15 +73,15 @@
@@ -1193,7 +1193,7 @@ exports[`App ProductItem Test get default ProductItem no params  4`] = `
 +       z-index=\\"2\\"
       >
         <div
-          class=\\"sc-fzXfLR hIkFlP\\"
+          class=\\"sc-fzXfLR cnFxAA\\"
         >
           <div"
 `;

@@ -13,7 +13,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c2 {
@@ -382,7 +382,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC ejDhQu"
+      class="sc-AykKC ketJEb"
     >
       <div
         class="sc-AykKK ctRQzJ"
@@ -684,7 +684,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c2 {
@@ -1053,7 +1053,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC ejDhQu"
+      class="sc-AykKC ketJEb"
     >
       <div
         class="sc-AykKK ctRQzJ"
@@ -1355,7 +1355,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c2 {
@@ -1724,7 +1724,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC ejDhQu"
+      class="sc-AykKC ketJEb"
     >
       <div
         class="sc-AykKK ctRQzJ"
@@ -2026,7 +2026,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c2 {
@@ -2330,7 +2330,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC ejDhQu"
+      class="sc-AykKC ketJEb"
     >
       <div
         class="sc-AykKK ctRQzJ"
@@ -2585,7 +2585,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 .c2 {
@@ -3018,7 +3018,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC ejDhQu"
+      class="sc-AykKC ketJEb"
     >
       <div
         class="sc-AykKK ctRQzJ"
