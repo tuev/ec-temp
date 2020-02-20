@@ -68,9 +68,13 @@ exports[`Viewmode view mode grid 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -784,9 +788,13 @@ exports[`Viewmode view mode grid checked 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -1500,9 +1508,13 @@ exports[`Viewmode view mode list 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -2246,14 +2258,14 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD ieKWPw"
+      class="sc-AxirZ jfmpxd"
       display="flex"
     >
       <div
-        class="sc-AykKD jcEkqq"
+        class="sc-AxirZ ffPaRv"
       >
         <button
-          class="MuiButtonBase-root MuiFab-root sc-AykKC kRVMhu MuiFab-colorInherit"
+          class="MuiButtonBase-root MuiFab-root sc-AxjAm cCkRWD MuiFab-colorInherit"
           customtype="grid"
           data-testid="viewmode-grid"
           tabindex="0"
@@ -2280,10 +2292,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKD iyJSKT"
+        class="sc-AxirZ grHsPw"
       >
         <button
-          class="MuiButtonBase-root MuiFab-root sc-AykKC kRVMhu MuiFab-primary"
+          class="MuiButtonBase-root MuiFab-root sc-AxjAm cCkRWD MuiFab-primary"
           customtype="list"
           data-testid="viewmode-list"
           tabindex="0"

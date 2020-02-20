@@ -300,21 +300,21 @@ Object {
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
       <div
-        class="sc-AykKC dTYmna"
+        class="sc-AxjAm gLlHxZ"
       >
         <div
-          class="sc-AykKD iYJjQy"
+          class="sc-AxirZ jaYbNF"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           />
         </div>
         <div
-          class="sc-AykKD gCeepA"
+          class="sc-AxirZ iUYekr"
           display="flex"
         />
         <div
-          class="sc-AykKD bXcXqI"
+          class="sc-AxirZ dtpihp"
           display="flex"
           width="1"
         >
@@ -325,16 +325,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   Questions
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <a
@@ -342,7 +342,7 @@ Object {
                     href="/help"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Help
@@ -353,7 +353,7 @@ Object {
                     href="/trackorder"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Track Order
@@ -364,7 +364,7 @@ Object {
                     href="/returns"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Return
@@ -377,16 +377,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   What's in store
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <a
@@ -394,7 +394,7 @@ Object {
                     href="/productlist?category=women"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Women
@@ -405,7 +405,7 @@ Object {
                     href="/productlist?category=men"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Men
@@ -416,7 +416,7 @@ Object {
                     href="/productlist"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Product A to Z
@@ -429,35 +429,35 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   Contact us
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <div
-                    class="sc-AykKD hUuDfI"
+                    class="sc-AxirZ RMStd"
                   >
                     <span
                       animation="1"
-                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
                       customvariant="body1"
                     >
                       Facebook
                     </span>
                   </div>
                   <div
-                    class="sc-AykKD hUuDfI"
+                    class="sc-AxirZ RMStd"
                   >
                     <span
                       animation="1"
-                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
                       customvariant="body1"
                     >
                       Twitter
@@ -470,10 +470,10 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI jHvgQI MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI eWwqcx MuiTypography-body1"
                 >
                   ©2020 shopify
                 </p>
@@ -838,21 +838,21 @@ Object {
       class="MuiContainer-root MuiContainer-maxWidthLg"
     >
       <div
-        class="sc-AykKC dTYmna"
+        class="sc-AxjAm gLlHxZ"
       >
         <div
-          class="sc-AykKD iYJjQy"
+          class="sc-AxirZ jaYbNF"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           />
         </div>
         <div
-          class="sc-AykKD gCeepA"
+          class="sc-AxirZ iUYekr"
           display="flex"
         />
         <div
-          class="sc-AykKD bXcXqI"
+          class="sc-AxirZ dtpihp"
           display="flex"
           width="1"
         >
@@ -863,16 +863,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   Questions
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <a
@@ -880,7 +880,7 @@ Object {
                     href="/help"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Help
@@ -891,7 +891,7 @@ Object {
                     href="/trackorder"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Track Order
@@ -902,7 +902,7 @@ Object {
                     href="/returns"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Return
@@ -915,16 +915,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   What's in store
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <a
@@ -932,7 +932,7 @@ Object {
                     href="/productlist?category=women"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Women
@@ -943,7 +943,7 @@ Object {
                     href="/productlist?category=men"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Men
@@ -954,7 +954,7 @@ Object {
                     href="/productlist"
                   >
                     <span
-                      class="MuiTypography-root sc-AykKI STTgu MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
                       customvariant="body1"
                     >
                       Product A to Z
@@ -967,35 +967,35 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI hbbpLp MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
                   customvariant="header3"
                 >
                   Contact us
                 </p>
                 <div
-                  class="sc-AykKD lbCjE"
+                  class="sc-AxirZ bjVmUn"
                   display="flex"
                 >
                   <div
-                    class="sc-AykKD hUuDfI"
+                    class="sc-AxirZ RMStd"
                   >
                     <span
                       animation="1"
-                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
                       customvariant="body1"
                     >
                       Facebook
                     </span>
                   </div>
                   <div
-                    class="sc-AykKD hUuDfI"
+                    class="sc-AxirZ RMStd"
                   >
                     <span
                       animation="1"
-                      class="MuiTypography-root sc-AykKI fKStGl MuiTypography-overline"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
                       customvariant="body1"
                     >
                       Twitter
@@ -1008,10 +1008,10 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
             >
               <div
-                class="sc-AykKD eWUdDd"
+                class="sc-AxirZ cETLQS"
               >
                 <p
-                  class="MuiTypography-root sc-AykKI jHvgQI MuiTypography-body1"
+                  class="MuiTypography-root sc-AxheI eWwqcx MuiTypography-body1"
                 >
                   ©2020 shopify
                 </p>

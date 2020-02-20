@@ -339,7 +339,7 @@ Object {
     <div>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-19 MuiIconButton-root-10 PrivateSwitchBase-root-6 MuiRadio-root-1 MuiRadio-colorPrimary-4 sc-AykKC ivdywl MuiIconButton-colorPrimary-14"
+        class="MuiButtonBase-root-19 MuiIconButton-root-10 PrivateSwitchBase-root-6 MuiRadio-root-1 MuiRadio-colorPrimary-4 sc-AxjAm kZHdzU MuiIconButton-colorPrimary-14"
         customcolor="blue"
         data-testid="color-filter-blue"
         variant="outer"
@@ -385,7 +385,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-52 MuiIconButton-root-43 PrivateSwitchBase-root-39 MuiRadio-root-34 MuiRadio-colorPrimary-37 sc-AykKC gRRGUc MuiIconButton-colorPrimary-47"
+        class="MuiButtonBase-root-52 MuiIconButton-root-43 PrivateSwitchBase-root-39 MuiRadio-root-34 MuiRadio-colorPrimary-37 sc-AxjAm bHFEcz MuiIconButton-colorPrimary-47"
         customcolor="red"
         data-testid="color-filter-red"
         variant="outer"
@@ -431,7 +431,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-85 MuiIconButton-root-76 PrivateSwitchBase-root-72 MuiRadio-root-67 MuiRadio-colorPrimary-70 sc-AykKC bQqTNS PrivateSwitchBase-checked-73 Mui-checked MuiIconButton-colorPrimary-80"
+        class="MuiButtonBase-root-85 MuiIconButton-root-76 PrivateSwitchBase-root-72 MuiRadio-root-67 MuiRadio-colorPrimary-70 sc-AxjAm kgqFMz PrivateSwitchBase-checked-73 Mui-checked MuiIconButton-colorPrimary-80"
         customcolor="green"
         data-testid="color-filter-green"
         variant="outer"
@@ -478,7 +478,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 sc-AykKC OtVcX MuiIconButton-colorPrimary-113"
+        class="MuiButtonBase-root-118 MuiIconButton-root-109 PrivateSwitchBase-root-105 MuiRadio-root-100 MuiRadio-colorPrimary-103 sc-AxjAm kHXFTM MuiIconButton-colorPrimary-113"
         customcolor="yellow"
         data-testid="color-filter-yellow"
         variant="outer"
@@ -524,7 +524,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-151 MuiIconButton-root-142 PrivateSwitchBase-root-138 MuiRadio-root-133 MuiRadio-colorPrimary-136 sc-AykKC trsDT MuiIconButton-colorPrimary-146"
+        class="MuiButtonBase-root-151 MuiIconButton-root-142 PrivateSwitchBase-root-138 MuiRadio-root-133 MuiRadio-colorPrimary-136 sc-AxjAm kEbSPU MuiIconButton-colorPrimary-146"
         customcolor="black"
         data-testid="color-filter-black"
         variant="outer"
@@ -963,7 +963,7 @@ Object {
     <div>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-528 MuiIconButton-root-519 PrivateSwitchBase-root-515 MuiRadio-root-510 MuiRadio-colorPrimary-513 sc-AykKC hhaPpi PrivateSwitchBase-checked-516 Mui-checked MuiIconButton-colorPrimary-523"
+        class="MuiButtonBase-root-528 MuiIconButton-root-519 PrivateSwitchBase-root-515 MuiRadio-root-510 MuiRadio-colorPrimary-513 sc-AxjAm efcmVh PrivateSwitchBase-checked-516 Mui-checked MuiIconButton-colorPrimary-523"
         customcolor="blue"
         data-testid="color-filter-blue"
         variant="outer"
@@ -1010,7 +1010,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-561 MuiIconButton-root-552 PrivateSwitchBase-root-548 MuiRadio-root-543 MuiRadio-colorPrimary-546 sc-AykKC gRRGUc MuiIconButton-colorPrimary-556"
+        class="MuiButtonBase-root-561 MuiIconButton-root-552 PrivateSwitchBase-root-548 MuiRadio-root-543 MuiRadio-colorPrimary-546 sc-AxjAm bHFEcz MuiIconButton-colorPrimary-556"
         customcolor="red"
         data-testid="color-filter-red"
         variant="outer"
@@ -1056,7 +1056,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-594 MuiIconButton-root-585 PrivateSwitchBase-root-581 MuiRadio-root-576 MuiRadio-colorPrimary-579 sc-AykKC detCUV MuiIconButton-colorPrimary-589"
+        class="MuiButtonBase-root-594 MuiIconButton-root-585 PrivateSwitchBase-root-581 MuiRadio-root-576 MuiRadio-colorPrimary-579 sc-AxjAm hTkEWa MuiIconButton-colorPrimary-589"
         customcolor="green"
         data-testid="color-filter-green"
         variant="outer"
@@ -1102,7 +1102,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-627 MuiIconButton-root-618 PrivateSwitchBase-root-614 MuiRadio-root-609 MuiRadio-colorPrimary-612 sc-AykKC OtVcX MuiIconButton-colorPrimary-622"
+        class="MuiButtonBase-root-627 MuiIconButton-root-618 PrivateSwitchBase-root-614 MuiRadio-root-609 MuiRadio-colorPrimary-612 sc-AxjAm kHXFTM MuiIconButton-colorPrimary-622"
         customcolor="yellow"
         data-testid="color-filter-yellow"
         variant="outer"
@@ -1148,7 +1148,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-660 MuiIconButton-root-651 PrivateSwitchBase-root-647 MuiRadio-root-642 MuiRadio-colorPrimary-645 sc-AykKC trsDT MuiIconButton-colorPrimary-655"
+        class="MuiButtonBase-root-660 MuiIconButton-root-651 PrivateSwitchBase-root-647 MuiRadio-root-642 MuiRadio-colorPrimary-645 sc-AxjAm kEbSPU MuiIconButton-colorPrimary-655"
         customcolor="black"
         data-testid="color-filter-black"
         variant="outer"
@@ -1711,7 +1711,7 @@ Object {
       >
         <span
           aria-disabled="false"
-          class="MuiButtonBase-root-240 MuiIconButton-root-231 PrivateSwitchBase-root-227 MuiRadio-root-222 MuiRadio-colorPrimary-225 sc-AykKC trsDT MuiIconButton-colorPrimary-235"
+          class="MuiButtonBase-root-240 MuiIconButton-root-231 PrivateSwitchBase-root-227 MuiRadio-root-222 MuiRadio-colorPrimary-225 sc-AxjAm kEbSPU MuiIconButton-colorPrimary-235"
           customcolor="black"
           variant="outer"
         >
@@ -1762,7 +1762,7 @@ Object {
       </label>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-303 MuiIconButton-root-294 PrivateSwitchBase-root-290 MuiRadio-root-285 MuiRadio-colorPrimary-288 sc-AykKC hhaPpi PrivateSwitchBase-checked-291 Mui-checked MuiIconButton-colorPrimary-298"
+        class="MuiButtonBase-root-303 MuiIconButton-root-294 PrivateSwitchBase-root-290 MuiRadio-root-285 MuiRadio-colorPrimary-288 sc-AxjAm efcmVh PrivateSwitchBase-checked-291 Mui-checked MuiIconButton-colorPrimary-298"
         customcolor="blue"
         data-testid="color-filter-blue"
         variant="outer"
@@ -1809,7 +1809,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-336 MuiIconButton-root-327 PrivateSwitchBase-root-323 MuiRadio-root-318 MuiRadio-colorPrimary-321 sc-AykKC gRRGUc MuiIconButton-colorPrimary-331"
+        class="MuiButtonBase-root-336 MuiIconButton-root-327 PrivateSwitchBase-root-323 MuiRadio-root-318 MuiRadio-colorPrimary-321 sc-AxjAm bHFEcz MuiIconButton-colorPrimary-331"
         customcolor="red"
         data-testid="color-filter-red"
         variant="outer"
@@ -1855,7 +1855,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-369 MuiIconButton-root-360 PrivateSwitchBase-root-356 MuiRadio-root-351 MuiRadio-colorPrimary-354 sc-AykKC detCUV MuiIconButton-colorPrimary-364"
+        class="MuiButtonBase-root-369 MuiIconButton-root-360 PrivateSwitchBase-root-356 MuiRadio-root-351 MuiRadio-colorPrimary-354 sc-AxjAm hTkEWa MuiIconButton-colorPrimary-364"
         customcolor="green"
         data-testid="color-filter-green"
         variant="outer"
@@ -1901,7 +1901,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-402 MuiIconButton-root-393 PrivateSwitchBase-root-389 MuiRadio-root-384 MuiRadio-colorPrimary-387 sc-AykKC OtVcX MuiIconButton-colorPrimary-397"
+        class="MuiButtonBase-root-402 MuiIconButton-root-393 PrivateSwitchBase-root-389 MuiRadio-root-384 MuiRadio-colorPrimary-387 sc-AxjAm kHXFTM MuiIconButton-colorPrimary-397"
         customcolor="yellow"
         data-testid="color-filter-yellow"
         variant="outer"
@@ -1947,7 +1947,7 @@ Object {
       </span>
       <span
         aria-disabled="false"
-        class="MuiButtonBase-root-435 MuiIconButton-root-426 PrivateSwitchBase-root-422 MuiRadio-root-417 MuiRadio-colorPrimary-420 sc-AykKC trsDT MuiIconButton-colorPrimary-430"
+        class="MuiButtonBase-root-435 MuiIconButton-root-426 PrivateSwitchBase-root-422 MuiRadio-root-417 MuiRadio-colorPrimary-420 sc-AxjAm kEbSPU MuiIconButton-colorPrimary-430"
         customcolor="black"
         data-testid="color-filter-black"
         variant="outer"
@@ -2054,7 +2054,7 @@ exports[`App color filter Test get default color filter with actions  2`] = `
 >
   <span
     aria-disabled="false"
-    class="MuiButtonBase-root-240 MuiIconButton-root-231 PrivateSwitchBase-root-227 MuiRadio-root-222 MuiRadio-colorPrimary-225 sc-AykKC kuKsVM PrivateSwitchBase-checked-228 Mui-checked MuiIconButton-colorPrimary-235"
+    class="MuiButtonBase-root-240 MuiIconButton-root-231 PrivateSwitchBase-root-227 MuiRadio-root-222 MuiRadio-colorPrimary-225 sc-AxjAm eujBqZ PrivateSwitchBase-checked-228 Mui-checked MuiIconButton-colorPrimary-235"
     customcolor="black"
     variant="outer"
   >

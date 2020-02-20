@@ -30,7 +30,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-398 c0 MuiTypography-body1-400"
+              class="MuiTypography-root-392 c0 MuiTypography-body1-394"
               data-testid="size-filter-M"
             >
               M
@@ -54,11 +54,11 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-435 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-442"
+              class="PrivateNotchedOutline-legend-436"
               style="width: 0.01px;"
             >
               <span>
@@ -75,7 +75,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AxhCb jJqeBK MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
@@ -92,7 +92,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-398 sc-AykKG jjimnK MuiTypography-body1-400"
+            class="MuiTypography-root-392 sc-AxhUy fOdElJ MuiTypography-body1-394"
             data-testid="size-filter-M"
           >
             M
@@ -116,11 +116,11 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-435 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-442"
+            class="PrivateNotchedOutline-legend-436"
             style="width: 0.01px;"
           >
             <span>
@@ -327,13 +327,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD fruMGD"
+      class="sc-AxirZ ktnnZK"
     >
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -350,10 +350,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -370,10 +370,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -390,10 +390,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -410,10 +410,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -647,13 +647,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD fruMGD"
+      class="sc-AxirZ ktnnZK"
     >
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-all"
           mx="4px"
           tabindex="0"
@@ -670,10 +670,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -690,10 +690,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -710,10 +710,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -730,10 +730,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -750,10 +750,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -827,7 +827,7 @@ Object {
 
 exports[`App size select Test get default size filter(multipleselect) with actions  2`] = `
 <button
-  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
   data-testid="size-filter-all"
   mx="4px"
   tabindex="0"
@@ -986,13 +986,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD fruMGD"
+      class="sc-AxirZ ktnnZK"
     >
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-M"
           mx="4px"
           tabindex="0"
@@ -1009,10 +1009,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-L"
           mx="4px"
           tabindex="0"
@@ -1029,10 +1029,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XS"
           mx="4px"
           tabindex="0"
@@ -1049,10 +1049,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XXL"
           mx="4px"
           tabindex="0"
@@ -1069,10 +1069,10 @@ Object {
         </button>
       </div>
       <div
-        class="sc-AykKE eUXmXs"
+        class="sc-AxiKw bMMxxo"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKC bbeagu MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxjAm iSTfar MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="size-filter-XL"
           mx="4px"
           tabindex="0"
@@ -1156,7 +1156,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD fruMGD"
+      class="sc-AxirZ ktnnZK"
     />
   </div>,
   "debug": [Function],
@@ -1243,7 +1243,7 @@ Object {
             tabindex="0"
           >
             <p
-              class="MuiTypography-root-198 c0 MuiTypography-body1-200"
+              class="MuiTypography-root-194 c0 MuiTypography-body1-196"
               data-testid="size-filter-XS"
             >
               XS
@@ -1267,11 +1267,11 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-241 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-237 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-242"
+              class="PrivateNotchedOutline-legend-238"
               style="width: 0.01px;"
             >
               <span>
@@ -1288,7 +1288,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AxhCb jJqeBK MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
@@ -1305,7 +1305,7 @@ Object {
           tabindex="0"
         >
           <p
-            class="MuiTypography-root-198 sc-AykKG jjimnK MuiTypography-body1-200"
+            class="MuiTypography-root-194 sc-AxhUy fOdElJ MuiTypography-body1-196"
             data-testid="size-filter-XS"
           >
             XS
@@ -1329,11 +1329,11 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-241 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-237 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-242"
+            class="PrivateNotchedOutline-legend-238"
             style="width: 0.01px;"
           >
             <span>
@@ -1445,11 +1445,11 @@ Object {
           </svg>
           <fieldset
             aria-hidden="true"
-            class="PrivateNotchedOutline-root-83 MuiOutlinedInput-notchedOutline"
+            class="PrivateNotchedOutline-root-81 MuiOutlinedInput-notchedOutline"
             style="padding-left: 8px;"
           >
             <legend
-              class="PrivateNotchedOutline-legend-84"
+              class="PrivateNotchedOutline-legend-82"
               style="width: 0.01px;"
             >
               <span>
@@ -1466,7 +1466,7 @@ Object {
       class="MuiFormControl-root"
     >
       <label
-        class="MuiFormLabel-root MuiInputLabel-root sc-AykKF gyGoah MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+        class="MuiFormLabel-root MuiInputLabel-root sc-AxhCb jJqeBK MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
         data-shrink="true"
       >
         Size
@@ -1504,11 +1504,11 @@ Object {
         </svg>
         <fieldset
           aria-hidden="true"
-          class="PrivateNotchedOutline-root-83 MuiOutlinedInput-notchedOutline"
+          class="PrivateNotchedOutline-root-81 MuiOutlinedInput-notchedOutline"
           style="padding-left: 8px;"
         >
           <legend
-            class="PrivateNotchedOutline-legend-84"
+            class="PrivateNotchedOutline-legend-82"
             style="width: 0.01px;"
           >
             <span>
