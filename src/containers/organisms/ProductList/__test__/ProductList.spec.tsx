@@ -15,7 +15,7 @@ import { filterOptions } from '../mock/filter.mock'
 describe('App ProductList', () => {
   it('Test get default ProductList no params ', () => {
     const wrapper = render(
-      <ProductList items={data} filter={filterOptions} page={3} total={50} />
+      <ProductList items={data} filter={filterOptions} page={3} total={15} />
     )
     expect(wrapper).toMatchSnapshot()
   })

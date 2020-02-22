@@ -19,7 +19,12 @@ const ProductList: FC<{
   filter: IProductFilterValue
   page: number
   total: number
-}> = props => {
+}> = (props: {
+  items: ProductItemProps[]
+  filter: IProductFilterValue
+  page: number
+  total: number
+}) => {
   const { total, page, items, filter } = props
   return (
     <Grid container={true}>
