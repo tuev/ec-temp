@@ -64,6 +64,9 @@ Object {
           >
             Product reviews
           </p>
+          <div>
+            No reviews
+          </div>
         </div>
         <hr
           class="MuiDivider-root c2"
@@ -112,11 +115,11 @@ Object {
                     />
                     <fieldset
                       aria-hidden="true"
-                      class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                      class="PrivateNotchedOutline-root-179 MuiOutlinedInput-notchedOutline"
                       style="padding-left: 8px;"
                     >
                       <legend
-                        class="PrivateNotchedOutline-legend-181"
+                        class="PrivateNotchedOutline-legend-180"
                         style="width: 0.01px;"
                       >
                         <span>
@@ -160,11 +163,11 @@ Object {
                     />
                     <fieldset
                       aria-hidden="true"
-                      class="PrivateNotchedOutline-root-224 MuiOutlinedInput-notchedOutline"
+                      class="PrivateNotchedOutline-root-221 MuiOutlinedInput-notchedOutline"
                       style="padding-left: 8px;"
                     >
                       <legend
-                        class="PrivateNotchedOutline-legend-225"
+                        class="PrivateNotchedOutline-legend-222"
                         style="width: 0.01px;"
                       >
                         <span>
@@ -387,25 +390,28 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzXfLT crLWPT"
+      class="sc-fznKkj bEyixg"
     >
       <div
-        class="sc-fzXfLR dNpFBq"
+        class="sc-fzplWN JlMvU"
       >
         <p
-          class="MuiTypography-root sc-AykKJ khvmKv sc-AykKK gcTcIC MuiTypography-body1"
+          class="MuiTypography-root sc-Axmtr rXUvI sc-AxmLO cAKCgh MuiTypography-body1"
           customvariant="header2"
           mb="4"
         >
           Product reviews
         </p>
+        <div>
+          No reviews
+        </div>
       </div>
       <hr
-        class="MuiDivider-root sc-fzXfLU gDXfkL"
+        class="MuiDivider-root sc-fznZeY dMBhWF"
       />
       <div>
         <p
-          class="MuiTypography-root sc-AykKJ khvmKv sc-AykKK gcTcIC MuiTypography-body1"
+          class="MuiTypography-root sc-Axmtr rXUvI sc-AxmLO cAKCgh MuiTypography-body1"
           customvariant="header2"
           mb="4"
         >
@@ -422,7 +428,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
             >
               <p
-                class="MuiTypography-root sc-AykKJ iexqoL sc-fzXfLO jEaXPj MuiTypography-body1"
+                class="MuiTypography-root sc-Axmtr csXsGG sc-fzozJi cqMOsd MuiTypography-body1"
                 customvariant="body1"
               >
                 Choose a nickname
@@ -432,7 +438,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKE fbCwcn"
+                class="MuiFormControl-root MuiTextField-root sc-AxiKw cBoXSN"
               >
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
@@ -447,11 +453,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-179 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-181"
+                      class="PrivateNotchedOutline-legend-180"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -470,7 +476,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
             >
               <p
-                class="MuiTypography-root sc-AykKJ kxCBjo sc-fzXfLO jEaXPj MuiTypography-body1"
+                class="MuiTypography-root sc-Axmtr bHkkdd sc-fzozJi cqMOsd MuiTypography-body1"
                 customvariant="body1"
                 pt="10"
               >
@@ -481,7 +487,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKF hjTiPI MuiFormControl-fullWidth"
+                class="MuiFormControl-root MuiTextField-root sc-AxhCb eYhTuB MuiFormControl-fullWidth"
               >
                 <div
                   class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
@@ -495,11 +501,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-224 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-221 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-225"
+                      class="PrivateNotchedOutline-legend-222"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -518,7 +524,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
             >
               <p
-                class="MuiTypography-root sc-AykKJ iexqoL sc-fzXfLO jEaXPj MuiTypography-body1"
+                class="MuiTypography-root sc-Axmtr csXsGG sc-fzozJi cqMOsd MuiTypography-body1"
                 customvariant="body1"
               >
                 Overall rating
@@ -528,7 +534,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <span
-                class="MuiRating-root sc-AykKH leYRC"
+                class="MuiRating-root sc-AxgMl fkTFSu"
                 data-testid="rating"
               >
                 <label
@@ -701,7 +707,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
             >
               <button
-                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKI evYzjc MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxheI ejmpUf MuiButton-containedPrimary Mui-disabled Mui-disabled"
                 data-testid="buttonSubmit"
                 disabled=""
                 tabindex="-1"

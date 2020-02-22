@@ -22,23 +22,19 @@ export interface IReviewFieldValidator {
   validator?: IReviewValidatorRule
 }
 
-export interface IReviewFormValidator {
-  nickname: IReviewFieldValidator
-  reviewText: IReviewFieldValidator
-  rating: IReviewFieldValidator
-  [key: string]: IReviewFieldValidator
+export type ReviewItemType = 'nickname' | 'reviewText' | 'rating'
+
+export type IReviewFormValidator = {
+  [key in ReviewItemType]: IReviewFieldValidator
 }
 
 export type IReviewHookForm = (
   stateSchema: IReviewForm,
-  stateValidatorSchema: IReviewFormValidator,
-  submitFormCallback: (data: ISubmittedData) => void
+  stateValidatorSchema: IReviewFormValidator
 ) => {
-  handleOnChange(event?: ChangeEvent): void
-  handleOnSubmit(
-    event?: React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ): void | undefined
-  handleOnRating(event: React.FormEvent<HTMLSpanElement>): void
+  handleOnChange: (
+    name: ReviewItemType
+  ) => (event: React.ChangeEvent<HTMLInputElement>) => void
   state: IReviewForm
   disable: boolean
 }
@@ -61,9 +57,8 @@ export type ValidationFormFields = (
   value?: string | number
 ) => string | undefined
 
-export interface ISubmittedData {
-  nickname: string
-  reviewText: string
-  rating: number
-  [key: string]: string | number | undefined
+export type ReviewFormValue = { [key in ReviewItemType]: string | number }
+
+export interface IReviewFormProps {
+  onSubmit?: (data: ReviewFormValue) => unknown
 }

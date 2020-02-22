@@ -10,15 +10,18 @@ import { Grid } from '@material-ui/core'
 import { Rating, Typography, BlogIcon } from 'components/atoms'
 import { ReviewListWrapper, ReviewListRow, Warning } from './ReviewList.styled'
 import { IReviewList } from './ReviewList.types'
+import isEmpty from 'lodash/isEmpty'
 
 const ReviewList: FC<IReviewList> = props => {
-  const { list } = props
+  const { list = [] } = props
   return (
     <ReviewListWrapper>
       <Title customvariant="header2" mb={4}>
         Product reviews
       </Title>
-      {list &&
+      {isEmpty(list) ? (
+        <div>No reviews</div>
+      ) : (
         list.map(review => {
           const {
             id,
@@ -28,7 +31,7 @@ const ReviewList: FC<IReviewList> = props => {
             reviewText,
             likeCount,
             commentCount,
-          } = review
+          } = review || {}
           return (
             <ReviewListRow container={true} key={id} mb={4}>
               <Grid item={true} xs={12} md={3}>
@@ -51,7 +54,8 @@ const ReviewList: FC<IReviewList> = props => {
               </Grid>
             </ReviewListRow>
           )
-        })}
+        })
+      )}
     </ReviewListWrapper>
   )
 }

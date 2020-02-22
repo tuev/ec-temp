@@ -4,16 +4,19 @@
  *
  */
 
-import React, { FC } from 'react'
+import React, { FC, useMemo, useCallback } from 'react'
 import {
   IReviewForm,
-  IReviewFormValidator,
-  ISubmittedData,
+  IReviewFormProps,
+  ReviewFormValue,
 } from './ReviewForm.types'
 import { Grid } from '@material-ui/core'
-import { Input, TextArea, Rating, Button } from '../../atoms'
+import { Input, TextArea, Rating, Button } from 'components/atoms'
 import { Title, Text, Error } from './ReviewForm.styled'
 import useForm from './useForm'
+import { ReviewFormConfig } from './ReviewForm.config'
+import keys from 'lodash/keys'
+import get from 'lodash/get'
 
 export const stateReview: IReviewForm = {
   nickname: { value: '', dirty: false },
@@ -21,43 +24,30 @@ export const stateReview: IReviewForm = {
   rating: { value: 0, dirty: false },
 }
 
-export const stateValidatorSchema: IReviewFormValidator = {
-  nickname: {
-    required: true,
-    validator: {
-      func: (value: string): boolean => /^[a-zA-Z]+$/.test(value),
-      error: 'Invalid first name format.',
-    },
-  },
-  reviewText: {
-    required: true,
-    validator: {
-      func: (value: string): boolean => value.length > 50,
-      error: 'Review must be at least 50 characters.',
-    },
-  },
-  rating: {
-    required: true,
-    validator: {
-      func: (value: string): boolean => Number(value) > 0,
-      error: 'Rating must be greater 0.',
-    },
-  },
-}
+const ReviewForm: FC<IReviewFormProps> = (props: IReviewFormProps) => {
+  const { onSubmit } = props
+  const { state, handleOnChange, disable } = useForm(
+    stateReview,
+    ReviewFormConfig
+  )
 
-export const onSubmitForm = (data: ISubmittedData): void => {
-  const value = data
-  console.log(value)
-}
+  const valueReview: ReviewFormValue = useMemo(
+    () =>
+      keys(state).reduce<ReviewFormValue>(
+        (res, item) => ({
+          ...res,
+          [item]: get(state, [item, 'value']),
+        }),
+        (state as unknown) as ReviewFormValue
+      ),
+    [state]
+  )
 
-const ReviewForm: FC = () => {
-  const {
-    state,
-    handleOnChange,
-    handleOnRating,
-    handleOnSubmit,
-    disable,
-  } = useForm(stateReview, stateValidatorSchema, onSubmitForm)
+  const handleSubmit = useCallback(() => {
+    if (onSubmit) {
+      onSubmit(valueReview)
+    }
+  }, [onSubmit, valueReview])
 
   const { nickname, reviewText, rating } = state
   return (
@@ -75,7 +65,7 @@ const ReviewForm: FC = () => {
               inputProps={{ 'data-testid': 'nickname' }}
               name="nickname"
               value={nickname.value}
-              onChange={handleOnChange}
+              onChange={handleOnChange('nickname')}
               error={Boolean(nickname.error) && nickname.dirty}
             />
 
@@ -96,7 +86,7 @@ const ReviewForm: FC = () => {
               inputProps={{ 'data-testid': 'reviewText' }}
               fullWidth={true}
               name="reviewText"
-              onChange={handleOnChange}
+              onChange={handleOnChange('reviewText')}
               value={reviewText.value}
               error={Boolean(reviewText.error) && reviewText.dirty}
             />
@@ -113,9 +103,9 @@ const ReviewForm: FC = () => {
           <Grid item={true} xs={12} md={9}>
             <Rating
               data-testid="rating"
-              name="rating"
+              name="review-rating"
               value={Number(rating.value)}
-              onInput={handleOnRating}
+              onInput={handleOnChange('rating')}
             />
           </Grid>
         </Grid>
@@ -128,7 +118,7 @@ const ReviewForm: FC = () => {
               color="primary"
               variant="contained"
               disabled={disable}
-              onClick={handleOnSubmit}
+              onClick={handleSubmit}
             >
               Submit
             </Button>

@@ -1,0 +1,766 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test reducer and action should enable button submit after validating correctly 1`] = `
+.c0 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+<button
+  class="MuiButtonBase-root MuiButton-root MuiButton-contained c0 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+  data-testid="buttonSubmit"
+  disabled=""
+  tabindex="-1"
+  type="button"
+>
+  <span
+    class="MuiButton-label"
+  >
+    Submit
+  </span>
+</button>
+`;
+
+exports[`Test reducer and action should not break when not put onSubmit function into component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c4 {
+  min-width: 163px !important;
+  min-height: 48px !important;
+  font-size: 14px;
+  border-radius: 32px;
+}
+
+.c0 {
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c1 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  color: #2E2E2E;
+}
+
+.c3 {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  color: #2E2E2E;
+}
+
+.c2 {
+  font-weight: 600;
+}
+
+<body>
+    <div>
+      <div>
+        <p
+          class="MuiTypography-root c0 MuiTypography-body1"
+          customvariant="header2"
+          mb="4"
+        >
+          Add a review
+        </p>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+          data-testid="form"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+            >
+              <p
+                class="MuiTypography-root c1 c2 MuiTypography-body1"
+                customvariant="body1"
+              >
+                Choose a nickname
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root "
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="nickname"
+                    name="nickname"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-456 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-457"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+            >
+              <p
+                class="MuiTypography-root c3 c2 MuiTypography-body1"
+                customvariant="body1"
+                pt="10"
+              >
+                Your review
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+                >
+                  <textarea
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                    data-testid="reviewText"
+                    name="reviewText"
+                    rows="4"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-498 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-499"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+            >
+              <p
+                class="MuiTypography-root c1 c2 MuiTypography-body1"
+                customvariant="body1"
+              >
+                Overall rating
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <span
+                class="MuiRating-root "
+                data-testid="rating"
+              >
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-1"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    1 Star
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-1"
+                  name="app-rating"
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-2"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    2 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-2"
+                  name="app-rating"
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-3"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    3 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-3"
+                  name="app-rating"
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-4"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    4 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-4"
+                  name="app-rating"
+                  type="radio"
+                  value="4"
+                />
+                <label
+                  class="MuiRating-label"
+                  for="app-rating-5"
+                >
+                  <span
+                    class="MuiRating-icon MuiRating-iconEmpty"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiRating-visuallyhidden"
+                  >
+                    5 Stars
+                  </span>
+                </label>
+                <input
+                  class="MuiRating-visuallyhidden"
+                  id="app-rating-5"
+                  name="app-rating"
+                  type="radio"
+                  value="5"
+                />
+              </span>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-flex-end"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained c4 MuiButton-containedPrimary Mui-disabled Mui-disabled"
+                data-testid="buttonSubmit"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Submit
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <p
+        class="MuiTypography-root sc-Axmtr rXUvI sc-AxmLO cAKCgh MuiTypography-body1"
+        customvariant="header2"
+        mb="4"
+      >
+        Add a review
+      </p>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+        data-testid="form"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+          >
+            <p
+              class="MuiTypography-root sc-Axmtr csXsGG sc-fzozJi cqMOsd MuiTypography-body1"
+              customvariant="body1"
+            >
+              Choose a nickname
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxiKw cBoXSN"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="nickname"
+                  name="nickname"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-456 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-457"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+          >
+            <p
+              class="MuiTypography-root sc-Axmtr bHkkdd sc-fzozJi cqMOsd MuiTypography-body1"
+              customvariant="body1"
+              pt="10"
+            >
+              Your review
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxhCb eYhTuB MuiFormControl-fullWidth"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
+              >
+                <textarea
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                  data-testid="reviewText"
+                  name="reviewText"
+                  rows="4"
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-498 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-499"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3"
+          >
+            <p
+              class="MuiTypography-root sc-Axmtr csXsGG sc-fzozJi cqMOsd MuiTypography-body1"
+              customvariant="body1"
+            >
+              Overall rating
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <span
+              class="MuiRating-root sc-AxgMl fkTFSu"
+              data-testid="rating"
+            >
+              <label
+                class="MuiRating-label"
+                for="app-rating-1"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-1"
+                name="app-rating"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-2"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-2"
+                name="app-rating"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-3"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-3"
+                name="app-rating"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-4"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-4"
+                name="app-rating"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="MuiRating-label"
+                for="app-rating-5"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyhidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyhidden"
+                id="app-rating-5"
+                name="app-rating"
+                type="radio"
+                value="5"
+              />
+            </span>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-flex-end"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxheI ejmpUf MuiButton-containedPrimary Mui-disabled Mui-disabled"
+              data-testid="buttonSubmit"
+              disabled=""
+              tabindex="-1"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Submit
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test reducer and action should not break when not put onSubmit function into component 2`] = `
+<button
+  class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxheI ejmpUf MuiButton-containedPrimary Mui-disabled Mui-disabled"
+  data-testid="buttonSubmit"
+  disabled=""
+  tabindex="-1"
+  type="button"
+>
+  <span
+    class="MuiButton-label"
+  >
+    Submit
+  </span>
+</button>
+`;

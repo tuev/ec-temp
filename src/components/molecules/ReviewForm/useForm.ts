@@ -1,148 +1,90 @@
-import { useState, useEffect, useCallback, useReducer } from 'react'
+import { useCallback, useReducer, useMemo } from 'react'
 import {
   IReviewFormValidator,
-  IReviewValidatorRule,
   IReviewHookForm,
   ReviewFormReducer,
   ValidationFormFields,
-  ISubmittedData,
+  ReviewItemType,
 } from './ReviewForm.types'
+import keys from 'lodash/keys'
+import get from 'lodash/get'
 
 const REVIEW_FORM_CHANGE_VALUE = 'REVIEW_FORM_CHANGE_VALUE'
-const REVIEW_FORM_CHANGE_ERROR = 'REVIEW_FORM_CHANGE_ERROR'
-const REVIEW_FORM_TOGGLE_DIRTY = 'REVIEW_FORM_TOGGLE_DIRTY'
-const VALUE = 'value'
-export const ERROR = 'error'
-const DIRTY = 'dirty'
-export const REQUIRED_FIELD_ERROR = 'This is required field'
 
-/**
- * Determines a value if it's an object
- *
- * @param {object} value
- */
-function isObject(value: IReviewValidatorRule | undefined): boolean {
-  return typeof value === 'object' && value !== null
-}
+export const REQUIRED_FIELD_ERROR = 'This is required field'
 
 /**
  *
  * @param {string} value
  * @param {boolean} isRequired
  */
-function isRequired(value: unknown, checkRequired?: boolean): string {
+const isRequired = (checkRequired?: boolean) => (value: unknown): string => {
   if (!value && checkRequired) return REQUIRED_FIELD_ERROR
   return ''
 }
 
-const reducer: ReviewFormReducer = (initState, action) => {
+export const reducer: ReviewFormReducer = (initState, action) => {
   switch (action.type) {
     case REVIEW_FORM_CHANGE_VALUE:
       return {
         ...initState,
         [action.payload.name]: {
           ...initState[action.payload.name],
-          [VALUE]: action.payload.data,
+          value: action.payload.data,
+          error: action.payload.error,
+          dirty: true,
         },
       }
-    case REVIEW_FORM_CHANGE_ERROR:
-      return {
-        ...initState,
-        [action.payload.name]: {
-          ...initState[action.payload.name],
-          [ERROR]: action.payload.error,
-        },
-      }
-    case REVIEW_FORM_TOGGLE_DIRTY:
-      return {
-        ...initState,
-        [action.payload.name]: {
-          ...initState[action.payload.name],
-          [DIRTY]: true,
-        },
-      }
+
     default:
       return initState
   }
 }
 
-const useForm: IReviewHookForm = (
-  stateSchema,
-  stateValidatorSchema,
-  submitFormCallback
-) => {
-  const [disable, setDisable] = useState(true)
-  const [isDirty, setIsDirty] = useState(false)
-  const store = { ...stateSchema }
-
+const useForm: IReviewHookForm = (stateSchema, stateValidatorSchema) => {
   const validateFormFields: ValidationFormFields = useCallback(
     (name, value) => {
       const validator: IReviewFormValidator = stateValidatorSchema
-      const field = validator[name]
-      let error = ''
-      const fieldValidator: IReviewValidatorRule | undefined = field.validator
+      const field = get(validator, name)
+      const validators = [
+        isRequired(get(field, 'required', false)),
+        (v?: string | number): string =>
+          !get(field, 'validator.func', () => false)(v) &&
+          get(field, 'validator.error'),
+      ]
 
-      error = isRequired(value, field.required)
-
-      if (fieldValidator && isObject(fieldValidator) && error === '') {
-        // Test the function callback if the value is meet the criteria
-        if (!fieldValidator.func(value)) {
-          error = fieldValidator.error
-        }
-      }
-
-      return error
+      const result = validators.find(item => item(value))
+      return result ? result(value) : ''
     },
     [stateValidatorSchema]
   )
 
-  const setInitialErrorState = useCallback(() => {
-    Object.keys(store).map(name => {
-      store[name][ERROR] = validateFormFields(name, store[name][VALUE])
-    })
-  }, [store, validateFormFields])
-
-  useEffect(() => {
-    setInitialErrorState()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  const store = keys(stateSchema).reduce(
+    (result, key) => ({
+      ...result,
+      [key]: {
+        ...stateSchema[key],
+        error: validateFormFields(key, get(stateSchema, [key, 'value'])),
+      },
+    }),
+    stateSchema
+  )
 
   const [state, dispatch] = useReducer(reducer, store)
-  const validateErrorState = useCallback(() => {
+
+  const disable = useMemo(() => {
     return Object.values(state).some(field => field.error)
   }, [state])
 
-  useEffect(() => {
-    if (isDirty) {
-      setDisable(validateErrorState())
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
   const updateInput = useCallback(
     (name, value) => {
-      setIsDirty(true)
       const error = validateFormFields(name, value)
       dispatch({
         type: REVIEW_FORM_CHANGE_VALUE,
         payload: {
           name,
           data: value,
-        },
-      })
-
-      dispatch({
-        type: REVIEW_FORM_CHANGE_ERROR,
-        payload: {
-          name,
           error,
-        },
-      })
-
-      dispatch({
-        type: REVIEW_FORM_TOGGLE_DIRTY,
-        payload: {
-          name,
         },
       })
     },
@@ -150,41 +92,17 @@ const useForm: IReviewHookForm = (
   )
 
   const handleOnChange = useCallback(
-    event => {
-      const name = event.target.name
+    (name: ReviewItemType) => (
+      event: React.ChangeEvent<HTMLInputElement>
+    ): void => {
       const value = event.target.value
       updateInput(name, value)
     },
     [updateInput]
   )
-
-  const handleOnRating = useCallback(
-    event => {
-      const name = 'rating'
-      const value = event.target.value
-      updateInput(name, value)
-    },
-    [updateInput]
-  )
-
-  const handleOnSubmit = useCallback(() => {
-    if (!validateErrorState()) {
-      const submitedData: ISubmittedData = Object.keys(state).reduce(
-        (accumulator, key) => {
-          accumulator[key] = state[key][VALUE]
-          return accumulator
-        },
-        ({} as unknown) as ISubmittedData
-      )
-      submitFormCallback(submitedData)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state, submitFormCallback])
 
   return {
     handleOnChange,
-    handleOnSubmit,
-    handleOnRating,
     state,
     disable,
   }
