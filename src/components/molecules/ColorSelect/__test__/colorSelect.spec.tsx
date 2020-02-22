@@ -22,7 +22,7 @@ describe('App color filter', () => {
   it('Test get default color filter ', () => {
     const colors = ['blue', 'red', 'green', 'yellow', 'black']
     // test snapshot
-    const wrapper = render(<ColorSelect colors={colors} value="green" />)
+    const wrapper = render(<ColorSelect colors={colors} value={['green']} />)
     expect(wrapper).toMatchSnapshot()
   })
 
@@ -32,7 +32,12 @@ describe('App color filter', () => {
     const onChange = color => (value = color)
     // test snapshot
     const wrapper = render(
-      <ColorSelect colors={colors} value={value} onChange={onChange} />
+      <ColorSelect
+        colors={colors}
+        value={[value]}
+        onChange={onChange}
+        multiselect
+      />
     )
 
     expect(wrapper).toMatchSnapshot()
@@ -40,15 +45,28 @@ describe('App color filter', () => {
     colors.forEach(color => {
       const colorRadio = wrapper.getByTestId(`color-filter-${color}`)
       fireEvent.click(colorRadio)
-      expect(value).toBe(color)
+      // de select blue
     })
+    const allColorBtn = wrapper.getByTestId('color-filter-all')
+    expect(value).toStrictEqual(['red', 'green', 'yellow', 'black'])
+    const colorRadioBlue = wrapper.getByTestId(`color-filter-blue`)
+
+    fireEvent.click(colorRadioBlue)
+
+    expect(allColorBtn).toMatchSnapshot()
+
+    fireEvent.click(allColorBtn)
+    expect(value).toStrictEqual([])
+
+    fireEvent.click(allColorBtn)
+    expect(value).toStrictEqual(colors)
   })
 
   it('Test get default color filter no crash when actions with no handler ', () => {
     const value = 'blue'
     const colors = ['blue', 'red', 'green', 'yellow', 'black']
     // test snapshot
-    const wrapper = render(<ColorSelect colors={colors} value={value} />)
+    const wrapper = render(<ColorSelect colors={colors} value={[value]} />)
 
     expect(wrapper).toMatchSnapshot()
 

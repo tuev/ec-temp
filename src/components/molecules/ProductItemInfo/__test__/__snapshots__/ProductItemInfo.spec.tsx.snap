@@ -117,7 +117,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 <body>
@@ -192,22 +192,22 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzXfLP fmTMkR"
+      class="sc-fzoLsD fTxLgF"
     >
       <div
-        class="sc-AykKC cDRqmV"
+        class="sc-AxjAm dIXWfE"
       >
         <div
-          class="sc-AykKD dvNfew"
+          class="sc-AxirZ jahNSV"
         >
           <div
-            class="sc-AykKE iSCtjt"
+            class="sc-AxiKw fcaEjB"
           >
             <div
-              class="sc-AykKF bZWMkW"
+              class="sc-AxhCb cVvatl"
             >
               <div
-                class="sc-fzXfLO iIRrao"
+                class="sc-fzozJi hAuODi"
                 color="#F62F5E"
               >
                 <span>
@@ -216,19 +216,19 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKG dKQXOh"
+              class="sc-AxhUy cMXzdI"
             />
           </div>
           <div
-            class="sc-AykKH dsZngC"
+            class="sc-AxgMl gVcsoM"
           >
             <p
-              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-Axmtr guRyVN MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             />
             <p
-              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-Axmtr guRyVN MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -236,10 +236,10 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKI fIfYnY"
+          class="sc-AxheI gXUjlZ"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK esAVxJ MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxmLO kDRBpO MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"
@@ -430,7 +430,7 @@ Object {
 }
 
 .c0:hover {
-  box-shadow: 0 20px 40px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
 }
 
 <div>
@@ -506,22 +506,22 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-fzXfLP fmTMkR"
+      class="sc-fzoLsD fTxLgF"
     >
       <div
-        class="sc-AykKC cDRqmV"
+        class="sc-AxjAm dIXWfE"
       >
         <div
-          class="sc-AykKD dvNfew"
+          class="sc-AxirZ jahNSV"
         >
           <div
-            class="sc-AykKE iSCtjt"
+            class="sc-AxiKw fcaEjB"
           >
             <div
-              class="sc-AykKF bZWMkW"
+              class="sc-AxhCb cVvatl"
             >
               <div
-                class="sc-fzXfLO iIRrao"
+                class="sc-fzozJi hAuODi"
                 color="#F62F5E"
               >
                 <span>
@@ -530,21 +530,21 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKG dKQXOh"
+              class="sc-AxhUy cMXzdI"
             />
           </div>
           <div
-            class="sc-AykKH dsZngC"
+            class="sc-AxgMl gVcsoM"
           >
             <p
-              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-alignCenter"
+              class="MuiTypography-root sc-Axmtr guRyVN MuiTypography-body1 MuiTypography-alignCenter"
               customvariant="header3"
               data-testid="product-item-info-name"
             >
               this is name of the product w...
             </p>
             <p
-              class="MuiTypography-root sc-AykKJ koZMie MuiTypography-body1 MuiTypography-colorError"
+              class="MuiTypography-root sc-Axmtr guRyVN MuiTypography-body1 MuiTypography-colorError"
               customvariant="header3"
             >
               20$
@@ -552,10 +552,10 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKI fIfYnY"
+          class="sc-AxheI gXUjlZ"
         >
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKK esAVxJ MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxmLO kDRBpO MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="product-item-info-buy-btn"
             mt="auto"
             tabindex="0"

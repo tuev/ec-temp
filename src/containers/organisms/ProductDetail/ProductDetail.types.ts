@@ -23,19 +23,19 @@ export interface IProductDetailProps {
 }
 
 export interface IProductOptions {
-  color: ColorType
-  size: SIZE_PARAMS
+  color: ColorType[]
+  size: SIZE_PARAMS[]
   quantity: number
 }
 
 export interface IColorAction {
   type: typeof CHANGE_COLOR
-  payload: ColorType
+  payload: ColorType[]
 }
 
 export interface ISizeAction {
   type: typeof CHANGE_SIZE
-  payload: SIZE_PARAMS
+  payload: SIZE_PARAMS[]
 }
 
 export interface IQuantityAction {
@@ -51,8 +51,8 @@ export type ProductSelectReducer = (
 ) => IProductOptions
 
 export interface IHandleOptionsChange {
-  color: (colorValue: ColorType) => void
-  size: (sizeValue: SIZE_PARAMS) => void
+  color: (colorValue: ColorType[]) => void
+  size: (sizeValue: SIZE_PARAMS[]) => void
   quantity: (quantityValue: number) => void
 }
 

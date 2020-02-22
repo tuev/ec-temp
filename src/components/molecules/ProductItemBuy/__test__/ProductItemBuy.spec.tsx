@@ -52,8 +52,8 @@ describe('App ProductItemBuy', () => {
     fireEvent.click(buyBtn)
     expect(info).toStrictEqual({
       id: props.id,
-      color: props.colors[0],
-      size: props.sizes[0],
+      color: [props.colors[0]],
+      size: [props.sizes[0]],
     })
 
     // change color
@@ -62,8 +62,8 @@ describe('App ProductItemBuy', () => {
     fireEvent.click(buyBtn)
     expect(info).toStrictEqual({
       id: props.id,
-      color: 'red',
-      size: props.sizes[0],
+      color: ['red'],
+      size: [props.sizes[0]],
     })
   })
 
@@ -90,8 +90,8 @@ describe('App ProductItemBuy', () => {
     fireEvent.click(buyBtn)
     expect(info).toStrictEqual({
       id: props.id,
-      color: 'red',
-      size: props.sizes[0],
+      color: ['red'],
+      size: [props.sizes[0]],
     })
   })
 
@@ -120,8 +120,8 @@ describe('App ProductItemBuy', () => {
     fireEvent.click(buyBtn)
     expect(valueInfo).toStrictEqual({
       id: props.id,
-      color: props.colors[0],
-      size: props.sizes[0],
+      color: [props.colors[0]],
+      size: [props.sizes[0]],
     })
 
     expect(changeHandler).toHaveBeenCalled()
@@ -145,8 +145,8 @@ describe('App ProductItemBuy', () => {
       fireEvent.click(buyBtn)
       expect(valueInfo).toStrictEqual({
         id: props.id,
-        color: 'green',
-        size: svalue,
+        color: ['green'],
+        size: [svalue],
       })
     }
   })

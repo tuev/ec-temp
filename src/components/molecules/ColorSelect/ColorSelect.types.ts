@@ -1,11 +1,13 @@
 import { SpaceProps, FlexProps } from 'styled-system'
 import { ColorType } from 'theme/colors'
 
-type HandleOnChange = (color: ColorType) => void
+type HandleOnChange = (color: ColorType[]) => void
 
 export interface IColorSelect {
   colors: ColorType[]
-  value: ColorType
+  value: ColorType[]
+  multiselect?: boolean
+
   onChange?: HandleOnChange
 }
 

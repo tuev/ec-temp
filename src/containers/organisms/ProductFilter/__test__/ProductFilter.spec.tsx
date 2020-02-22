@@ -87,6 +87,11 @@ describe('App ProductFilter', () => {
     expect(result.current[0]).toEqual(defaultValue)
   })
 
+  it('test filter no value', () => {
+    const wrapper = render(<ProductFilter />)
+    expect(wrapper).toMatchSnapshot()
+  })
+
   it('test default value of reducer', () => {
     const initValue = {
       color: 'green',
@@ -133,7 +138,7 @@ describe('App ProductFilter', () => {
 
   it('Test get default ProductFilter no params ', () => {
     const initState: IProductFilterValue = {
-      color: 'black',
+      color: ['black'],
       size: 'S',
       price: [5, 95],
       brand: {

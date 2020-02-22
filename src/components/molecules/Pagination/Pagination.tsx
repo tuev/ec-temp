@@ -18,7 +18,8 @@ import * as utils from './utils'
 
 export const Pagination: FC<PaginationType> = props => {
   const onChange = get(props, 'onChange', utils.defaultOnChange)
-  const defaultSkip = +get(process.env, 'SKIP', 5)
+
+  const defaultSkip = +get(process.env, 'REACT_APP_SKIP', 5)
   const { page, total, step } = utils.getDefaultValue({
     page: get(props, 'page', 1),
     step: get(props, 'step', defaultSkip),

@@ -36,8 +36,8 @@ const ProductDetail: FC<ProductDetailProps> = (props: ProductDetailProps) => {
   }: ProductDetailProps = props
 
   const [options, onOptionsChange] = useProductSelect({
-    color: colors[0],
-    size: sizes[0],
+    color: [colors[0]],
+    size: [sizes[0]],
     quantity,
   })
 

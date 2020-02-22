@@ -289,11 +289,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-290"
+                            class="PrivateNotchedOutline-legend-286"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -462,11 +462,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-290"
+                            class="PrivateNotchedOutline-legend-286"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -635,11 +635,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-290"
+                            class="PrivateNotchedOutline-legend-286"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -699,10 +699,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD hUuDfI"
+      class="sc-AxirZ RMStd"
     >
       <p
-        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
+        class="MuiTypography-root sc-AxjAm kEgWJd MuiTypography-body1"
         customvariant="header2"
       >
         3
@@ -723,7 +723,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Image
               </p>
@@ -733,7 +733,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Name
               </p>
@@ -743,7 +743,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Size
               </p>
@@ -753,7 +753,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Quantity
               </p>
@@ -763,7 +763,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Price
               </p>
@@ -781,11 +781,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -794,17 +794,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 1
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -820,7 +820,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123123-btn"
                   >
@@ -833,7 +833,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 M
               </p>
@@ -842,11 +842,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -889,11 +889,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-290"
+                          class="PrivateNotchedOutline-legend-286"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -935,10 +935,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -954,11 +954,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -967,17 +967,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 2
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -993,7 +993,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123122-btn"
                   >
@@ -1006,7 +1006,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 L
               </p>
@@ -1015,11 +1015,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -1062,11 +1062,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-290"
+                          class="PrivateNotchedOutline-legend-286"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -1108,10 +1108,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -1127,11 +1127,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -1140,17 +1140,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 3
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -1166,7 +1166,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123124-btn"
                   >
@@ -1179,7 +1179,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 XL
               </p>
@@ -1188,11 +1188,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -1235,11 +1235,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-289 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-285 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-290"
+                          class="PrivateNotchedOutline-legend-286"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -1281,10 +1281,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -1639,11 +1639,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-154"
+                            class="PrivateNotchedOutline-legend-152"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -1812,11 +1812,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-154"
+                            class="PrivateNotchedOutline-legend-152"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -1985,11 +1985,11 @@ Object {
                         />
                         <fieldset
                           aria-hidden="true"
-                          class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                          class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                           style="padding-left: 8px;"
                         >
                           <legend
-                            class="PrivateNotchedOutline-legend-154"
+                            class="PrivateNotchedOutline-legend-152"
                             style="width: 0.01px;"
                           >
                             <span>
@@ -2049,10 +2049,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD hUuDfI"
+      class="sc-AxirZ RMStd"
     >
       <p
-        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
+        class="MuiTypography-root sc-AxjAm kEgWJd MuiTypography-body1"
         customvariant="header2"
       >
         3
@@ -2073,7 +2073,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Image
               </p>
@@ -2083,7 +2083,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Name
               </p>
@@ -2093,7 +2093,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Size
               </p>
@@ -2103,7 +2103,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Quantity
               </p>
@@ -2113,7 +2113,7 @@ Object {
               scope="col"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 Price
               </p>
@@ -2131,11 +2131,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -2144,17 +2144,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 1
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -2170,7 +2170,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123123-btn"
                   >
@@ -2183,7 +2183,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 M
               </p>
@@ -2192,11 +2192,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -2239,11 +2239,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-154"
+                          class="PrivateNotchedOutline-legend-152"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -2285,10 +2285,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2304,11 +2304,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -2317,17 +2317,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 2
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -2343,7 +2343,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123122-btn"
                   >
@@ -2356,7 +2356,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 L
               </p>
@@ -2365,11 +2365,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -2412,11 +2412,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-154"
+                          class="PrivateNotchedOutline-legend-152"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -2458,10 +2458,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2477,11 +2477,11 @@ Object {
               scope="row"
             >
               <div
-                class="sc-AykKD dQqOgI"
+                class="sc-AxirZ dcSpkB"
                 display="flex"
               >
                 <img
-                  class="sc-AykKE cnZJyU"
+                  class="sc-AxiKw gpuglk"
                   src="img.png"
                 />
               </div>
@@ -2490,17 +2490,17 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
             >
               <div
-                class="sc-AykKD gIyoRA"
+                class="sc-AxirZ gYtPrt"
                 display="flex"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   Product name 3
                 </p>
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <svg
@@ -2516,7 +2516,7 @@ Object {
                   </svg>
                   <p
                     animation="1"
-                    class="MuiTypography-root sc-AykKC kcKcqS MuiTypography-body1"
+                    class="MuiTypography-root sc-AxjAm hxVJVX MuiTypography-body1"
                     customcolor="red"
                     data-testid="remove-cart-item-123124-btn"
                   >
@@ -2529,7 +2529,7 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <p
-                class="MuiTypography-root sc-AykKC imIxhO MuiTypography-body1"
+                class="MuiTypography-root sc-AxjAm MXaCn MuiTypography-body1"
               >
                 XL
               </p>
@@ -2538,11 +2538,11 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD iNqslw"
+                class="sc-AxirZ xXzvF"
                 display="flex"
               >
                 <div
-                  class="sc-AykKD dQqOgI"
+                  class="sc-AxirZ dcSpkB"
                   display="flex"
                 >
                   <button
@@ -2585,11 +2585,11 @@ Object {
                       />
                       <fieldset
                         aria-hidden="true"
-                        class="PrivateNotchedOutline-root-153 MuiOutlinedInput-notchedOutline"
+                        class="PrivateNotchedOutline-root-151 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="PrivateNotchedOutline-legend-154"
+                          class="PrivateNotchedOutline-legend-152"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -2631,10 +2631,10 @@ Object {
               class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
             >
               <div
-                class="sc-AykKD hUuDfI"
+                class="sc-AxirZ RMStd"
               >
                 <p
-                  class="MuiTypography-root sc-AykKC kacecv MuiTypography-body1"
+                  class="MuiTypography-root sc-AxjAm jpCDao MuiTypography-body1"
                   customvariant="header3"
                 >
                   32
@@ -2728,10 +2728,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD hUuDfI"
+      class="sc-AxirZ RMStd"
     >
       <p
-        class="MuiTypography-root sc-AykKC bIHwBa MuiTypography-body1"
+        class="MuiTypography-root sc-AxjAm kEgWJd MuiTypography-body1"
         customvariant="header2"
       >
         0

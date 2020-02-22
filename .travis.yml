@@ -1,12 +1,11 @@
 stages:
-  # - lint
+  - lint
   - test
 language: node_js
 before_script: 
-  - npm install -g codecov
   - npm install
 node_js:
-  - 8
+  - 10
 cache:
   directories:
     - node_modules
@@ -25,7 +24,7 @@ jobs:
     - stage: lint
       script: npm run lint
 
-sudo: true
+
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t aa174e44-1e0b-41d1-a276-015d172903a0
 before_deploy:

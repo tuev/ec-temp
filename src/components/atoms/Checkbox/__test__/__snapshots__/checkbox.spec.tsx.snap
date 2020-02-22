@@ -42,9 +42,13 @@ exports[`Checkbox checkbox 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -327,7 +331,6 @@ exports[`Checkbox checkbox 1`] = `
               }
             }
             color="primary"
-            disabled={false}
             icon={
               <UNDEFINED
                 fontSize="default"
@@ -356,7 +359,6 @@ exports[`Checkbox checkbox 1`] = `
                 }
               }
               color="primary"
-              disabled={false}
               icon={
                 <UNDEFINED
                   fontSize="default"
@@ -373,7 +375,6 @@ exports[`Checkbox checkbox 1`] = `
                 className="PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorPrimary "
                 color="primary"
                 component="span"
-                disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
                 tabIndex={null}
@@ -395,7 +396,6 @@ exports[`Checkbox checkbox 1`] = `
                   }
                   color="primary"
                   component="span"
-                  disabled={false}
                   onBlur={[Function]}
                   onFocus={[Function]}
                   tabIndex={null}
@@ -449,7 +449,6 @@ exports[`Checkbox checkbox 1`] = `
                           <input
                             className="PrivateSwitchBase-input-10"
                             data-indeterminate={false}
-                            disabled={false}
                             onChange={[Function]}
                             type="checkbox"
                           />
@@ -576,9 +575,13 @@ exports[`Checkbox checkbox 2`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -861,7 +864,6 @@ exports[`Checkbox checkbox 2`] = `
               }
             }
             color="primary"
-            disabled={false}
             icon={
               <UNDEFINED
                 fontSize="default"
@@ -890,7 +892,6 @@ exports[`Checkbox checkbox 2`] = `
                 }
               }
               color="primary"
-              disabled={false}
               icon={
                 <UNDEFINED
                   fontSize="default"
@@ -907,7 +908,6 @@ exports[`Checkbox checkbox 2`] = `
                 className="PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorPrimary "
                 color="primary"
                 component="span"
-                disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
                 tabIndex={null}
@@ -929,7 +929,6 @@ exports[`Checkbox checkbox 2`] = `
                   }
                   color="primary"
                   component="span"
-                  disabled={false}
                   onBlur={[Function]}
                   onFocus={[Function]}
                   tabIndex={null}
@@ -983,7 +982,6 @@ exports[`Checkbox checkbox 2`] = `
                           <input
                             className="PrivateSwitchBase-input-10"
                             data-indeterminate={false}
-                            disabled={false}
                             onChange={[Function]}
                             type="checkbox"
                           />

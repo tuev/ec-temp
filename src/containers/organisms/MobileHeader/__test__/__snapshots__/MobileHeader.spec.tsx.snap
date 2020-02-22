@@ -210,11 +210,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-77 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-75 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-78"
+                      class="PrivateNotchedOutline-legend-76"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -291,35 +291,35 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD kKGRe"
+      class="sc-AxirZ CooDR"
       data-testid="mobile-header"
       display="flex"
     >
       <div
-        class="sc-AykKD hUuDfI"
+        class="sc-AxirZ RMStd"
       >
         <a
           class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="/"
         >
           <div
-            class="sc-AykKC bcVvoA"
+            class="sc-AxjAm SPfSD"
           />
         </a>
       </div>
       <div
-        class="sc-AykKD ieKWPw"
+        class="sc-AxirZ jfmpxd"
         display="flex"
       >
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-fzXfLO jyViaM"
+            class="sc-fzozJi lbSdeO"
             data-testid="search-ref"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
               maxwidth="32px"
               opacity="0"
               style="opacity: 0; max-width: 32px;"
@@ -337,11 +337,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-77 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-75 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-78"
+                    class="PrivateNotchedOutline-legend-76"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -352,7 +352,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKD dxwNTg"
+              class="sc-AxirZ ijbYQZ"
             >
               <svg
                 aria-hidden="true"
@@ -369,13 +369,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           >
             <div
-              class="sc-AykKD hghWql"
+              class="sc-AxirZ fpLAZU"
               data-testid="product-cart-icon"
               height="2rem"
               width="2rem"
@@ -392,10 +392,10 @@ Object {
                 />
               </svg>
               <div
-                class="sc-AykKD EZxbM"
+                class="sc-AxirZ egQssr"
               >
                 <button
-                  class="sc-AykKE epmNKB"
+                  class="sc-AxiKw ctpQxV"
                   color="primary"
                 >
                   0
@@ -405,7 +405,7 @@ Object {
           </div>
         </div>
         <button
-          class="sc-fzXfLP cFTUdS"
+          class="sc-fzoLsD eEaFcN"
           data-testid="burger-icon"
         >
           <div />
@@ -679,11 +679,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-298"
+                      class="PrivateNotchedOutline-legend-292"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -760,35 +760,35 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD kKGRe"
+      class="sc-AxirZ CooDR"
       data-testid="mobile-header"
       display="flex"
     >
       <div
-        class="sc-AykKD hUuDfI"
+        class="sc-AxirZ RMStd"
       >
         <a
           class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="/"
         >
           <div
-            class="sc-AykKC bcVvoA"
+            class="sc-AxjAm SPfSD"
           />
         </a>
       </div>
       <div
-        class="sc-AykKD ieKWPw"
+        class="sc-AxirZ jfmpxd"
         display="flex"
       >
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-fzXfLO jyViaM"
+            class="sc-fzozJi lbSdeO"
             data-testid="search-ref"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
               maxwidth="32px"
               opacity="0"
               style="opacity: 0; max-width: 32px;"
@@ -806,11 +806,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-298"
+                    class="PrivateNotchedOutline-legend-292"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -821,7 +821,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKD dxwNTg"
+              class="sc-AxirZ ijbYQZ"
             >
               <svg
                 aria-hidden="true"
@@ -838,13 +838,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           >
             <div
-              class="sc-AykKD hghWql"
+              class="sc-AxirZ fpLAZU"
               data-testid="product-cart-icon"
               height="2rem"
               width="2rem"
@@ -861,10 +861,10 @@ Object {
                 />
               </svg>
               <div
-                class="sc-AykKD EZxbM"
+                class="sc-AxirZ egQssr"
               >
                 <button
-                  class="sc-AykKE epmNKB"
+                  class="sc-AxiKw ctpQxV"
                   color="primary"
                 >
                   0
@@ -874,7 +874,7 @@ Object {
           </div>
         </div>
         <button
-          class="sc-fzXfLP cFTUdS"
+          class="sc-fzoLsD eEaFcN"
           data-testid="burger-icon"
         >
           <div />
@@ -948,35 +948,35 @@ Object {
       aria-hidden="true"
     >
       <div
-        class="sc-AykKD kKGRe"
+        class="sc-AxirZ CooDR"
         data-testid="mobile-header"
         display="flex"
       >
         <div
-          class="sc-AykKD hUuDfI"
+          class="sc-AxirZ RMStd"
         >
           <a
             class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
             href="/"
           >
             <div
-              class="sc-AykKC bcVvoA"
+              class="sc-AxjAm SPfSD"
             />
           </a>
         </div>
         <div
-          class="sc-AykKD ieKWPw"
+          class="sc-AxirZ jfmpxd"
           display="flex"
         >
           <div
-            class="sc-AykKD jKoVbL"
+            class="sc-AxirZ idSrhk"
           >
             <div
-              class="sc-fzXfLO jyViaM"
+              class="sc-fzozJi lbSdeO"
               data-testid="search-ref"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
                 maxwidth="32px"
                 opacity="0"
                 style="opacity: 0; max-width: 32px;"
@@ -994,11 +994,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-298"
+                      class="PrivateNotchedOutline-legend-292"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -1009,7 +1009,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-AykKD dxwNTg"
+                class="sc-AxirZ ijbYQZ"
               >
                 <svg
                   aria-hidden="true"
@@ -1026,13 +1026,13 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD jKoVbL"
+            class="sc-AxirZ idSrhk"
           >
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <div
-                class="sc-AykKD hghWql"
+                class="sc-AxirZ fpLAZU"
                 data-testid="product-cart-icon"
                 height="2rem"
                 width="2rem"
@@ -1049,10 +1049,10 @@ Object {
                   />
                 </svg>
                 <div
-                  class="sc-AykKD EZxbM"
+                  class="sc-AxirZ egQssr"
                 >
                   <button
-                    class="sc-AykKE epmNKB"
+                    class="sc-AxiKw ctpQxV"
                     color="primary"
                   >
                     0
@@ -1062,7 +1062,7 @@ Object {
             </div>
           </div>
           <button
-            class="sc-fzXfLP bFrTrC"
+            class="sc-fzoLsD lnvzEb"
             data-testid="burger-icon"
             open=""
           >
@@ -1259,35 +1259,35 @@ Object {
     aria-hidden="true"
   >
     <div
-      class="sc-AykKD kKGRe"
+      class="sc-AxirZ CooDR"
       data-testid="mobile-header"
       display="flex"
     >
       <div
-        class="sc-AykKD hUuDfI"
+        class="sc-AxirZ RMStd"
       >
         <a
           class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="/"
         >
           <div
-            class="sc-AykKC bcVvoA"
+            class="sc-AxjAm SPfSD"
           />
         </a>
       </div>
       <div
-        class="sc-AykKD ieKWPw"
+        class="sc-AxirZ jfmpxd"
         display="flex"
       >
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-fzXfLO jyViaM"
+            class="sc-fzozJi lbSdeO"
             data-testid="search-ref"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
               maxwidth="32px"
               opacity="0"
               style="opacity: 0; max-width: 32px;"
@@ -1305,11 +1305,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-298"
+                    class="PrivateNotchedOutline-legend-292"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -1320,7 +1320,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKD dxwNTg"
+              class="sc-AxirZ ijbYQZ"
             >
               <svg
                 aria-hidden="true"
@@ -1337,13 +1337,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           >
             <div
-              class="sc-AykKD hghWql"
+              class="sc-AxirZ fpLAZU"
               data-testid="product-cart-icon"
               height="2rem"
               width="2rem"
@@ -1360,10 +1360,10 @@ Object {
                 />
               </svg>
               <div
-                class="sc-AykKD EZxbM"
+                class="sc-AxirZ egQssr"
               >
                 <button
-                  class="sc-AykKE epmNKB"
+                  class="sc-AxiKw ctpQxV"
                   color="primary"
                 >
                   0
@@ -1373,7 +1373,7 @@ Object {
           </div>
         </div>
         <button
-          class="sc-fzXfLP bFrTrC"
+          class="sc-fzoLsD lnvzEb"
           data-testid="burger-icon"
           open=""
         >
@@ -1446,35 +1446,35 @@ Object {
   >
     <div>
       <div
-        class="sc-AykKD kKGRe"
+        class="sc-AxirZ CooDR"
         data-testid="mobile-header"
         display="flex"
       >
         <div
-          class="sc-AykKD hUuDfI"
+          class="sc-AxirZ RMStd"
         >
           <a
             class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
             href="/"
           >
             <div
-              class="sc-AykKC bcVvoA"
+              class="sc-AxjAm SPfSD"
             />
           </a>
         </div>
         <div
-          class="sc-AykKD ieKWPw"
+          class="sc-AxirZ jfmpxd"
           display="flex"
         >
           <div
-            class="sc-AykKD jKoVbL"
+            class="sc-AxirZ idSrhk"
           >
             <div
-              class="sc-fzXfLO jyViaM"
+              class="sc-fzozJi lbSdeO"
               data-testid="search-ref"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
                 maxwidth="32px"
                 opacity="0"
                 style="opacity: 0; max-width: 32px;"
@@ -1492,11 +1492,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-298"
+                      class="PrivateNotchedOutline-legend-292"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -1507,7 +1507,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-AykKD dxwNTg"
+                class="sc-AxirZ ijbYQZ"
               >
                 <svg
                   aria-hidden="true"
@@ -1524,13 +1524,13 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD jKoVbL"
+            class="sc-AxirZ idSrhk"
           >
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <div
-                class="sc-AykKD hghWql"
+                class="sc-AxirZ fpLAZU"
                 data-testid="product-cart-icon"
                 height="2rem"
                 width="2rem"
@@ -1547,10 +1547,10 @@ Object {
                   />
                 </svg>
                 <div
-                  class="sc-AykKD EZxbM"
+                  class="sc-AxirZ egQssr"
                 >
                   <button
-                    class="sc-AykKE epmNKB"
+                    class="sc-AxiKw ctpQxV"
                     color="primary"
                   >
                     0
@@ -1560,7 +1560,7 @@ Object {
             </div>
           </div>
           <button
-            class="sc-fzXfLP cFTUdS"
+            class="sc-fzoLsD eEaFcN"
             data-testid="burger-icon"
           >
             <div />
@@ -1592,21 +1592,21 @@ Object {
         tabindex="-1"
       >
         <div
-          class="sc-AykKD fdDnmC"
+          class="sc-AxirZ dHmtSl"
         >
           <div
-            class="sc-AykKD fbbJbg"
+            class="sc-AxirZ cIMQUF"
             display="flex"
           >
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
                 href="/productlist?category=women"
               >
                 <p
-                  class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                   customvariant="topbar"
                 >
                   Women
@@ -1614,14 +1614,14 @@ Object {
               </a>
             </div>
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
                 href="/productlist?category=men"
               >
                 <p
-                  class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                   customvariant="topbar"
                 >
                   Men
@@ -1629,14 +1629,14 @@ Object {
               </a>
             </div>
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
                 href="/productlist?category=shoe"
               >
                 <p
-                  class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                   customvariant="topbar"
                 >
                   Shoe
@@ -1644,14 +1644,14 @@ Object {
               </a>
             </div>
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
                 href="/productlist"
               >
                 <p
-                  class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                   customvariant="topbar"
                 >
                   Brands
@@ -1662,11 +1662,11 @@ Object {
               class="MuiDivider-root"
             />
             <div
-              class="sc-AykKD bbKYJc"
+              class="sc-AxirZ iECCdr"
             >
               <span
                 animation="1"
-                class="MuiTypography-root sc-AykKH bJuDrD MuiTypography-overline"
+                class="MuiTypography-root sc-AxgMl fwlnkv MuiTypography-overline"
                 customvariant="header3"
               >
                 Login
@@ -1674,7 +1674,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD jNTuqK"
+            class="sc-AxirZ imoxJV"
           >
             <svg
               aria-hidden="true"
@@ -1699,35 +1699,35 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD kKGRe"
+      class="sc-AxirZ CooDR"
       data-testid="mobile-header"
       display="flex"
     >
       <div
-        class="sc-AykKD hUuDfI"
+        class="sc-AxirZ RMStd"
       >
         <a
           class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="/"
         >
           <div
-            class="sc-AykKC bcVvoA"
+            class="sc-AxjAm SPfSD"
           />
         </a>
       </div>
       <div
-        class="sc-AykKD ieKWPw"
+        class="sc-AxirZ jfmpxd"
         display="flex"
       >
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-fzXfLO jyViaM"
+            class="sc-fzozJi lbSdeO"
             data-testid="search-ref"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
               maxwidth="32px"
               opacity="0"
               style="opacity: 0; max-width: 32px;"
@@ -1745,11 +1745,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-297 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-298"
+                    class="PrivateNotchedOutline-legend-292"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -1760,7 +1760,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKD dxwNTg"
+              class="sc-AxirZ ijbYQZ"
             >
               <svg
                 aria-hidden="true"
@@ -1777,13 +1777,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           >
             <div
-              class="sc-AykKD hghWql"
+              class="sc-AxirZ fpLAZU"
               data-testid="product-cart-icon"
               height="2rem"
               width="2rem"
@@ -1800,10 +1800,10 @@ Object {
                 />
               </svg>
               <div
-                class="sc-AykKD EZxbM"
+                class="sc-AxirZ egQssr"
               >
                 <button
-                  class="sc-AykKE epmNKB"
+                  class="sc-AxiKw ctpQxV"
                   color="primary"
                 >
                   0
@@ -1813,7 +1813,7 @@ Object {
           </div>
         </div>
         <button
-          class="sc-fzXfLP cFTUdS"
+          class="sc-fzoLsD eEaFcN"
           data-testid="burger-icon"
         >
           <div />
@@ -2087,11 +2087,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-187 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-188"
+                      class="PrivateNotchedOutline-legend-184"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -2168,35 +2168,35 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKD kKGRe"
+      class="sc-AxirZ CooDR"
       data-testid="mobile-header"
       display="flex"
     >
       <div
-        class="sc-AykKD hUuDfI"
+        class="sc-AxirZ RMStd"
       >
         <a
           class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
           href="/"
         >
           <div
-            class="sc-AykKC bcVvoA"
+            class="sc-AxjAm SPfSD"
           />
         </a>
       </div>
       <div
-        class="sc-AykKD ieKWPw"
+        class="sc-AxirZ jfmpxd"
         display="flex"
       >
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-fzXfLO jyViaM"
+            class="sc-fzozJi lbSdeO"
             data-testid="search-ref"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
               maxwidth="32px"
               opacity="0"
               style="opacity: 0; max-width: 32px;"
@@ -2214,11 +2214,11 @@ Object {
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="PrivateNotchedOutline-root-187 MuiOutlinedInput-notchedOutline"
+                  class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
                   style="padding-left: 8px;"
                 >
                   <legend
-                    class="PrivateNotchedOutline-legend-188"
+                    class="PrivateNotchedOutline-legend-184"
                     style="width: 0.01px;"
                   >
                     <span>
@@ -2229,7 +2229,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-AykKD dxwNTg"
+              class="sc-AxirZ ijbYQZ"
             >
               <svg
                 aria-hidden="true"
@@ -2246,13 +2246,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-AykKD jKoVbL"
+          class="sc-AxirZ idSrhk"
         >
           <div
-            class="sc-AykKD hUuDfI"
+            class="sc-AxirZ RMStd"
           >
             <div
-              class="sc-AykKD hghWql"
+              class="sc-AxirZ fpLAZU"
               data-testid="product-cart-icon"
               height="2rem"
               width="2rem"
@@ -2269,10 +2269,10 @@ Object {
                 />
               </svg>
               <div
-                class="sc-AykKD EZxbM"
+                class="sc-AxirZ egQssr"
               >
                 <button
-                  class="sc-AykKE epmNKB"
+                  class="sc-AxiKw ctpQxV"
                   color="primary"
                 >
                   0
@@ -2282,7 +2282,7 @@ Object {
           </div>
         </div>
         <button
-          class="sc-fzXfLP cFTUdS"
+          class="sc-fzoLsD eEaFcN"
           data-testid="burger-icon"
         >
           <div />

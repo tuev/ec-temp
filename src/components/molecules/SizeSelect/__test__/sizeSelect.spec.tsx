@@ -41,13 +41,18 @@ describe('App size select', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('Test get default size filter with actions ', () => {
+  it('Test get default size filter(multipleselect) with actions ', () => {
     let value: SIZE_PARAMS = 'M'
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
     const onChange = size => (value = size)
     // test snapshot
     const wrapper = render(
-      <SizeSelect sizes={sizes} value={value} onChange={onChange} />
+      <SizeSelect
+        sizes={sizes}
+        value={[value]}
+        onChange={onChange}
+        multipleselect
+      />
     )
 
     expect(wrapper).toMatchSnapshot()
@@ -55,12 +60,43 @@ describe('App size select', () => {
     sizes.forEach(size => {
       const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
       fireEvent.click(sizeRadio)
-      expect(value).toBe(size)
+    })
+    fireEvent.click(wrapper.getByTestId(`size-filter-M`))
+    expect(value).toStrictEqual(['L', 'XS', 'XXL', 'XL'])
+    const allSizeBtn = wrapper.getByTestId('size-filter-all')
+    expect(allSizeBtn).toMatchSnapshot()
+
+    sizes.forEach(size => {
+      const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
+      fireEvent.click(sizeRadio)
+    })
+    expect(value).toStrictEqual(['M'])
+
+    fireEvent.click(allSizeBtn)
+    expect(value).toStrictEqual(sizes)
+  })
+
+  it('Test get default size filter with actions ', () => {
+    let value: SIZE_PARAMS = 'M'
+    const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
+    const onChange = size => (value = size)
+    // test snapshot
+    const wrapper = render(
+      <SizeSelect sizes={sizes} value={[value]} onChange={onChange} />
+    )
+
+    expect(wrapper).toMatchSnapshot()
+
+    sizes.forEach(size => {
+      const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
+      fireEvent.click(sizeRadio)
+
+      expect(value).toStrictEqual([size])
     })
   })
 
   it('Test get default size filter select with actions ', async () => {
-    let value: SIZE_PARAMS = 'M'
+    let value: SIZE_PARAMS = ['M']
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
     const onChange = size => (value = size)
     const changeHandler = jest.fn().mockImplementation(value => {
@@ -94,8 +130,9 @@ describe('App size select', () => {
       })
       const label = getAllByText(svalue)
       UserEvent.click(last(label))
+
       expect(changeHandler).toHaveBeenCalled()
-      expect(value).toEqual(svalue)
+      expect(value).toEqual([svalue])
     }
   })
 })

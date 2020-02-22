@@ -58,8 +58,8 @@ const ProductItemBuy: FC<ProductItemBuyProps> = (
   )
 
   const [buyOption, dispatch] = useReducer(reducer, {
-    color: colors[0],
-    size: sizes[0],
+    color: [colors[0]],
+    size: [sizes[0]],
   })
 
   const onSizeChange = useCallback(

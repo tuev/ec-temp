@@ -29,11 +29,7 @@ Object {
   display: flex;
 }
 
-.c2 {
-  width: 100%;
-}
-
-.c4 {
+.c3 {
   margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,7 +43,6 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -63,7 +58,7 @@ Object {
   color: #2E2E2E;
 }
 
-.c3 {
+.c2 {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -71,23 +66,11 @@ Object {
   color: #2E2E2E;
 }
 
-.c5 {
+.c4 {
   min-width: 90px !important;
   min-height: 36px !important;
   font-size: 12px;
   border-radius: 24px;
-}
-
-@media screen and (min-width:40em) {
-  .c2 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c4 {
-    width: 50%;
-  }
 }
 
 <div>
@@ -103,20 +86,18 @@ Object {
           10% discount for your subscription
         </p>
         <div
-          class="c2"
-          width="1,0.5"
+          class=""
         >
           <p
-            class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root c2 MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
           >
             Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
           </p>
         </div>
         <div
-          class="c4"
+          class="c3"
           display="flex"
-          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -154,10 +135,10 @@ Object {
               />
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-259 MuiOutlinedInput-notchedOutline"
+                class="PrivateNotchedOutline-root-255 MuiOutlinedInput-notchedOutline"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-261 PrivateNotchedOutline-legendNotched-262"
+                  class="PrivateNotchedOutline-legendLabelled-257 PrivateNotchedOutline-legendNotched-258"
                 >
                   <span>
                     Your email
@@ -167,7 +148,7 @@ Object {
             </div>
           </div>
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained c5 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained c4 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="subscribe-btn"
             tabindex="0"
             type="button"
@@ -187,31 +168,29 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC cbkOkZ"
+      class="sc-AxjAm bvMnre"
       display="flex"
       width="100%"
     >
       <p
-        class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
+        class="MuiTypography-root sc-AxirZ kVgNGO MuiTypography-body1 MuiTypography-colorError"
         customvariant="header2"
       >
         10% discount for your subscription
       </p>
       <div
-        class="sc-AykKC hSZhAe"
-        width="1,0.5"
+        class="sc-AxjAm dgJqsq"
       >
         <p
-          class="MuiTypography-root sc-AykKD bYERao MuiTypography-body1 MuiTypography-alignCenter"
+          class="MuiTypography-root sc-AxirZ bNdxLL MuiTypography-body1 MuiTypography-alignCenter"
           customvariant="header3"
         >
           Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
         </p>
       </div>
       <div
-        class="sc-AykKC kOjYBH"
+        class="sc-AxjAm izTgPt"
         display="flex"
-        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -249,10 +228,10 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-259 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-255 MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-261 PrivateNotchedOutline-legendNotched-262"
+                class="PrivateNotchedOutline-legendLabelled-257 PrivateNotchedOutline-legendNotched-258"
               >
                 <span>
                   Your email
@@ -262,7 +241,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxiKw bmkuvf MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"
@@ -361,11 +340,7 @@ Object {
   display: flex;
 }
 
-.c2 {
-  width: 100%;
-}
-
-.c4 {
+.c3 {
   margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -379,7 +354,6 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -395,7 +369,7 @@ Object {
   color: #2E2E2E;
 }
 
-.c3 {
+.c2 {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -403,23 +377,11 @@ Object {
   color: #2E2E2E;
 }
 
-.c5 {
+.c4 {
   min-width: 90px !important;
   min-height: 36px !important;
   font-size: 12px;
   border-radius: 24px;
-}
-
-@media screen and (min-width:40em) {
-  .c2 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c4 {
-    width: 50%;
-  }
 }
 
 <body>
@@ -436,20 +398,18 @@ Object {
           10% discount for your subscription
         </p>
         <div
-          class="c2"
-          width="1,0.5"
+          class=""
         >
           <p
-            class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root c2 MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
           >
             Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
           </p>
         </div>
         <div
-          class="c4"
+          class="c3"
           display="flex"
-          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -487,10 +447,10 @@ Object {
               />
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-107 MuiOutlinedInput-notchedOutline"
+                class="PrivateNotchedOutline-root-105 MuiOutlinedInput-notchedOutline"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-109 PrivateNotchedOutline-legendNotched-110"
+                  class="PrivateNotchedOutline-legendLabelled-107 PrivateNotchedOutline-legendNotched-108"
                 >
                   <span>
                     Your email
@@ -500,7 +460,7 @@ Object {
             </div>
           </div>
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained c5 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained c4 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="subscribe-btn"
             tabindex="0"
             type="button"
@@ -520,31 +480,29 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC cbkOkZ"
+      class="sc-AxjAm bvMnre"
       display="flex"
       width="100%"
     >
       <p
-        class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
+        class="MuiTypography-root sc-AxirZ kVgNGO MuiTypography-body1 MuiTypography-colorError"
         customvariant="header2"
       >
         10% discount for your subscription
       </p>
       <div
-        class="sc-AykKC hSZhAe"
-        width="1,0.5"
+        class="sc-AxjAm dgJqsq"
       >
         <p
-          class="MuiTypography-root sc-AykKD bYERao MuiTypography-body1 MuiTypography-alignCenter"
+          class="MuiTypography-root sc-AxirZ bNdxLL MuiTypography-body1 MuiTypography-alignCenter"
           customvariant="header3"
         >
           Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
         </p>
       </div>
       <div
-        class="sc-AykKC kOjYBH"
+        class="sc-AxjAm izTgPt"
         display="flex"
-        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -582,10 +540,10 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-107 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-105 MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-109 PrivateNotchedOutline-legendNotched-110"
+                class="PrivateNotchedOutline-legendLabelled-107 PrivateNotchedOutline-legendNotched-108"
               >
                 <span>
                   Your email
@@ -595,7 +553,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxiKw bmkuvf MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"
@@ -695,11 +653,7 @@ Object {
   display: flex;
 }
 
-.c2 {
-  width: 100%;
-}
-
-.c4 {
+.c3 {
   margin-top: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -713,7 +667,6 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 100%;
   max-width: 350px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -729,7 +682,7 @@ Object {
   color: #2E2E2E;
 }
 
-.c3 {
+.c2 {
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Montserrat Alternates';
@@ -737,23 +690,11 @@ Object {
   color: #2E2E2E;
 }
 
-.c5 {
+.c4 {
   min-width: 90px !important;
   min-height: 36px !important;
   font-size: 12px;
   border-radius: 24px;
-}
-
-@media screen and (min-width:40em) {
-  .c2 {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:40em) {
-  .c4 {
-    width: 50%;
-  }
 }
 
 <div>
@@ -769,20 +710,18 @@ Object {
           10% discount for your subscription
         </p>
         <div
-          class="c2"
-          width="1,0.5"
+          class=""
         >
           <p
-            class="MuiTypography-root c3 MuiTypography-body1 MuiTypography-alignCenter"
+            class="MuiTypography-root c2 MuiTypography-body1 MuiTypography-alignCenter"
             customvariant="header3"
           >
             Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
           </p>
         </div>
         <div
-          class="c4"
+          class="c3"
           display="flex"
-          width="1,0.5"
         >
           <div
             class="MuiFormControl-root MuiTextField-root"
@@ -820,10 +759,10 @@ Object {
               />
               <fieldset
                 aria-hidden="true"
-                class="PrivateNotchedOutline-root-411 MuiOutlinedInput-notchedOutline"
+                class="PrivateNotchedOutline-root-405 MuiOutlinedInput-notchedOutline"
               >
                 <legend
-                  class="PrivateNotchedOutline-legendLabelled-413 PrivateNotchedOutline-legendNotched-414"
+                  class="PrivateNotchedOutline-legendLabelled-407 PrivateNotchedOutline-legendNotched-408"
                 >
                   <span>
                     Your email
@@ -833,7 +772,7 @@ Object {
             </div>
           </div>
           <button
-            class="MuiButtonBase-root MuiButton-root MuiButton-contained c5 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained c4 MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
             data-testid="subscribe-btn"
             tabindex="0"
             type="button"
@@ -853,31 +792,29 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKC cbkOkZ"
+      class="sc-AxjAm bvMnre"
       display="flex"
       width="100%"
     >
       <p
-        class="MuiTypography-root sc-AykKD eWFSXP MuiTypography-body1 MuiTypography-colorError"
+        class="MuiTypography-root sc-AxirZ kVgNGO MuiTypography-body1 MuiTypography-colorError"
         customvariant="header2"
       >
         10% discount for your subscription
       </p>
       <div
-        class="sc-AykKC hSZhAe"
-        width="1,0.5"
+        class="sc-AxjAm dgJqsq"
       >
         <p
-          class="MuiTypography-root sc-AykKD bYERao MuiTypography-body1 MuiTypography-alignCenter"
+          class="MuiTypography-root sc-AxirZ bNdxLL MuiTypography-body1 MuiTypography-alignCenter"
           customvariant="header3"
         >
           Carry the day in style with this extra-large tote crafted in our chic B.B. Collection textured PVC. Featuring coloful faux leather trim, this tote offer a roomy iterior
         </p>
       </div>
       <div
-        class="sc-AykKC kOjYBH"
+        class="sc-AxjAm izTgPt"
         display="flex"
-        width="1,0.5"
       >
         <div
           class="MuiFormControl-root MuiTextField-root"
@@ -915,10 +852,10 @@ Object {
             />
             <fieldset
               aria-hidden="true"
-              class="PrivateNotchedOutline-root-411 MuiOutlinedInput-notchedOutline"
+              class="PrivateNotchedOutline-root-405 MuiOutlinedInput-notchedOutline"
             >
               <legend
-                class="PrivateNotchedOutline-legendLabelled-413 PrivateNotchedOutline-legendNotched-414"
+                class="PrivateNotchedOutline-legendLabelled-407 PrivateNotchedOutline-legendNotched-408"
               >
                 <span>
                   Your email
@@ -928,7 +865,7 @@ Object {
           </div>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AykKE ektXmT MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained sc-AxiKw bmkuvf MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
           data-testid="subscribe-btn"
           tabindex="0"
           type="button"

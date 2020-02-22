@@ -10,7 +10,7 @@ export default {
 }
 
 export const basic = () => (
-  <ColorSelect colors={['blue', 'green', 'red', 'orange']} value="blue" />
+  <ColorSelect colors={['blue', 'green', 'red', 'orange']} value={['blue']} />
 )
 
 export const example = () => <ColorSelectExample />
@@ -21,6 +21,6 @@ const ColorSelectExample = () => {
   const handleToggleColor = useCallback(colorCode => toggleColor(colorCode), [])
 
   return (
-    <ColorSelect colors={colors} value={color} onChange={handleToggleColor} />
+    <ColorSelect colors={colors} value={[color]} onChange={handleToggleColor} />
   )
 }

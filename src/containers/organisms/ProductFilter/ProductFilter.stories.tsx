@@ -17,8 +17,8 @@ export default {
 
 export const basic = () => {
   const initState: IProductFilterValue = {
-    color: 'green',
-    size: 'L',
+    color: ['green'],
+    size: ['L'],
     price: [3, 4],
     brand: {
       brand1: {
