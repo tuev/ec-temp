@@ -23,16 +23,21 @@ import { get } from 'lodash'
 import { filterOptions } from './mock/filterValue'
 
 const ProductFilter: FC<ProductFilterProps> = (props: ProductFilterProps) => {
-  const { value, onChange, applyFilter }: ProductFilterProps = props
   const defaultFilter = useMemo(
     () => ({
       brand: get(filterOptions, 'brand'),
-      color: get(filterOptions, 'color.0', 'blue'),
+      color: [get(filterOptions, 'color.0', 'blue')],
       price: get(filterOptions, 'price', [5, 200]),
       size: get(filterOptions, 'size.0', 'M'),
     }),
     []
   )
+  const {
+    value = defaultFilter,
+    onChange,
+    applyFilter,
+  }: ProductFilterProps = props
+
   const [filterValue, onFilterChange, onFilterClear] = useProductFilter(
     value,
     onChange,
@@ -53,6 +58,7 @@ const ProductFilter: FC<ProductFilterProps> = (props: ProductFilterProps) => {
           value={filterValue.color}
           colors={filterOptions.color}
           onChange={onFilterChange.color}
+          multiselect={true}
         />
       </Wrapper>
       <Wrapper mb="16px">
@@ -63,6 +69,7 @@ const ProductFilter: FC<ProductFilterProps> = (props: ProductFilterProps) => {
           value={filterValue.size}
           sizes={filterOptions.size}
           onChange={onFilterChange.size}
+          multipleselect={true}
         />
       </Wrapper>
       <Wrapper mb="16px">
@@ -88,7 +95,6 @@ const ProductFilter: FC<ProductFilterProps> = (props: ProductFilterProps) => {
         display="flex"
         justifyContent="space-between"
         alignItems="center"
-        flexDirection={['column', 'row']}
       >
         <Button
           size="small"

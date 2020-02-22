@@ -46,13 +46,14 @@ const useProductFilter: ProductFilterHook = (
   onEffectCallback,
   defaultValue
 ) => {
-  const [filter, dispatch] = useReducer(reducer, iniState)
+  const initValue = iniState
+  const [filter, dispatch] = useReducer(reducer, initValue)
   const onColorChange = useCallback(
-    (color: ColorType) => dispatch({ type: 'CHANGE_COLOR', payload: color }),
+    (color: ColorType[]) => dispatch({ type: 'CHANGE_COLOR', payload: color }),
     []
   )
   const onSizeChange = useCallback(
-    (size: SIZE_PARAMS) =>
+    (size: SIZE_PARAMS[]) =>
       dispatch({ type: ACTION_TYPE.CHANGE_SIZE, payload: size }),
     []
   )

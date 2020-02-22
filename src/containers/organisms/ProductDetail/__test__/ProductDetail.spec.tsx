@@ -82,8 +82,8 @@ describe('App ProductDetail', () => {
     fireEvent.click(buyBtn)
     expect(handleBuy).toBeCalled()
     expect(itemData).toStrictEqual({
-      color: itemInfo.colors[0],
-      size: itemInfo.sizes[0],
+      color: [itemInfo.colors[0]],
+      size: [itemInfo.sizes[0]],
       quantity: 1,
       id: itemInfo.id,
     })

@@ -18,15 +18,15 @@ export interface IProductFilterOptions {
 }
 
 export interface IProductFilterValue {
-  color: ColorType
-  size: SIZE_PARAMS
+  color: ColorType[]
+  size: SIZE_PARAMS[]
   price: PriceValue
   brand: IBrandValues
 }
 export type ProductFilterHandle = (filter: IProductFilterValue) => unknown
 
 export interface IProductProps {
-  value: IProductFilterValue
+  value?: IProductFilterValue
   onChange?: ProductFilterHandle
   applyFilter?: ProductFilterHandle
 }
@@ -34,12 +34,12 @@ export type ProductFilterProps = IProductProps
 
 export interface IColorAction {
   type: typeof CHANGE_COLOR
-  payload: ColorType
+  payload: ColorType[]
 }
 
 export interface ISizeAction {
   type: typeof CHANGE_SIZE
-  payload: SIZE_PARAMS
+  payload: SIZE_PARAMS[]
 }
 
 export interface IPriceAction {
@@ -72,8 +72,8 @@ export type ProductFilterReducer = (
 export type ClearProductFilter = () => void
 
 export interface IProdutFilterChange {
-  color: (color: ColorType) => void
-  size: (size: SIZE_PARAMS) => void
+  color: (color: ColorType[]) => void
+  size: (size: SIZE_PARAMS[]) => void
   price: (price: PriceValue) => void
   brand: (brand: IBrandValues) => void
 }

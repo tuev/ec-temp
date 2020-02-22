@@ -178,11 +178,11 @@ Object {
                     />
                     <fieldset
                       aria-hidden="true"
-                      class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                      class="PrivateNotchedOutline-root-178 MuiOutlinedInput-notchedOutline"
                       style="padding-left: 8px;"
                     >
                       <legend
-                        class="PrivateNotchedOutline-legend-181"
+                        class="PrivateNotchedOutline-legend-179"
                         style="width: 0.01px;"
                       >
                         <span>
@@ -274,7 +274,7 @@ Object {
           href="/"
         >
           <div
-            class="sc-AykKC gASqyC"
+            class="sc-AxjAm kAVjWn"
           />
         </a>
       </div>
@@ -282,7 +282,7 @@ Object {
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
       >
         <div
-          class="sc-AykKD ieKWPw"
+          class="sc-AxirZ jfmpxd"
           display="flex"
         />
       </div>
@@ -290,18 +290,18 @@ Object {
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
       >
         <div
-          class="sc-AykKD kRozGO"
+          class="sc-AxirZ kClenP"
           display="flex"
         >
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <div
-              class="sc-fzXfLO jyViaM"
+              class="sc-fzozJi lbSdeO"
               data-testid="search-ref"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
                 maxwidth="32px"
                 opacity="0"
                 style="opacity: 0; max-width: 32px;"
@@ -319,11 +319,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-180 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-178 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-181"
+                      class="PrivateNotchedOutline-legend-179"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -334,7 +334,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-AykKD dxwNTg"
+                class="sc-AxirZ ijbYQZ"
               >
                 <svg
                   aria-hidden="true"
@@ -351,13 +351,13 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <div
-                class="sc-AykKD hghWql"
+                class="sc-AxirZ fpLAZU"
                 data-testid="product-cart-icon"
                 height="2rem"
                 width="2rem"
@@ -374,10 +374,10 @@ Object {
                   />
                 </svg>
                 <div
-                  class="sc-AykKD EZxbM"
+                  class="sc-AxirZ egQssr"
                 >
                   <button
-                    class="sc-AykKE epmNKB"
+                    class="sc-AxiKw ctpQxV"
                     color="primary"
                   >
                     0
@@ -387,11 +387,11 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <p
               animation="1"
-              class="MuiTypography-root sc-AykKH bJuDrD MuiTypography-body1"
+              class="MuiTypography-root sc-AxgMl fwlnkv MuiTypography-body1"
               customvariant="header3"
             >
               Login
@@ -707,11 +707,11 @@ Object {
                     />
                     <fieldset
                       aria-hidden="true"
-                      class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+                      class="PrivateNotchedOutline-root-437 MuiOutlinedInput-notchedOutline"
                       style="padding-left: 8px;"
                     >
                       <legend
-                        class="PrivateNotchedOutline-legend-442"
+                        class="PrivateNotchedOutline-legend-438"
                         style="width: 0.01px;"
                       >
                         <span>
@@ -803,7 +803,7 @@ Object {
           href="/"
         >
           <div
-            class="sc-AykKC gASqyC"
+            class="sc-AxjAm kAVjWn"
           />
         </a>
       </div>
@@ -811,18 +811,18 @@ Object {
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-5 MuiGrid-grid-lg-6"
       >
         <div
-          class="sc-AykKD ieKWPw"
+          class="sc-AxirZ jfmpxd"
           display="flex"
         >
           <div
-            class="sc-AykKD bRlBYj"
+            class="sc-AxirZ blOBMC"
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
               href="/productlist?category=women"
             >
               <p
-                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                 customvariant="topbar"
               >
                 Women
@@ -830,14 +830,14 @@ Object {
             </a>
           </div>
           <div
-            class="sc-AykKD bRlBYj"
+            class="sc-AxirZ blOBMC"
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
               href="/productlist?category=men"
             >
               <p
-                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                 customvariant="topbar"
               >
                 Men
@@ -845,14 +845,14 @@ Object {
             </a>
           </div>
           <div
-            class="sc-AykKD bRlBYj"
+            class="sc-AxirZ blOBMC"
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
               href="/productlist?category=shoe"
             >
               <p
-                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                 customvariant="topbar"
               >
                 Shoe
@@ -860,14 +860,14 @@ Object {
             </a>
           </div>
           <div
-            class="sc-AykKD bRlBYj"
+            class="sc-AxirZ blOBMC"
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
               href="/productlist"
             >
               <p
-                class="MuiTypography-root sc-AykKH gjabvU MuiTypography-body1"
+                class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
                 customvariant="topbar"
               >
                 Brands
@@ -880,18 +880,18 @@ Object {
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-md-6 MuiGrid-grid-lg-4"
       >
         <div
-          class="sc-AykKD kRozGO"
+          class="sc-AxirZ kClenP"
           display="flex"
         >
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <div
-              class="sc-fzXfLO jyViaM"
+              class="sc-fzozJi lbSdeO"
               data-testid="search-ref"
             >
               <div
-                class="MuiFormControl-root MuiTextField-root sc-AykKK kvSvho"
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
                 maxwidth="32px"
                 opacity="0"
                 style="opacity: 0; max-width: 32px;"
@@ -909,11 +909,11 @@ Object {
                   />
                   <fieldset
                     aria-hidden="true"
-                    class="PrivateNotchedOutline-root-441 MuiOutlinedInput-notchedOutline"
+                    class="PrivateNotchedOutline-root-437 MuiOutlinedInput-notchedOutline"
                     style="padding-left: 8px;"
                   >
                     <legend
-                      class="PrivateNotchedOutline-legend-442"
+                      class="PrivateNotchedOutline-legend-438"
                       style="width: 0.01px;"
                     >
                       <span>
@@ -924,7 +924,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-AykKD dxwNTg"
+                class="sc-AxirZ ijbYQZ"
               >
                 <svg
                   aria-hidden="true"
@@ -941,13 +941,13 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <div
-              class="sc-AykKD hUuDfI"
+              class="sc-AxirZ RMStd"
             >
               <div
-                class="sc-AykKD hghWql"
+                class="sc-AxirZ fpLAZU"
                 data-testid="product-cart-icon"
                 height="2rem"
                 width="2rem"
@@ -964,10 +964,10 @@ Object {
                   />
                 </svg>
                 <div
-                  class="sc-AykKD EZxbM"
+                  class="sc-AxirZ egQssr"
                 >
                   <button
-                    class="sc-AykKE epmNKB"
+                    class="sc-AxiKw ctpQxV"
                     color="primary"
                   >
                     0
@@ -977,11 +977,11 @@ Object {
             </div>
           </div>
           <div
-            class="sc-AykKD ilztcd"
+            class="sc-AxirZ gMkniu"
           >
             <p
               animation="1"
-              class="MuiTypography-root sc-AykKH bJuDrD MuiTypography-body1"
+              class="MuiTypography-root sc-AxgMl fwlnkv MuiTypography-body1"
               customvariant="header3"
             >
               Login

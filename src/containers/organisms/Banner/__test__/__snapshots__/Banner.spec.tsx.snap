@@ -100,16 +100,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKF cnRpaz"
+      class="sc-AxhCb eEEZGs"
     >
       <div
-        class="sc-AykKC jIsKsm"
+        class="sc-AxjAm wQNUV"
       >
         <div
-          class="sc-AykKC hHpGgs"
+          class="sc-AxjAm QCVyp"
         >
           <p
-            class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
+            class="MuiTypography-root sc-AxirZ hASgob MuiTypography-body1"
             customcolor="white"
             customvariant="header1"
           >
@@ -117,10 +117,10 @@ Object {
           </p>
         </div>
         <div
-          class="sc-AykKC gXLXEJ"
+          class="sc-AxjAm cuayUK"
         >
           <p
-            class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
+            class="MuiTypography-root sc-AxirZ gMnndD MuiTypography-body1"
             customcolor="white"
             customvariant="header2"
           >
@@ -128,7 +128,7 @@ Object {
           </p>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AxiKw inYPse MuiButton-outlinedPrimary"
           data-testid="banner-btn"
           tabindex="0"
           type="button"
@@ -299,16 +299,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-AykKF cnRpaz"
+      class="sc-AxhCb eEEZGs"
     >
       <div
-        class="sc-AykKC jIsKsm"
+        class="sc-AxjAm wQNUV"
       >
         <div
-          class="sc-AykKC hHpGgs"
+          class="sc-AxjAm QCVyp"
         >
           <p
-            class="MuiTypography-root sc-AykKD bEdowK MuiTypography-body1"
+            class="MuiTypography-root sc-AxirZ hASgob MuiTypography-body1"
             customcolor="white"
             customvariant="header1"
           >
@@ -316,10 +316,10 @@ Object {
           </p>
         </div>
         <div
-          class="sc-AykKC gXLXEJ"
+          class="sc-AxjAm cuayUK"
         >
           <p
-            class="MuiTypography-root sc-AykKD dcFxeQ MuiTypography-body1"
+            class="MuiTypography-root sc-AxirZ gMnndD MuiTypography-body1"
             customcolor="white"
             customvariant="header2"
           >
@@ -327,7 +327,7 @@ Object {
           </p>
         </div>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AykKE grtIcA MuiButton-outlinedPrimary"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined sc-AxiKw inYPse MuiButton-outlinedPrimary"
           data-testid="banner-btn"
           tabindex="0"
           type="button"

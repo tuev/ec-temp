@@ -60,9 +60,13 @@ exports[`Button outline large btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -501,9 +505,13 @@ exports[`Button outline medium btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -940,9 +948,13 @@ exports[`Button outline small btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -1383,9 +1395,13 @@ exports[`Button primary large btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -1822,9 +1838,13 @@ exports[`Button primary medium btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",
@@ -2260,9 +2280,13 @@ exports[`Button primary small btn 1`] = `
         },
         "palette": Object {
           "action": Object {
+            "activatedOpaciy": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
             "hover": "rgba(0, 0, 0, 0.04)",
             "hoverOpacity": 0.04,
             "selected": "rgba(0, 0, 0, 0.08)",

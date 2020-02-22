@@ -14,6 +14,6 @@ export const CardWrapper = styled.div`
   padding: 8px;
 
   &:hover {
-    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
   }
 `

@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useState, useEffect } from 'react'
+import React, { FC, useCallback, useState, useEffect, useMemo } from 'react'
 import { BasicSizeSelectProps, SIZE_PARAMS } from './SizeSelect.types'
 import Button from 'components/atoms/Button'
 import {
@@ -10,22 +10,36 @@ import {
 import { FormControl, Select, MenuItem } from '@material-ui/core'
 import { ThemeProvider } from '@material-ui/core/styles'
 import Typography from 'components/atoms/Typography'
+import { isEqual } from 'lodash'
 
 const SizeSelect: FC<BasicSizeSelectProps> = props => {
-  const { sizes = [], value, onChange, type = 'radio' } = props
-  const [size, onSizeChange] = useState<SIZE_PARAMS>(value)
+  const { sizes = [], value, onChange, type = 'radio', multipleselect } = props
+  const [size, onSizeChange] = useState<SIZE_PARAMS[]>(value)
+
+  const isAllSizeSelected = useMemo(
+    () => sizes.every(item => size.includes(item)),
+    [sizes, size]
+  )
+  const handleSelectAll = useCallback(() => onSizeChange(sizes), [sizes])
+
   const handleSizeOnChange = useCallback(
     // todo: need to make typecheck for hof
-    sizeValue => (): unknown => onSizeChange(sizeValue),
-    []
+    sizeValue => (): unknown => {
+      if (multipleselect) {
+        if (isEqual(size, [sizeValue])) return
+        size.includes(sizeValue)
+          ? onSizeChange(size.filter(item => item !== sizeValue))
+          : onSizeChange([...size, sizeValue])
+      } else {
+        onSizeChange([sizeValue] as SIZE_PARAMS[])
+      }
+    },
+    [multipleselect, size]
   )
 
-  const handleSelect = useCallback(
-    (e: React.ChangeEvent<{ value: unknown }>) => {
-      onSizeChange(e.target.value as SIZE_PARAMS)
-    },
-    [onSizeChange]
-  )
+  const handleSelect = useCallback(e => {
+    onSizeChange([e.target.value] as SIZE_PARAMS[])
+  }, [])
 
   useEffect(() => {
     if (onChange) {
@@ -39,11 +53,24 @@ const SizeSelect: FC<BasicSizeSelectProps> = props => {
 
   return type === 'radio' ? (
     <SizeSelectWrapper>
+      {multipleselect ? (
+        <SizeItemWrapper key="All">
+          <Button
+            mx="4px"
+            onClick={handleSelectAll}
+            size="small"
+            data-testid={`size-filter-all`}
+            color={isAllSizeSelected ? 'secondary' : 'default'}
+          >
+            All
+          </Button>
+        </SizeItemWrapper>
+      ) : null}
       {sizes.map(sizeItem => (
         <SizeItemWrapper key={sizeItem}>
           <Button
             mx="4px"
-            color={size === sizeItem ? 'secondary' : 'default'}
+            color={size.includes(sizeItem) ? 'secondary' : 'default'}
             onClick={handleSizeOnChange(sizeItem)}
             size="small"
             data-testid={`size-filter-${sizeItem}`}
