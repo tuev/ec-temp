@@ -9,25 +9,15 @@ export default {
 }
 
 export const basic = () => (
-  <Button
-    onClick={action('Button Clicked!!!')}
-    color="primary"
-    variant="contained"
-  >
+  <Button color="primary" variant="contained">
     Test
   </Button>
 )
 
 export const large = () => (
   <>
-    <Button onClick={action('Button Clicked!!!')} size="large">
-      Primary
-    </Button>
-    <Button
-      onClick={action('Button Clicked!!!')}
-      size="large"
-      variant="outlined"
-    >
+    <Button size="large">Primary</Button>
+    <Button size="large" variant="outlined">
       Outlined
     </Button>
   </>
@@ -35,14 +25,8 @@ export const large = () => (
 
 export const mediumPrimary = () => (
   <>
-    <Button onClick={action('Button Clicked!!!')} size="medium">
-      Primary
-    </Button>
-    <Button
-      onClick={action('Button Clicked!!!')}
-      size="medium"
-      variant="outlined"
-    >
+    <Button size="medium">Primary</Button>
+    <Button size="medium" variant="outlined">
       Outlined
     </Button>
   </>
@@ -50,14 +34,8 @@ export const mediumPrimary = () => (
 
 export const smallPrimary = () => (
   <>
-    <Button onClick={action('Button Clicked!!!')} size="small">
-      Primary
-    </Button>
-    <Button
-      onClick={action('Button Clicked!!!')}
-      size="small"
-      variant="outlined"
-    >
+    <Button size="small">Primary</Button>
+    <Button size="small" variant="outlined">
       Outlined
     </Button>
   </>

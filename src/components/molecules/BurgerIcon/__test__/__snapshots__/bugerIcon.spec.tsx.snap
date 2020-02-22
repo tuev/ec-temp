@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Burger icon basic burger icon 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<BurgerIcon>
+  <styled.button
+    data-testid="burger-icon"
+    onClick={[Function]}
+    open={false}
+  >
+    <button
+      className="c0"
+      data-testid="burger-icon"
+      onClick={[Function]}
+      open={false}
+    >
+      <div />
+      <div />
+      <div />
+    </button>
+  </styled.button>
+</BurgerIcon>
+`;
+
+exports[`Burger icon basic burger icon action 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        data-testid="burger-icon"
+      >
+        <div />
+        <div />
+        <div />
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="sc-AxjAm pXwgW"
+      data-testid="burger-icon"
+    >
+      <div />
+      <div />
+      <div />
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Burger icon green green 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #00D3CA;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<BurgerIcon
+  color="green"
+>
+  <styled.button
+    color="green"
+    data-testid="burger-icon"
+    onClick={[Function]}
+    open={false}
+  >
+    <button
+      className="c0"
+      color="green"
+      data-testid="burger-icon"
+      onClick={[Function]}
+      open={false}
+    >
+      <div />
+      <div />
+      <div />
+    </button>
+  </styled.button>
+</BurgerIcon>
+`;
+
+exports[`Burger icon opned burger icon btn 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c0 div:first-child {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.c0 div:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.c0 div:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<BurgerIcon
+  open={true}
+>
+  <styled.button
+    data-testid="burger-icon"
+    onClick={[Function]}
+    open={true}
+  >
+    <button
+      className="c0"
+      data-testid="burger-icon"
+      onClick={[Function]}
+      open={true}
+    >
+      <div />
+      <div />
+      <div />
+    </button>
+  </styled.button>
+</BurgerIcon>
+`;

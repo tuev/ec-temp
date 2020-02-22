@@ -1,6 +1,17 @@
 {
   "*.js": [
     "npm run lint",
+    "npm run eslint",
+    "git add --force"
+  ],
+  "*.ts": [
+    "npm run lint",
+    "npm run eslint",
+    "git add --force"
+  ],
+  "*.tsx": [
+    "npm run lint",
+    "npm run eslint",
     "git add --force"
   ],
   "*.json": [

@@ -1,10 +1,11 @@
 import { space } from 'styled-system'
 import styled from 'styled-components'
-import { BaseRatingProps } from './Rating.types'
-import { Rating } from '@material-ui/lab'
 
-export const AppRating: React.FC<BaseRatingProps> = styled(Rating)<
-  BaseRatingProps
+import { Rating } from '@material-ui/lab'
+import { RatingDefaultProps } from './Rating.types'
+
+export const AppRating: React.FC<RatingDefaultProps> = styled(Rating)<
+  RatingDefaultProps
 >`
   ${space}
 `

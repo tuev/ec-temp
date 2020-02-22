@@ -4,34 +4,26 @@ import Slider from './Slider'
 
 export default {
   component: Slider,
-  title: 'AppSlider',
   includeStories: ['basic', 'range', 'hasLabel'],
+  title: 'AppSlider',
 }
 
 export const basic = () => (
   <div style={{ width: 200, padding: 32 }}>
-    <Slider onChange={action('Slider Clicked!!!')} value={10} />
+    <Slider value={10} />
   </div>
 )
 
 export const range = () => (
   <div style={{ width: 200, padding: 32 }}>
-    <Slider onChange={action('Slider Clicked!!!')} value={[10, 50]} />
+    <Slider value={[10, 50]} />
   </div>
 )
 
 export const hasLabel = () => (
   <div style={{ width: 200, padding: 32 }}>
-    <Slider
-      onChange={action('Slider Clicked!!!')}
-      value={10}
-      showlabel={true}
-    />
+    <Slider value={10} showlabel={1} />
 
-    <Slider
-      onChange={action('Slider Clicked!!!')}
-      value={[10, 50]}
-      showlabel={true}
-    />
+    <Slider value={[10, 50]} showlabel={1} />
   </div>
 )

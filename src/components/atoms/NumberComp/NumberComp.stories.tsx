@@ -4,8 +4,8 @@ import NumberComp from './NumberComp'
 
 export default {
   component: NumberComp,
-  title: 'AppNumberComp',
   includeStories: ['basic'],
+  title: 'AppNumberComp',
 }
 
 export const basic = () => (

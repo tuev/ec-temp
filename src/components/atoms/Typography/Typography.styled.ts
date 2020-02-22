@@ -1,55 +1,73 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import { space } from 'styled-system'
-import { COLOR } from 'theme/colors'
+import { COLOR, ColorKey } from 'theme/colors'
 import styled, { css } from 'styled-components'
 import { BaseTypographyProps } from './Typography.types'
 import { Typography } from '@material-ui/core'
-import { prop, switchProp } from 'styled-tools'
+import { switchProp, ifProp, prop } from 'styled-tools'
 
-export const AppTypography = styled(Typography)<BaseTypographyProps>`
+export const AppTypography = styled(Typography)<
+  BaseTypographyProps & {
+    animation?: boolean | number
+    customcolor?: ColorKey
+    linecolor?: ColorKey
+  }
+>`
   ${space};
   ${switchProp('customvariant', {
     body1: css`
-      font-size: 16px !important;
-      color: ${COLOR.black1} !important;
-      line-height: 1.5 !important;
-      font-family: 'Open Sans' !important;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: 'Open Sans';
     `,
     body2: css`
-      font-size: 12px !important;
-      color: ${COLOR.black1} !important;
-      line-height: 2 !important;
-      font-family: 'Open Sans' !important;
+      font-size: 12px;
+      line-height: 2;
+      font-family: 'Open Sans';
     `,
     header1: css`
-      font-size: 48px !important;
-      color: ${COLOR.black} !important;
-      line-height: 1.5 !important;
-      font-family: 'Playfair Display' !important;
-      font-weight: bold !important;
+      font-size: 48px;
+      line-height: 1.5;
+      font-family: 'Playfair Display';
+      font-weight: bold;
     `,
     header2: css`
-      font-size: 24px !important;
-      color: ${COLOR.black} !important;
-      line-height: 1.5 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 24px;
+      line-height: 1.5;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
     header3: css`
-      font-size: 16px !important;
-      color: ${COLOR.black} !important;
-      line-height: 1.5 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
     topbar: css`
-      font-size: 16px !important;
-      color: ${COLOR.black} !important;
-      line-height: 2.4 !important;
-      font-family: 'Montserrat Alternates' !important;
-      font-weight: bold !important;
+      font-size: 16px;
+      line-height: 2.4;
+      font-family: 'Montserrat Alternates';
+      font-weight: bold;
     `,
   })}
+  ${ifProp(
+    'animation',
+    css`
+      background-image: linear-gradient(
+        transparent calc(100% - 1px),
+        ${prop('linecolor', 'black')} 1px
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      transition: background-size 0.5s;
+
+      &:hover {
+        background-size: 100% 100%;
+        cursor: pointer;
+      }
+    `
+  )};
+  color: ${(props): string => COLOR[props.customcolor || 'black']};
 `
 
 export const theme = createMuiTheme({

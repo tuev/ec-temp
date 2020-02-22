@@ -1,9 +1,7 @@
-import React, { FC, useMemo } from 'react'
+import React, { FC } from 'react'
 import { AppTypography, theme } from './Typography.styled'
 import { BaseTypographyProps } from './Typography.types'
-import { ThemeProvider } from '@material-ui/core/styles'
-import { COLOR } from 'theme/colors'
-import { keys } from 'lodash'
+import { ThemeProvider, StylesProvider } from '@material-ui/core/styles'
 
 const Typography: FC<BaseTypographyProps> = (props: BaseTypographyProps) => {
   // const { customcolor, ...rest } = props
@@ -11,7 +9,9 @@ const Typography: FC<BaseTypographyProps> = (props: BaseTypographyProps) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <AppTypography {...props} />
+      <StylesProvider injectFirst={true}>
+        <AppTypography {...props} />
+      </StylesProvider>
     </ThemeProvider>
   )
 }

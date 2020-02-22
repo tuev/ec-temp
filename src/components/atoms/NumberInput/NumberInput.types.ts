@@ -3,7 +3,7 @@ import { OutlinedTextFieldProps } from '@material-ui/core/TextField'
 
 export interface INumberInputProps
   extends Omit<OutlinedTextFieldProps, 'variant'> {
-  size?: 'small' | 'medium' | 'large'
+  size?: 'small' | 'medium'
   variant?: 'standard' | 'outlined' | 'filled'
 }
 

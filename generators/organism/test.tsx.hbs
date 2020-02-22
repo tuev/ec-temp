@@ -1,0 +1,18 @@
+/**
+ *
+ * Tests for {{ properCase name }}
+ *
+ */
+
+import React from 'react'
+
+import { render, fireEvent } from '@testing-library/react'
+import {{ properCase name }} from '..'
+
+describe('App {{ properCase name }}', () => {
+  it('Test get default {{ properCase name }} no params ', () => {
+    // test snapshot
+    const wrapper = render(<{{ properCase name }} />)
+    expect(wrapper).toMatchSnapshot()
+  })
+})

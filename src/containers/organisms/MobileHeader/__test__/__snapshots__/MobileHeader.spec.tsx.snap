@@ -1,0 +1,2408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App MobileHeader Test get default MobileHeader no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c1 {
+  background-image: url(logo_transparent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
+
+.c0 {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-right: 1rem;
+}
+
+.c6 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.c7 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c8 {
+  position: absolute;
+  top: -50%;
+  right: -25%;
+}
+
+.c9 {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #F62F5E;
+  border-radius: 50%;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  outline-color: transparent;
+  outline-style: none;
+  cursor: pointer;
+  background-color: #F62F5E;
+  color: #fff;
+}
+
+.c5 {
+  border-radius: 50%;
+}
+
+.c4 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c10 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c10 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c10 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<div>
+      <div
+        class="c0"
+        data-testid="mobile-header"
+        display="flex"
+      >
+        <div
+          class=""
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="c1"
+            />
+          </a>
+        </div>
+        <div
+          class="c2"
+          display="flex"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root c5"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-75 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-76"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="c7"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="c8"
+                >
+                  <button
+                    class="c9"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="c10"
+            data-testid="burger-icon"
+          >
+            <div />
+            <div />
+            <div />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ CooDR"
+      data-testid="mobile-header"
+      display="flex"
+    >
+      <div
+        class="sc-AxirZ RMStd"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AxjAm SPfSD"
+          />
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ jfmpxd"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-fzozJi lbSdeO"
+            data-testid="search-ref"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+              maxwidth="32px"
+              opacity="0"
+              style="opacity: 0; max-width: 32px;"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="search-input"
+                  id="outlined-secondary"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-75 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-76"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="sc-AxirZ ijbYQZ"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          >
+            <div
+              class="sc-AxirZ fpLAZU"
+              data-testid="product-cart-icon"
+              height="2rem"
+              width="2rem"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+              <div
+                class="sc-AxirZ egQssr"
+              >
+                <button
+                  class="sc-AxiKw ctpQxV"
+                  color="primary"
+                >
+                  0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-fzoLsD eEaFcN"
+          data-testid="burger-icon"
+        >
+          <div />
+          <div />
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App MobileHeader Test get default MobileHeader open event   1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c1 {
+  background-image: url(logo_transparent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
+
+.c0 {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-right: 1rem;
+}
+
+.c6 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.c7 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c8 {
+  position: absolute;
+  top: -50%;
+  right: -25%;
+}
+
+.c9 {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #F62F5E;
+  border-radius: 50%;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  outline-color: transparent;
+  outline-style: none;
+  cursor: pointer;
+  background-color: #F62F5E;
+  color: #fff;
+}
+
+.c5 {
+  border-radius: 50%;
+}
+
+.c4 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c10 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c10 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c10 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<div>
+      <div
+        class="c0"
+        data-testid="mobile-header"
+        display="flex"
+      >
+        <div
+          class=""
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="c1"
+            />
+          </a>
+        </div>
+        <div
+          class="c2"
+          display="flex"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root c5"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-292"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="c7"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="c8"
+                >
+                  <button
+                    class="c9"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="c10"
+            data-testid="burger-icon"
+          >
+            <div />
+            <div />
+            <div />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ CooDR"
+      data-testid="mobile-header"
+      display="flex"
+    >
+      <div
+        class="sc-AxirZ RMStd"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AxjAm SPfSD"
+          />
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ jfmpxd"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-fzozJi lbSdeO"
+            data-testid="search-ref"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+              maxwidth="32px"
+              opacity="0"
+              style="opacity: 0; max-width: 32px;"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="search-input"
+                  id="outlined-secondary"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-292"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="sc-AxirZ ijbYQZ"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          >
+            <div
+              class="sc-AxirZ fpLAZU"
+              data-testid="product-cart-icon"
+              height="2rem"
+              width="2rem"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+              <div
+                class="sc-AxirZ egQssr"
+              >
+                <button
+                  class="sc-AxiKw ctpQxV"
+                  color="primary"
+                >
+                  0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-fzoLsD eEaFcN"
+          data-testid="burger-icon"
+        >
+          <div />
+          <div />
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App MobileHeader Test get default MobileHeader open event   2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="padding-right: 0px; overflow: hidden;"
+  >
+    <div
+      aria-hidden="true"
+    >
+      <div
+        class="sc-AxirZ CooDR"
+        data-testid="mobile-header"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ RMStd"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="sc-AxjAm SPfSD"
+            />
+          </a>
+        </div>
+        <div
+          class="sc-AxirZ jfmpxd"
+          display="flex"
+        >
+          <div
+            class="sc-AxirZ idSrhk"
+          >
+            <div
+              class="sc-fzozJi lbSdeO"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-292"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="sc-AxirZ ijbYQZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AxirZ idSrhk"
+          >
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <div
+                class="sc-AxirZ fpLAZU"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="sc-AxirZ egQssr"
+                >
+                  <button
+                    class="sc-AxiKw ctpQxV"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="sc-fzoLsD lnvzEb"
+            data-testid="burger-icon"
+            open=""
+          >
+            <div />
+            <div />
+            <div />
+          </button>
+        </div>
+      </div>
+    </div>
+    .c0 {
+  padding: 1rem;
+  position: relative;
+  min-width: 75vw;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-top: 1rem;
+}
+
+.c5 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.c2 {
+  font-size: 16px;
+  line-height: 2.4;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c4 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c4:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+<div
+      class="MuiDrawer-root MuiDrawer-modal"
+      data-testid="mobile-header-drawer"
+      role="presentation"
+      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+    >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root"
+        style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      />
+      <div
+        data-test="sentinelStart"
+        tabindex="0"
+      />
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+        style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+        tabindex="-1"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+            display="flex"
+          >
+            <div
+              class=""
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=women"
+              >
+                <p
+                  class="MuiTypography-root c2 MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Women
+                </p>
+              </a>
+            </div>
+            <div
+              class=""
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=men"
+              >
+                <p
+                  class="MuiTypography-root c2 MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Men
+                </p>
+              </a>
+            </div>
+            <div
+              class=""
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=shoe"
+              >
+                <p
+                  class="MuiTypography-root c2 MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Shoe
+                </p>
+              </a>
+            </div>
+            <div
+              class=""
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist"
+              >
+                <p
+                  class="MuiTypography-root c2 MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Brands
+                </p>
+              </a>
+            </div>
+            <hr
+              class="MuiDivider-root"
+            />
+            <div
+              class="c3"
+            >
+              <span
+                animation="1"
+                class="MuiTypography-root c4 MuiTypography-overline"
+                customvariant="header3"
+              >
+                Login
+              </span>
+            </div>
+          </div>
+          <div
+            class="c5"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              data-testid="close-drawer-btn"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        data-test="sentinelEnd"
+        tabindex="0"
+      />
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <div
+      class="sc-AxirZ CooDR"
+      data-testid="mobile-header"
+      display="flex"
+    >
+      <div
+        class="sc-AxirZ RMStd"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AxjAm SPfSD"
+          />
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ jfmpxd"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-fzozJi lbSdeO"
+            data-testid="search-ref"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+              maxwidth="32px"
+              opacity="0"
+              style="opacity: 0; max-width: 32px;"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="search-input"
+                  id="outlined-secondary"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-292"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="sc-AxirZ ijbYQZ"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          >
+            <div
+              class="sc-AxirZ fpLAZU"
+              data-testid="product-cart-icon"
+              height="2rem"
+              width="2rem"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+              <div
+                class="sc-AxirZ egQssr"
+              >
+                <button
+                  class="sc-AxiKw ctpQxV"
+                  color="primary"
+                >
+                  0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-fzoLsD lnvzEb"
+          data-testid="burger-icon"
+          open=""
+        >
+          <div />
+          <div />
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App MobileHeader Test get default MobileHeader open event   3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style=""
+  >
+    <div>
+      <div
+        class="sc-AxirZ CooDR"
+        data-testid="mobile-header"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ RMStd"
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="sc-AxjAm SPfSD"
+            />
+          </a>
+        </div>
+        <div
+          class="sc-AxirZ jfmpxd"
+          display="flex"
+        >
+          <div
+            class="sc-AxirZ idSrhk"
+          >
+            <div
+              class="sc-fzozJi lbSdeO"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-292"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="sc-AxirZ ijbYQZ"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AxirZ idSrhk"
+          >
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <div
+                class="sc-AxirZ fpLAZU"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="sc-AxirZ egQssr"
+                >
+                  <button
+                    class="sc-AxiKw ctpQxV"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="sc-fzoLsD eEaFcN"
+            data-testid="burger-icon"
+          >
+            <div />
+            <div />
+            <div />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="MuiDrawer-root MuiDrawer-modal"
+      data-testid="mobile-header-drawer"
+      role="presentation"
+      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+    >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root"
+        style="opacity: 0; webkit-transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      />
+      <div
+        data-test="sentinelStart"
+        tabindex="0"
+      />
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+        style="webkit-transform: translateX(1024px) translateX(-NaNpx); transform: translateX(1024px) translateX(-NaNpx); webkit-transition: -webkit-transform 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms; transition: transform 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;"
+        tabindex="-1"
+      >
+        <div
+          class="sc-AxirZ dHmtSl"
+        >
+          <div
+            class="sc-AxirZ cIMQUF"
+            display="flex"
+          >
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=women"
+              >
+                <p
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Women
+                </p>
+              </a>
+            </div>
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=men"
+              >
+                <p
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Men
+                </p>
+              </a>
+            </div>
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist?category=shoe"
+              >
+                <p
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Shoe
+                </p>
+              </a>
+            </div>
+            <div
+              class="sc-AxirZ RMStd"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/productlist"
+              >
+                <p
+                  class="MuiTypography-root sc-AxgMl kKGpJq MuiTypography-body1"
+                  customvariant="topbar"
+                >
+                  Brands
+                </p>
+              </a>
+            </div>
+            <hr
+              class="MuiDivider-root"
+            />
+            <div
+              class="sc-AxirZ iECCdr"
+            >
+              <span
+                animation="1"
+                class="MuiTypography-root sc-AxgMl fwlnkv MuiTypography-overline"
+                customvariant="header3"
+              >
+                Login
+              </span>
+            </div>
+          </div>
+          <div
+            class="sc-AxirZ imoxJV"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              data-testid="close-drawer-btn"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        data-test="sentinelEnd"
+        tabindex="0"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ CooDR"
+      data-testid="mobile-header"
+      display="flex"
+    >
+      <div
+        class="sc-AxirZ RMStd"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AxjAm SPfSD"
+          />
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ jfmpxd"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-fzozJi lbSdeO"
+            data-testid="search-ref"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+              maxwidth="32px"
+              opacity="0"
+              style="opacity: 0; max-width: 32px;"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="search-input"
+                  id="outlined-secondary"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-291 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-292"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="sc-AxirZ ijbYQZ"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          >
+            <div
+              class="sc-AxirZ fpLAZU"
+              data-testid="product-cart-icon"
+              height="2rem"
+              width="2rem"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+              <div
+                class="sc-AxirZ egQssr"
+              >
+                <button
+                  class="sc-AxiKw ctpQxV"
+                  color="primary"
+                >
+                  0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-fzoLsD eEaFcN"
+          data-testid="burger-icon"
+        >
+          <div />
+          <div />
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App MobileHeader Test get default MobileHeader with mock data  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c1 {
+  background-image: url(logo_transparent.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
+
+.c0 {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 80px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-right: 1rem;
+}
+
+.c6 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.c7 {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c8 {
+  position: absolute;
+  top: -50%;
+  right: -25%;
+}
+
+.c9 {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #F62F5E;
+  border-radius: 50%;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  outline-color: transparent;
+  outline-style: none;
+  cursor: pointer;
+  background-color: #F62F5E;
+  color: #fff;
+}
+
+.c5 {
+  border-radius: 50%;
+}
+
+.c4 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10 div {
+  width: 2rem;
+  height: 0.25rem;
+  background: #F62F5E;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: relative;
+  -webkit-transform-origin: 1px;
+  -ms-transform-origin: 1px;
+  transform-origin: 1px;
+}
+
+.c10 div:first-child {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.c10 div:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.c10 div:nth-child(3) {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+<div>
+      <div
+        class="c0"
+        data-testid="mobile-header"
+        display="flex"
+      >
+        <div
+          class=""
+        >
+          <a
+            class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+            href="/"
+          >
+            <div
+              class="c1"
+            />
+          </a>
+        </div>
+        <div
+          class="c2"
+          display="flex"
+        >
+          <div
+            class="c3"
+          >
+            <div
+              class="c4"
+              data-testid="search-ref"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root c5"
+                maxwidth="32px"
+                opacity="0"
+                style="opacity: 0; max-width: 32px;"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input"
+                    data-testid="search-input"
+                    id="outlined-secondary"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-184"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+          >
+            <div
+              class=""
+            >
+              <div
+                class="c7"
+                data-testid="product-cart-icon"
+                height="2rem"
+                width="2rem"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                  />
+                </svg>
+                <div
+                  class="c8"
+                >
+                  <button
+                    class="c9"
+                    color="primary"
+                  >
+                    0
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="c10"
+            data-testid="burger-icon"
+          >
+            <div />
+            <div />
+            <div />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-AxirZ CooDR"
+      data-testid="mobile-header"
+      display="flex"
+    >
+      <div
+        class="sc-AxirZ RMStd"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+          href="/"
+        >
+          <div
+            class="sc-AxjAm SPfSD"
+          />
+        </a>
+      </div>
+      <div
+        class="sc-AxirZ jfmpxd"
+        display="flex"
+      >
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-fzozJi lbSdeO"
+            data-testid="search-ref"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root sc-AxmLO gXfyfJ"
+              maxwidth="32px"
+              opacity="0"
+              style="opacity: 0; max-width: 32px;"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorSecondary MuiOutlinedInput-colorSecondary MuiInputBase-formControl"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input"
+                  data-testid="search-input"
+                  id="outlined-secondary"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-183 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-184"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="sc-AxirZ ijbYQZ"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxirZ idSrhk"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          >
+            <div
+              class="sc-AxirZ fpLAZU"
+              data-testid="product-cart-icon"
+              height="2rem"
+              width="2rem"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+                />
+              </svg>
+              <div
+                class="sc-AxirZ egQssr"
+              >
+                <button
+                  class="sc-AxiKw ctpQxV"
+                  color="primary"
+                >
+                  0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-fzoLsD eEaFcN"
+          data-testid="burger-icon"
+        >
+          <div />
+          <div />
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App MobileHeader Test hidden with media screen greater than 480 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

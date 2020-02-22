@@ -1,0 +1,1077 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Home Test get default Home no banner, no SubscribePart  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    .c0 {
+  display: grid;
+  grid-template-areas: "80px auto 240px" "100%";
+}
+
+.c1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: calc(100vh - 320px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  padding: 1rem;
+}
+
+.c6 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c7 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  color: #2E2E2E;
+}
+
+.c8 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c8:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c9 {
+  color: #2E2E2E;
+}
+
+<div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+          >
+            <div
+              class=""
+            />
+          </div>
+          <div
+            class="c2"
+            display="flex"
+          />
+          <div
+            class="c3"
+            display="flex"
+            width="1"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Questions
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/help"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Help
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/trackorder"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Track Order
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/returns"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Return
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    What's in store
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=women"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Women
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=men"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Men
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Product A to Z
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Contact us
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c8 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Facebook
+                      </span>
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c8 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Twitter
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c9 MuiTypography-body1"
+                  >
+                    ©2020 shopify
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="sc-AxjAm gLlHxZ"
+      >
+        <div
+          class="sc-AxirZ jaYbNF"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          />
+        </div>
+        <div
+          class="sc-AxirZ iUYekr"
+          display="flex"
+        />
+        <div
+          class="sc-AxirZ dtpihp"
+          display="flex"
+          width="1"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Questions
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/help"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Help
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/trackorder"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Track Order
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/returns"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Return
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  What's in store
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=women"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Women
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=men"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Men
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Product A to Z
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Contact us
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <div
+                    class="sc-AxirZ RMStd"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Facebook
+                    </span>
+                  </div>
+                  <div
+                    class="sc-AxirZ RMStd"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Twitter
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI eWwqcx MuiTypography-body1"
+                >
+                  ©2020 shopify
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App Home Test get default Home no params  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: grid;
+  grid-template-areas: "80px auto 240px" "100%";
+}
+
+.c1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: calc(100vh - 320px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  padding: 1rem;
+}
+
+.c6 {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates';
+  font-weight: bold;
+  color: #2E2E2E;
+}
+
+.c7 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  color: #2E2E2E;
+}
+
+.c8 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Open Sans';
+  background-image: linear-gradient( transparent calc(100% - 1px), black 1px );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  -webkit-transition: background-size 0.5s;
+  transition: background-size 0.5s;
+  color: #2E2E2E;
+}
+
+.c8:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.c9 {
+  color: #2E2E2E;
+}
+
+<body>
+    <div>
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+          >
+            <div
+              class=""
+            />
+          </div>
+          <div
+            class="c2"
+            display="flex"
+          />
+          <div
+            class="c3"
+            display="flex"
+            width="1"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Questions
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/help"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Help
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/trackorder"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Track Order
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/returns"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Return
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    What's in store
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=women"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Women
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist?category=men"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Men
+                      </span>
+                    </a>
+                    <a
+                      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                      href="/productlist"
+                    >
+                      <span
+                        class="MuiTypography-root c7 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Product A to Z
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c5 MuiTypography-body1"
+                    customvariant="header3"
+                  >
+                    Contact us
+                  </p>
+                  <div
+                    class="c6"
+                    display="flex"
+                  >
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c8 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Facebook
+                      </span>
+                    </div>
+                    <div
+                      class=""
+                    >
+                      <span
+                        animation="1"
+                        class="MuiTypography-root c8 MuiTypography-overline"
+                        customvariant="body1"
+                      >
+                        Twitter
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+              >
+                <div
+                  class="c4"
+                >
+                  <p
+                    class="MuiTypography-root c9 MuiTypography-body1"
+                  >
+                    ©2020 shopify
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="sc-AxjAm gLlHxZ"
+      >
+        <div
+          class="sc-AxirZ jaYbNF"
+        >
+          <div
+            class="sc-AxirZ RMStd"
+          />
+        </div>
+        <div
+          class="sc-AxirZ iUYekr"
+          display="flex"
+        />
+        <div
+          class="sc-AxirZ dtpihp"
+          display="flex"
+          width="1"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Questions
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/help"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Help
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/trackorder"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Track Order
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/returns"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Return
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  What's in store
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=women"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Women
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist?category=men"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Men
+                    </span>
+                  </a>
+                  <a
+                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                    href="/productlist"
+                  >
+                    <span
+                      class="MuiTypography-root sc-AxheI iFooOp MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Product A to Z
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI cyRDQe MuiTypography-body1"
+                  customvariant="header3"
+                >
+                  Contact us
+                </p>
+                <div
+                  class="sc-AxirZ bjVmUn"
+                  display="flex"
+                >
+                  <div
+                    class="sc-AxirZ RMStd"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Facebook
+                    </span>
+                  </div>
+                  <div
+                    class="sc-AxirZ RMStd"
+                  >
+                    <span
+                      animation="1"
+                      class="MuiTypography-root sc-AxheI kWdGrO MuiTypography-overline"
+                      customvariant="body1"
+                    >
+                      Twitter
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"
+            >
+              <div
+                class="sc-AxirZ cETLQS"
+              >
+                <p
+                  class="MuiTypography-root sc-AxheI eWwqcx MuiTypography-body1"
+                >
+                  ©2020 shopify
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,5 @@
+export const CHANGE_BRAND = 'CHANGE_BRAND'
+export const CHANGE_COLOR = 'CHANGE_COLOR'
+export const CHANGE_PRICE = 'CHANGE_PRICE'
+export const CHANGE_SIZE = 'CHANGE_SIZE'
+export const CLEAR_FILTER = 'CLEAR_FILTER'
