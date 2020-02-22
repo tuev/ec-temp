@@ -6,7 +6,7 @@ before_script:
   - npm install
   # - npm install
 node_js:
-  - 8
+  - 10
 cache:
   directories:
     - node_modules
