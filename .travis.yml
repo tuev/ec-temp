@@ -3,8 +3,8 @@ stages:
   - test
 language: node_js
 before_script: 
-  - npm install -g codecov
   - npm install
+  # - npm install
 node_js:
   - 8
 cache:
