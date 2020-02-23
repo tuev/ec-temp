@@ -1,12 +1,12 @@
 import { space } from 'styled-system'
 import { COLOR } from 'theme/colors'
 import styled from 'styled-components'
-import { BaseNumberInputProps } from './NumberInput.types'
+import { BaseInputProps } from './Input.types'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { TextField } from '@material-ui/core'
 
-export const AppNumberInput: React.FC<BaseNumberInputProps> = styled(TextField)<
-  BaseNumberInputProps
+export const AppInput: React.FC<BaseInputProps> = styled(TextField)<
+  BaseInputProps
 >`
   ${space}
 `
@@ -14,13 +14,18 @@ export const AppNumberInput: React.FC<BaseNumberInputProps> = styled(TextField)<
 export const theme = createMuiTheme({
   palette: {
     primary: {
-      contrastText: COLOR.white,
-      dark: '#4592f7',
-      light: '#beddfe',
       main: COLOR.blue,
     },
   },
-  shape: {
-    borderRadius: 50,
+  overrides: {
+    MuiOutlinedInput: {
+      root: {
+        borderRadius: '6px',
+      },
+      input: {
+        paddingTop: '14.5px',
+        paddingBottom: '14.5px',
+      },
+    },
   },
 })
