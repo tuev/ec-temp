@@ -25,7 +25,8 @@ export const ImageSliderItemWrapper = styled(animated.div).attrs(
     },
   })
 )<{
-  transform: SpringValue<string>
+  // TODO : check type for react-spring after 9.0 released
+  transform: any
 }>`
   cursor: pointer;
   will-change: transform;

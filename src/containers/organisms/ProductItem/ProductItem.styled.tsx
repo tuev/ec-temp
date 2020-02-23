@@ -21,8 +21,10 @@ export const ProductItemCard = styled(animated.div).attrs(
     },
   })
 )<{
-  transform: SpringValue<string>
-  opacity: SpringValue<number>
+  // TODO : check type for react-spring after 9.0 released
+
+  transform: any
+  opacity: any
 }>`
   cursor: pointer;
   will-change: transform, opacity;

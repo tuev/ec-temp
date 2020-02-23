@@ -4,9 +4,11 @@ export type SearchBarProps = {
 }
 
 export interface ISearchBarAnimation {
-  [x: string]: SpringValue<any>
-  maxWidth: SpringValue<string>
-  opacity: SpringValue<number>
+  // TODO : check type for react-spring after 9.0 released
+
+  [x: string]: any
+  maxWidth: any
+  opacity: any
 }
 
 export type SearchBarHook = (
