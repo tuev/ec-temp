@@ -107,7 +107,7 @@
     "babel-plugin-styled-components": "~1.10.7",
     "codecov": "^4.0.0-0",
     "cross-env": "~7.0.0",
-    "css-loader": "~3.4.2",
+    "css-loader": "~3.5.2",
     "css-mediaquery": "^0.1.2",
     "customize-cra": "^1.0.0-alpha.0",
     "enzyme-to-json": "~3.4.4",
