@@ -199,7 +199,6 @@ Object {
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -225,7 +224,6 @@ Object {
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -340,7 +338,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -366,7 +363,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -728,7 +724,6 @@ Object {
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -754,7 +749,6 @@ Object {
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                     focusable="false"
-                    role="presentation"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -930,7 +924,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root MuiSvgIcon-colorSecondary"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -956,7 +949,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path

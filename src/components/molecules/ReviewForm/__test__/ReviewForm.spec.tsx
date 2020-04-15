@@ -145,7 +145,7 @@ describe('Test reducer and action', () => {
     const ratingStar = '3'
 
     let reviewResult = null
-    const handleSubmit = jest.fn().mockImplementation(value => {
+    const handleSubmit = jest.fn().mockImplementation((value) => {
       reviewResult = value
     })
 

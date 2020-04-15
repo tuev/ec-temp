@@ -53,7 +53,7 @@ const useForm: IReviewHookForm = (stateSchema, stateValidatorSchema) => {
           get(field, 'validator.error'),
       ]
 
-      const result = validators.find(item => item(value))
+      const result = validators.find((item) => item(value))
       return result ? result(value) : ''
     },
     [stateValidatorSchema]
@@ -73,7 +73,7 @@ const useForm: IReviewHookForm = (stateSchema, stateValidatorSchema) => {
   const [state, dispatch] = useReducer(reducer, store)
 
   const disable = useMemo(() => {
-    return Object.values(state).some(field => field.error)
+    return Object.values(state).some((field) => field.error)
   }, [state])
 
   const updateInput = useCallback(

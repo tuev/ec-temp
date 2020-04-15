@@ -6,7 +6,7 @@
 
 import React from 'react'
 
-import { render, fireEvent, waitForElement } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import ProductItemBuy from '..'
 import UserEvent from '@testing-library/user-event'
 import { last } from 'lodash'
@@ -43,7 +43,7 @@ describe('App ProductItemBuy', () => {
     }
 
     let info = null
-    const handleBuy = productInfo => (info = productInfo)
+    const handleBuy = (productInfo) => (info = productInfo)
     // test snapshot
     const wrapper = render(<ProductItemBuy {...props} handleBuy={handleBuy} />)
     expect(wrapper).toMatchSnapshot()
@@ -78,7 +78,7 @@ describe('App ProductItemBuy', () => {
     }
 
     let info = null
-    const handleBuy = productInfo => (info = productInfo)
+    const handleBuy = (productInfo) => (info = productInfo)
     // test snapshot
     const wrapper = render(<ProductItemBuy {...props} handleBuy={handleBuy} />)
     expect(wrapper).toMatchSnapshot()
@@ -106,8 +106,8 @@ describe('App ProductItemBuy', () => {
     }
 
     let valueInfo = props.sizes[0]
-    const onChange = info => (valueInfo = info)
-    const changeHandler = jest.fn().mockImplementation(productInfo => {
+    const onChange = (info) => (valueInfo = info)
+    const changeHandler = jest.fn().mockImplementation((productInfo) => {
       onChange(productInfo)
     })
     // test snapshot
@@ -127,7 +127,7 @@ describe('App ProductItemBuy', () => {
     expect(changeHandler).toHaveBeenCalled()
 
     // change size
-    const { getByTestId, container, getAllByText, getAllByRole } = wrapper
+    const { getByTestId, getAllByText, getAllByRole } = wrapper
 
     const selectSizeComp = getByTestId('size-filter-select')
     const selectButton = getAllByRole('button')
@@ -137,9 +137,7 @@ describe('App ProductItemBuy', () => {
 
     for (const svalue of props.sizes) {
       UserEvent.click(selectButton[0])
-      await waitForElement(() => getAllByText(svalue), {
-        container,
-      })
+
       const label = getAllByText(svalue)
       UserEvent.click(last(label))
       fireEvent.click(buyBtn)

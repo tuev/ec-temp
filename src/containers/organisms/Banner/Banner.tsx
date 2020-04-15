@@ -19,7 +19,7 @@ const Banner: FC<BannerProps> = (props: BannerProps) => {
     action,
     background = mockImage,
   }: BannerProps = props
-  const handleClick = useCallback(e => action && action(e), [action])
+  const handleClick = useCallback((e) => action && action(e), [action])
 
   return (
     <BannerWrapper background={background}>

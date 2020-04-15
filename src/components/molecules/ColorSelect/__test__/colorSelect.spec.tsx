@@ -29,7 +29,7 @@ describe('App color filter', () => {
   it('Test get default color filter with actions ', () => {
     let value = 'blue'
     const colors = ['blue', 'red', 'green', 'yellow', 'black']
-    const onChange = color => (value = color)
+    const onChange = (color) => (value = color)
     // test snapshot
     const wrapper = render(
       <ColorSelect
@@ -42,7 +42,7 @@ describe('App color filter', () => {
 
     expect(wrapper).toMatchSnapshot()
 
-    colors.forEach(color => {
+    colors.forEach((color) => {
       const colorRadio = wrapper.getByTestId(`color-filter-${color}`)
       fireEvent.click(colorRadio)
       // de select blue
@@ -70,7 +70,7 @@ describe('App color filter', () => {
 
     expect(wrapper).toMatchSnapshot()
 
-    colors.forEach(color => {
+    colors.forEach((color) => {
       const colorRadio = wrapper.getByTestId(`color-filter-${color}`)
       fireEvent.click(colorRadio)
     })

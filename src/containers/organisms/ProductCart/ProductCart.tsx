@@ -16,7 +16,7 @@ import Button from 'components/atoms/Button'
 import { COLOR } from 'theme/colors'
 import { ICartItem } from 'components/molecules/CartList/CartList.types'
 
-const ProductCart: FC<ProductCartProps> = props => {
+const ProductCart: FC<ProductCartProps> = (props) => {
   const { data = [], onBuy } = props
   const [isCartOpen, cartHandler] = useProductCart()
   const [cartData, changeCartData] = useState<ICartItem[]>(data)

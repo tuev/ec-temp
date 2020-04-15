@@ -210,7 +210,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -242,7 +241,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -274,7 +272,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -306,7 +303,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -338,7 +334,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -393,7 +388,7 @@ Object {
       class="sc-fznKkj bEyixg"
     >
       <div
-        class="sc-fzplWN JlMvU"
+        class="sc-fznyAO cAYMBY"
       >
         <p
           class="MuiTypography-root sc-Axmtr rXUvI sc-AxmLO cAKCgh MuiTypography-body1"
@@ -548,7 +543,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -580,7 +574,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -612,7 +605,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -644,7 +636,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -676,7 +667,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path

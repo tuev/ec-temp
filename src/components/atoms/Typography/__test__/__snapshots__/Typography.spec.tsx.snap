@@ -62,7 +62,7 @@ exports[`Typography animation 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -430,7 +430,7 @@ exports[`Typography body1 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -794,7 +794,7 @@ exports[`Typography body2 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1159,7 +1159,7 @@ exports[`Typography header1 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1524,7 +1524,7 @@ exports[`Typography header2 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1889,7 +1889,7 @@ exports[`Typography header3 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -2254,7 +2254,7 @@ exports[`Typography topbar 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",

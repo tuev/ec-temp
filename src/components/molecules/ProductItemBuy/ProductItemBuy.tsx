@@ -63,12 +63,12 @@ const ProductItemBuy: FC<ProductItemBuyProps> = (
   })
 
   const onSizeChange = useCallback(
-    value => dispatch({ type: 'CHANGE_SIZE', value }),
+    (value) => dispatch({ type: 'CHANGE_SIZE', value }),
     []
   )
 
   const onColorChange = useCallback(
-    value => dispatch({ type: 'CHANGE_COLOR', value }),
+    (value) => dispatch({ type: 'CHANGE_COLOR', value }),
     []
   )
 

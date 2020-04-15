@@ -13,7 +13,7 @@ import ProductCart from 'containers/organisms/ProductCart'
 import Typography from 'components/atoms/Typography'
 import SearchBar from 'components/molecules/SearchBar'
 
-const DesktopHeader: FC<DesktopHeaderProps> = props => {
+const DesktopHeader: FC<DesktopHeaderProps> = (props) => {
   const { items = [] } = props
 
   return (

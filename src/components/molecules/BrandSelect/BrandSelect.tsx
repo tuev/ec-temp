@@ -10,7 +10,7 @@ import {
   GetBrandLabel,
 } from './BrandSelect.types'
 
-const getBrandKey: GetBrandKey = checkedValue => keys(checkedValue)
+const getBrandKey: GetBrandKey = (checkedValue) => keys(checkedValue)
 
 const getBrandLabel: GetBrandLabel = ({ key, values }) =>
   get(values, [key, 'label'])
@@ -26,7 +26,7 @@ export const BrandSelect: FC<BrandSelectProps> = (props: BrandSelectProps) => {
 
   return (
     <FormGroup>
-      {valueLabels.map(value => (
+      {valueLabels.map((value) => (
         <FormControlLabel
           key={value}
           control={

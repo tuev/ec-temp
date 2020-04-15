@@ -11,7 +11,7 @@ describe('Rating', () => {
     const newRate = 4
     const handleRatingFilter = jest
       .fn()
-      .mockImplementation(value => (valueRating = value))
+      .mockImplementation((value) => (valueRating = value))
 
     const { result } = renderHook(() =>
       useRating(initValue, handleRatingFilter)

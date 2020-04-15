@@ -13,7 +13,7 @@ const Breadcrumbs: FC<BaseBreadcrumbsProps> = (props: BaseBreadcrumbsProps) => {
   const { links = [], active }: IBreadCrumbProp = props
   return (
     <BreadcrumbsComponent separator="•" aria-label="breadcrumb">
-      {links.map(item => (
+      {links.map((item) => (
         <Link href={item.href} key={item.href}>
           {item.title}
         </Link>

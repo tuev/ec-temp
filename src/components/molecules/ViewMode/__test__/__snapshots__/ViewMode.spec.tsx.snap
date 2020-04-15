@@ -68,7 +68,7 @@ exports[`Viewmode view mode grid 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -477,7 +477,6 @@ exports[`Viewmode view mode grid 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -488,36 +487,34 @@ exports[`Viewmode view mode grid 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -661,7 +658,6 @@ exports[`Viewmode view mode grid 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -672,36 +668,34 @@ exports[`Viewmode view mode grid 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -788,7 +782,7 @@ exports[`Viewmode view mode grid checked 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1197,7 +1191,6 @@ exports[`Viewmode view mode grid checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1208,36 +1201,34 @@ exports[`Viewmode view mode grid checked 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -1381,7 +1372,6 @@ exports[`Viewmode view mode grid checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1392,36 +1382,34 @@ exports[`Viewmode view mode grid checked 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -1508,7 +1496,7 @@ exports[`Viewmode view mode list 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1917,7 +1905,6 @@ exports[`Viewmode view mode list 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1928,36 +1915,34 @@ exports[`Viewmode view mode list 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -2101,7 +2086,6 @@ exports[`Viewmode view mode list 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -2112,36 +2096,34 @@ exports[`Viewmode view mode list 1`] = `
                                     </WithStyles(ForwardRef(SvgIcon))>
                                   </ForwardRef>
                                 </span>
-                                <NoSsr>
-                                  <WithStyles(undefined)
+                                <WithStyles(memo)
+                                  center={false}
+                                >
+                                  <ForwardRef(TouchRipple)
                                     center={false}
-                                  >
-                                    <ForwardRef(TouchRipple)
-                                      center={false}
-                                      classes={
-                                        Object {
-                                          "child": "MuiTouchRipple-child",
-                                          "childLeaving": "MuiTouchRipple-childLeaving",
-                                          "childPulsate": "MuiTouchRipple-childPulsate",
-                                          "ripple": "MuiTouchRipple-ripple",
-                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                          "root": "MuiTouchRipple-root",
-                                        }
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child",
+                                        "childLeaving": "MuiTouchRipple-childLeaving",
+                                        "childPulsate": "MuiTouchRipple-childPulsate",
+                                        "ripple": "MuiTouchRipple-ripple",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                        "root": "MuiTouchRipple-root",
                                       }
+                                    }
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root"
                                     >
-                                      <span
-                                        className="MuiTouchRipple-root"
-                                      >
-                                        <TransitionGroup
-                                          childFactory={[Function]}
-                                          component={null}
-                                          exit={true}
-                                        />
-                                      </span>
-                                    </ForwardRef(TouchRipple)>
-                                  </WithStyles(undefined)>
-                                </NoSsr>
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        component={null}
+                                        exit={true}
+                                      />
+                                    </span>
+                                  </ForwardRef(TouchRipple)>
+                                </WithStyles(memo)>
                               </button>
                             </ForwardRef(ButtonBase)>
                           </WithStyles(ForwardRef(ButtonBase))>
@@ -2210,7 +2192,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -2240,7 +2221,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -2278,7 +2258,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -2308,7 +2287,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path

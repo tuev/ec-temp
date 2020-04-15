@@ -1,14 +1,6 @@
 import { SpaceProps } from 'styled-system'
+import { IReviewItem } from 'components/molecules/ReviewItem/ReviewItem.types'
 
-export interface IReviewItem {
-  id: number
-  rating: number
-  fullname: string
-  dateCreated: string
-  reviewText: string
-  likeCount: number
-  commentCount: number
-}
 export interface IReviewList {
   list?: IReviewItem[]
 }

@@ -148,7 +148,7 @@ describe('Tag', () => {
       'yellow',
       'red',
     ]
-    customColors.forEach(color => {
+    customColors.forEach((color) => {
       const TagAppCustomColor = mount(
         <Tag tag="custom" color={color} text="discount" />
       )

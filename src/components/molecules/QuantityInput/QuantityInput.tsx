@@ -13,7 +13,7 @@ import { theme } from './QuantityInput.styled'
 import useQuantityHook from './useQuantity'
 import { QuantityProps } from './QuantityInput.types'
 
-const QuantityInput: FC<QuantityProps> = props => {
+const QuantityInput: FC<QuantityProps> = (props) => {
   const { value, onChange }: QuantityProps = props
   const [
     quantity,

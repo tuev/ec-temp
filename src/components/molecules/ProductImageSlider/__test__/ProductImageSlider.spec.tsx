@@ -19,7 +19,7 @@ describe('App ProductImageSlider', () => {
   it('Test use image slide hook', () => {
     let slide = 0
     const toSlide = 2
-    const handleSlide = slideIdx => (slide = slideIdx)
+    const handleSlide = (slideIdx) => (slide = slideIdx)
     const { result } = renderHook(() => useImageSlide(imgMock, 0, handleSlide))
 
     expect(result.current[0]).toEqual(slide)
@@ -45,7 +45,7 @@ describe('App ProductImageSlider', () => {
     const initSlide = 0
     // test snapshot
     let slide = initSlide
-    const changeHandler = jest.fn().mockImplementation(slideIdx => {
+    const changeHandler = jest.fn().mockImplementation((slideIdx) => {
       slide = slideIdx
     })
     const wrapper = render(
@@ -77,7 +77,7 @@ describe('App ProductImageSlider', () => {
     const initSlide = 2
     // test snapshot
     let slide = initSlide
-    const changeHandler = jest.fn().mockImplementation(slideIdx => {
+    const changeHandler = jest.fn().mockImplementation((slideIdx) => {
       slide = slideIdx
     })
     const wrapper = render(
@@ -114,7 +114,7 @@ describe('App ProductImageSlider', () => {
     // test snapshot
     let slide = initSlide
 
-    const changeHandler = jest.fn().mockImplementation(slideIdx => {
+    const changeHandler = jest.fn().mockImplementation((slideIdx) => {
       slide = slideIdx
     })
     const wrapper = render(
@@ -151,7 +151,7 @@ describe('App ProductImageSlider', () => {
     // test snapshot
     let slide = initSlide
 
-    const changeHandler = jest.fn().mockImplementation(slideIdx => {
+    const changeHandler = jest.fn().mockImplementation((slideIdx) => {
       slide = slideIdx
     })
     const wrapper = render(
@@ -187,7 +187,7 @@ describe('App ProductImageSlider', () => {
     const initSlide = 0
     // test snapshot
     let slide = initSlide
-    const changeHandler = jest.fn().mockImplementation(slideIdx => {
+    const changeHandler = jest.fn().mockImplementation((slideIdx) => {
       slide = slideIdx
     })
     const wrapper = render(

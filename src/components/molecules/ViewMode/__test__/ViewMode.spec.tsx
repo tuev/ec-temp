@@ -26,7 +26,7 @@ describe('Viewmode', () => {
 
     const viewmodeHandleChange = jest
       .fn()
-      .mockImplementation(value => (viewModeValue = value))
+      .mockImplementation((value) => (viewModeValue = value))
     const appViewMode = render(
       <ViewMode type="list" onViewModeChange={viewmodeHandleChange} />
     )

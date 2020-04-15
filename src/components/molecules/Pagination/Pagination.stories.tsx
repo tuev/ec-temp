@@ -20,6 +20,6 @@ export const example = () => {
 
 const PaginationExample = ({ onChange }: { onChange: PageHandler }) => {
   const props = { total: 24, page: 16, step: 5 }
-  const handleChange = useCallback(page => onChange(page), [onChange])
+  const handleChange = useCallback((page) => onChange(page), [onChange])
   return <Pagination {...props} onChange={handleChange} />
 }

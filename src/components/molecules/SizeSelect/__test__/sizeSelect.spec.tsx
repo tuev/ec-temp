@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { render, fireEvent, waitForElement } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import SizeSelect from '..'
 import { SIZE_PARAMS } from '../SizeSelect.types'
 import UserEvent from '@testing-library/user-event'
@@ -15,20 +15,20 @@ import { last } from 'lodash'
 describe('App size select', () => {
   it('Test get default size select no params ', () => {
     // test snapshot
-    const wrapper = render(<SizeSelect value="L" />)
+    const wrapper = render(<SizeSelect value={['L']} />)
     expect(wrapper).toMatchSnapshot()
   })
 
   it('Test get default size select type select no params ', () => {
     // test snapshot
-    const wrapper = render(<SizeSelect type="select" value="M" />)
+    const wrapper = render(<SizeSelect type="select" value={['M']} />)
     expect(wrapper).toMatchSnapshot()
   })
 
   it('Test get default size select ', () => {
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
     // test snapshot
-    const wrapper = render(<SizeSelect sizes={sizes} value="XS" />)
+    const wrapper = render(<SizeSelect sizes={sizes} value={['XS']} />)
     expect(wrapper).toMatchSnapshot()
   })
 
@@ -36,7 +36,7 @@ describe('App size select', () => {
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
     // test snapshot
     const wrapper = render(
-      <SizeSelect sizes={sizes} value="XS" type="select" />
+      <SizeSelect sizes={sizes} value={['XS']} type="select" />
     )
     expect(wrapper).toMatchSnapshot()
   })
@@ -44,7 +44,7 @@ describe('App size select', () => {
   it('Test get default size filter(multipleselect) with actions ', () => {
     let value: SIZE_PARAMS = 'M'
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
-    const onChange = size => (value = size)
+    const onChange = (size) => (value = size)
     // test snapshot
     const wrapper = render(
       <SizeSelect
@@ -57,7 +57,7 @@ describe('App size select', () => {
 
     expect(wrapper).toMatchSnapshot()
 
-    sizes.forEach(size => {
+    sizes.forEach((size) => {
       const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
       fireEvent.click(sizeRadio)
     })
@@ -66,7 +66,7 @@ describe('App size select', () => {
     const allSizeBtn = wrapper.getByTestId('size-filter-all')
     expect(allSizeBtn).toMatchSnapshot()
 
-    sizes.forEach(size => {
+    sizes.forEach((size) => {
       const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
       fireEvent.click(sizeRadio)
     })
@@ -79,7 +79,7 @@ describe('App size select', () => {
   it('Test get default size filter with actions ', () => {
     let value: SIZE_PARAMS = 'M'
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
-    const onChange = size => (value = size)
+    const onChange = (size) => (value = size)
     // test snapshot
     const wrapper = render(
       <SizeSelect sizes={sizes} value={[value]} onChange={onChange} />
@@ -87,7 +87,7 @@ describe('App size select', () => {
 
     expect(wrapper).toMatchSnapshot()
 
-    sizes.forEach(size => {
+    sizes.forEach((size) => {
       const sizeRadio = wrapper.getByTestId(`size-filter-${size}`)
       fireEvent.click(sizeRadio)
 
@@ -96,10 +96,10 @@ describe('App size select', () => {
   })
 
   it('Test get default size filter select with actions ', async () => {
-    let value: SIZE_PARAMS = ['M']
+    let value: SIZE_PARAMS[] = ['M']
     const sizes: SIZE_PARAMS[] = ['M', 'L', 'XS', 'XXL', 'XL']
-    const onChange = size => (value = size)
-    const changeHandler = jest.fn().mockImplementation(value => {
+    const onChange = (size) => (value = size)
+    const changeHandler = jest.fn().mockImplementation((value) => {
       onChange(value)
     })
 
@@ -125,9 +125,7 @@ describe('App size select', () => {
 
     for (const svalue of sizes) {
       UserEvent.click(selectButton)
-      await waitForElement(() => getAllByText(svalue), {
-        container,
-      })
+
       const label = getAllByText(svalue)
       UserEvent.click(last(label))
 

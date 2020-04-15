@@ -8,7 +8,7 @@ import {
   MoreHoriz,
 } from '@material-ui/icons'
 
-const getIcon: GetIcon = icon => {
+const getIcon: GetIcon = (icon) => {
   switch (icon) {
     case 'like':
       return <FavoriteBorder color="error" fontSize="small" />

@@ -20,7 +20,7 @@ describe('App Banner', () => {
     // test snapshot
     const actionHandler = jest
       .fn()
-      .mockImplementation(e => console.log('click banner'))
+      .mockImplementation((e) => console.log('click banner'))
     const wrapper = render(
       <Banner action={actionHandler} title="banner title" />
     )

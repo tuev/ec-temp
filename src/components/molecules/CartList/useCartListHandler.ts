@@ -10,13 +10,13 @@ import { flow, path, find } from 'lodash/fp'
 export const reducer: CartListReducer = (initState, action) => {
   switch (action.type) {
     case CART_LIST_CHANGE_QUANTITY:
-      return initState.map(item =>
+      return initState.map((item) =>
         item.id === get(action, 'payload.id')
           ? { ...item, quantity: get(action, 'payload.quantity') }
           : item
       )
     case CART_LIST_REMOVE_ITEM:
-      return initState.filter(item => item.id !== action.payload)
+      return initState.filter((item) => item.id !== action.payload)
     default:
       return initState
   }
@@ -44,7 +44,7 @@ const useCartListHandler: CartListHook = (initValue, onCartListChange) => {
   const countItem = useMemo(() => state.length, [state])
 
   const handleRemoveCartItem = useCallback(
-    id => (): void => {
+    (id) => (): void => {
       dispatch({ type: CART_LIST_REMOVE_ITEM, payload: id })
     },
     []

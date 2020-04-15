@@ -24,7 +24,6 @@ Object {
         >
           <div
             aria-haspopup="listbox"
-            aria-labelledby=" "
             class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
@@ -45,7 +44,6 @@ Object {
             aria-hidden="true"
             class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -86,7 +84,6 @@ Object {
       >
         <div
           aria-haspopup="listbox"
-          aria-labelledby=" "
           class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
@@ -107,7 +104,6 @@ Object {
           aria-hidden="true"
           class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -1237,7 +1233,6 @@ Object {
         >
           <div
             aria-haspopup="listbox"
-            aria-labelledby=" "
             class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
@@ -1258,7 +1253,6 @@ Object {
             aria-hidden="true"
             class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -1299,7 +1293,6 @@ Object {
       >
         <div
           aria-haspopup="listbox"
-          aria-labelledby=" "
           class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
@@ -1320,7 +1313,6 @@ Object {
           aria-hidden="true"
           class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -1418,7 +1410,6 @@ Object {
         >
           <div
             aria-haspopup="listbox"
-            aria-labelledby=" "
             class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
             role="button"
             tabindex="0"
@@ -1436,7 +1427,6 @@ Object {
             aria-hidden="true"
             class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path
@@ -1477,7 +1467,6 @@ Object {
       >
         <div
           aria-haspopup="listbox"
-          aria-labelledby=" "
           class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
           role="button"
           tabindex="0"
@@ -1495,7 +1484,6 @@ Object {
           aria-hidden="true"
           class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path

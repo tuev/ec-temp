@@ -29,7 +29,8 @@ describe('App ProductFilter', () => {
         },
       },
     }
-    const handleFilterChange = value => (initValue = { ...initValue, ...value })
+    const handleFilterChange = (value) =>
+      (initValue = { ...initValue, ...value })
     const defaultValue = {
       color: 'black',
       size: 'S',
@@ -153,7 +154,7 @@ describe('App ProductFilter', () => {
       },
     }
     let productFilter = null
-    const applyHandler = jest.fn().mockImplementation(productInfo => {
+    const applyHandler = jest.fn().mockImplementation((productInfo) => {
       productFilter = productInfo
     })
 

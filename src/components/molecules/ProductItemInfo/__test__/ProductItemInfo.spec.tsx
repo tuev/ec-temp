@@ -20,7 +20,7 @@ describe('App ProductItemInfo', () => {
     // test snapshot
     const name = 'this is name of the product with more than 30 characters'
     let isClick = false
-    const handleClick = e => (isClick = true)
+    const handleClick = (e) => (isClick = true)
     const wrapper = render(
       <ProductItemInfo name={name} price="20$" handleBuy={handleClick} />
     )

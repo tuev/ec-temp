@@ -10,7 +10,7 @@ import { BaseReviewProps } from './Review.types'
 import { ReviewContainer, ReviewDivider } from './Review.styled'
 import { StylesProvider } from '@material-ui/core/styles'
 
-const Review: FC<BaseReviewProps> = props => {
+const Review: FC<BaseReviewProps> = (props) => {
   const { list } = props
   return (
     <ReviewContainer>

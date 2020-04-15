@@ -16,7 +16,7 @@ import useCartListHandler, { reducer } from '../useCartListHandler'
 
 describe('App CartList', () => {
   it('Test Cart list hook', () => {
-    const changeHandler = jest.fn().mockImplementation(value => true)
+    const changeHandler = jest.fn().mockImplementation((value) => true)
 
     const { result } = renderHook(() => useCartListHandler(mock))
     expect(result.current[1]).toEqual(mock.length)
@@ -51,7 +51,7 @@ describe('App CartList', () => {
 
   it('Test get default CartList with event handler  ', () => {
     let result = []
-    const onChangeHandler = jest.fn().mockImplementation(value => {
+    const onChangeHandler = jest.fn().mockImplementation((value) => {
       result = value
     })
 

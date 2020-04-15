@@ -7,19 +7,19 @@ import { FormControlLabel } from '@material-ui/core'
 
 export const defaultMethod = (): boolean => true
 
-const ColorSelect: FC<ColorSelectType> = props => {
+const ColorSelect: FC<ColorSelectType> = (props) => {
   const { colors = [], value = [], multiselect = false } = props
   const [colorValue, setColorValue] = useState<ColorType[]>(value)
   const onChange = get(props, 'onChange', defaultMethod)
   const isAllColorChecked = useMemo(
-    () => colors.every(color => colorValue.includes(color), []),
+    () => colors.every((color) => colorValue.includes(color), []),
     [colorValue, colors]
   )
 
   const handleOnchange = useCallback(
-    color => (): void => {
+    (color) => (): void => {
       if (colorValue.includes(color)) {
-        setColorValue(colorValue.filter(item => item !== color))
+        setColorValue(colorValue.filter((item) => item !== color))
       } else {
         multiselect
           ? setColorValue([...colorValue, color])
@@ -62,7 +62,7 @@ const ColorSelect: FC<ColorSelectType> = props => {
         />
       ) : null}
 
-      {colors.map(color => (
+      {colors.map((color) => (
         <Radio
           key={color}
           customcolor={color}

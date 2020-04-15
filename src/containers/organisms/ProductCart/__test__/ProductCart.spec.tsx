@@ -71,7 +71,9 @@ describe('App ProductCart', () => {
   it('Test click buy btn', () => {
     const initValue = mock
     let result = null
-    const onBuyHandler = jest.fn().mockImplementation(value => (result = value))
+    const onBuyHandler = jest
+      .fn()
+      .mockImplementation((value) => (result = value))
 
     const util = render(<ProductCart data={initValue} onBuy={onBuyHandler} />)
     expect(util).toMatchSnapshot()
@@ -89,7 +91,9 @@ describe('App ProductCart', () => {
   it('Test change quantity of cart item', () => {
     const initValue = mock
     let result = null
-    const onBuyHandler = jest.fn().mockImplementation(value => (result = value))
+    const onBuyHandler = jest
+      .fn()
+      .mockImplementation((value) => (result = value))
 
     const util = render(<ProductCart data={initValue} onBuy={onBuyHandler} />)
     expect(util).toMatchSnapshot()
@@ -114,7 +118,9 @@ describe('App ProductCart', () => {
   it('Test remove cart item', () => {
     const initValue = mock
     let result = null
-    const onBuyHandler = jest.fn().mockImplementation(value => (result = value))
+    const onBuyHandler = jest
+      .fn()
+      .mockImplementation((value) => (result = value))
 
     const util = render(<ProductCart data={initValue} onBuy={onBuyHandler} />)
     expect(util).toMatchSnapshot()
