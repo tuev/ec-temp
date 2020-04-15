@@ -125,7 +125,7 @@
     "node-sass": "~4.13.1",
     "nyc": "^15.0.0",
     "plop": "^2.5.4",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.4",
     "react-app-rewired": "^2.1.5",
     "react-docgen-typescript-loader": "~3.6.0",
     "react-is": "~16.12.0",
