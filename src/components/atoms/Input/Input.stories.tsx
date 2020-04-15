@@ -1,15 +1,15 @@
 import React from 'react'
 import { action } from '@storybook/addon-actions'
-import NumberInput from './NumberInput'
+import Input from './Input'
 
 export default {
-  component: NumberInput,
+  component: Input,
   includeStories: ['basic'],
-  title: 'AppNumberInput',
+  title: 'AppInput',
 }
 
 export const basic = () => (
   <>
-    <NumberInput onChange={action('NumberInput Clicked!!!')} />
+    <Input type="number" onChange={action('Number Input Clicked!!!')} />
   </>
 )

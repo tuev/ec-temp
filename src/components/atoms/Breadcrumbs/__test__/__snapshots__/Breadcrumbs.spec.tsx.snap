@@ -322,7 +322,7 @@ exports[`App Breadcrumbs Test get default Breadcrumbs  1`] = `
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
-                            "activatedOpaciy": 0.12,
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -763,7 +763,7 @@ exports[`App Breadcrumbs Test get default Breadcrumbs no params  1`] = `
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
-                            "activatedOpaciy": 0.12,
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",

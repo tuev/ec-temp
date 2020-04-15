@@ -17,8 +17,10 @@ export const SearchInput = styled(animated(TextField)).attrs(
     },
   })
 )<{
-  maxwidth: SpringValue<string>
-  opacity: SpringValue<number>
+  // TODO : check type for react-spring after 9.0 released
+
+  maxwidth: any
+  opacity: any
 }>`
   border-radius: 50%;
 `

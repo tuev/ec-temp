@@ -411,7 +411,6 @@ Object {
                     >
                       <div
                         aria-haspopup="listbox"
-                        aria-labelledby=" "
                         class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                         role="button"
                         tabindex="0"
@@ -432,7 +431,6 @@ Object {
                         aria-hidden="true"
                         class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -479,7 +477,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-201"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -490,7 +487,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-201 PrivateRadioButtonIcon-layer-199"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -525,7 +521,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-234"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -536,7 +531,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-234 PrivateRadioButtonIcon-layer-232"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -571,7 +565,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-267"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -582,7 +575,6 @@ Object {
                             aria-hidden="true"
                             class="MuiSvgIcon-root-267 PrivateRadioButtonIcon-layer-265"
                             focusable="false"
-                            role="presentation"
                             viewBox="0 0 24 24"
                           >
                             <path
@@ -660,7 +652,6 @@ Object {
               class="MuiSvgIcon-root"
               data-testid="show-product-info-btn"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -793,7 +784,6 @@ Object {
                   >
                     <div
                       aria-haspopup="listbox"
-                      aria-labelledby=" "
                       class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
                       role="button"
                       tabindex="0"
@@ -814,7 +804,6 @@ Object {
                       aria-hidden="true"
                       class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
                       focusable="false"
-                      role="presentation"
                       viewBox="0 0 24 24"
                     >
                       <path
@@ -861,7 +850,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-201"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -872,7 +860,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-201 PrivateRadioButtonIcon-layer-199"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -907,7 +894,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-234"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -918,7 +904,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-234 PrivateRadioButtonIcon-layer-232"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -953,7 +938,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-267"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -964,7 +948,6 @@ Object {
                           aria-hidden="true"
                           class="MuiSvgIcon-root-267 PrivateRadioButtonIcon-layer-265"
                           focusable="false"
-                          role="presentation"
                           viewBox="0 0 24 24"
                         >
                           <path
@@ -1042,7 +1025,6 @@ Object {
             class="MuiSvgIcon-root"
             data-testid="show-product-info-btn"
             focusable="false"
-            role="presentation"
             viewBox="0 0 24 24"
           >
             <path

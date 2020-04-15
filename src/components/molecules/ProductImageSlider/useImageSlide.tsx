@@ -7,7 +7,7 @@ const useImageSlide: ImageSlideHook = (images, active, onSlideChange) => {
   /* --------------------------------- states --------------------------------- */
   const [slide, setSlide] = useState<number>(active)
 
-  const [springProps, setSpringProps] = useSprings(images.length, index => ({
+  const [springProps, setSpringProps] = useSprings(images.length, (index) => ({
     offset: index,
   }))
 
@@ -28,7 +28,7 @@ const useImageSlide: ImageSlideHook = (images, active, onSlideChange) => {
   }, [slide])
 
   const transformCallback = useCallback(
-    offset => offset.to((os: number) => `translate3d(${os * 100}%, 0, 0)`),
+    (offset) => offset.to((os: number) => `translate3d(${os * 100}%, 0, 0)`),
     []
   )
 
@@ -42,7 +42,7 @@ const useImageSlide: ImageSlideHook = (images, active, onSlideChange) => {
 
   /* --------------------------------- effect --------------------------------- */
   useLayoutEffect(() => {
-    setSpringProps(index => ({ offset: index - slide }))
+    setSpringProps((index) => ({ offset: index - slide }))
     onSlideChange && onSlideChange(slide)
   }, [slide, setSpringProps, onSlideChange])
 

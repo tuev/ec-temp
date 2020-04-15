@@ -42,7 +42,7 @@ exports[`Radio radio 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -509,7 +509,6 @@ exports[`Radio radio 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-25"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -548,7 +547,6 @@ exports[`Radio radio 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-25 PrivateRadioButtonIcon-layer-23"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -562,36 +560,34 @@ exports[`Radio radio 1`] = `
                               </RadioButtonIcon>
                             </WithStyles(RadioButtonIcon)>
                           </span>
-                          <NoSsr>
-                            <WithStyles(undefined)
+                          <WithStyles(memo)
+                            center={true}
+                          >
+                            <ForwardRef(TouchRipple)
                               center={true}
-                            >
-                              <ForwardRef(TouchRipple)
-                                center={true}
-                                classes={
-                                  Object {
-                                    "child": "MuiTouchRipple-child-38",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-39",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-40",
-                                    "ripple": "MuiTouchRipple-ripple-35",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-37",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-36",
-                                    "root": "MuiTouchRipple-root-34",
-                                  }
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child-38",
+                                  "childLeaving": "MuiTouchRipple-childLeaving-39",
+                                  "childPulsate": "MuiTouchRipple-childPulsate-40",
+                                  "ripple": "MuiTouchRipple-ripple-35",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-37",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible-36",
+                                  "root": "MuiTouchRipple-root-34",
                                 }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root-34"
                               >
-                                <span
-                                  className="MuiTouchRipple-root-34"
-                                >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    component={null}
-                                    exit={true}
-                                  />
-                                </span>
-                              </ForwardRef(TouchRipple)>
-                            </WithStyles(undefined)>
-                          </NoSsr>
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
                         </span>
                       </ForwardRef(ButtonBase)>
                     </WithStyles(ForwardRef(ButtonBase))>
@@ -651,7 +647,7 @@ exports[`Radio radio checked 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1126,7 +1122,6 @@ exports[`Radio radio checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-111"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1165,7 +1160,6 @@ exports[`Radio radio checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-111 PrivateRadioButtonIcon-layer-109"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1179,36 +1173,34 @@ exports[`Radio radio checked 1`] = `
                               </RadioButtonIcon>
                             </WithStyles(RadioButtonIcon)>
                           </span>
-                          <NoSsr>
-                            <WithStyles(undefined)
+                          <WithStyles(memo)
+                            center={true}
+                          >
+                            <ForwardRef(TouchRipple)
                               center={true}
-                            >
-                              <ForwardRef(TouchRipple)
-                                center={true}
-                                classes={
-                                  Object {
-                                    "child": "MuiTouchRipple-child-124",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-125",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-126",
-                                    "ripple": "MuiTouchRipple-ripple-121",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-123",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-122",
-                                    "root": "MuiTouchRipple-root-120",
-                                  }
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child-124",
+                                  "childLeaving": "MuiTouchRipple-childLeaving-125",
+                                  "childPulsate": "MuiTouchRipple-childPulsate-126",
+                                  "ripple": "MuiTouchRipple-ripple-121",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-123",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible-122",
+                                  "root": "MuiTouchRipple-root-120",
                                 }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root-120"
                               >
-                                <span
-                                  className="MuiTouchRipple-root-120"
-                                >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    component={null}
-                                    exit={true}
-                                  />
-                                </span>
-                              </ForwardRef(TouchRipple)>
-                            </WithStyles(undefined)>
-                          </NoSsr>
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
                         </span>
                       </ForwardRef(ButtonBase)>
                     </WithStyles(ForwardRef(ButtonBase))>
@@ -1269,7 +1261,7 @@ exports[`Radio radio green checked 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1744,7 +1736,6 @@ exports[`Radio radio green checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-154"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1783,7 +1774,6 @@ exports[`Radio radio green checked 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-154 PrivateRadioButtonIcon-layer-152"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -1797,36 +1787,34 @@ exports[`Radio radio green checked 1`] = `
                               </RadioButtonIcon>
                             </WithStyles(RadioButtonIcon)>
                           </span>
-                          <NoSsr>
-                            <WithStyles(undefined)
+                          <WithStyles(memo)
+                            center={true}
+                          >
+                            <ForwardRef(TouchRipple)
                               center={true}
-                            >
-                              <ForwardRef(TouchRipple)
-                                center={true}
-                                classes={
-                                  Object {
-                                    "child": "MuiTouchRipple-child-167",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-168",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-169",
-                                    "ripple": "MuiTouchRipple-ripple-164",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-166",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-165",
-                                    "root": "MuiTouchRipple-root-163",
-                                  }
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child-167",
+                                  "childLeaving": "MuiTouchRipple-childLeaving-168",
+                                  "childPulsate": "MuiTouchRipple-childPulsate-169",
+                                  "ripple": "MuiTouchRipple-ripple-164",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-166",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible-165",
+                                  "root": "MuiTouchRipple-root-163",
                                 }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root-163"
                               >
-                                <span
-                                  className="MuiTouchRipple-root-163"
-                                >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    component={null}
-                                    exit={true}
-                                  />
-                                </span>
-                              </ForwardRef(TouchRipple)>
-                            </WithStyles(undefined)>
-                          </NoSsr>
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
                         </span>
                       </ForwardRef(ButtonBase)>
                     </WithStyles(ForwardRef(ButtonBase))>
@@ -1886,7 +1874,7 @@ exports[`Radio radio primary 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -2353,7 +2341,6 @@ exports[`Radio radio primary 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-68"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -2392,7 +2379,6 @@ exports[`Radio radio primary 1`] = `
                                           aria-hidden="true"
                                           className="MuiSvgIcon-root-68 PrivateRadioButtonIcon-layer-66"
                                           focusable="false"
-                                          role="presentation"
                                           viewBox="0 0 24 24"
                                         >
                                           <path
@@ -2406,36 +2392,34 @@ exports[`Radio radio primary 1`] = `
                               </RadioButtonIcon>
                             </WithStyles(RadioButtonIcon)>
                           </span>
-                          <NoSsr>
-                            <WithStyles(undefined)
+                          <WithStyles(memo)
+                            center={true}
+                          >
+                            <ForwardRef(TouchRipple)
                               center={true}
-                            >
-                              <ForwardRef(TouchRipple)
-                                center={true}
-                                classes={
-                                  Object {
-                                    "child": "MuiTouchRipple-child-81",
-                                    "childLeaving": "MuiTouchRipple-childLeaving-82",
-                                    "childPulsate": "MuiTouchRipple-childPulsate-83",
-                                    "ripple": "MuiTouchRipple-ripple-78",
-                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-80",
-                                    "rippleVisible": "MuiTouchRipple-rippleVisible-79",
-                                    "root": "MuiTouchRipple-root-77",
-                                  }
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child-81",
+                                  "childLeaving": "MuiTouchRipple-childLeaving-82",
+                                  "childPulsate": "MuiTouchRipple-childPulsate-83",
+                                  "ripple": "MuiTouchRipple-ripple-78",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-80",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible-79",
+                                  "root": "MuiTouchRipple-root-77",
                                 }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root-77"
                               >
-                                <span
-                                  className="MuiTouchRipple-root-77"
-                                >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    component={null}
-                                    exit={true}
-                                  />
-                                </span>
-                              </ForwardRef(TouchRipple)>
-                            </WithStyles(undefined)>
-                          </NoSsr>
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
                         </span>
                       </ForwardRef(ButtonBase)>
                     </WithStyles(ForwardRef(ButtonBase))>

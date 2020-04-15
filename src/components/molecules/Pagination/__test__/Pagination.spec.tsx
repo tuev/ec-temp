@@ -432,7 +432,7 @@ describe('App pagination', () => {
     const props = { total: 12, page: 6, step: 5 }
 
     let currentPage = 0
-    const pageHandle: PageHandler = page => (currentPage = page)
+    const pageHandle: PageHandler = (page) => (currentPage = page)
 
     const { total, page, step } = getDefaultValue(props)
     const lastPage = memoLastPage({ total, step })

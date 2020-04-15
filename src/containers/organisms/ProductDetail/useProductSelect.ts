@@ -28,7 +28,7 @@ export const reducer: ProductSelectReducer = (initState, action) => {
   }
 }
 
-const useProductSelect: ProductSelectHook = initState => {
+const useProductSelect: ProductSelectHook = (initState) => {
   const [options, dispatch] = useReducer(reducer, initState)
   const onColorChange = useCallback(
     (color: ColorType[]) => dispatch({ type: 'CHANGE_COLOR', payload: color }),

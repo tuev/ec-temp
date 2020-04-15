@@ -6,7 +6,7 @@ import { createMuiTheme } from '@material-ui/core/styles'
 import { Radio } from '@material-ui/core'
 import styled, { css } from 'styled-components'
 
-export const getRadioColor: getColor = props =>
+export const getRadioColor: getColor = (props) =>
   COLOR[props.customcolor || 'primary']
 
 export const AppRadio: React.FC<BaseRadioProps> = styled(Radio)<BaseRadioProps>`

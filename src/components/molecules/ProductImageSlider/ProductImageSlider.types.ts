@@ -17,10 +17,12 @@ export interface ISlideHandle {
 }
 
 export interface ISlideAnimation {
-  transform: (offset: SpringValue<number>) => SpringValue<string>
+  // TODO : check type for react-spring after 9.0 released
+  transform: (offset: any) => unknown
   springProps: {
-    [x: string]: SpringValue<any>
-    offset: SpringValue<number>
+    [x: string]: any
+    [x: number]: any
+    offset: any
   }[]
 }
 

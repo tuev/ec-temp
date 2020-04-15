@@ -69,7 +69,7 @@ describe('App ProductDetail', () => {
   it('Test get default ProductDetail handle buy event', () => {
     let itemData = null
     // test snapshot
-    const handleBuy = jest.fn().mockImplementation(buyItem => {
+    const handleBuy = jest.fn().mockImplementation((buyItem) => {
       itemData = buyItem
     })
 

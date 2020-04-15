@@ -6,7 +6,7 @@ import { Apps, List } from '@material-ui/icons'
 import { ThemeProvider } from '@material-ui/core/styles'
 import Wrapper from 'components/atoms/Wrapper'
 
-const getColor: (checked?: boolean) => 'primary' | 'inherit' = checked =>
+const getColor: (checked?: boolean) => 'primary' | 'inherit' = (checked) =>
   checked ? 'primary' : 'inherit'
 
 const ViewMode: FC<BaseViewModeProps> = (props: BaseViewModeProps) => {

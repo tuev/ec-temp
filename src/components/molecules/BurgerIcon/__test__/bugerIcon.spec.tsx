@@ -11,7 +11,7 @@ describe('Burger icon', () => {
     let burgerStatus = initValue
     const handleClickBurger = jest
       .fn()
-      .mockImplementation(value => (burgerStatus = value))
+      .mockImplementation((value) => (burgerStatus = value))
     const basicBurgerIcon = render(
       <BurgerIcon handleOpen={handleClickBurger} />
     )

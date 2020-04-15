@@ -30,7 +30,7 @@ describe('App SubscriptionTile', () => {
     let result = ''
     const onSubcribeHandler = jest
       .fn()
-      .mockImplementation(value => (result = value))
+      .mockImplementation((value) => (result = value))
     const mockEmail = 'emailtest'
     // test snapshot
     const wrapper = render(<SubscriptionTile onSubscribe={onSubcribeHandler} />)

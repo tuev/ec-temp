@@ -38,10 +38,20 @@ exports[`Number Input Number input 1`] = `
           "minHeight": 56,
         },
       },
-      "overrides": Object {},
+      "overrides": Object {
+        "MuiOutlinedInput": Object {
+          "input": Object {
+            "paddingBottom": "14.5px",
+            "paddingTop": "14.5px",
+          },
+          "root": Object {
+            "borderRadius": "6px",
+          },
+        },
+      },
       "palette": Object {
         "action": Object {
-          "activatedOpaciy": 0.12,
+          "activatedOpacity": 0.12,
           "active": "rgba(0, 0, 0, 0.54)",
           "disabled": "rgba(0, 0, 0, 0.26)",
           "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -94,9 +104,9 @@ exports[`Number Input Number input 1`] = `
           "main": "#2196f3",
         },
         "primary": Object {
-          "contrastText": "#fff",
-          "dark": "#4592f7",
-          "light": "#beddfe",
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "rgb(77, 124, 175)",
+          "light": "rgb(139, 193, 251)",
           "main": "#6EB2FB",
         },
         "secondary": Object {
@@ -155,7 +165,7 @@ exports[`Number Input Number input 1`] = `
         "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
       ],
       "shape": Object {
-        "borderRadius": 50,
+        "borderRadius": 4,
       },
       "spacing": [Function],
       "transitions": Object {

@@ -15,7 +15,7 @@ import Typography from 'components/atoms/Typography'
 import SearchBar from 'components/molecules/SearchBar'
 import BurgerIcon from 'components/molecules/BurgerIcon'
 
-const MobileHeader: FC<MobileHeaderProps> = props => {
+const MobileHeader: FC<MobileHeaderProps> = (props) => {
   const { items = [] } = props
   const [isSideBarOpen, toggleSidebar] = useState<boolean>(false)
   const handleCloseSidebar = useCallback(() => toggleSidebar(false), [])

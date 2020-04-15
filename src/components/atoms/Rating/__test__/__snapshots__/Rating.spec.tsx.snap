@@ -86,7 +86,6 @@ exports[`Rating rating 1`] = `
                         aria-hidden="true"
                         className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -154,7 +153,6 @@ exports[`Rating rating 1`] = `
                         aria-hidden="true"
                         className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -222,7 +220,6 @@ exports[`Rating rating 1`] = `
                         aria-hidden="true"
                         className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -290,7 +287,6 @@ exports[`Rating rating 1`] = `
                         aria-hidden="true"
                         className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path
@@ -358,7 +354,6 @@ exports[`Rating rating 1`] = `
                         aria-hidden="true"
                         className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
                         focusable="false"
-                        role="presentation"
                         viewBox="0 0 24 24"
                       >
                         <path

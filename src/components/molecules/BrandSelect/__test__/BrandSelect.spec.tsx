@@ -18,7 +18,7 @@ describe('App brand select', () => {
     const newChecked = false
     let resultAfterChange = { ...initValue }
 
-    const handleFilterChange = value =>
+    const handleFilterChange = (value) =>
       (resultAfterChange = { ...initValue, ...value })
 
     const { result } = renderHook(() =>
@@ -66,7 +66,7 @@ describe('App brand select', () => {
       brand2: { value: false, label: 'Brand 2' },
     }
     // test snapshot
-    const onChange = values => console.log('brand-select: values', values)
+    const onChange = (values) => console.log('brand-select: values', values)
     const wrapper = render(<BrandSelect values={values} onChange={onChange} />)
     expect(wrapper).toMatchSnapshot()
     const brandSlug = ['brand1', 'brand2']

@@ -74,7 +74,6 @@ exports[`BlogIcon bookmark icon 1`] = `
                   aria-hidden="true"
                   className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -167,7 +166,6 @@ exports[`BlogIcon comment icon 1`] = `
                   aria-hidden="true"
                   className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -234,7 +232,6 @@ exports[`BlogIcon like icon 1`] = `
       aria-hidden="true"
       className="MuiSvgIcon-root MuiSvgIcon-colorError MuiSvgIcon-fontSizeSmall"
       focusable="false"
-      role="presentation"
       viewBox="0 0 24 24"
     >
       <path
@@ -322,7 +319,6 @@ exports[`BlogIcon options icon 1`] = `
                   aria-hidden="true"
                   className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path

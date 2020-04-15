@@ -18,7 +18,10 @@ export const example = () => <ColorSelectExample />
 const ColorSelectExample = () => {
   const colors: ColorType[] = ['blue', 'green', 'red', 'orange']
   const [color, toggleColor] = useState<ColorType>('blue')
-  const handleToggleColor = useCallback(colorCode => toggleColor(colorCode), [])
+  const handleToggleColor = useCallback(
+    (colorCode) => toggleColor(colorCode),
+    []
+  )
 
   return (
     <ColorSelect colors={colors} value={[color]} onChange={handleToggleColor} />

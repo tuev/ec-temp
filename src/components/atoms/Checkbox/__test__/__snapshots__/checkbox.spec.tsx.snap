@@ -42,7 +42,7 @@ exports[`Checkbox checkbox 1`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -478,7 +478,6 @@ exports[`Checkbox checkbox 1`] = `
                                   aria-hidden="true"
                                   className="MuiSvgIcon-root"
                                   focusable="false"
-                                  role="presentation"
                                   viewBox="0 0 24 24"
                                 >
                                   <path
@@ -489,36 +488,34 @@ exports[`Checkbox checkbox 1`] = `
                             </WithStyles(ForwardRef(SvgIcon))>
                           </ForwardRef>
                         </span>
-                        <NoSsr>
-                          <WithStyles(undefined)
+                        <WithStyles(memo)
+                          center={true}
+                        >
+                          <ForwardRef(TouchRipple)
                             center={true}
-                          >
-                            <ForwardRef(TouchRipple)
-                              center={true}
-                              classes={
-                                Object {
-                                  "child": "MuiTouchRipple-child",
-                                  "childLeaving": "MuiTouchRipple-childLeaving",
-                                  "childPulsate": "MuiTouchRipple-childPulsate",
-                                  "ripple": "MuiTouchRipple-ripple",
-                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                  "root": "MuiTouchRipple-root",
-                                }
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
                               }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
                             >
-                              <span
-                                className="MuiTouchRipple-root"
-                              >
-                                <TransitionGroup
-                                  childFactory={[Function]}
-                                  component={null}
-                                  exit={true}
-                                />
-                              </span>
-                            </ForwardRef(TouchRipple)>
-                          </WithStyles(undefined)>
-                        </NoSsr>
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
                       </span>
                     </ForwardRef(ButtonBase)>
                   </WithStyles(ForwardRef(ButtonBase))>
@@ -575,7 +572,7 @@ exports[`Checkbox checkbox 2`] = `
         "overrides": Object {},
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1011,7 +1008,6 @@ exports[`Checkbox checkbox 2`] = `
                                   aria-hidden="true"
                                   className="MuiSvgIcon-root"
                                   focusable="false"
-                                  role="presentation"
                                   viewBox="0 0 24 24"
                                 >
                                   <path
@@ -1022,36 +1018,34 @@ exports[`Checkbox checkbox 2`] = `
                             </WithStyles(ForwardRef(SvgIcon))>
                           </ForwardRef>
                         </span>
-                        <NoSsr>
-                          <WithStyles(undefined)
+                        <WithStyles(memo)
+                          center={true}
+                        >
+                          <ForwardRef(TouchRipple)
                             center={true}
-                          >
-                            <ForwardRef(TouchRipple)
-                              center={true}
-                              classes={
-                                Object {
-                                  "child": "MuiTouchRipple-child",
-                                  "childLeaving": "MuiTouchRipple-childLeaving",
-                                  "childPulsate": "MuiTouchRipple-childPulsate",
-                                  "ripple": "MuiTouchRipple-ripple",
-                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                  "root": "MuiTouchRipple-root",
-                                }
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
                               }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
                             >
-                              <span
-                                className="MuiTouchRipple-root"
-                              >
-                                <TransitionGroup
-                                  childFactory={[Function]}
-                                  component={null}
-                                  exit={true}
-                                />
-                              </span>
-                            </ForwardRef(TouchRipple)>
-                          </WithStyles(undefined)>
-                        </NoSsr>
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
                       </span>
                     </ForwardRef(ButtonBase)>
                   </WithStyles(ForwardRef(ButtonBase))>

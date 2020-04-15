@@ -123,7 +123,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-25"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -134,7 +133,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-25 PrivateRadioButtonIcon-layer-23"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -169,7 +167,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-58"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -180,7 +177,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-58 PrivateRadioButtonIcon-layer-56"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -216,7 +212,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-91"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -227,7 +222,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-91 PrivateRadioButtonIcon-layer-89"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -262,7 +256,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-124"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -273,7 +266,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-124 PrivateRadioButtonIcon-layer-122"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -308,7 +300,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-157"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -319,7 +310,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-157 PrivateRadioButtonIcon-layer-155"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -359,7 +349,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-25"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -370,7 +359,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-25 PrivateRadioButtonIcon-layer-23"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -405,7 +393,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-58"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -416,7 +403,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-58 PrivateRadioButtonIcon-layer-56"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -452,7 +438,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-91"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -463,7 +448,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-91 PrivateRadioButtonIcon-layer-89"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -498,7 +482,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-124"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -509,7 +492,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-124 PrivateRadioButtonIcon-layer-122"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -544,7 +526,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-157"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -555,7 +536,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-157 PrivateRadioButtonIcon-layer-155"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -748,7 +728,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-534"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -759,7 +738,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-534 PrivateRadioButtonIcon-layer-532"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -794,7 +772,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-567"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -805,7 +782,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-567 PrivateRadioButtonIcon-layer-565"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -840,7 +816,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-600"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -851,7 +826,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-600 PrivateRadioButtonIcon-layer-598"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -886,7 +860,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-633"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -897,7 +870,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-633 PrivateRadioButtonIcon-layer-631"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -932,7 +904,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-666"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -943,7 +914,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-666 PrivateRadioButtonIcon-layer-664"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -984,7 +954,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-534"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -995,7 +964,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-534 PrivateRadioButtonIcon-layer-532"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1030,7 +998,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-567"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1041,7 +1008,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-567 PrivateRadioButtonIcon-layer-565"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1076,7 +1042,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-600"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1087,7 +1052,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-600 PrivateRadioButtonIcon-layer-598"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1122,7 +1086,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-633"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1133,7 +1096,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-633 PrivateRadioButtonIcon-layer-631"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1168,7 +1130,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-666"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1179,7 +1140,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-666 PrivateRadioButtonIcon-layer-664"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1439,7 +1399,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root-246"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -1450,7 +1409,6 @@ Object {
                   aria-hidden="true"
                   class="MuiSvgIcon-root-246 PrivateRadioButtonIcon-layer-244"
                   focusable="false"
-                  role="presentation"
                   viewBox="0 0 24 24"
                 >
                   <path
@@ -1492,7 +1450,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-309"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1503,7 +1460,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-309 PrivateRadioButtonIcon-layer-307"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1538,7 +1494,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-342"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1549,7 +1504,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-342 PrivateRadioButtonIcon-layer-340"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1584,7 +1538,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-375"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1595,7 +1548,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-375 PrivateRadioButtonIcon-layer-373"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1630,7 +1582,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-408"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1641,7 +1592,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-408 PrivateRadioButtonIcon-layer-406"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1676,7 +1626,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-441"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1687,7 +1636,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-441 PrivateRadioButtonIcon-layer-439"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1730,7 +1678,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-246"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1741,7 +1688,6 @@ Object {
                 aria-hidden="true"
                 class="MuiSvgIcon-root-246 PrivateRadioButtonIcon-layer-244"
                 focusable="false"
-                role="presentation"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -1783,7 +1729,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-309"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1794,7 +1739,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-309 PrivateRadioButtonIcon-layer-307"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1829,7 +1773,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-342"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1840,7 +1783,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-342 PrivateRadioButtonIcon-layer-340"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1875,7 +1817,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-375"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1886,7 +1827,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-375 PrivateRadioButtonIcon-layer-373"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1921,7 +1861,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-408"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1932,7 +1871,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-408 PrivateRadioButtonIcon-layer-406"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1967,7 +1905,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-441"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -1978,7 +1915,6 @@ Object {
               aria-hidden="true"
               class="MuiSvgIcon-root-441 PrivateRadioButtonIcon-layer-439"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -2073,7 +2009,6 @@ exports[`App color filter Test get default color filter with actions  2`] = `
           aria-hidden="true"
           class="MuiSvgIcon-root-246"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path
@@ -2084,7 +2019,6 @@ exports[`App color filter Test get default color filter with actions  2`] = `
           aria-hidden="true"
           class="MuiSvgIcon-root-246 PrivateRadioButtonIcon-layer-244"
           focusable="false"
-          role="presentation"
           viewBox="0 0 24 24"
         >
           <path

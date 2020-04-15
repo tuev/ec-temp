@@ -8,7 +8,7 @@ import usePriceHook from '../usePriceHook'
 describe('App price select', () => {
   it('Test priceSelect Hook', () => {
     let initPrice = [3, 12]
-    const changePrice = price => (initPrice = price)
+    const changePrice = (price) => (initPrice = price)
     const changedPrice = [25, 19]
     const { result } = renderHook(() => usePriceHook(initPrice, changePrice))
     act(() => {
@@ -30,7 +30,7 @@ describe('App price select', () => {
   })
 
   it('Test get default price select with actions ', () => {
-    const onChange = value => console.log(value, 'value')
+    const onChange = (value) => console.log(value, 'value')
     // test snapshot
     const wrapper = render(
       <PriceSelect values={[9, 10]} min={3} max={95} onChange={onChange} />

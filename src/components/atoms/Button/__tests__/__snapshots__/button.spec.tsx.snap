@@ -60,7 +60,7 @@ exports[`Button outline large btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -408,36 +408,34 @@ exports[`Button outline large btn 1`] = `
                 >
                   Outlined
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -505,7 +503,7 @@ exports[`Button outline medium btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -850,36 +848,34 @@ exports[`Button outline medium btn 1`] = `
                 >
                   Outlined
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -948,7 +944,7 @@ exports[`Button outline small btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1296,36 +1292,34 @@ exports[`Button outline small btn 1`] = `
                 >
                   Outlined
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -1395,7 +1389,7 @@ exports[`Button primary large btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -1743,36 +1737,34 @@ exports[`Button primary large btn 1`] = `
                 >
                   Primary
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -1838,7 +1830,7 @@ exports[`Button primary medium btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -2183,36 +2175,34 @@ exports[`Button primary medium btn 1`] = `
                 >
                   Primary
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>
@@ -2280,7 +2270,7 @@ exports[`Button primary small btn 1`] = `
         },
         "palette": Object {
           "action": Object {
-            "activatedOpaciy": 0.12,
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
@@ -2628,36 +2618,34 @@ exports[`Button primary small btn 1`] = `
                 >
                   Primary
                 </span>
-                <NoSsr>
-                  <WithStyles(undefined)
+                <WithStyles(memo)
+                  center={false}
+                >
+                  <ForwardRef(TouchRipple)
                     center={false}
-                  >
-                    <ForwardRef(TouchRipple)
-                      center={false}
-                      classes={
-                        Object {
-                          "child": "MuiTouchRipple-child",
-                          "childLeaving": "MuiTouchRipple-childLeaving",
-                          "childPulsate": "MuiTouchRipple-childPulsate",
-                          "ripple": "MuiTouchRipple-ripple",
-                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                          "rippleVisible": "MuiTouchRipple-rippleVisible",
-                          "root": "MuiTouchRipple-root",
-                        }
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child",
+                        "childLeaving": "MuiTouchRipple-childLeaving",
+                        "childPulsate": "MuiTouchRipple-childPulsate",
+                        "ripple": "MuiTouchRipple-ripple",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible",
+                        "root": "MuiTouchRipple-root",
                       }
+                    }
+                  >
+                    <span
+                      className="MuiTouchRipple-root"
                     >
-                      <span
-                        className="MuiTouchRipple-root"
-                      >
-                        <TransitionGroup
-                          childFactory={[Function]}
-                          component={null}
-                          exit={true}
-                        />
-                      </span>
-                    </ForwardRef(TouchRipple)>
-                  </WithStyles(undefined)>
-                </NoSsr>
+                      <TransitionGroup
+                        childFactory={[Function]}
+                        component={null}
+                        exit={true}
+                      />
+                    </span>
+                  </ForwardRef(TouchRipple)>
+                </WithStyles(memo)>
               </button>
             </ForwardRef(ButtonBase)>
           </WithStyles(ForwardRef(ButtonBase))>

@@ -14,7 +14,7 @@ const useSearchBarTransition: SearchBarHook = (value, ref) => {
   })
 
   const handleClick = useCallback(
-    e => {
+    (e) => {
       if (ref.current && !ref.current.contains(e.target) && !value) {
         return hideSearch()
       }

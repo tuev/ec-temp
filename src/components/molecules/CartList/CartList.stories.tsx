@@ -19,7 +19,7 @@ export const basic = () => (
   <div>
     <CartList
       data={mockCartItems}
-      onCartItemChange={items => console.log(items)}
+      onCartItemChange={(items) => console.log(items)}
     />
   </div>
 )

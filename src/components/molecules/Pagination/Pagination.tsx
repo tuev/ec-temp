@@ -16,7 +16,7 @@ import {
 } from '@material-ui/icons'
 import * as utils from './utils'
 
-export const Pagination: FC<PaginationType> = props => {
+export const Pagination: FC<PaginationType> = (props) => {
   const onChange = get(props, 'onChange', utils.defaultOnChange)
 
   const defaultSkip = +get(process.env, 'REACT_APP_SKIP', 5)
@@ -76,7 +76,7 @@ export const Pagination: FC<PaginationType> = props => {
   ])
 
   // TODO: Need to define type for high order functional
-  const handlePageSelect = useCallback(data => (): void => onChange(data), [
+  const handlePageSelect = useCallback((data) => (): void => onChange(data), [
     onChange,
   ])
 
@@ -97,7 +97,7 @@ export const Pagination: FC<PaginationType> = props => {
         <ChevronLeft />
       </PaginationIcon>
       <PaginationNumberWrapper>
-        {rangePage.map(data => (
+        {rangePage.map((data) => (
           <PaginationNumber
             key={data}
             active={+(page === data)}

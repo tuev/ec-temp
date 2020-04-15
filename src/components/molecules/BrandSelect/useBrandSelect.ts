@@ -21,7 +21,7 @@ const useBrandSelect: UseBrandSelect = (
     [checkedValue]
   )
   const setBrandSelect = useCallback(
-    values => {
+    (values) => {
       toggleCheck(values)
     },
     [toggleCheck]

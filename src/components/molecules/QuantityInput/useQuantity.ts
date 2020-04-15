@@ -4,7 +4,7 @@ import { QuantityHook } from './QuantityInput.types'
 
 const useQuantityHook: QuantityHook = (initValue, onChange) => {
   const [quantity, onQuantityChange] = useState<number>(initValue || 0)
-  const handleQuantityChange = useCallback(e => {
+  const handleQuantityChange = useCallback((e) => {
     const valueOnchange = get(e, 'target.value', 0)
     onQuantityChange(Math.max(valueOnchange, 0))
   }, [])

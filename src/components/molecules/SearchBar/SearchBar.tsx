@@ -14,10 +14,13 @@ import { SearchInput, theme, SearchWrapper } from './SearchBar.styled'
 import useSearchBarTransition from './useSearchBarAnimation'
 import { SearchBarProps } from './SearchBar.types'
 
-const SearchBar: FC<SearchBarProps> = props => {
+const SearchBar: FC<SearchBarProps> = (props) => {
   const { onSearch } = props
   const [inputString, onChangeInput] = useState<string>('')
-  const handleInputChange = useCallback(e => onChangeInput(e.target.value), [])
+  const handleInputChange = useCallback(
+    (e) => onChangeInput(e.target.value),
+    []
+  )
   useEffect(() => {
     if (onSearch) {
       onSearch(inputString)

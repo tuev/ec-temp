@@ -20,7 +20,7 @@ describe('App QuantityInput', () => {
     const changeValue = 4
     const handleQuantityChange = jest
       .fn()
-      .mockImplementation(value => (quantityValue = value))
+      .mockImplementation((value) => (quantityValue = value))
 
     const { result } = renderHook(() =>
       useQuantity(initValue, handleQuantityChange)
@@ -47,7 +47,7 @@ describe('App QuantityInput', () => {
     let result = initValue
     const onChangeQuantity = jest
       .fn()
-      .mockImplementation(value => (result = value))
+      .mockImplementation((value) => (result = value))
 
     // test snapshot
     const wrapper = render(

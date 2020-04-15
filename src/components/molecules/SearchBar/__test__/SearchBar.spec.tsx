@@ -30,7 +30,7 @@ describe('App SearchBar', () => {
     let result = ''
     const onSearchValue = jest
       .fn()
-      .mockImplementation(value => (result = value))
+      .mockImplementation((value) => (result = value))
     const testString = 'this is search string'
     // test snapshot
     const wrapper = render(<SearchBar onSearch={onSearchValue} />)
@@ -49,7 +49,7 @@ describe('App SearchBar', () => {
     let result = ''
     const onSearchValue = jest
       .fn()
-      .mockImplementation(value => (result = value))
+      .mockImplementation((value) => (result = value))
     const testString = 'this is search string'
     // test snapshot
     const wrapper = render(<SearchBar onSearch={onSearchValue} />)

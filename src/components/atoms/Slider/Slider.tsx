@@ -4,7 +4,7 @@ import { BaseSliderProps, ValueLabelProps } from './Slider.types'
 import { ThemeProvider } from '@material-ui/core/styles'
 import { isNumber, isArray } from 'lodash'
 
-export const valueText: (value?: number) => string = value =>
+export const valueText: (value?: number) => string = (value) =>
   value === undefined ? '' : `${value}`
 
 export const ValueLabel: FC<ValueLabelProps> = (props: ValueLabelProps) => {

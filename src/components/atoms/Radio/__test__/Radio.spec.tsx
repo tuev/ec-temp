@@ -23,7 +23,7 @@ describe('Radio', () => {
       'red',
       'yellow',
     ]
-    colors.forEach(color => {
+    colors.forEach((color) => {
       const radioCustomColor = getRadioColor({ customcolor: color })
       expect(radioCustomColor).toBe(COLOR[color])
     })
@@ -42,7 +42,7 @@ describe('Radio', () => {
       'red',
     ]
 
-    colors.forEach(color =>
+    colors.forEach((color) =>
       expect(get(getTheme(color), 'palette.primary')).toStrictEqual(
         colorPalettes[color]
       )
