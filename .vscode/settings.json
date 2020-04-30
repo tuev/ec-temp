@@ -6,11 +6,25 @@
     { "language": "typescriptreact", "autoFix": true }
   ],
   "workbench.colorCustomizations": {
-    "statusBar.background": "#3c856c",
+    "statusBar.background": "#030b05",
     "statusBar.noFolderBackground": "#9fb150",
     "statusBar.debuggingBackground": "#aa2d2d",
-    "activityBar.background": "#0e3316",
-    "sideBarSectionHeader.background": "#144127"
+    "activityBar.background": "#0e3317",
+    "sideBarSectionHeader.background": "#144127",
+    "activityBar.activeBackground": "#0e3317",
+    "activityBar.activeBorder": "#6f50cf",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#6f50cf",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.border": "#030b05",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#0e3317",
+    "titleBar.activeBackground": "#030b05",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.border": "#030b05",
+    "titleBar.inactiveBackground": "#030b0599",
+    "titleBar.inactiveForeground": "#e7e7e799"
   },
   "todohighlight.isEnable": true,
   "todohighlight.keywords": [
@@ -34,5 +48,6 @@
       "borderRadius": "2px",
       "backgroundColor": "rgba(0,0,0,.2)"
     }
-  ]
+  ],
+  "peacock.color": "#030b05"
 }

@@ -16,6 +16,14 @@ export default {
 
 export const basic = () => (
   <div>
-    <ReviewItem />
+    <ReviewItem
+      id={123}
+      rating={4}
+      fullname="full name"
+      dateCreated="11/11/2011"
+      reviewText="reviewText"
+      likeCount={20}
+      commentCount={20}
+    />
   </div>
 )

@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// TODO : check type for react-spring after 9.0 released
 /**
  *
  * Styled for ProductItem
@@ -6,7 +8,7 @@
 
 import styled from 'styled-components'
 import { prop } from 'styled-tools'
-import { animated, SpringValue } from 'react-spring'
+import { animated } from 'react-spring'
 
 export const ProductItemCardWrapper = styled.div`
   position: relative;
@@ -21,8 +23,6 @@ export const ProductItemCard = styled(animated.div).attrs(
     },
   })
 )<{
-  // TODO : check type for react-spring after 9.0 released
-
   transform: any
   opacity: any
 }>`
