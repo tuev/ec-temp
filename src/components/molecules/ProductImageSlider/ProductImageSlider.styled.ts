@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// TODO : check type for react-spring after 9.0 released
+
 import { COLOR } from 'theme/colors'
 /**
  *
@@ -7,7 +10,7 @@ import { COLOR } from 'theme/colors'
 
 import styled from 'styled-components'
 import { prop, ifProp } from 'styled-tools'
-import { animated, SpringValue } from 'react-spring'
+import { animated } from 'react-spring'
 
 export const ImageSliderItem = styled.div<{ background: string }>`
   background-image: url(${prop('background')});
@@ -25,7 +28,6 @@ export const ImageSliderItemWrapper = styled(animated.div).attrs(
     },
   })
 )<{
-  // TODO : check type for react-spring after 9.0 released
   transform: any
 }>`
   cursor: pointer;

@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+// TODO : check type for react-spring after 9.0 released
+
 /**
  *
  * Styled for SearchBar
@@ -7,7 +10,7 @@
 import styled from 'styled-components'
 import { TextField } from '@material-ui/core'
 import { createMuiTheme } from '@material-ui/core/styles'
-import { animated, SpringValue } from 'react-spring'
+import { animated } from 'react-spring'
 
 export const SearchInput = styled(animated(TextField)).attrs(
   ({ opacity, maxwidth }: { maxwidth: string; opacity: string }) => ({
@@ -17,8 +20,6 @@ export const SearchInput = styled(animated(TextField)).attrs(
     },
   })
 )<{
-  // TODO : check type for react-spring after 9.0 released
-
   maxwidth: any
   opacity: any
 }>`

@@ -1,9 +1,13 @@
 import { SpaceProps } from 'styled-system'
+// import { ChangeEvent, FormEvent } from 'react'
 export type PriceValue = number | number[]
-export type PriceHandleChange = (
-  event: React.ChangeEvent<{}> | null,
-  value: PriceValue
-) => void
+
+/** TODO: Cheat:
+ *  Bug of material-ui type
+ *  https://github.com/mui-org/material-ui/issues/20191
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type PriceHandleChange = any
 
 export type OnPriceSelectChange = (value: PriceValue) => void
 
